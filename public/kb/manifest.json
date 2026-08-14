@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-14T09:58:26.720Z",
+  "defaultBrand": "kualu-v1",
+  "brands": [
+    {
+      "slug": "kualu-v1",
+      "displayName": "快鹭品牌知识库",
+      "shortName": "快鹭知识库",
+      "initials": "KUALU",
+      "docCount": 541,
+      "knowledgePointCount": 541,
+      "manifestUrl": "kb/kualu-v1/manifest.json"
+    }
+  ]
+}

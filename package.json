@@ -1,0 +1,33 @@
+{
+  "name": "brandbase-cleanroom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12 <26"
+  },
+  "scripts": {
+    "dev:web": "vite",
+    "dev:api": "node server/index.js",
+    "build": "node build/clean-dist.js && VITE_HOSTED_PREVIEW=1 vite build && node build/prepare-sites-output.js",
+    "build:local": "node build/clean-dist.js && vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "check": "node --check server/index.js"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "5.2.1",
+    "jszip": "3.10.1",
+    "markdown-it": "14.1.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@rolldown/binding-darwin-arm64": "1.1.5",
+    "@vitejs/plugin-react": "6.0.3",
+    "vite": "8.1.4",
+    "wrangler": "4.92.0"
+  }
+}
