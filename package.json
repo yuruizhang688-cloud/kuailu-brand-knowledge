@@ -10,7 +10,7 @@
     "dev:web": "vite",
     "dev:api": "node server/index.js",
     "build": "node build/clean-dist.js && VITE_HOSTED_PREVIEW=1 vite build",
-    "build:gitlab": "node build/clean-dist.js && GITLAB_PAGES=1 VITE_HOSTED_PREVIEW=1 vite build && node build/prepare-gitlab-pages.js",
+    "build:github": "node build/clean-dist.js && GITHUB_PAGES=1 VITE_HOSTED_PREVIEW=1 vite build && node build/prepare-github-pages.js",
     "build:local": "node build/clean-dist.js && vite build",
     "preview": "vite preview",
     "start": "node server/index.js",
