@@ -6,8 +6,9 @@ import './styles.css';
 import './brand.css';
 
 const HOSTED_PREVIEW = import.meta.env.VITE_HOSTED_PREVIEW === '1';
+const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, '');
 const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
-const json = (url) => fetch(`/${url.replace(/^\//, '')}`, { cache: 'no-store' }).then(async (response) => {
+const json = (url) => fetch(`${BASE_PATH}/${url.replace(/^\//, '')}`, { cache: 'no-store' }).then(async (response) => {
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
 });
@@ -56,7 +57,8 @@ function markdownHtml(markdown) {
 }
 
 function route() {
-  const pieces = location.pathname.split('/').filter(Boolean);
+  const pathname = BASE_PATH && location.pathname.startsWith(BASE_PATH) ? location.pathname.slice(BASE_PATH.length) : location.pathname;
+  const pieces = pathname.split('/').filter(Boolean);
   const query = new URLSearchParams(location.search);
   const manage = !HOSTED_PREVIEW && pieces[0] === 'manage';
   return { manage, brandSlug: manage ? '' : (pieces[0] === 'manage' ? '' : (pieces[0] || '')), docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
@@ -66,7 +68,7 @@ function navigate({ brandSlug, docId, edit }, replace = false) {
   const query = new URLSearchParams();
   if (docId) query.set('doc', docId);
   if (edit) query.set('edit', '1');
-  history[replace ? 'replaceState' : 'pushState'](null, '', `/${brandSlug}${query.size ? `?${query}` : ''}`);
+  history[replace ? 'replaceState' : 'pushState'](null, '', `${BASE_PATH}/${brandSlug}${query.size ? `?${query}` : ''}`);
   dispatchEvent(new PopStateEvent('popstate'));
 }
 
