@@ -82,10 +82,24 @@ function insertTree(tree, doc) {
   nodes.push({ id: doc.id, type: 'file', label: path.basename(doc.relativePath, '.md'), title: doc.title, unitCount: doc.unitCount });
 }
 
+async function loadPreviousDocIds(entries) {
+  const ids = new Map();
+  for (const entry of entries.filter((item) => item.isDirectory())) {
+    try {
+      const manifest = JSON.parse(await readFile(path.join(kbRoot, entry.name, 'manifest.json'), 'utf8'));
+      for (const doc of manifest.docs ?? []) ids.set(`${manifest.displayName}\0${doc.relativePath}`, doc.id);
+    } catch {
+      // A missing or incomplete previous build should not block regeneration.
+    }
+  }
+  return ids;
+}
+
 async function buildKnowledgeBase() {
   await ensureWorkspace();
   const brandDirs = (await readdir(layerRoots.content, { withFileTypes: true })).filter((entry) => entry.isDirectory()).map((entry) => entry.name);
   const previousOutputs = await readdir(kbRoot, { withFileTypes: true });
+  const previousDocIds = await loadPreviousDocIds(previousOutputs);
   await Promise.all(previousOutputs.filter((entry) => entry.isDirectory()).map((entry) => rm(path.join(kbRoot, entry.name), { recursive: true, force: true })));
   const brands = [];
   for (const slug of brandDirs) {
@@ -98,13 +112,14 @@ async function buildKnowledgeBase() {
     const docs = [];
     const tree = [];
     const outputRoot = path.join(kbRoot, slug);
+    const brandIdentity = config.displayName ?? stripOrder(slug);
     await mkdir(path.join(outputRoot, 'docs'), { recursive: true });
     for (const file of markdownFiles) {
       const markdown = await readFile(path.join(sourceRoot, file.path), 'utf8');
       const relativePath = file.path;
       const title = markdownTitle(markdown, file.name);
       const breadcrumbs = relativePath.split(path.sep).slice(0, -1).map(stripOrder).concat(title);
-      const id = stableId(`${slug}:${relativePath}`);
+      const id = previousDocIds.get(`${brandIdentity}\0${relativePath}`) ?? stableId(`${slug}:${relativePath}`);
       const doc = { id, title, label: path.basename(relativePath, '.md'), relativePath, breadcrumbs, category: breadcrumbs[0] ?? '概览', readTime: Math.max(1, Math.ceil(markdown.replace(/\s/g, '').length / 500)), unitCount: 1, contentUrl: `kb/${slug}/docs/${id}.json` };
       docs.push(doc);
       insertTree(tree, doc);
