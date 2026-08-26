@@ -7,7 +7,7 @@
   "knowledgePointCount": 551,
   "defaultDocId": "4d752ef4826730db",
   "exportUrl": "kb/kuailu-v1/export.json",
-  "generatedAt": "2026-08-25T14:36:53.663Z",
+  "generatedAt": "2026-08-26T02:18:33.081Z",
   "docs": [
     {
       "id": "4d752ef4826730db",
@@ -200,7 +200,7 @@
         "企业协同办公业务"
       ],
       "category": "品牌信息",
-      "readTime": 6,
+      "readTime": 7,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/00438fa47d5b5a5f.json"
     },
