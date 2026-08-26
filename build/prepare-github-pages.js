@@ -11,3 +11,9 @@ for (const brand of site.brands ?? []) {
   await mkdir(route, { recursive: true });
   await cp(index, new URL('index.html', route));
 }
+
+if ((site.brands ?? []).some((brand) => brand.slug === 'kuailu-v2')) {
+  const legacyRoute = new URL('kuailu-v1/', dist);
+  await mkdir(legacyRoute, { recursive: true });
+  await cp(index, new URL('index.html', legacyRoute));
+}

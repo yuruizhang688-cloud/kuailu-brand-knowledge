@@ -61,7 +61,9 @@ function route() {
   const pieces = pathname.split('/').filter(Boolean);
   const query = new URLSearchParams(location.search);
   const manage = !HOSTED_PREVIEW && pieces[0] === 'manage';
-  return { manage, brandSlug: manage ? '' : (pieces[0] === 'manage' ? '' : (pieces[0] || '')), docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
+  const requestedBrandSlug = pieces[0] || '';
+  const brandSlug = requestedBrandSlug === 'kuailu-v1' ? 'kuailu-v2' : requestedBrandSlug;
+  return { manage, brandSlug: manage ? '' : (pieces[0] === 'manage' ? '' : brandSlug), docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
 }
 
 function navigate({ brandSlug, docId, edit }, replace = false) {
