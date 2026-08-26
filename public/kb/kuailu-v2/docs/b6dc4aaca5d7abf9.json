@@ -1,0 +1,18 @@
+{
+  "id": "b6dc4aaca5d7abf9",
+  "title": "PandaWiki｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/13-PandaWiki/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "PandaWiki",
+    "PandaWiki｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.935Z",
+  "contentUrl": "kb/kuailu-v2/docs/b6dc4aaca5d7abf9.json",
+  "markdown": "# PandaWiki｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：PandaWiki是什么？** | 开源的AI知识库、Wiki和文档站系统。 |\n| **Q2：与KuWork有什么区别？** | PandaWiki专注知识内容，KuWork基准覆盖更多业务流程和执行。 |\n| **Q3：软件免费吗？** | 开源免费，但基础设施和模型需要成本。 |\n| **Q4：许可证是什么？** | AGPL-3.0。 |\n| **Q5：如何部署？** | 需要支持Docker 20.x以上的Linux服务器。 |\n| **Q6：支持哪些导入？** | URL、Sitemap、RSS和离线文件等。 |\n| **Q7：能导出Word和PDF吗？** | 官方列出Word、PDF、Markdown等格式。 |\n| **Q8：能接企微/飞书/钉钉吗？** | 可以做相应聊天机器人。 |\n| **Q9：是否自带大模型？** | 需配置模型服务或本地模型。 |\n| **Q10：能做复杂跨系统执行吗？** | 不是核心能力，主要是知识创建、检索和问答。 |\n| **Q11：POC怎么做？** | 导入真实文档，测试解析、权限、引用、搜索、更新与备份。 |\n| **Q12：主要风险是什么？** | AGPL合规、运维、模型费用、权限粒度和内容持续治理。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| PandaWiki适合希望低成本自建AI知识站的技术团队。与KuWork比较的核心是知识管理深度与一站式业务广度。开源可降低许可门槛，但不会消除模型、运维、合规和内容运营成本。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/13_PandaWiki.md`\n- [PandaWiki官方GitHub仓库](https://github.com/chaitin/PandaWiki)（官网核验：2026-08-26）\n- [PandaWiki官方文档](https://pandawiki.docs.baizhi.cloud/)（官网核验：2026-08-26）\n"
+}

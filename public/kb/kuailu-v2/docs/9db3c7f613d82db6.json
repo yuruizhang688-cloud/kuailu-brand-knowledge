@@ -1,0 +1,18 @@
+{
+  "id": "9db3c7f613d82db6",
+  "title": "Team Claw｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/03-Team Claw/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "Team Claw",
+    "Team Claw｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.894Z",
+  "contentUrl": "kb/kuailu-v2/docs/9db3c7f613d82db6.json",
+  "markdown": "# Team Claw｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：Team Claw是什么？** | 按数字员工数量订阅的AI专家团队平台，可配套Team ERP和Team CRM。 |\n| **Q2：与KuWork有什么区别？** | 两者直接重叠，需比较原生模块范围、执行、安全、知识和部署；Team Claw公开材料更突出ERP/CRM及数字员工套餐。 |\n| **Q3：Standard多少钱？** | 999元/月或9,990元/年，含10个数字员工。 |\n| **Q4：Professional多少钱？** | 1,499元/月或14,990元/年，含20个数字员工。 |\n| **Q5：Team ERP最低多少钱？** | Starter 399元/月或3,990元/年。 |\n| **Q6：是否免费试用？** | Team ERP各档位公开14天试用。 |\n| **Q7：支持哪些聊天平台？** | 官网列出飞书、企业微信、钉钉和QQ。 |\n| **Q8：能对接外部系统吗？** | Professional含API，Enterprise提供定制通道。 |\n| **Q9：是否支持私有化？** | 公开价格页未清晰披露，需专项确认部署与数据路径。 |\n| **Q10：AI能直接记财务账吗？** | 可辅助录入和记账，但正式财务凭证、税务与内控必须人工和规则校验。 |\n| **Q11：如何POC？** | 用真实订单、库存、应收、审批和多部门任务跑两周，统计成功率和纠错。 |\n| **Q12：最大风险是什么？** | 模块深度不匹配、AI误操作、主数据不规范和套餐组合成本不清。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| Team Claw是本清单中最适合与KuWork做一对一场景POC的产品之一。优势是数字员工与ERP/CRM结合、价格透明；关键待核验项是私有部署、安全治理、复杂业务深度和客户证据。所有套餐与权益以签约当日官网和订单为准。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/03_Team_Claw.md`\n- [Team Claw官方网站与定价](https://www.theteamclaw.com/)（官网核验：2026-08-26）\n- [Team ERP官方网站、功能与定价](https://erp.theteamclaw.com/)（官网核验：2026-08-26）\n"
+}

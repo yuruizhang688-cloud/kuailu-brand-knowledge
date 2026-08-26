@@ -120,7 +120,7 @@ async function buildKnowledgeBase() {
       const title = markdownTitle(markdown, file.name);
       const breadcrumbs = relativePath.split(path.sep).slice(0, -1).map(stripOrder).concat(title);
       const id = previousDocIds.get(`${brandIdentity}\0${relativePath}`) ?? stableId(`${slug}:${relativePath}`);
-      const doc = { id, title, label: path.basename(relativePath, '.md'), relativePath, breadcrumbs, category: breadcrumbs[0] ?? '概览', readTime: Math.max(1, Math.ceil(markdown.replace(/\s/g, '').length / 500)), unitCount: 1, contentUrl: `kb/${slug}/docs/${id}.json` };
+      const doc = { id, title, label: path.basename(relativePath, '.md'), relativePath, breadcrumbs, category: breadcrumbs[0] ?? '概览', readTime: Math.max(1, Math.ceil(markdown.replace(/\s/g, '').length / 500)), unitCount: 1, updatedAt: file.updatedAt, contentUrl: `kb/${slug}/docs/${id}.json` };
       docs.push(doc);
       insertTree(tree, doc);
       await writeFile(path.join(outputRoot, 'docs', `${id}.json`), JSON.stringify({ ...doc, markdown }, null, 2));

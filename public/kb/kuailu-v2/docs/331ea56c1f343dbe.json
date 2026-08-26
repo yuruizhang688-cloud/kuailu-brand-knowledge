@@ -1,0 +1,18 @@
+{
+  "id": "331ea56c1f343dbe",
+  "title": "MintMCP｜行业解决方案",
+  "label": "09-行业解决方案",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/15-MintMCP/09-行业解决方案.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MintMCP",
+    "MintMCP｜行业解决方案"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.943Z",
+  "contentUrl": "kb/kuailu-v2/docs/331ea56c1f343dbe.json",
+  "markdown": "# MintMCP｜行业解决方案\n\n| 场景 | 需求 | 重点 |\n|---|---|---|\n| 软件研发 | AI编码工具访问代码与工单 | 独立凭证和审计 |\n| 金融/医疗 | Agent使用敏感系统 | HIPAA/SOC2与最小权限 |\n| 全员AI | 多客户端统一工具 | 角色Bundle和SSO |\n| 数据团队 | 数据库、Snowflake、搜索 | 私有隧道与只读策略 |\n| 安全治理 | 注入、DLP和成本监控 | Guardrails与SIEM |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/15_MintMCP.md`\n- [MintMCP官方网站与客户信息](https://www.mintmcp.com/)（官网核验：2026-08-26）\n- [MintMCP官方定价说明](https://www.mintmcp.com/pricing)（官网核验：2026-08-26）\n"
+}

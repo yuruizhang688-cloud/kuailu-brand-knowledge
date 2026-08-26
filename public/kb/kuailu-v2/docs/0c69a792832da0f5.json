@@ -1,0 +1,18 @@
+{
+  "id": "0c69a792832da0f5",
+  "title": "AnythingLLM｜行业解决方案",
+  "label": "09-行业解决方案",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/12-AnythingLLM/09-行业解决方案.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "AnythingLLM",
+    "AnythingLLM｜行业解决方案"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.931Z",
+  "contentUrl": "kb/kuailu-v2/docs/0c69a792832da0f5.json",
+  "markdown": "# AnythingLLM｜行业解决方案\n\n| 场景 | 形态 | 重点 |\n|---|---|---|\n| 个人知识工作 | 桌面版 | 本地模型和设备性能 |\n| 中小团队 | Docker/Cloud | 多用户和权限 |\n| 技术研发 | Agent、Flow、MCP | 工具安全与版本 |\n| 敏感企业 | 自托管/Enterprise | SSO、审计、备份 |\n| 软件产品 | API和白标 | 租户、模型费与SLA |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/12_AnythingLLM.md`\n- [AnythingLLM官方网站](https://anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方文档](https://docs.anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方Cloud定价](https://anythingllm.com/cloud)（官网核验：2026-08-26）\n"
+}

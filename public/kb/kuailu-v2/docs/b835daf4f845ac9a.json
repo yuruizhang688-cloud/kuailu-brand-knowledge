@@ -1,0 +1,18 @@
+{
+  "id": "b835daf4f845ac9a",
+  "title": "青藤WorkClaw｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/10-青藤WorkClaw/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "青藤WorkClaw",
+    "青藤WorkClaw｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.921Z",
+  "contentUrl": "kb/kuailu-v2/docs/b835daf4f845ac9a.json",
+  "markdown": "# 青藤WorkClaw｜功能模块\n\n| 模块 | 核心能力 | 风险控制 |\n|---|---|---|\n| AI网关 | 统一请求入口和模型路由 | 防止无管控外连 |\n| 凭证管理 | 集中保管API Key和账号 | 避免明文泄露 |\n| 数据安全 | 脱敏、内外网模型分流 | 控制敏感数据出域 |\n| Skill安全 | 代码扫描、审核和商店分发 | 防供应链投毒 |\n| 工具权限 | 命令拦截、动作限制和人工审批 | 阻止高风险执行 |\n| 实例管理 | 批量部署、策略、状态和离职回收 | 管理全生命周期 |\n| Token/成本 | 配额、限流、部门统计 | 控制预算 |\n| 审计与告警 | 全量调用记录和高风险告警 | 追溯责任 |\n| 持续评测 | 500+用例、版本对比、发布门禁 | 防质量退化  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/10_青藤WorkClaw.md`\n- [青藤WorkClaw官方产品页](https://qingteng.cn/workclaw.html)（官网核验：2026-08-26）\n- [青藤官方公司介绍与里程碑](https://qingteng.cn/introduction.html)（官网核验：2026-08-26）\n"
+}

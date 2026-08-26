@@ -1,0 +1,18 @@
+{
+  "id": "fae3eabc19f3c63b",
+  "title": "MAIAH｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/08-MAIAH/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MAIAH",
+    "MAIAH｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.913Z",
+  "contentUrl": "kb/kuailu-v2/docs/fae3eabc19f3c63b.json",
+  "markdown": "# MAIAH｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| 统一入口 | 集中呈现全部企业Agent | 降低员工切换与学习成本 |\n| RBAC | 按部门、岗位匹配Agent和数据权限 | 控制越权 |\n| 知识治理 | 统一知识源和语义逻辑 | 提升答案权威性 |\n| 任务交互 | 查询、分析、回传和流程闭环 | 从对话走向工作 |\n| 生命周期 | Agent上线、运行、调优与下线 | 规模化运营 |\n| FinOps | 资源消耗与成本监控 | 防止模型成本失控 |\n| Agent/MCP集成 | 连接ERP、CRM和工具 | 扩展业务执行 |\n| 安全与审计 | 注入防护、Guardrails、全量日志 | 合规可追溯  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/08_MAIAH.md`\n- [伊克罗德MAIAH官方产品介绍](https://www.ecloudrover.com/h-col-360.html)（官网核验：2026-08-26）\n- [伊克罗德官方公司动态与客户案例](https://www.ecloudrover.com/company-news/)（官网核验：2026-08-26）\n"
+}

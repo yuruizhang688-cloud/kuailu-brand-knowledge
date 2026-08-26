@@ -1,0 +1,18 @@
+{
+  "id": "c0e6e549dcac6ac8",
+  "title": "MintMCP｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/15-MintMCP/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MintMCP",
+    "MintMCP｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.943Z",
+  "contentUrl": "kb/kuailu-v2/docs/c0e6e549dcac6ac8.json",
+  "markdown": "# MintMCP｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：MintMCP是什么？** | 企业MCP/LLM网关、Agent身份和治理平台。 |\n| **Q2：与KuWork有什么区别？** | MintMCP是连接和安全基础设施，KuWork基准是员工业务办公平台。 |\n| **Q3：能管理MCP Server吗？** | 可审批、分组并控制到单个工具动作。 |\n| **Q4：什么是Agent Identity？** | 为每个Agent提供独立凭证、范围和审计，可单独撤销。 |\n| **Q5：支持SSO吗？** | 支持OAuth、SAML/OIDC和单点登录。 |\n| **Q6：支持自托管吗？** | 官方价格页列出灵活部署和self-hosted选项。 |\n| **Q7：价格公开吗？** | 未给金额，按活跃用户、用量和规模定制。 |\n| **Q8：能阻止提示词注入吗？** | Mint Guard提供相关检测和危险调用控制。 |\n| **Q9：日志能进SIEM吗？** | 官方说明可通过OTLP导出。 |\n| **Q10：支持中国本地办公系统吗？** | 官网公开集成偏海外SaaS，企微、钉钉及本地系统需验证。 |\n| **Q11：POC怎么做？** | 接入三个MCP、两类角色和一个敏感系统，测试越权、撤销、审计和时延。 |\n| **Q12：主要风险是什么？** | 网关单点、MCP生态投毒、海外合规适配和平台本身不含业务应用。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| MintMCP适合Agent和MCP已进入规模化使用阶段、需要统一身份与安全治理的企业。它与KuWork更多是基础设施与应用平台的比较或组合。中国本地集成、部署和合规需要专项验证，价格以定制报价为准。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/15_MintMCP.md`\n- [MintMCP官方网站与客户信息](https://www.mintmcp.com/)（官网核验：2026-08-26）\n- [MintMCP官方定价说明](https://www.mintmcp.com/pricing)（官网核验：2026-08-26）\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "15828279d6aaa6cd",
+  "title": "MAIAH｜产品定价",
+  "label": "05-产品定价",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/08-MAIAH/05-产品定价.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MAIAH",
+    "MAIAH｜产品定价"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.913Z",
+  "contentUrl": "kb/kuailu-v2/docs/15828279d6aaa6cd.json",
+  "markdown": "# MAIAH｜产品定价\n\n|  |\n| --- |\n| 官网未公开统一价格，主要按企业方案咨询。成本预计由平台用户、Agent数量、模型与AWS资源、知识库、连接器/MCP、部署、定制、培训和运维构成。 |\n| 若使用Amazon Bedrock AgentCore，还应单列云资源和模型费用；如果接入Dify企业版等既有Agent，也需明确双方许可、版本与支持责任。建议按平台费、云资源、场景实施和持续治理拆分三年TCO。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/08_MAIAH.md`\n- [伊克罗德MAIAH官方产品介绍](https://www.ecloudrover.com/h-col-360.html)（官网核验：2026-08-26）\n- [伊克罗德官方公司动态与客户案例](https://www.ecloudrover.com/company-news/)（官网核验：2026-08-26）\n"
+}

@@ -12,6 +12,7 @@
   "category": "竞品信息",
   "readTime": 1,
   "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.832Z",
   "contentUrl": "kb/kuailu-v2/docs/f9f4644a14b6f51e.json",
-  "markdown": "# 声网Agora｜客户案例\n\n|  |\n| --- |\n| 客户品牌名单不能替代包含实施范围、完整上下文和结果的客户案例证据。对于PaaS，最有价值的参考案例应与目标并发、地域、终端平台、音视频档位和上层功能相近；采购方应要求架构说明和真实压力数据，而非只看品牌名单。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n"
+  "markdown": "# 声网Agora｜客户案例\n\n|  |\n| --- |\n| 客户品牌名单不能替代包含实施范围、完整上下文和结果的客户案例证据。对于PaaS，最有价值的参考案例应与目标并发、地域、终端平台、音视频档位和上层功能相近；采购方应要求架构说明和真实压力数据，而非只看品牌名单。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n- [声网官方价格页](https://www-staging-cn.agora.io/cn/price)（官网核验：2026-08-26）\n- [声网官方RTC计费文档](https://docportal.shengwang.cn/cn/video-legacy/billing_rtc?platform=Cocos+Creator)（官网核验：2026-08-26）\n"
 }

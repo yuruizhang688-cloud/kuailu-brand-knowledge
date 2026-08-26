@@ -1,0 +1,18 @@
+{
+  "id": "d886c13dd8966f43",
+  "title": "Dust｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/14-Dust/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "Dust",
+    "Dust｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.939Z",
+  "contentUrl": "kb/kuailu-v2/docs/d886c13dd8966f43.json",
+  "markdown": "# Dust｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：Dust是什么？** | 企业多模型Agent工作空间与运营平台。 |\n| **Q2：与KuWork有什么区别？** | Dust偏Agent工作空间和SaaS连接，KuWork基准包含更多原生业务模块。 |\n| **Q3：有免费版吗？** | 有，终身500 credits。 |\n| **Q4：Pro多少钱？** | 年付24美元/席/月，含8,000 credits/月。 |\n| **Q5：Max多少钱？** | 年付120美元/席/月，含40,000 credits/月。 |\n| **Q6：credits会结转吗？** | 不会，每月重置。 |\n| **Q7：支持哪些模型？** | 20+模型，包括GPT、Claude、Gemini、Mistral和DeepSeek等。 |\n| **Q8：支持MCP吗？** | 支持原生和远程MCP，企业版容量更高。 |\n| **Q9：支持私有化吗？** | 企业版提供单租户，是否客户本地部署需与销售确认。 |\n| **Q10：数据是否用于模型训练？** | 官方称客户数据不用于训练，仍应核验DPA与模型供应商路径。 |\n| **Q11：POC怎么做？** | 用三个真实部门Agent测采用率、准确率、执行成功率和每任务credits。 |\n| **Q12：主要风险是什么？** | 海外合规、credit成本、连接器权限和业务系统本地化不足。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| Dust适合国际化、SaaS工具丰富且希望业务人员运营Agent的团队。与KuWork比较应重点评估中国本地系统、私有化、数据跨境与原生业务模块。公开价格清晰，但任务级credits成本必须通过POC测算。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/14_Dust.md`\n- [Dust官方定价页](https://dust.tt/home/pricing)（官网核验：2026-08-26）\n- [Dust官方产品页](https://dust.tt/home/product)（官网核验：2026-08-26）\n- [Dust官方场景与客户评价](https://dust.tt/compare/n8n)（官网核验：2026-08-26）\n- [Dust Back Market客户案例](https://dust.tt/customers/back-markets-fraud-team-builds-ai-detection-system-in-one-week-contributing)（官网核验：2026-08-26）\n- [Dust Dailymotion客户案例](https://dust.tt/customers/dailymotion-cloud-and-llm-costs-question-anyone-can-ask)（官网核验：2026-08-26）\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b771b1ab306b4901",
+  "title": "OpenOcta｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/05-OpenOcta/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "OpenOcta",
+    "OpenOcta｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.901Z",
+  "contentUrl": "kb/kuailu-v2/docs/b771b1ab306b4901.json",
+  "markdown": "# OpenOcta｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| 桌面Agent | 本地交互、工具和桌面任务 | 个人生产力与执行 |\n| 企业Server | 智能体集群与统一管控 | 组织级部署 |\n| 账号管理 | 用户、权限和访问 | 控制企业使用范围 |\n| 实例管理 | 创建、分配和管理智能体实例 | 资源集中运营 |\n| 私有化部署 | 单机、冷备或集群 | 数据与环境可控 |\n| 多平台支持 | x86及ARM企业安装包 | 适配基础设施 |\n| 多租户 | 旗舰版组织隔离能力 | 服务复杂集团/客户 |\n| 维保升级 | 原厂支持和XPak增强包 | 企业持续运维  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/05_OpenOcta.md`\n- [OpenOcta官方网站](https://openocta.com/)（官网核验：2026-08-26）\n- [OpenOcta Server企业版介绍](https://openocta.com/openocta-server)（官网核验：2026-08-26）\n- [OpenOcta官方定价摘要](https://openocta.com/pricing.md)（官网核验：2026-08-26）\n"
+}

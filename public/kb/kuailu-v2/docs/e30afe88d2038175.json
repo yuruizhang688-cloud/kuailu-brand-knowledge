@@ -1,0 +1,18 @@
+{
+  "id": "e30afe88d2038175",
+  "title": "OpenOcta｜产品简介",
+  "label": "01-产品简介",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/05-OpenOcta/01-产品简介.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "OpenOcta",
+    "OpenOcta｜产品简介"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.899Z",
+  "contentUrl": "kb/kuailu-v2/docs/e30afe88d2038175.json",
+  "markdown": "# OpenOcta｜产品简介\n\n|  |\n| --- |\n| OpenOcta 是开源个人桌面智能体，同时提供面向组织的 OpenOcta Server 企业智能体平台。个人版强调在本地桌面使用AI执行任务；企业版提供智能体集群、统一管控和私有化部署，使组织可以集中管理账号、智能体实例和运行环境。 |\n| 与KuWork的重叠是桌面执行、企业智能体和私有部署；差异在于OpenOcta更偏智能体运行与管控底座，KuWork对比基准包含原生CRM、IM、HR、行政、采购、财务与会议模块。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/05_OpenOcta.md`\n- [OpenOcta官方网站](https://openocta.com/)（官网核验：2026-08-26）\n- [OpenOcta Server企业版介绍](https://openocta.com/openocta-server)（官网核验：2026-08-26）\n- [OpenOcta官方定价摘要](https://openocta.com/pricing.md)（官网核验：2026-08-26）\n"
+}

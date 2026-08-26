@@ -1,0 +1,18 @@
+{
+  "id": "2f30b1cc616f7900",
+  "title": "Dust｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/14-Dust/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "Dust",
+    "Dust｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.937Z",
+  "contentUrl": "kb/kuailu-v2/docs/2f30b1cc616f7900.json",
+  "markdown": "# Dust｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| Custom Agents | 指令、知识、工具和模型配置 | 构建岗位Agent |\n| 多模型 | 20+前沿/开源模型 | 灵活选择质量与成本 |\n| 数据连接 | Slack、Notion、GitHub、Drive等 | 使用企业上下文 |\n| Skills | 封装可复用指令、知识和工具 | 复制最佳实践 |\n| 多Agent工作流 | 计划、触发和角色协同 | 自动执行复杂任务 |\n| Pods/Frames | 人机共享项目空间和交付物 | 团队协作 |\n| MCP与工具 | 连接外部应用并采取行动 | 业务执行 |\n| 治理 | Spaces、Groups、SSO/SCIM、审计 | 企业安全 |\n| 成本分析 | Credits、模型和Agent用量 | 控制ROI  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/14_Dust.md`\n- [Dust官方定价页](https://dust.tt/home/pricing)（官网核验：2026-08-26）\n- [Dust官方产品页](https://dust.tt/home/product)（官网核验：2026-08-26）\n- [Dust官方场景与客户评价](https://dust.tt/compare/n8n)（官网核验：2026-08-26）\n- [Dust Back Market客户案例](https://dust.tt/customers/back-markets-fraud-team-builds-ai-detection-system-in-one-week-contributing)（官网核验：2026-08-26）\n- [Dust Dailymotion客户案例](https://dust.tt/customers/dailymotion-cloud-and-llm-costs-question-anyone-can-ask)（官网核验：2026-08-26）\n"
+}

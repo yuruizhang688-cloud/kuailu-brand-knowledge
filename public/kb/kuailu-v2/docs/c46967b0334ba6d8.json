@@ -1,0 +1,18 @@
+{
+  "id": "c46967b0334ba6d8",
+  "title": "青藤WorkClaw｜核心使用场景",
+  "label": "07-核心使用场景",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/10-青藤WorkClaw/07-核心使用场景.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "青藤WorkClaw",
+    "青藤WorkClaw｜核心使用场景"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.922Z",
+  "contentUrl": "kb/kuailu-v2/docs/c46967b0334ba6d8.json",
+  "markdown": "# 青藤WorkClaw｜核心使用场景\n\n|  |\n| --- |\n| 统一管理员工桌面Agent和MCP工具； |\n| 对HR隐私请求路由到内网模型并自动脱敏； |\n| 对代码、密钥和研发资料设置模型和Skill边界； |\n| SOC Agent执行命令前强制人工审批； |\n| 统计部门Token消耗并设置超额限流； |\n| 在模型、Prompt或Skill更新后自动回归测试。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/10_青藤WorkClaw.md`\n- [青藤WorkClaw官方产品页](https://qingteng.cn/workclaw.html)（官网核验：2026-08-26）\n- [青藤官方公司介绍与里程碑](https://qingteng.cn/introduction.html)（官网核验：2026-08-26）\n"
+}

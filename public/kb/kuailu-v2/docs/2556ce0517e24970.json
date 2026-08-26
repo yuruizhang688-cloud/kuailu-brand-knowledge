@@ -1,0 +1,18 @@
+{
+  "id": "2556ce0517e24970",
+  "title": "OpenOcta｜行业解决方案",
+  "label": "09-行业解决方案",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/05-OpenOcta/09-行业解决方案.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "OpenOcta",
+    "OpenOcta｜行业解决方案"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.903Z",
+  "contentUrl": "kb/kuailu-v2/docs/2556ce0517e24970.json",
+  "markdown": "# OpenOcta｜行业解决方案\n\n| 场景 | 推荐形态 | 重点 |\n|---|---|---|\n| 个人/研发试验 | 桌面版或社区版 | 本地模型与工具 |\n| 中小企业内网 | 专业版 | 账号、实例、冷备 |\n| 集团/多租户 | 旗舰版 | 集群、隔离、SLA |\n| 数据敏感部门 | 私有部署 | 模型路径和审计 |\n| 国产环境 | ARM方案 | 兼容性与性能压测 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/05_OpenOcta.md`\n- [OpenOcta官方网站](https://openocta.com/)（官网核验：2026-08-26）\n- [OpenOcta Server企业版介绍](https://openocta.com/openocta-server)（官网核验：2026-08-26）\n- [OpenOcta官方定价摘要](https://openocta.com/pricing.md)（官网核验：2026-08-26）\n"
+}

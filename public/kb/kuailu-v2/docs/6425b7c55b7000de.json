@@ -1,0 +1,18 @@
+{
+  "id": "6425b7c55b7000de",
+  "title": "安捷AI｜产品定价",
+  "label": "05-产品定价",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/02-安捷AI/05-产品定价.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "安捷AI",
+    "安捷AI｜产品定价"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.889Z",
+  "contentUrl": "kb/kuailu-v2/docs/6425b7c55b7000de.json",
+  "markdown": "# 安捷AI｜产品定价\n\n|  |\n| --- |\n| 官网未公开统一价目。项目通常根据用户/并发、模型、知识容量、连接器、智能体数量、私有化算力、实施和运维报价。若与FastBI等天智产品组合，还应分别确认许可和实施边界。 |\n| 建议拆分平台许可、模型Token或GPU、数据治理、系统接口、场景实施、测试评测和年度维护，并形成三年TCO。企业级AI项目的主要成本往往不是聊天账号，而是数据准备和业务集成。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/02_安捷AI.md`\n- [安捷AI官方网站、产品架构与FAQ](https://www.tizdata.com/)（官网核验：2026-08-26）\n- [天智FastBI官方产品操作手册](https://www.tizdata.com/down_file/Tianzhi%20FastBI%20Product%20Manual.pdf)（官网核验：2026-08-26）\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "823a801b1a982298",
+  "title": "bit-Agent｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/01-bit-Agent/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "bit-Agent",
+    "bit-Agent｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.884Z",
+  "contentUrl": "kb/kuailu-v2/docs/823a801b1a982298.json",
+  "markdown": "# bit-Agent｜功能模块\n\n| 模块 | 核心能力 | 业务价值 |\n|---|---|---|\n| AI任务探索 | 理解目标、规划步骤、操作软件 | 降低流程搭建门槛 |\n| 执行能力生成 | 将探索结果固化为可复用流程 | 从演示转向生产运行 |\n| 本地任务执行 | 在员工设备或指定环境执行 | 适配桌面软件和内网系统 |\n| 任务AI修复 | 识别变化并辅助修复流程 | 降低维护成本 |\n| 计划任务 | 定时或周期触发 | 支持无人值守流程 |\n| 回放与调试 | 每一步可查看、修改、定位 | 提升可解释性和审计性 |\n| 服务市场/MCP | 复用能力并接入外部工具 | 扩展业务覆盖 |\n| 团队与权限 | 成员、并发、权限和OpenAPI | 支持企业协作  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/01_bit-Agent.md`\n- [bit-Agent官方产品文档](https://bitagent.ninetechone.com/docs/)（官网核验：2026-08-26）\n- [九科信息bit-Agent产品页](https://www.ninetechone.com/bitagent/)（官网核验：2026-08-26）\n- [九科信息官方网站及客户案例](https://www.ninetechone.com/)（官网核验：2026-08-26）\n- [bit-Agent官方版本与价格](https://www.ninetechone.com/bitagent/)（官网核验：2026-08-26）\n- [九科信息供应链智能自动化案例](https://www.ninetechone.com/solutions/supplyChain/)（官网核验：2026-08-26）\n"
+}

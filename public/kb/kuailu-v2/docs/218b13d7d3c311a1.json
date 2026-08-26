@@ -1,0 +1,18 @@
+{
+  "id": "218b13d7d3c311a1",
+  "title": "LinkAI智能体平台｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/06-LinkAI智能体平台/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "LinkAI智能体平台",
+    "LinkAI智能体平台｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.904Z",
+  "contentUrl": "kb/kuailu-v2/docs/218b13d7d3c311a1.json",
+  "markdown": "# LinkAI智能体平台｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| 应用构建 | 轻量应用、知识库应用和调试 | 快速创建机器人 |\n| 企业知识库 | 文档导入、检索、更新与策略 | RAG可信问答 |\n| 工作流 | 十余种节点、条件、定时和渠道发送 | 白盒化复杂任务 |\n| 多智能体 | 组合多个应用并按意图路由 | 服务多业务场景 |\n| 插件/API | 自定义工具、数据读写和系统集成 | 业务闭环 |\n| 模型服务 | 100+模型、多模态、自定义模型 | 灵活选择能力与成本 |\n| 渠道接入 | 微信、企微、飞书、钉钉、Slack等 | 触达员工和客户 |\n| 超级AI助理 | 规划、长期记忆、技能、云端/桌面 | 通用任务执行  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/06_LinkAI.md`\n- [LinkAI官方文档首页](https://docs.link-ai.tech/platform)（官网核验：2026-08-26）\n- [LinkAI智能体搭建平台](https://docs.link-ai.tech/platform/product/digital-employee)（官网核验：2026-08-26）\n- [LinkAI渠道接入文档](https://docs.link-ai.tech/platform/link-app)（官网核验：2026-08-26）\n- [LinkAI模型服务文档](https://docs.link-ai.tech/platform/maas)（官网核验：2026-08-26）\n- [LinkAI官方计费规则](https://docs.link-ai.tech/platform/funds/price)（官网核验：2026-08-26）\n- [LinkAI方案与客户案例](https://docs.link-ai.tech/platform/product)（官网核验：2026-08-26）\n"
+}

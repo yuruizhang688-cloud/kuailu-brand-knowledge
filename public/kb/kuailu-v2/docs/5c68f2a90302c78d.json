@@ -1,0 +1,18 @@
+{
+  "id": "5c68f2a90302c78d",
+  "title": "LinkAI智能体平台｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/06-LinkAI智能体平台/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "LinkAI智能体平台",
+    "LinkAI智能体平台｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.906Z",
+  "contentUrl": "kb/kuailu-v2/docs/5c68f2a90302c78d.json",
+  "markdown": "# LinkAI智能体平台｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：LinkAI是什么？** | 集Agent构建、知识、工作流、模型和渠道于一体的平台。 |\n| **Q2：与KuWork有什么区别？** | LinkAI偏构建和渠道平台，KuWork基准偏原生一站式办公。 |\n| **Q3：有免费版吗？** | 基础版免费体验，模型可通过积分使用。 |\n| **Q4：积分多少钱？** | 官方区间为1积分0.0016—0.0019元。 |\n| **Q5：支持私有化吗？** | 企业版支持SaaS或私有化。 |\n| **Q6：支持哪些模型？** | 官方称聚合100+国内外模型并支持自定义模型。 |\n| **Q7：能接企业微信和钉钉吗？** | 支持企微、飞书、钉钉等渠道。 |\n| **Q8：能操作业务系统吗？** | 可通过工作流、插件和API查询/写入，权限需控制。 |\n| **Q9：知识库是否“零幻觉”？** | 不能绝对保证，应通过引用、拒答和评测控制。 |\n| **Q10：企业版多少钱？** | 需按容量、部署和服务询价。 |\n| **Q11：POC如何测？** | 用真实知识问题和执行任务，测命中、引用、时延、成功率与成本。 |\n| **Q12：主要风险是什么？** | 工作流维护、模型成本、渠道政策、权限和多应用治理。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| LinkAI适合需要快速搭建、发布和运营多种智能体的企业。与KuWork比较应重点判断客户是否有自己的AI产品团队，以及是否更看重原生办公业务闭环。价格和模型成本以控制台实时信息及POC用量为准。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/06_LinkAI.md`\n- [LinkAI官方文档首页](https://docs.link-ai.tech/platform)（官网核验：2026-08-26）\n- [LinkAI智能体搭建平台](https://docs.link-ai.tech/platform/product/digital-employee)（官网核验：2026-08-26）\n- [LinkAI渠道接入文档](https://docs.link-ai.tech/platform/link-app)（官网核验：2026-08-26）\n- [LinkAI模型服务文档](https://docs.link-ai.tech/platform/maas)（官网核验：2026-08-26）\n- [LinkAI官方计费规则](https://docs.link-ai.tech/platform/funds/price)（官网核验：2026-08-26）\n- [LinkAI方案与客户案例](https://docs.link-ai.tech/platform/product)（官网核验：2026-08-26）\n"
+}

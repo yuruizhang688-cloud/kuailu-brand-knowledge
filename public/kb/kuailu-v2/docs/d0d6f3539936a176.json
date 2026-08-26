@@ -1,0 +1,18 @@
+{
+  "id": "d0d6f3539936a176",
+  "title": "AnythingLLM｜产品定价",
+  "label": "05-产品定价",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/12-AnythingLLM/05-产品定价.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "AnythingLLM",
+    "AnythingLLM｜产品定价"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.929Z",
+  "contentUrl": "kb/kuailu-v2/docs/d0d6f3539936a176.json",
+  "markdown": "# AnythingLLM｜产品定价\n\n|  |\n| --- |\n| 桌面版和Docker自托管软件免费、开源；官方Cloud Basic为50美元/月，提供私有实例和自定义子域；Cloud Pro为99美元/月，提供更高性能和72小时支持SLA；Enterprise联系销售，包含本地部署、自定义SLA、集成、SSO和RBAC。 |\n| 自托管仍需承担服务器、GPU/模型API、向量数据库、备份、升级和运维。Cloud方案要求自备LLM API Key，模型用量不一定包含在月费中。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/12_AnythingLLM.md`\n- [AnythingLLM官方网站](https://anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方文档](https://docs.anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方Cloud定价](https://anythingllm.com/cloud)（官网核验：2026-08-26）\n"
+}

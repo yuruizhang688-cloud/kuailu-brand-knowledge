@@ -1,0 +1,18 @@
+{
+  "id": "fda8a8013eef5d79",
+  "title": "ONES｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/17-ONES/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "ONES",
+    "ONES｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.951Z",
+  "contentUrl": "kb/kuailu-v2/docs/fda8a8013eef5d79.json",
+  "markdown": "# ONES｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：ONES是什么？** | 企业级智能研发项目和知识管理平台。 |\n| **Q2：与KuWork有什么区别？** | ONES专注研发管理，KuWork基准是全业务AI办公。 |\n| **Q3：标准版多少钱？** | 985元/人/年。 |\n| **Q4：专业版多少钱？** | 1,720元/人/年。 |\n| **Q5：有免费版吗？** | 有，当前价格页显示0元。 |\n| **Q6：支持私有部署吗？** | 专业版和企业版产品页列示私有部署。 |\n| **Q7：能替换Jira和Confluence吗？** | 官方提供专项替换方案与白皮书。 |\n| **Q8：支持敏捷和瀑布吗？** | 两种均支持。 |\n| **Q9：有AI吗？** | 有ONES Assistant；专业版公开AI点数权益。 |\n| **Q10：能管理非研发项目吗？** | 可配置通用项目，但专业优势仍在研发。 |\n| **Q11：POC怎么做？** | 迁入一个真实项目，验证需求—开发—测试—发布—知识链路。 |\n| **Q12：主要风险是什么？** | 迁移复杂、跨部门覆盖有限、配置过度和私有版升级成本。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| ONES适合研发管理专业化程度高的组织。与KuWork比较应限定在项目、任务、知识和AI协同，不应将ONES描述为全公司一站式办公替代。公开价格可直接参考，但迁移、私有化和应用组合需另算。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/17_ONES.md`\n- [ONES官方网站与客户案例](https://ones.cn/)（官网核验：2026-08-26）\n- [ONES Project官方产品页](https://ones.cn/products/project)（官网核验：2026-08-26）\n- [ONES官方产品定价](https://ones.cn/pricing)（官网核验：2026-08-26）\n- [ONES Jira/Confluence替换白皮书](https://ones.cn/blog/uploads/2024/05/JiraConfluence-%E6%9B%BF%E6%8D%A2%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)（官网核验：2026-08-26）\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "3d8e799600dd19d9",
+  "title": "AnythingLLM｜产品简介",
+  "label": "01-产品简介",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/12-AnythingLLM/01-产品简介.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "AnythingLLM",
+    "AnythingLLM｜产品简介"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.928Z",
+  "contentUrl": "kb/kuailu-v2/docs/3d8e799600dd19d9.json",
+  "markdown": "# AnythingLLM｜产品简介\n\n|  |\n| --- |\n| AnythingLLM是一款开源、本地优先的AI知识与Agent工具，可在Windows、macOS和Linux桌面运行，也可通过Docker自托管多用户实例，或购买官方云托管。用户可选择模型、导入文档建立RAG知识库、创建Agent和工作流，并通过自定义工具与开发API扩展。 |\n| 与KuWork的重叠在本地AI、知识库、Agent和私有化；AnythingLLM偏通用AI工作空间与开发工具，不原生提供完整CRM、HR、财务和采购套件。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/12_AnythingLLM.md`\n- [AnythingLLM官方网站](https://anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方文档](https://docs.anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方Cloud定价](https://anythingllm.com/cloud)（官网核验：2026-08-26）\n"
+}

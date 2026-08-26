@@ -1,0 +1,18 @@
+{
+  "id": "df1bd2661bd90dec",
+  "title": "ONES｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/17-ONES/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "ONES",
+    "ONES｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.949Z",
+  "contentUrl": "kb/kuailu-v2/docs/df1bd2661bd90dec.json",
+  "markdown": "# ONES｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| ONES Project | 需求、任务、迭代、缺陷、里程碑 | 管理研发交付 |\n| ONES Wiki | 页面、知识库、标签、共享和权限 | 沉淀研发知识 |\n| 测试管理 | 用例、计划、执行和报告 | 连接质量流程 |\n| 项目集 | 多项目层级、里程碑和甘特 | 组合治理 |\n| 资源工时 | 排期、工时日历和报表 | 管理资源 |\n| 研发效能 | 指标、图表和数据分析 | 持续改进 |\n| 代码/流水线 | CI/CD集成和交付可视化 | 打通研发工具链 |\n| ONES Assistant | 理解项目/知识、分析和推进 | AI研发协作  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/17_ONES.md`\n- [ONES官方网站与客户案例](https://ones.cn/)（官网核验：2026-08-26）\n- [ONES Project官方产品页](https://ones.cn/products/project)（官网核验：2026-08-26）\n- [ONES官方产品定价](https://ones.cn/pricing)（官网核验：2026-08-26）\n- [ONES Jira/Confluence替换白皮书](https://ones.cn/blog/uploads/2024/05/JiraConfluence-%E6%9B%BF%E6%8D%A2%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)（官网核验：2026-08-26）\n"
+}

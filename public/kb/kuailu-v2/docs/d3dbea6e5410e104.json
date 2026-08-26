@@ -1,0 +1,18 @@
+{
+  "id": "d3dbea6e5410e104",
+  "title": "AnythingLLM｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/12-AnythingLLM/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "AnythingLLM",
+    "AnythingLLM｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.929Z",
+  "contentUrl": "kb/kuailu-v2/docs/d3dbea6e5410e104.json",
+  "markdown": "# AnythingLLM｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| 桌面应用 | 本地安装、设备端模型和文件处理 | 个人隐私和易用 |\n| 多用户自托管 | Docker部署、用户与工作区隔离 | 企业内部使用 |\n| RAG知识库 | 文档导入、向量检索和问答 | 基于私有资料回答 |\n| Agent | 工具调用、研究和任务执行 | 超越简单聊天 |\n| Agent Flows | 可视化流程和任务节点 | 自动化多步任务 |\n| MCP兼容 | 在桌面或Docker中连接MCP | 扩展外部工具 |\n| 模型选择 | 本地模型及多家云模型 | 成本与隐私平衡 |\n| API/白标 | 开发接口、品牌和嵌入 | 企业集成  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/12_AnythingLLM.md`\n- [AnythingLLM官方网站](https://anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方文档](https://docs.anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方Cloud定价](https://anythingllm.com/cloud)（官网核验：2026-08-26）\n"
+}

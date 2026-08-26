@@ -1,0 +1,18 @@
+{
+  "id": "d3f4793d93ba84e0",
+  "title": "bit-Agent｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/01-bit-Agent/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "bit-Agent",
+    "bit-Agent｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.886Z",
+  "contentUrl": "kb/kuailu-v2/docs/d3f4793d93ba84e0.json",
+  "markdown": "# bit-Agent｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：bit-Agent 是什么？** | 融合AI探索和确定性流程执行的GUI Agent平台。 |\n| **Q2：与传统RPA有什么区别？** | 它用AI探索未知步骤，再把结果固化为可控流程；传统RPA更依赖预先编排。 |\n| **Q3：与KuWork有什么区别？** | bit-Agent偏跨系统自动执行，KuWork比较基准更偏一站式AI办公和原生业务套件。 |\n| **Q4：是否必须有系统API？** | 不必须，可通过GUI操作；有API时通常更稳定。 |\n| **Q5：支持哪些模型？** | 官方称不挑模型，可使用支持tool call的LLM。 |\n| **Q6：Pro版多少钱？** | 288元/月，权益以官网和控制台为准。 |\n| **Q7：支持私有化吗？** | Prime版面向私有化，咨询报价。 |\n| **Q8：流程能调试吗？** | 可回放、修改并定位步骤。 |\n| **Q9：能接MCP吗？** | 官方文档说明可接自定义MCP服务。 |\n| **Q10：如何保证高风险任务安全？** | 使用凭证托管、权限、人工确认、审计和回滚。 |\n| **Q11：POC怎么做？** | 选3条真实跨系统流程，连续运行并统计成功率、耗时和维护频率。 |\n| **Q12：适合替代整个办公平台吗？** | 通常不适合；它更像自动化执行层，可与OA或KuWork类平台组合。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| bit-Agent 适合以“让AI稳定操作现有软件”为核心目标的企业。与KuWork比较时，应重点测试跨系统执行成功率、流程维护、权限审计和是否需要原生业务模块。价格、案例成效及兼容性以当期官网、POC和合同为准。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/01_bit-Agent.md`\n- [bit-Agent官方产品文档](https://bitagent.ninetechone.com/docs/)（官网核验：2026-08-26）\n- [九科信息bit-Agent产品页](https://www.ninetechone.com/bitagent/)（官网核验：2026-08-26）\n- [九科信息官方网站及客户案例](https://www.ninetechone.com/)（官网核验：2026-08-26）\n- [bit-Agent官方版本与价格](https://www.ninetechone.com/bitagent/)（官网核验：2026-08-26）\n- [九科信息供应链智能自动化案例](https://www.ninetechone.com/solutions/supplyChain/)（官网核验：2026-08-26）\n"
+}

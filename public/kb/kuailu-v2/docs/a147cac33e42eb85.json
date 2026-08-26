@@ -1,0 +1,18 @@
+{
+  "id": "a147cac33e42eb85",
+  "title": "MintMCP｜产品简介",
+  "label": "01-产品简介",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/15-MintMCP/01-产品简介.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MintMCP",
+    "MintMCP｜产品简介"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.940Z",
+  "contentUrl": "kb/kuailu-v2/docs/a147cac33e42eb85.json",
+  "markdown": "# MintMCP｜产品简介\n\n|  |\n| --- |\n| MintMCP是面向企业AI Agent的MCP与LLM基础设施，提供统一网关、角色化工具包、Agent身份、凭证委派、监控、审计、Token成本、安全Guardrails和私有网络隧道。 |\n| 它可将Gmail、Outlook、日历、Linear、Notion、数据库、Salesforce等工具以受治理的方式提供给Claude、Cursor、ChatGPT工作区Agent等客户端。 |\n| 与KuWork的重叠是系统连接、权限和AI执行；MintMCP是基础设施与治理层，不提供完整办公业务套件。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/15_MintMCP.md`\n- [MintMCP官方网站与客户信息](https://www.mintmcp.com/)（官网核验：2026-08-26）\n- [MintMCP官方定价说明](https://www.mintmcp.com/pricing)（官网核验：2026-08-26）\n"
+}

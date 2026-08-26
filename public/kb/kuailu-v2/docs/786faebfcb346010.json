@@ -1,0 +1,18 @@
+{
+  "id": "786faebfcb346010",
+  "title": "PandaWiki｜核心优势",
+  "label": "06-核心优势",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/13-PandaWiki/06-核心优势.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "PandaWiki",
+    "PandaWiki｜核心优势"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.934Z",
+  "contentUrl": "kb/kuailu-v2/docs/786faebfcb346010.json",
+  "markdown": "# PandaWiki｜核心优势\n\n|  |\n| --- |\n| 开源自托管，安装路径清晰，技术自主性较高。 |\n| Wiki、帮助中心和RAG问答在同一产品内。 |\n| 支持多来源导入和多格式导出，迁移灵活。 |\n| 可接入主流国内协同工具和网页站点。 |\n| GitHub显示约9.7k Stars、350余个Release，为核验日仓库口径。 |\n| 边界是AGPL合规和自运维需要专业能力；知识权限、审计、组织管理和复杂业务执行能力需按版本实测。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/13_PandaWiki.md`\n- [PandaWiki官方GitHub仓库](https://github.com/chaitin/PandaWiki)（官网核验：2026-08-26）\n- [PandaWiki官方文档](https://pandawiki.docs.baizhi.cloud/)（官网核验：2026-08-26）\n"
+}

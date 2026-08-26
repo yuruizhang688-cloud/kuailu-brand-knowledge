@@ -12,6 +12,7 @@
   "category": "竞品信息",
   "readTime": 1,
   "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.849Z",
   "contentUrl": "kb/kuailu-v2/docs/6d707511343c2eb3.json",
-  "markdown": "# Dify｜产品定价\n\n|  |\n| --- |\n| 官方价格页显示，社区版可免费自托管；Professional为590美元/工作区/年，含3名成员、50个应用、500份知识文档、5GB存储及每月5,000条消息；Enterprise为定制报价，并提供SSO、RBAC、审计和Kubernetes等企业能力。 |\n| 订阅费之外，还需支付模型API、向量数据库/存储、服务器、运维、监控、备份、开发与安全成本。社区版“免费”仅指软件许可，不代表总拥有成本为零。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/12_Dify.md`\n"
+  "markdown": "# Dify｜产品定价\n\n|  |\n| --- |\n| 官方价格页显示，社区版可免费自托管；Professional为590美元/工作区/年，含3名成员、50个应用、500份知识文档、5GB存储及每月5,000条消息；Enterprise为定制报价，并提供SSO、RBAC、审计和Kubernetes等企业能力。 |\n| 订阅费之外，还需支付模型API、向量数据库/存储、服务器、运维、监控、备份、开发与安全成本。社区版“免费”仅指软件许可，不代表总拥有成本为零。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/12_Dify.md`\n- [Dify官方定价页](https://dify.ai/zh/pricing)（官网核验：2026-08-26）\n- [Dify官方网站](https://www.dify.ai/zh)（官网核验：2026-08-26）\n"
 }

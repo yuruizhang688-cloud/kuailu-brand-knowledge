@@ -1,0 +1,18 @@
+{
+  "id": "37b8f86d0aae9843",
+  "title": "PandaWiki｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/13-PandaWiki/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "PandaWiki",
+    "PandaWiki｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.933Z",
+  "contentUrl": "kb/kuailu-v2/docs/37b8f86d0aae9843.json",
+  "markdown": "# PandaWiki｜功能模块\n\n| 模块 | 核心能力 | 价值 |\n|---|---|---|\n| Wiki编辑 | 富文本、Markdown/HTML兼容 | 创建结构化文档 |\n| AI创作 | 辅助生成、改写和整理内容 | 提升内容生产效率 |\n| AI问答 | 基于知识库回答 | 降低检索成本 |\n| AI搜索 | 语义搜索与内容发现 | 提升可达性 |\n| 多源导入 | URL、Sitemap、RSS、离线文件 | 加快迁移和汇聚 |\n| 多格式导出 | Word、PDF、Markdown等 | 支持分发与备份 |\n| 多渠道集成 | 网页挂件、钉钉、飞书、企微机器人 | 将知识送到工作入口 |\n| 自托管 | Docker/Linux部署和自选模型 | 控制数据与基础设施  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/13_PandaWiki.md`\n- [PandaWiki官方GitHub仓库](https://github.com/chaitin/PandaWiki)（官网核验：2026-08-26）\n- [PandaWiki官方文档](https://pandawiki.docs.baizhi.cloud/)（官网核验：2026-08-26）\n"
+}

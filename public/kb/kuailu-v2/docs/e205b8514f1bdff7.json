@@ -1,0 +1,18 @@
+{
+  "id": "e205b8514f1bdff7",
+  "title": "AnythingLLM｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/12-AnythingLLM/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "AnythingLLM",
+    "AnythingLLM｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.931Z",
+  "contentUrl": "kb/kuailu-v2/docs/e205b8514f1bdff7.json",
+  "markdown": "# AnythingLLM｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：AnythingLLM是什么？** | 开源、本地优先的RAG与Agent工作空间。 |\n| **Q2：与KuWork有什么区别？** | AnythingLLM偏通用知识和Agent工具，KuWork基准包含完整企业业务模块。 |\n| **Q3：桌面版免费吗？** | 免费并开源。 |\n| **Q4：Docker自托管收费吗？** | 软件免费，基础设施和模型由用户承担。 |\n| **Q5：云版多少钱？** | Basic 50美元/月，Pro 99美元/月。 |\n| **Q6：云版包含模型费吗？** | 页面要求自备LLM API Key，需另算模型用量。 |\n| **Q7：支持本地模型吗？** | 支持选择和运行本地模型。 |\n| **Q8：支持MCP吗？** | 官方文档含桌面和Docker的MCP兼容指南。 |\n| **Q9：有企业权限吗？** | Enterprise提供SSO、RBAC等，社区版权限能力需按版本核验。 |\n| **Q10：数据一定不出设备吗？** | 只有本地模型和本地工具链才可能完全本地；云API会传输相应数据。 |\n| **Q11：POC怎么做？** | 测文档解析、引用、权限、模型成本、并发、备份和升级。 |\n| **Q12：主要风险是什么？** | 运维负担、配置错误、企业支持、模型外连和业务模块缺失。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| AnythingLLM适合重视开源、本地运行和技术自主的团队。与KuWork比较，本质是“可自行搭建的AI工作空间”对“标准化企业业务平台”。总成本取决于模型、基础设施和运维，不能只看软件免费。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/12_AnythingLLM.md`\n- [AnythingLLM官方网站](https://anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方文档](https://docs.anythingllm.com/)（官网核验：2026-08-26）\n- [AnythingLLM官方Cloud定价](https://anythingllm.com/cloud)（官网核验：2026-08-26）\n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "15ddd81be386f9c4",
+  "title": "MintMCP｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/15-MintMCP/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MintMCP",
+    "MintMCP｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.941Z",
+  "contentUrl": "kb/kuailu-v2/docs/15ddd81be386f9c4.json",
+  "markdown": "# MintMCP｜功能模块\n\n| 模块 | 核心能力 | 风险控制 |\n|---|---|---|\n| MCP Gateway | 服务器目录、工具开关和角色Bundles | 控制可用工具 |\n| LLM Gateway | 统一模型入口与策略 | 管理模型访问 |\n| Agent Identity | 每Agent独立身份、范围和凭证 | 最小权限和单独撤销 |\n| Monitoring | 调用、时延、错误、Token和花费 | 可观测与FinOps |\n| Audit Logs | 人员、Agent、工具和配置全轨迹 | 合规追溯 |\n| Mint Guard | 注入检测、危险调用和DLP集成 | 阻断攻击与泄露 |\n| Private Tunnel | 访问企业内网数据和服务 | 减少公开暴露 |\n| Enterprise Auth | OAuth、SAML/OIDC和SSO | 统一身份  |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/15_MintMCP.md`\n- [MintMCP官方网站与客户信息](https://www.mintmcp.com/)（官网核验：2026-08-26）\n- [MintMCP官方定价说明](https://www.mintmcp.com/pricing)（官网核验：2026-08-26）\n"
+}

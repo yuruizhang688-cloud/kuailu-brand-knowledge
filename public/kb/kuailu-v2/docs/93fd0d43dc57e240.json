@@ -1,0 +1,18 @@
+{
+  "id": "93fd0d43dc57e240",
+  "title": "青藤WorkClaw｜行业解决方案",
+  "label": "09-行业解决方案",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/10-青藤WorkClaw/09-行业解决方案.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "青藤WorkClaw",
+    "青藤WorkClaw｜行业解决方案"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.923Z",
+  "contentUrl": "kb/kuailu-v2/docs/93fd0d43dc57e240.json",
+  "markdown": "# 青藤WorkClaw｜行业解决方案\n\n| 场景 | 风险 | WorkClaw重点 |\n|---|---|---|\n| SOC | 恶意告警注入和危险命令 | 网关、审批、审计 |\n| HR | 员工隐私出域和越权 | 脱敏、内网模型、RBAC |\n| 研发 | 源码/密钥泄露和Skill投毒 | 扫描、模型路由、审批 |\n| 全员办公 | Shadow AI和成本失控 | 统一实例、配额和回收 |\n| 强合规行业 | 日志与责任不可追溯 | 全链路审计和SIEM |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/10_青藤WorkClaw.md`\n- [青藤WorkClaw官方产品页](https://qingteng.cn/workclaw.html)（官网核验：2026-08-26）\n- [青藤官方公司介绍与里程碑](https://qingteng.cn/introduction.html)（官网核验：2026-08-26）\n"
+}

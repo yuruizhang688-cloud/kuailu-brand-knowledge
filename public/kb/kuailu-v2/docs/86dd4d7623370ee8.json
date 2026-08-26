@@ -1,0 +1,18 @@
+{
+  "id": "86dd4d7623370ee8",
+  "title": "PandaWiki｜产品定价",
+  "label": "05-产品定价",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/13-PandaWiki/05-产品定价.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "PandaWiki",
+    "PandaWiki｜产品定价"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.933Z",
+  "contentUrl": "kb/kuailu-v2/docs/86dd4d7623370ee8.json",
+  "markdown": "# PandaWiki｜产品定价\n\n|  |\n| --- |\n| PandaWiki开源软件本身可免费使用，采用AGPL-3.0许可证；AI能力需要配置模型，官方README提到可接百智云并有注册赠送额度，但实时模型价格以相应服务为准。 |\n| 总成本包括Linux服务器、Docker、模型API或本地GPU、对象存储、域名证书、备份、升级、内容迁移和运维。若修改后通过网络提供服务，应由法务评估AGPL源码开放义务；商业支持或企业增值服务也应另询价。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/13_PandaWiki.md`\n- [PandaWiki官方GitHub仓库](https://github.com/chaitin/PandaWiki)（官网核验：2026-08-26）\n- [PandaWiki官方文档](https://pandawiki.docs.baizhi.cloud/)（官网核验：2026-08-26）\n"
+}

@@ -12,6 +12,7 @@
   "category": "竞品信息",
   "readTime": 1,
   "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.828Z",
   "contentUrl": "kb/kuailu-v2/docs/b4151c5903536587.json",
-  "markdown": "# 声网Agora｜产品简介\n\n|  |\n| --- |\n| 声网提供实时音视频RTC开发服务，开发者通过SDK/API在自有App、网站、硬件或业务系统中加入语音、视频、互动直播、屏幕共享和实时消息等能力。会议是其重要应用场景，但声网本身主要销售底层通信能力，而不是直接替代企业会议账号、组织管理和完整会务运营。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n"
+  "markdown": "# 声网Agora｜产品简介\n\n|  |\n| --- |\n| 声网提供实时音视频RTC开发服务，开发者通过SDK/API在自有App、网站、硬件或业务系统中加入语音、视频、互动直播、屏幕共享和实时消息等能力。会议是其重要应用场景，但声网本身主要销售底层通信能力，而不是直接替代企业会议账号、组织管理和完整会务运营。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n- [声网官方价格页](https://www-staging-cn.agora.io/cn/price)（官网核验：2026-08-26）\n- [声网官方RTC计费文档](https://docportal.shengwang.cn/cn/video-legacy/billing_rtc?platform=Cocos+Creator)（官网核验：2026-08-26）\n"
 }

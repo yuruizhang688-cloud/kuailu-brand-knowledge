@@ -1,0 +1,18 @@
+{
+  "id": "401d2e08f525e62f",
+  "title": "MAIAH｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/08-MAIAH/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MAIAH",
+    "MAIAH｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.915Z",
+  "contentUrl": "kb/kuailu-v2/docs/401d2e08f525e62f.json",
+  "markdown": "# MAIAH｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：MAIAH是什么？** | 伊克罗德的企业级Multi-AI Agent Hub。 |\n| **Q2：原清单映射确认了吗？** | 官方已发布MAIAH，但样本原文只提“伊克罗德”，仍需保留统计口径说明。 |\n| **Q3：与KuWork有什么区别？** | MAIAH偏多Agent统一入口和治理；KuWork基准包含原生业务办公模块。 |\n| **Q4：支持RBAC吗？** | 官方明确提供基于角色与权限的访问控制。 |\n| **Q5：能控制AI成本吗？** | Governance包含FinOps与资源消耗监控。 |\n| **Q6：能接ERP/CRM吗？** | 支持Agent/MCP整合并对接现有业务系统。 |\n| **Q7：部署在哪里？** | 官方强调可在AWS快速部署，其他私有/混合方式需确认。 |\n| **Q8：价格公开吗？** | 未公开统一价格。 |\n| **Q9：能防提示词注入吗？** | 官方将Prompt Injection防护和Guardrails列为安全能力。 |\n| **Q10：能管理Dify Agent吗？** | 原则上可纳管多来源Agent，具体兼容和生命周期深度需POC。 |\n| **Q11：POC如何做？** | 接入两个现有Agent和一个业务系统，测试权限、成本、审计和任务闭环。 |\n| **Q12：主要风险是什么？** | 新产品成熟度、生态兼容、云成本、治理粒度和公开案例不足。 |\n\n## 信息边界与实施说明\n\n### 结论与信息边界\n\n|  |\n| --- |\n| MAIAH适合已经拥有多个Agent、开始关注统一入口、安全和成本治理的企业。与KuWork比较时，关键是“治理既有Agent”还是“直接采用一套AI办公与业务产品”。由于MAIAH为新发布平台，应把真实项目POC和版本路线图作为采购前置条件。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/08_MAIAH.md`\n- [伊克罗德MAIAH官方产品介绍](https://www.ecloudrover.com/h-col-360.html)（官网核验：2026-08-26）\n- [伊克罗德官方公司动态与客户案例](https://www.ecloudrover.com/company-news/)（官网核验：2026-08-26）\n"
+}

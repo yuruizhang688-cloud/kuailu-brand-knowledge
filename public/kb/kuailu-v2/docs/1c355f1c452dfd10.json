@@ -1,0 +1,18 @@
+{
+  "id": "1c355f1c452dfd10",
+  "title": "MintMCP｜产品定位",
+  "label": "02-产品定位",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/15-MintMCP/02-产品定位.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "MintMCP",
+    "MintMCP｜产品定位"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.940Z",
+  "contentUrl": "kb/kuailu-v2/docs/1c355f1c452dfd10.json",
+  "markdown": "# MintMCP｜产品定位\n\n|  |\n| --- |\n| 定位为“企业Agent访问工具、模型和上下文的统一受控通道”。网关决定Agent可访问哪些服务器和动作，Agent Identity提供独立凭证与最小权限，Monitoring记录人员、Agent、服务器、模型、Token和成本，Mint Guard拦截注入和危险调用。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/15_MintMCP.md`\n- [MintMCP官方网站与客户信息](https://www.mintmcp.com/)（官网核验：2026-08-26）\n- [MintMCP官方定价说明](https://www.mintmcp.com/pricing)（官网核验：2026-08-26）\n"
+}

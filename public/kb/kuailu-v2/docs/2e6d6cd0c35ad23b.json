@@ -1,0 +1,18 @@
+{
+  "id": "2e6d6cd0c35ad23b",
+  "title": "LumeValley｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/04-AI智能体办公系统竞品/09-LumeValley/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能体办公系统竞品",
+    "LumeValley",
+    "LumeValley｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.917Z",
+  "contentUrl": "kb/kuailu-v2/docs/2e6d6cd0c35ad23b.json",
+  "markdown": "# LumeValley｜功能模块\n\n| 服务模块 | 核心内容 | 交付结果 |\n|---|---|---|\n| 战略与场景规划 | AI机会识别、路线图、ROI和治理 | 建设蓝图 |\n| 轻量智能体 | FAQ、日程、简单API与基础记忆 | 单场景原型 |\n| 业务智能体 | 多步流程、RAG、工具和长期记忆 | 自动化业务应用 |\n| 多智能体系统 | 角色协同、复杂编排与高并发 | 企业级Agent体系 |\n| 系统集成 | ERP、CRM、数据库和遗留系统 | 跨系统闭环 |\n| 私有化与安全 | 本地部署、加密、权限、审计和红队 | 合规运行环境 |\n| 算力与运维 | GPU、模型、知识库和持续调优 | 长期服务 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/KuWork_20款弱竞品产品资料_对外加深版_20260826/KuWork_20款弱竞品/09_LumeValley.md`\n- [LumeValley官方智能体开发费用与周期说明](https://www.lumevalley.com/article-681.html)（官网核验：2026-08-26）\n- [LumeValley官方网站](https://www.lumevalley.com/)（官网核验：2026-08-26）\n"
+}

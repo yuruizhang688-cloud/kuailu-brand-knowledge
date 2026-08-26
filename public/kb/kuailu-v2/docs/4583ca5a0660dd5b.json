@@ -12,6 +12,7 @@
   "category": "竞品信息",
   "readTime": 1,
   "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.829Z",
   "contentUrl": "kb/kuailu-v2/docs/4583ca5a0660dd5b.json",
-  "markdown": "# 声网Agora｜产品定位\n\n|  |\n| --- |\n| 定位为“全球实时互动PaaS”。客户购买的是可编程的音视频基础设施和用量，不是固定界面的单一会议软件。优势是高度可嵌入和可定制，代价是客户需要产品设计、研发、测试、运维和合规能力。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n"
+  "markdown": "# 声网Agora｜产品定位\n\n|  |\n| --- |\n| 定位为“全球实时互动PaaS”。客户购买的是可编程的音视频基础设施和用量，不是固定界面的单一会议软件。优势是高度可嵌入和可定制，代价是客户需要产品设计、研发、测试、运维和合规能力。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n- [声网官方价格页](https://www-staging-cn.agora.io/cn/price)（官网核验：2026-08-26）\n- [声网官方RTC计费文档](https://docportal.shengwang.cn/cn/video-legacy/billing_rtc?platform=Cocos+Creator)（官网核验：2026-08-26）\n"
 }

@@ -12,6 +12,7 @@
   "category": "竞品信息",
   "readTime": 1,
   "unitCount": 1,
+  "updatedAt": "2026-08-26T13:11:11.832Z",
   "contentUrl": "kb/kuailu-v2/docs/42d8ec97ea63f7fd.json",
-  "markdown": "# 声网Agora｜行业解决方案\n\n| 行业 | 嵌入场景 | 开发重点 |\n|---|---|---|\n| 协同办公 | 自研会议与屏幕共享 | 会控、组织与录制 |\n| 在线教育 | 小班课、互动课堂 | 低延迟、白板和质量 |\n| 医疗 | 视频问诊与会诊 | 隐私、身份和存档 |\n| 金融/客服 | 远程服务与双录 | 合规录制和质检 |\n| 智能硬件 | 会议终端、IoT视频 | SDK适配和设备运维 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n"
+  "markdown": "# 声网Agora｜行业解决方案\n\n| 行业 | 嵌入场景 | 开发重点 |\n|---|---|---|\n| 协同办公 | 自研会议与屏幕共享 | 会控、组织与录制 |\n| 在线教育 | 小班课、互动课堂 | 低延迟、白板和质量 |\n| 医疗 | 视频问诊与会诊 | 隐私、身份和存档 |\n| 金融/客服 | 远程服务与双录 | 合规录制和质检 |\n| 智能硬件 | 会议终端、IoT视频 | SDK适配和设备运维 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/会议系统/07_声网Agora.md`\n- [声网官方价格页](https://www-staging-cn.agora.io/cn/price)（官网核验：2026-08-26）\n- [声网官方RTC计费文档](https://docportal.shengwang.cn/cn/video-legacy/billing_rtc?platform=Cocos+Creator)（官网核验：2026-08-26）\n"
 }
