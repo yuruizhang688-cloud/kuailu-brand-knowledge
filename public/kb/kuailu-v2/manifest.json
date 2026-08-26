@@ -7,7 +7,7 @@
   "knowledgePointCount": 566,
   "defaultDocId": "4d752ef4826730db",
   "exportUrl": "kb/kuailu-v2/export.json",
-  "generatedAt": "2026-08-26T06:41:24.184Z",
+  "generatedAt": "2026-08-26T07:23:07.615Z",
   "docs": [
     {
       "id": "4d752ef4826730db",
@@ -1038,7 +1038,7 @@
         "品牌与公司问题"
       ],
       "category": "品牌信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v2/docs/5cbcebd1605600b7.json"
     },
