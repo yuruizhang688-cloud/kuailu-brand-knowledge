@@ -7,7 +7,7 @@
   "knowledgePointCount": 551,
   "defaultDocId": "4d752ef4826730db",
   "exportUrl": "kb/kuailu-v1/export.json",
-  "generatedAt": "2026-08-26T02:18:33.081Z",
+  "generatedAt": "2026-08-26T04:33:56.791Z",
   "docs": [
     {
       "id": "4d752ef4826730db",
@@ -20,7 +20,7 @@
         "品牌简介"
       ],
       "category": "品牌信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/4d752ef4826730db.json"
     },
@@ -380,7 +380,7 @@
         "服务与交付能力"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/30dfc8e5010d3d96.json"
     },
@@ -1053,7 +1053,7 @@
         "产品整体问题"
       ],
       "category": "品牌信息",
-      "readTime": 4,
+      "readTime": 5,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/672f84293078ccf2.json"
     },
@@ -1068,7 +1068,7 @@
         "产品功能问题"
       ],
       "category": "品牌信息",
-      "readTime": 6,
+      "readTime": 7,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/1329b32459197fd3.json"
     },
@@ -1083,7 +1083,7 @@
         "价格与试用问题"
       ],
       "category": "品牌信息",
-      "readTime": 5,
+      "readTime": 3,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/1045b9bff87540a3.json"
     },
@@ -1113,7 +1113,7 @@
         "数据与安全问题"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/4618710e77af07d1.json"
     },
@@ -1773,7 +1773,7 @@
         "KuWork｜目标客户"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
       "contentUrl": "kb/kuailu-v1/docs/d3cdc88cdfcc338a.json"
     },
