@@ -157,9 +157,10 @@ async function secureEqual(left: string, right: string): Promise<boolean> {
   return crypto.subtle.timingSafeEqual(leftHash, rightHash);
 }
 
-async function requireAdmin(request: Request, env: WorkerEnv): Promise<void> {
+async function requireManagementAccess(request: Request, env: WorkerEnv): Promise<void> {
   const origin = request.headers.get('Origin') || '';
-  if (!isLocalOrigin(origin)) throw new HttpError(403, '批注管理仅限本机页面访问');
+  if (origin === env.PUBLIC_SITE_ORIGIN) return;
+  if (!isLocalOrigin(origin)) throw new HttpError(403, '不允许的批注管理请求来源');
   const authorization = request.headers.get('Authorization') || '';
   const token = authorization.startsWith('Bearer ') ? authorization.slice(7) : '';
   if (!token || !env.ADMIN_TOKEN || !(await secureEqual(token, env.ADMIN_TOKEN))) {
@@ -267,7 +268,7 @@ async function deleteOwnComment(request: Request, env: WorkerEnv, id: string): P
 }
 
 async function listManagedComments(request: Request, env: WorkerEnv, url: URL): Promise<Response> {
-  await requireAdmin(request, env);
+  await requireManagementAccess(request, env);
   const brandSlug = optionalText(url.searchParams.get('brandSlug'), 120).trim();
   const statement = brandSlug
     ? env.DB.prepare(`SELECT ${rowColumns} FROM comments WHERE brand_slug = ?1 ORDER BY created_at DESC`).bind(brandSlug)
@@ -277,7 +278,7 @@ async function listManagedComments(request: Request, env: WorkerEnv, url: URL): 
 }
 
 async function updateManagedComment(request: Request, env: WorkerEnv, id: string): Promise<Response> {
-  await requireAdmin(request, env);
+  await requireManagementAccess(request, env);
   const body = await readJsonBody(request);
   if (!['open', 'resolved'].includes(String(body.status))) throw new HttpError(400, '无效批注状态');
   const row = await findComment(env, id);
@@ -293,7 +294,7 @@ async function updateManagedComment(request: Request, env: WorkerEnv, id: string
 }
 
 async function deleteManagedComment(request: Request, env: WorkerEnv, id: string): Promise<Response> {
-  await requireAdmin(request, env);
+  await requireManagementAccess(request, env);
   const result = await env.DB.prepare('DELETE FROM comments WHERE id = ?1').bind(id).run();
   if (!result.meta.changes) throw new HttpError(404, '批注不存在');
   return json(request, env, { deleted: true });

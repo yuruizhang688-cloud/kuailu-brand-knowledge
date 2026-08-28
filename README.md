@@ -15,12 +15,12 @@ npm run dev:web  # 终端 2，http://localhost:5173
 
 浏览器打开 `http://localhost:5173/kuailu-v2`。生产构建使用 `npm run build`；可用 `PORT=8787 npm start` 单独启动 API。
 
-## 批注与本机管理
+## 批注与管理
 
 - 阅读页支持对整个知识点、正文段落和表格行添加批注。线上版连接共享批注 API 与 D1 持久化数据库，不同用户可看到同一知识点的全部批注。
 - 批注人可在原文批注面板修改或删除自己的批注。
-- `http://localhost:5173/comments` 是本机批注管理页，通过管理密钥读取线上同一份批注数据，可搜索、筛选、标记已解决、重新打开、删除、返回原文，并将当前筛选结果导出为单个 Markdown 文件。
-- “批注管理”按钮和 `/comments` 页只在 `localhost`、`127.0.0.1` 或 `::1` 下显示；对应的管理 API 也会校验回环访问。
+- 在知识库链接末尾增加 `mode=admin`，例如 `/kuailu-v2/?mode=admin` 或 `?doc=文档ID&mode=admin`，页面右上角会显示“批注管理”按钮。
+- 批注管理页连接线上同一份数据，可搜索、筛选、标记已解决、重新打开、删除、返回原文，并将当前筛选结果导出为单个 Markdown 文件。线上访问地址为 `/comments?mode=admin`。
 
 ## 本地知识库工作台
 
@@ -54,11 +54,11 @@ npm run dev:web  # 终端 2，http://localhost:5173
 | POST | `/api/comments` | `CommentCreate` | `{ comment: Comment }` |
 | PATCH | `/api/comments/:id` | `comment`、`suggestedText`、`website`、`editKey` | `{ comment: Comment }` |
 | DELETE | `/api/comments/:id` | `editKey` | `{ deleted: true }` |
-| GET | `/api/manage/comments?brandSlug=` | 本机管理列表 | `{ comments: Comment[] }` |
+| GET | `/api/manage/comments?brandSlug=` | 管理列表 | `{ comments: Comment[] }` |
 | PATCH | `/api/manage/comments/:id` | `status: open \| resolved` | `{ comment: Comment }` |
-| DELETE | `/api/manage/comments/:id` | 本机管理删除 | `{ deleted: true }` |
+| DELETE | `/api/manage/comments/:id` | 管理删除 | `{ deleted: true }` |
 
-本实现不会请求或依赖原站 API。`editKey` 是本机生成的随机所有权密钥；服务端只保存哈希，读取时以 `canEdit` 表示是否可编辑。生产环境请改为用户身份认证与数据库，而不是把编辑密钥当作权限系统。
+本实现不会请求或依赖原站 API。`editKey` 是浏览器生成的随机所有权密钥；服务端只保存哈希，读取时以 `canEdit` 表示提交者能否修改自己的批注。批注及处理状态保存在 D1；按当前需求，管理模式向所有持有 `mode=admin` 链接的人开放，不提供账号身份认证。
 
 ## 在线批注配置
 
@@ -68,7 +68,7 @@ GitHub Pages 仅托管阅读前端，线上共享批注由 `comments-worker/` �
 COMMENTS_API_URL=https://kuailu-comments-api.yuruizhang688.workers.dev
 ```
 
-Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建。公开批注接口允许来自知识库站点的请求；管理接口只允许本机页面来源，并强制验证 Worker 密钥。管理密钥仅保存在本机已忽略的 `.env.local` 和 Cloudflare Secret 中，不会进入 Git 或 GitHub Pages 构建。
+Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建。公开批注和管理接口允许来自知识库站点的请求，因此 `mode=admin` 是管理界面的显示开关，不是身份认证。为了保持本地开发接口隔离，本机来源访问远程管理接口时仍需 Worker 管理密钥；密钥仅保存在本机已忽略的 `.env.local` 和 Cloudflare Secret 中，不会进入 Git 或 GitHub Pages 构建。
 
 ## 数据格式
 

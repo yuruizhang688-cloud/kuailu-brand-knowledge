@@ -39,7 +39,7 @@ function downloadMarkdown(comments, filterDescription, brandSlug, basePath) {
         const first = documentComments[0];
         lines.push(`#### ${docTitle(first)}`, '');
         documentComments.forEach((comment, index) => {
-          const pageUrl = `${location.origin}${basePath}/${brandSlug}?doc=${encodeURIComponent(comment.docId)}`;
+          const pageUrl = `${location.origin}${basePath}/${brandSlug}?doc=${encodeURIComponent(comment.docId)}&mode=admin`;
           lines.push(
             `##### 批注 ${index + 1}`, '',
             `- 文件路径：${escapeInline(comment.relativePath)}`,
@@ -63,7 +63,7 @@ function downloadMarkdown(comments, filterDescription, brandSlug, basePath) {
   document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
 }
 
-export default function CommentManager({ apiBase = '', adminToken = '', brandSlug, basePath = '', onBack, onOpenComment }) {
+export default function CommentManager({ apiBase = '', adminToken = '', requireAdminKey = false, brandSlug, basePath = '', onBack, onOpenComment }) {
   const [comments, setComments] = useState([]);
   const [status, setStatus] = useState('all');
   const [author, setAuthor] = useState('all');
@@ -71,6 +71,7 @@ export default function CommentManager({ apiBase = '', adminToken = '', brandSlu
   const [message, setMessage] = useState('正在加载批注…');
   const [busyId, setBusyId] = useState('');
   const remoteManagement = Boolean(apiBase);
+  const protectedManagement = remoteManagement && requireAdminKey;
   const [adminKey, setAdminKey] = useState(() => adminToken || localStorage.getItem('brandbase:comment-admin-key') || '');
   const [adminKeyInput, setAdminKeyInput] = useState('');
   const endpoint = (path) => `${apiBase}${path}`;
@@ -82,12 +83,12 @@ export default function CommentManager({ apiBase = '', adminToken = '', brandSlu
   }
 
   async function load() {
-    if (remoteManagement && !adminKey) { setComments([]); setMessage('请输入管理密钥'); return; }
+    if (protectedManagement && !adminKey) { setComments([]); setMessage('请输入管理密钥'); return; }
     try {
       const params = new URLSearchParams({ brandSlug });
       const response = await fetch(endpoint(`/api/manage/comments?${params}`), { cache: 'no-store', headers: headers() });
       const data = await response.json();
-      if (response.status === 401) { clearAdminKey('管理密钥无效，请重新输入'); return; }
+      if (response.status === 401 && protectedManagement) { clearAdminKey('管理密钥无效，请重新输入'); return; }
       if (!response.ok) throw new Error(data.error || '批注加载失败');
       setComments(data.comments || []); setMessage('');
     } catch (reason) {
@@ -116,7 +117,7 @@ export default function CommentManager({ apiBase = '', adminToken = '', brandSlu
     try {
       const response = await fetch(endpoint(`/api/manage/comments/${comment.id}`), { method: 'PATCH', headers: headers({ 'Content-Type': 'application/json' }), body: JSON.stringify({ status: nextStatus }) });
       const data = await response.json();
-      if (response.status === 401) { clearAdminKey('管理密钥已失效，请重新输入'); return; }
+      if (response.status === 401 && protectedManagement) { clearAdminKey('管理密钥已失效，请重新输入'); return; }
       if (!response.ok) throw new Error(data.error || '状态更新失败');
       setComments((old) => old.map((item) => item.id === comment.id ? data.comment : item)); setMessage('');
     } catch (reason) { setMessage(reason.message); } finally { setBusyId(''); }
@@ -128,7 +129,7 @@ export default function CommentManager({ apiBase = '', adminToken = '', brandSlu
     try {
       const response = await fetch(endpoint(`/api/manage/comments/${comment.id}`), { method: 'DELETE', headers: headers() });
       const data = await response.json();
-      if (response.status === 401) { clearAdminKey('管理密钥已失效，请重新输入'); return; }
+      if (response.status === 401 && protectedManagement) { clearAdminKey('管理密钥已失效，请重新输入'); return; }
       if (!response.ok) throw new Error(data.error || '删除失败');
       setComments((old) => old.filter((item) => item.id !== comment.id)); setMessage('');
     } catch (reason) { setMessage(reason.message); } finally { setBusyId(''); }
@@ -142,13 +143,13 @@ export default function CommentManager({ apiBase = '', adminToken = '', brandSlu
     setMessage('正在验证管理密钥…'); setAdminKey(value);
   }
 
-  if (remoteManagement && !adminKey) return <main className="comment-manager">
+  if (protectedManagement && !adminKey) return <main className="comment-manager">
     <header className="comment-manager__header"><div><div className="comment-manager__eyebrow">LOCAL REVIEW WORKSPACE</div><h1>批注管理</h1><p>本机安全连接线上共享批注</p></div><div className="comment-manager__header-actions"><button onClick={onBack}>返回知识库</button></div></header>
     <form className="comment-manager__login" onSubmit={submitAdminKey}><h2>输入管理密钥</h2><p>密钥只保存在当前浏览器，不会上传到知识库。</p><input type="password" value={adminKeyInput} onChange={(event) => setAdminKeyInput(event.target.value)} placeholder="请输入管理密钥" autoFocus required /><button className="primary" type="submit">进入批注管理</button>{message && <div role="status">{message}</div>}</form>
   </main>;
 
   return <main className="comment-manager">
-    <header className="comment-manager__header"><div><div className="comment-manager__eyebrow">LOCAL REVIEW WORKSPACE</div><h1>批注管理</h1><p>{remoteManagement ? '本机安全连接线上共享批注' : '查看和处理本机批注'}</p></div><div className="comment-manager__header-actions"><button onClick={onBack}>返回知识库</button>{remoteManagement && <button onClick={() => clearAdminKey()}>更换密钥</button>}<button className="primary" disabled={!filtered.length} onClick={() => downloadMarkdown(filtered, filterDescription, brandSlug, basePath)}>导出批注</button></div></header>
+    <header className="comment-manager__header"><div><div className="comment-manager__eyebrow">COMMENT MANAGEMENT</div><h1>批注管理</h1><p>{remoteManagement ? '查看和处理线上共享批注' : '查看和处理本机批注'}</p></div><div className="comment-manager__header-actions"><button onClick={onBack}>返回知识库</button>{protectedManagement && <button onClick={() => clearAdminKey()}>更换密钥</button>}<button className="primary" disabled={!filtered.length} onClick={() => downloadMarkdown(filtered, filterDescription, brandSlug, basePath)}>导出批注</button></div></header>
     <section className="comment-manager__summary" aria-label="批注统计"><button className={status === 'all' ? 'active' : ''} onClick={() => setStatus('all')}><span>全部批注</span><strong>{totals.total}</strong></button><button className={status === 'open' ? 'active' : ''} onClick={() => setStatus('open')}><span>待处理</span><strong>{totals.open}</strong></button><button className={status === 'resolved' ? 'active' : ''} onClick={() => setStatus('resolved')}><span>已解决</span><strong>{totals.resolved}</strong></button></section>
     <section className="comment-manager__filters"><label><span>搜索</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索知识点、原文或批注…" /></label><label><span>批注人</span><select value={author} onChange={(event) => setAuthor(event.target.value)}><option value="all">全部批注人</option>{authors.map((name) => <option value={name} key={name}>{name}</option>)}</select></label><div className="comment-manager__result-count">当前结果 {filtered.length} 条</div></section>
     {message && <div className="comment-manager__message" role="status">{message}</div>}
