@@ -17,9 +17,9 @@ npm run dev:web  # 终端 2，http://localhost:5173
 
 ## 批注与本机管理
 
-- 阅读页支持对整个知识点、正文段落和表格行添加批注。连接本地 API 时，批注保存在 `server/data/comments.json`，访问同一服务的成员可共享查看。
+- 阅读页支持对整个知识点、正文段落和表格行添加批注。线上版连接共享批注 API 与 D1 持久化数据库，不同用户可看到同一知识点的全部批注。
 - 批注人可在原文批注面板修改或删除自己的批注。
-- `http://localhost:5173/comments` 是本机批注管理页，可搜索、筛选、标记已解决、重新打开、删除、返回原文，并将当前筛选结果导出为单个 Markdown 文件。
+- `http://localhost:5173/comments` 是本机批注管理页，通过管理密钥读取线上同一份批注数据，可搜索、筛选、标记已解决、重新打开、删除、返回原文，并将当前筛选结果导出为单个 Markdown 文件。
 - “批注管理”按钮和 `/comments` 页只在 `localhost`、`127.0.0.1` 或 `::1` 下显示；对应的管理 API 也会校验回环访问。
 
 ## 本地知识库工作台
@@ -62,13 +62,13 @@ npm run dev:web  # 终端 2，http://localhost:5173
 
 ## 在线批注配置
 
-GitHub Pages 是静态托管环境。未配置后端时，在线批注使用浏览器 `localStorage`，适合个人审阅且刷新后仍会保留，但不会跨浏览器或跨成员同步。需要团队共享批注时，部署本项目的评论 API，并在 GitHub 仓库的 Actions variable 中设置：
+GitHub Pages 仅托管阅读前端，线上共享批注由 `comments-worker/` 中的 Cloudflare Worker 接收，并保存到 D1 数据库。GitHub 仓库的 Actions variable 已通过以下值连接公共 API：
 
 ```text
-COMMENTS_API_URL=https://comments.example.com
+COMMENTS_API_URL=https://kuailu-comments-api.yuruizhang688.workers.dev
 ```
 
-Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建；前端随后自动使用在线 API。评论 API 需支持本文档列出的 GET、POST、PATCH 和 DELETE 公开批注接口，并允许知识库站点来源的 CORS 请求。上线多人使用时应将 JSON 文件存储替换为持久化数据库，并补充身份认证与备份策略。
+Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建。公开批注接口允许来自知识库站点的请求；管理接口只允许本机页面来源，并强制验证 Worker 密钥。管理密钥仅保存在本机已忽略的 `.env.local` 和 Cloudflare Secret 中，不会进入 Git 或 GitHub Pages 构建。
 
 ## 数据格式
 

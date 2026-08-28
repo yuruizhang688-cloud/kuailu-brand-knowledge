@@ -9,6 +9,7 @@ import './brand.css';
 const HOSTED_PREVIEW = import.meta.env.VITE_HOSTED_PREVIEW === '1';
 const IS_LOCAL_HOST = ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
 const COMMENT_API_BASE = String(import.meta.env.VITE_COMMENTS_API_URL || '').trim().replace(/\/+$/, '');
+const COMMENT_ADMIN_TOKEN = String(import.meta.env.VITE_COMMENTS_ADMIN_TOKEN || '').trim();
 const USE_COMMENT_API = !HOSTED_PREVIEW || Boolean(COMMENT_API_BASE);
 const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, '');
 const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
@@ -332,7 +333,7 @@ export default function App() {
     setCommentButton({ x: Math.min(window.innerWidth - (isRow ? 128 : 110), rect.right + 10), y: Math.max(60, rect.top) });
   }
   if (currentRoute.manage) return <Manager />;
-  if (currentRoute.comments) return site ? <CommentManager apiBase={COMMENT_API_BASE} brandSlug={site.defaultBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: site.defaultBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || site.defaultBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
+  if (currentRoute.comments) return site ? <CommentManager apiBase={COMMENT_API_BASE} adminToken={COMMENT_ADMIN_TOKEN} brandSlug={site.defaultBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: site.defaultBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || site.defaultBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
   if (error) return <main className="error">{error}</main>; if (!brand || !activeDoc) return <main className="loading">加载品牌知识库…</main>;
   return <div className="kb-shell">
     <div className="app"><aside className="sidebar"><div className="sidebar-header"><div className="logo-copy"><div className="sidebar-eyebrow">KUAILU KNOWLEDGE</div><div className="logo-text">快鹭品牌知识库</div><div className="logo-sub">{brand.knowledgePointCount} 个知识点</div></div></div><label className="search-box"><Search size={13} className="search-icon" /><input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索知识库内容…" /><span className="kbd">⌘K</span></label><div className="sidebar-section-label">内容目录</div>{query.trim() ? <div className="search-results"><div className="search-status">{searchEntries.length ? '全文索引已就绪' : '正在加载全文索引'}</div><div className="result-list">{results.map((result) => <button className="result-item" key={result.id} onClick={() => select(result.id)}><span className="result-title">{result.title}</span><span className="result-path">{result.breadcrumbs.join(' / ')}</span><span className="result-snippet">{result.text}</span></button>)}{!results.length && <div className="empty-search">没有找到「{query}」</div>}</div></div> : <nav className="tree"><Tree nodes={brand.tree} active={activeDoc.id} expanded={expanded} setExpanded={setExpanded} select={select} /></nav>}</aside>

@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kuailu-comments-api",
+  "main": "src/index.ts",
+  "workers_dev": true,
+  "preview_urls": false,
+  "compatibility_date": "2026-08-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "PUBLIC_SITE_ORIGIN": "https://yuruizhang688-cloud.github.io"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kuailu-comments",
+      "database_id": "3d8e9fd7-af57-4c36-b3e3-bf60d5db32b3",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "head_sampling_rate": 1
+    }
+  }
+}
