@@ -345,7 +345,9 @@ export default function App() {
   if (currentRoute.manage) return <Manager />;
   if (currentRoute.comments) {
     const commentBrand = currentRoute.commentBrand || site?.defaultBrand;
-    return site ? <CommentManager apiBase={COMMENT_API_BASE} adminToken={COMMENT_ADMIN_TOKEN} requireAdminKey={IS_LOCAL_HOST} brandSlug={commentBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: commentBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || commentBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
+    const commentLocale = site?.brands.find((item) => item.slug === commentBrand)?.locale || 'zh-CN';
+    const commentLoadingText = commentBrand === 'kuailu-global-v1' ? 'Loading comment management…' : '加载批注管理…';
+    return site ? <CommentManager apiBase={COMMENT_API_BASE} adminToken={COMMENT_ADMIN_TOKEN} requireAdminKey={IS_LOCAL_HOST} brandSlug={commentBrand} basePath={BASE_PATH} locale={commentLocale} onBack={() => navigate({ brandSlug: commentBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || commentBrand, docId: comment.docId, edit: false })} /> : <main className="loading">{commentLoadingText}</main>;
   }
   if (error) return <main className="error">{error}</main>; if (!brand || !activeDoc) return <main className="loading">加载品牌知识库…</main>;
   return <div className="kb-shell">
