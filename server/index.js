@@ -18,7 +18,7 @@ const layerRoots = {
 const kbRoot = path.join(appRoot, 'public', 'kb');
 const app = express();
 
-app.use(cors({ methods: ['GET', 'POST', 'PATCH', 'OPTIONS'], allowedHeaders: ['Content-Type'] }));
+app.use(cors({ methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'], allowedHeaders: ['Content-Type'] }));
 app.use(express.json({ limit: '64kb' }));
 
 const text = (value, maximum) => typeof value === 'string' && value.trim().length > 0 && value.length <= maximum;
@@ -159,7 +159,20 @@ async function saveComments(comments) {
 
 function present(comment, editKey) {
   const { editKeyHash, ...safe } = comment;
-  return { ...safe, canEdit: Boolean(editKey && keyHash(editKey) === editKeyHash) };
+  return { ...safe, status: comment.status === 'resolved' ? 'resolved' : 'open', canEdit: Boolean(editKey && keyHash(editKey) === editKeyHash) };
+}
+
+const localHostnames = new Set(['localhost', '127.0.0.1', '::1']);
+const loopbackAddresses = new Set(['127.0.0.1', '::1', '::ffff:127.0.0.1']);
+
+function localOnly(request, response, next) {
+  let originHostname = '';
+  try { originHostname = request.get('origin') ? new URL(request.get('origin')).hostname : ''; } catch { originHostname = ''; }
+  const localOrigin = !originHostname || localHostnames.has(originHostname);
+  if (!loopbackAddresses.has(request.socket.remoteAddress) || !localOrigin || !localHostnames.has(request.hostname)) {
+    return response.status(403).json({ error: '批注管理仅限本机访问' });
+  }
+  next();
 }
 
 app.get('/api/comments', async (request, response, next) => {
@@ -185,10 +198,12 @@ app.post('/api/comments', async (request, response, next) => {
     const now = new Date().toISOString();
     const comment = {
       id: randomUUID(), brandSlug: body.brandSlug, docId: body.docId, relativePath: body.relativePath,
+      docTitle: String(body.docTitle ?? '').slice(0, 300), targetKind: ['document', 'row', 'block'].includes(body.targetKind) ? body.targetKind : 'document',
       authorName: body.authorName.trim(), comment: body.comment.trim(), suggestedText: String(body.suggestedText ?? '').slice(0, 3000),
       selectedText: String(body.selectedText ?? '').slice(0, 1200), contextBefore: String(body.contextBefore ?? '').slice(0, 500),
       contextAfter: String(body.contextAfter ?? '').slice(0, 500), headingText: String(body.headingText ?? '').slice(0, 300),
-      anchorId: String(body.anchorId ?? '').slice(0, 300), createdAt: now, updatedAt: now, editKeyHash: keyHash(body.editKey)
+      anchorId: String(body.anchorId ?? '').slice(0, 300), status: 'open', resolvedAt: null,
+      createdAt: now, updatedAt: now, editKeyHash: keyHash(body.editKey)
     };
     const comments = await loadComments();
     comments.push(comment);
@@ -211,6 +226,58 @@ app.patch('/api/comments/:id', async (request, response, next) => {
     record.updatedAt = new Date().toISOString();
     await saveComments(comments);
     response.json({ comment: present(record, editKey) });
+  } catch (error) { next(error); }
+});
+
+app.delete('/api/comments/:id', async (request, response, next) => {
+  try {
+    const { editKey = '' } = request.body ?? {};
+    if (!text(editKey, 500)) return response.status(400).json({ error: 'editKey 必填' });
+    const comments = await loadComments();
+    const index = comments.findIndex((item) => item.id === request.params.id);
+    if (index < 0) return response.status(404).json({ error: '批注不存在' });
+    if (comments[index].editKeyHash !== keyHash(editKey)) return response.status(403).json({ error: '没有删除该批注的权限' });
+    comments.splice(index, 1);
+    await saveComments(comments);
+    response.json({ deleted: true });
+  } catch (error) { next(error); }
+});
+
+app.get('/api/manage/comments', localOnly, async (request, response, next) => {
+  try {
+    const brandSlug = String(request.query.brandSlug ?? '').trim();
+    const comments = (await loadComments())
+      .filter((item) => !brandSlug || item.brandSlug === brandSlug)
+      .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+      .map((item) => ({ ...present(item, ''), canEdit: true }));
+    response.json({ comments });
+  } catch (error) { next(error); }
+});
+
+app.patch('/api/manage/comments/:id', localOnly, async (request, response, next) => {
+  try {
+    const status = request.body?.status;
+    if (!['open', 'resolved'].includes(status)) return response.status(400).json({ error: '无效批注状态' });
+    const comments = await loadComments();
+    const record = comments.find((item) => item.id === request.params.id);
+    if (!record) return response.status(404).json({ error: '批注不存在' });
+    const now = new Date().toISOString();
+    record.status = status;
+    record.resolvedAt = status === 'resolved' ? now : null;
+    record.updatedAt = now;
+    await saveComments(comments);
+    response.json({ comment: { ...present(record, ''), canEdit: true } });
+  } catch (error) { next(error); }
+});
+
+app.delete('/api/manage/comments/:id', localOnly, async (request, response, next) => {
+  try {
+    const comments = await loadComments();
+    const index = comments.findIndex((item) => item.id === request.params.id);
+    if (index < 0) return response.status(404).json({ error: '批注不存在' });
+    comments.splice(index, 1);
+    await saveComments(comments);
+    response.json({ deleted: true });
   } catch (error) { next(error); }
 });
 

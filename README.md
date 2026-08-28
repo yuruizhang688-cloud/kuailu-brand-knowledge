@@ -1,6 +1,8 @@
 # BrandBase clean-room replica
 
-这是基于公开可观察行为重建的实现，不包含原站源码、原站内容或原站批注数据。它复现了可验证的接口契约与核心行为：`/{brandSlug}?doc={docId}&edit=1` 路由、Markdown 文档树、全文搜索、本地草稿、全库 Markdown 导出，以及批注的读取、新建和修改。
+这是基于公开可观察行为重建的实现，不包含原站源码、原站内容或原站批注数据。它复现了可验证的接口契约与核心行为：`/{brandSlug}?doc={docId}&edit=1` 路由、Markdown 文档树、全文搜索、本地草稿、全库 Markdown 导出，以及批注的读取、新建、修改和删除。
+
+在线阅读页顶部提供“批注”和“导出”：知识库导出文件是保留目录层级的 ZIP，内部只包含 `.md` 正文。批注单独管理和导出，不会混入知识库正文或文章生成 Skill 的知识库文件。
 
 ## 启动
 
@@ -11,7 +13,14 @@ npm run dev:api  # 终端 1，http://localhost:8787
 npm run dev:web  # 终端 2，http://localhost:5173
 ```
 
-浏览器打开 `http://localhost:5173/demo-brand`。生产构建使用 `npm run build`；可用 `PORT=8787 npm start` 单独启动 API。
+浏览器打开 `http://localhost:5173/kuailu-v2`。生产构建使用 `npm run build`；可用 `PORT=8787 npm start` 单独启动 API。
+
+## 批注与本机管理
+
+- 阅读页支持对整个知识点、正文段落和表格行添加批注。连接本地 API 时，批注保存在 `server/data/comments.json`，访问同一服务的成员可共享查看。
+- 批注人可在原文批注面板修改或删除自己的批注。
+- `http://localhost:5173/comments` 是本机批注管理页，可搜索、筛选、标记已解决、重新打开、删除、返回原文，并将当前筛选结果导出为单个 Markdown 文件。
+- “批注管理”按钮和 `/comments` 页只在 `localhost`、`127.0.0.1` 或 `::1` 下显示；对应的管理 API 也会校验回环访问。
 
 ## 本地知识库工作台
 
@@ -44,8 +53,22 @@ npm run dev:web  # 终端 2，http://localhost:5173
 | GET | `/api/comments?brandSlug=&docId=&editKey=` | 品牌、文档、可选编辑密钥 | `{ comments: Comment[] }` |
 | POST | `/api/comments` | `CommentCreate` | `{ comment: Comment }` |
 | PATCH | `/api/comments/:id` | `comment`、`suggestedText`、`website`、`editKey` | `{ comment: Comment }` |
+| DELETE | `/api/comments/:id` | `editKey` | `{ deleted: true }` |
+| GET | `/api/manage/comments?brandSlug=` | 本机管理列表 | `{ comments: Comment[] }` |
+| PATCH | `/api/manage/comments/:id` | `status: open \| resolved` | `{ comment: Comment }` |
+| DELETE | `/api/manage/comments/:id` | 本机管理删除 | `{ deleted: true }` |
 
 本实现不会请求或依赖原站 API。`editKey` 是本机生成的随机所有权密钥；服务端只保存哈希，读取时以 `canEdit` 表示是否可编辑。生产环境请改为用户身份认证与数据库，而不是把编辑密钥当作权限系统。
+
+## 在线批注配置
+
+GitHub Pages 是静态托管环境。未配置后端时，在线批注使用浏览器 `localStorage`，适合个人审阅且刷新后仍会保留，但不会跨浏览器或跨成员同步。需要团队共享批注时，部署本项目的评论 API，并在 GitHub 仓库的 Actions variable 中设置：
+
+```text
+COMMENTS_API_URL=https://comments.example.com
+```
+
+Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建；前端随后自动使用在线 API。评论 API 需支持本文档列出的 GET、POST、PATCH 和 DELETE 公开批注接口，并允许知识库站点来源的 CORS 请求。上线多人使用时应将 JSON 文件存储替换为持久化数据库，并补充身份认证与备份策略。
 
 ## 数据格式
 

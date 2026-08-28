@@ -339,7 +339,8 @@ textarea:focus-visible {
 
 .topbar {
   z-index: 20;
-  justify-content: flex-start;
+  justify-content: space-between;
+  gap: 18px;
   min-height: 52px;
   padding: 0 30px;
   border-bottom: 1px solid rgba(223, 232, 246, 0.86);
@@ -349,8 +350,62 @@ textarea:focus-visible {
 }
 
 .breadcrumbs {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
   color: #8a96a9;
   font-size: 12px;
+}
+
+.topbar-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.topbar-action {
+  height: 30px;
+  padding: 0 11px;
+  border: 1px solid #d9e3f2;
+  border-radius: 7px;
+  color: #415474;
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.topbar-action:hover {
+  border-color: rgba(51, 112, 255, 0.45);
+  color: #3370ff;
+  background: #fff;
+}
+
+.topbar-action--primary {
+  border-color: #3370ff;
+  color: #fff;
+  background: #3370ff;
+}
+
+.topbar-action--primary:hover {
+  color: #fff;
+  background: #225fe8;
+}
+
+.topbar-action:disabled {
+  cursor: wait;
+  opacity: 0.58;
+}
+
+.topbar-status {
+  max-width: 220px;
+  overflow: hidden;
+  color: #63806f;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .home-crumb {
@@ -648,6 +703,10 @@ textarea:focus-visible {
   background: #fafafa;
 }
 
+.blog-html-content tbody tr:hover td {
+  background: #f4f7fd;
+}
+
 .blog-html-content > hr {
   height: 0;
   margin: 28px 0 0;
@@ -758,6 +817,41 @@ textarea:focus-visible {
   color: #00184e;
 }
 
+.comment-panel__storage {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 7px;
+  padding: 3px 7px;
+  border: 1px solid rgba(51, 112, 255, 0.14);
+  border-radius: 999px;
+  color: #4c6ea9;
+  background: rgba(51, 112, 255, 0.06);
+  font-size: 10px;
+}
+
+.comment-status {
+  display: inline-flex;
+  margin-left: auto;
+  padding: 2px 6px;
+  border-radius: 999px;
+  color: #a15b00;
+  background: #fff4d9;
+  font-size: 9px;
+}
+
+.comment-status.resolved {
+  color: #277456;
+  background: #e9f7ef;
+}
+
+.comment-item.resolved {
+  opacity: 0.72;
+}
+
+.comment-item__actions button.danger {
+  color: #b54747;
+}
+
 .comment-composer__actions .primary {
   border-color: #3370ff;
   color: #fff;
@@ -857,11 +951,24 @@ textarea:focus-visible {
 
   .topbar {
     min-height: 45px;
-    padding: 0 16px;
+    gap: 8px;
+    padding: 7px 12px;
   }
 
+  .topbar-status,
   .topbar__meta {
     display: none;
+  }
+
+  .topbar-actions {
+    gap: 5px;
+  }
+
+  .topbar-action {
+    height: 28px;
+    padding: 0 8px;
+    font-size: 10px;
+    white-space: nowrap;
   }
 
   .content-wrap {

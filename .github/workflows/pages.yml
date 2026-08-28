@@ -41,6 +41,7 @@ jobs:
         run: npm run build:github
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_COMMENTS_API_URL: ${{ vars.COMMENTS_API_URL }}
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

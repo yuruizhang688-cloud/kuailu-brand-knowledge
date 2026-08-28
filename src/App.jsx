@@ -2,10 +2,14 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import MarkdownIt from 'markdown-it';
 import JSZip from 'jszip';
 import Manager from './Manager.jsx';
+import CommentManager from './CommentManager.jsx';
 import './styles.css';
 import './brand.css';
 
 const HOSTED_PREVIEW = import.meta.env.VITE_HOSTED_PREVIEW === '1';
+const IS_LOCAL_HOST = ['localhost', '127.0.0.1', '::1'].includes(location.hostname);
+const COMMENT_API_BASE = String(import.meta.env.VITE_COMMENTS_API_URL || '').trim().replace(/\/+$/, '');
+const USE_COMMENT_API = !HOSTED_PREVIEW || Boolean(COMMENT_API_BASE);
 const BASE_PATH = import.meta.env.BASE_URL.replace(/\/$/, '');
 const md = new MarkdownIt({ html: false, linkify: true, typographer: false });
 const json = (url) => fetch(`${BASE_PATH}/${url.replace(/^\//, '')}`, { cache: 'no-store' }).then(async (response) => {
@@ -19,6 +23,18 @@ const displayDate = (value) => {
   return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(date).replaceAll('/', '-');
 };
 const keyFor = (brand) => `brandbase:${brand}:drafts`;
+const commentsKeyFor = (brand) => `brandbase:${brand}:comments`;
+const commentApiUrl = (path) => `${COMMENT_API_BASE}${path}`;
+const readLocalComments = (brand) => {
+  try {
+    const comments = JSON.parse(localStorage.getItem(commentsKeyFor(brand)) || '[]');
+    return Array.isArray(comments) ? comments : [];
+  } catch {
+    return [];
+  }
+};
+const writeLocalComments = (brand, comments) => localStorage.setItem(commentsKeyFor(brand), JSON.stringify(comments));
+const presentLocalComment = ({ ownerKey, ...comment }, editKey) => ({ ...comment, canEdit: ownerKey === editKey });
 const randomKey = () => crypto.randomUUID?.() ?? `${Date.now()}-${Math.random()}`;
 const slugify = (value) => value.trim().toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-+|-+$/g, '') || 'section';
 const glyph = (symbol, className = '') => <span className={`glyph ${className}`}>{symbol}</span>;
@@ -66,9 +82,11 @@ function route() {
   const pieces = pathname.split('/').filter(Boolean);
   const query = new URLSearchParams(location.search);
   const manage = !HOSTED_PREVIEW && pieces[0] === 'manage';
+  const comments = IS_LOCAL_HOST && pieces[0] === 'comments';
+  const internalRoute = pieces[0] === 'manage' || pieces[0] === 'comments';
   const requestedBrandSlug = pieces[0] || '';
   const brandSlug = requestedBrandSlug === 'kuailu-v1' ? 'kuailu-v2' : requestedBrandSlug;
-  return { manage, brandSlug: manage ? '' : (pieces[0] === 'manage' ? '' : brandSlug), docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
+  return { manage, comments, brandSlug: internalRoute ? '' : brandSlug, docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
 }
 
 function navigate({ brandSlug, docId, edit }, replace = false) {
@@ -76,6 +94,11 @@ function navigate({ brandSlug, docId, edit }, replace = false) {
   if (docId) query.set('doc', docId);
   if (edit) query.set('edit', '1');
   history[replace ? 'replaceState' : 'pushState'](null, '', `${BASE_PATH}/${brandSlug}${query.size ? `?${query}` : ''}`);
+  dispatchEvent(new PopStateEvent('popstate'));
+}
+
+function navigateComments() {
+  history.pushState(null, '', `${BASE_PATH}/comments`);
   dispatchEvent(new PopStateEvent('popstate'));
 }
 
@@ -141,35 +164,113 @@ function VisualEditor({ initialHtml, resetKey, doc, onSave, onDiscard, onExport,
   </section>;
 }
 
-function CommentPanel({ open, onClose, brand, doc, editKey, target }) {
+function CommentPanel({ open, onClose, brand, doc, editKey, target, useCommentApi }) {
   const [comments, setComments] = useState([]); const [authorName, setAuthorName] = useState(() => localStorage.getItem('brandbase:reviewer-name') || '');
-  const [body, setBody] = useState(''); const [message, setMessage] = useState(''); const [editing, setEditing] = useState(null);
-  async function load() { if (!brand || !doc) return; try { const params = new URLSearchParams({ brandSlug: brand.slug, docId: doc.id, editKey }); const response = await fetch(`/api/comments?${params}`); const data = await response.json(); setComments(data.comments || []); } catch { setMessage('批注服务未启动或不可访问。'); } }
-  useEffect(() => { if (open) load(); }, [open, brand?.slug, doc?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  const [body, setBody] = useState(''); const [message, setMessage] = useState(''); const [editing, setEditing] = useState(null); const [submitting, setSubmitting] = useState(false);
+  async function load() {
+    if (!brand || !doc) return;
+    setMessage('');
+    if (!useCommentApi) {
+      const localComments = readLocalComments(brand.slug)
+        .filter((item) => item.docId === doc.id)
+        .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+        .map((item) => presentLocalComment(item, editKey));
+      setComments(localComments);
+      return;
+    }
+    try {
+      const params = new URLSearchParams({ brandSlug: brand.slug, docId: doc.id, editKey });
+      const response = await fetch(commentApiUrl(`/api/comments?${params}`));
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || '批注加载失败');
+      setComments(data.comments || []);
+    } catch (reason) {
+      setComments([]);
+      setMessage(`批注服务不可访问：${reason.message}`);
+    }
+  }
+  useEffect(() => {
+    if (!open) return;
+    setBody(''); setEditing(null); setMessage(''); load();
+  }, [open, brand?.slug, doc?.id]); // eslint-disable-line react-hooks/exhaustive-deps
   async function submit(event) {
     event.preventDefault(); if (!authorName.trim() || !body.trim()) return;
     localStorage.setItem('brandbase:reviewer-name', authorName.trim());
-    const payload = { comment: body, suggestedText: '', website: '', editKey };
-    const response = editing ? await fetch(`/api/comments/${editing.id}`, { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }) : await fetch('/api/comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ brandSlug: brand.slug, docId: doc.id, relativePath: doc.relativePath, authorName, ...payload, selectedText: target?.text || '', contextBefore: '', contextAfter: '', headingText: target?.heading || doc.title, anchorId: target?.anchorId || '' }) });
-    const data = await response.json(); if (!response.ok) return setMessage(data.error || '提交失败');
-    setComments((old) => editing ? old.map((item) => item.id === data.comment.id ? data.comment : item) : [data.comment, ...old]); setBody(''); setEditing(null); setMessage(editing ? '已保存' : '已提交');
+    setSubmitting(true); setMessage('');
+    try {
+      if (!useCommentApi) {
+        const stored = readLocalComments(brand.slug);
+        if (editing) {
+          const index = stored.findIndex((item) => item.id === editing.id && item.ownerKey === editKey);
+          if (index < 0) throw new Error('没有修改该批注的权限');
+          stored[index] = { ...stored[index], comment: body.trim(), updatedAt: new Date().toISOString() };
+          writeLocalComments(brand.slug, stored);
+          setComments((old) => old.map((item) => item.id === editing.id ? presentLocalComment(stored[index], editKey) : item));
+        } else {
+          const now = new Date().toISOString();
+          const comment = {
+            id: randomKey(), brandSlug: brand.slug, docId: doc.id, relativePath: doc.relativePath,
+            docTitle: doc.title, targetKind: target?.kind || 'document', status: 'open', resolvedAt: null,
+            authorName: authorName.trim(), comment: body.trim(), suggestedText: '', selectedText: target?.text || '',
+            contextBefore: '', contextAfter: '', headingText: target?.heading || doc.title, anchorId: target?.anchorId || '',
+            createdAt: now, updatedAt: now, ownerKey: editKey
+          };
+          stored.push(comment); writeLocalComments(brand.slug, stored);
+          setComments((old) => [presentLocalComment(comment, editKey), ...old]);
+        }
+        setBody(''); setEditing(null); setMessage('已保存到当前浏览器');
+        return;
+      }
+      const payload = { comment: body.trim(), suggestedText: '', website: '', editKey };
+      const response = editing
+        ? await fetch(commentApiUrl(`/api/comments/${editing.id}`), { method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) })
+        : await fetch(commentApiUrl('/api/comments'), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ brandSlug: brand.slug, docId: doc.id, relativePath: doc.relativePath, docTitle: doc.title, targetKind: target?.kind || 'document', authorName: authorName.trim(), ...payload, selectedText: target?.text || '', contextBefore: '', contextAfter: '', headingText: target?.heading || doc.title, anchorId: target?.anchorId || '' }) });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || '提交失败');
+      setComments((old) => editing ? old.map((item) => item.id === data.comment.id ? data.comment : item) : [data.comment, ...old]);
+      setBody(''); setEditing(null); setMessage(editing ? '已保存修改' : '已提交批注');
+    } catch (reason) {
+      setMessage(reason.message || '提交失败');
+    } finally {
+      setSubmitting(false);
+    }
+  }
+  async function remove(comment) {
+    if (!window.confirm('确定删除这条批注吗？')) return;
+    setMessage('');
+    try {
+      if (!useCommentApi) {
+        const stored = readLocalComments(brand.slug);
+        const owned = stored.find((item) => item.id === comment.id && item.ownerKey === editKey);
+        if (!owned) throw new Error('没有删除该批注的权限');
+        writeLocalComments(brand.slug, stored.filter((item) => item.id !== comment.id));
+      } else {
+        const response = await fetch(commentApiUrl(`/api/comments/${comment.id}`), { method: 'DELETE', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ editKey }) });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.error || '删除失败');
+      }
+      setComments((old) => old.filter((item) => item.id !== comment.id));
+      if (editing?.id === comment.id) { setEditing(null); setBody(''); }
+      setMessage('批注已删除');
+    } catch (reason) { setMessage(reason.message || '删除失败'); }
   }
   if (!open) return null;
-  return <aside className="comment-panel"><header className="comment-panel__header"><div className="comment-panel__head-copy"><div className="comment-panel__title"><span>批注</span><span className="dot">·</span><span className="reviewer-name">{authorName ? `批注人：${authorName}` : '批注人'}</span></div>{comments.length ? <div className="comment-panel__subtitle">{comments.length} 条当前内容批注</div> : null}</div><button className="icon-btn" onClick={onClose} aria-label="关闭批注"><X size={16} /></button></header>
-    <form className="comment-composer" onSubmit={submit}><label className="comment-field"><span>批注人</span><input value={authorName} maxLength="80" onChange={(event) => setAuthorName(event.target.value)} placeholder="请输入姓名" required /></label><div className="comment-composer__target"><span>当前内容</span><blockquote>{target?.text || target?.heading || doc.title}</blockquote></div><label className="comment-field"><span>批注内容</span><textarea value={body} maxLength="3000" rows="5" onChange={(event) => setBody(event.target.value)} placeholder="请写下需要确认或纠正的问题，或直接写建议内容" required /></label>{message && <div className="comment-submit-message">{message}</div>}<div className="comment-composer__actions"><button type="button" onClick={() => { setBody(''); setEditing(null); }}>取消</button><button className="primary">{editing ? '保存修改' : '确认'}</button></div></form>
-    <div className="comment-list">{comments.length ? comments.map((comment) => <article className="comment-item" key={comment.id}><div className="comment-item__meta"><strong>{comment.authorName}</strong><span>{new Date(comment.createdAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}</span></div>{comment.selectedText ? <blockquote className="comment-item__quote">{comment.selectedText}</blockquote> : <div className="comment-item__scope">当前内容</div>}<p>{comment.comment}</p>{comment.canEdit && <div className="comment-item__actions"><button onClick={() => { setEditing(comment); setBody(comment.comment); }}>修改</button></div>}</article>) : <div className="comment-empty">暂无批注</div>}</div>
+  const targetLabel = target?.kind === 'row' ? '当前行' : target?.kind === 'block' ? '当前段落' : '当前知识点';
+  return <aside className="comment-panel"><header className="comment-panel__header"><div className="comment-panel__head-copy"><div className="comment-panel__title"><span>批注</span><span className="dot">·</span><span className="reviewer-name">{authorName ? `批注人：${authorName}` : '批注人'}</span></div><div className="comment-panel__subtitle">{comments.length ? `${comments.length} 条本知识点批注` : '本知识点暂无批注'}</div><div className="comment-panel__storage">{useCommentApi ? '团队在线同步' : '保存在当前浏览器'}</div></div><button className="icon-btn" onClick={onClose} aria-label="关闭批注"><X size={16} /></button></header>
+    <form className="comment-composer" onSubmit={submit}><label className="comment-field"><span>批注人</span><input value={authorName} maxLength="80" onChange={(event) => setAuthorName(event.target.value)} placeholder="请输入姓名" required /></label><div className="comment-composer__target"><span>{targetLabel}</span><blockquote>{target?.text || target?.heading || doc.title}</blockquote></div><label className="comment-field"><span>批注内容</span><textarea value={body} maxLength="3000" rows="5" onChange={(event) => setBody(event.target.value)} placeholder="请写下需要确认或纠正的问题，或直接写建议内容" required /></label>{message && <div className="comment-submit-message" role="status">{message}</div>}<div className="comment-composer__actions"><button type="button" onClick={() => { setBody(''); setEditing(null); setMessage(''); }}>取消</button><button type="submit" className="primary" disabled={submitting}>{submitting ? '正在保存…' : (editing ? '保存修改' : '确认')}</button></div></form>
+    <div className="comment-list">{comments.length ? comments.map((comment) => <article className={`comment-item${comment.status === 'resolved' ? ' resolved' : ''}`} key={comment.id}><div className="comment-item__meta"><strong>{comment.authorName}</strong><span className={`comment-status${comment.status === 'resolved' ? ' resolved' : ''}`}>{comment.status === 'resolved' ? '已解决' : '待处理'}</span><span>{new Date(comment.createdAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}</span></div>{comment.selectedText ? <blockquote className="comment-item__quote">{comment.selectedText}</blockquote> : <div className="comment-item__scope">当前内容</div>}<p>{comment.comment}</p>{comment.canEdit && <div className="comment-item__actions"><button onClick={() => { setEditing(comment); setBody(comment.comment); setMessage(''); }}>修改</button><button className="danger" onClick={() => remove(comment)}>删除</button></div>}</article>) : <div className="comment-empty">暂无批注</div>}</div>
   </aside>;
 }
 
 export default function App() {
   const [currentRoute, setCurrentRoute] = useState(route); const [site, setSite] = useState(null); const [brand, setBrand] = useState(null); const [docData, setDocData] = useState(null); const [expanded, setExpanded] = useState({});
-  const [query, setQuery] = useState(''); const [searchEntries, setSearchEntries] = useState([]); const [drafts, setDrafts] = useState({}); const [error, setError] = useState(''); const [commentOpen, setCommentOpen] = useState(false); const [commentTarget, setCommentTarget] = useState(null); const [commentButton, setCommentButton] = useState(null); const articleRef = useRef(null); const searchRef = useRef(null);
+  const [query, setQuery] = useState(''); const [searchEntries, setSearchEntries] = useState([]); const [drafts, setDrafts] = useState({}); const [error, setError] = useState(''); const [commentOpen, setCommentOpen] = useState(false); const [commentTarget, setCommentTarget] = useState(null); const [commentButton, setCommentButton] = useState(null); const [exporting, setExporting] = useState(false); const [actionMessage, setActionMessage] = useState(''); const articleRef = useRef(null); const searchRef = useRef(null);
   const expandedBrandRef = useRef('');
-  const [editKey] = useState(() => { if (HOSTED_PREVIEW) return ''; const old = localStorage.getItem('brandbase:reviewer-edit-key'); if (old) return old; const next = randomKey(); localStorage.setItem('brandbase:reviewer-edit-key', next); return next; });
+  const [editKey] = useState(() => { const old = localStorage.getItem('brandbase:reviewer-edit-key'); if (old) return old; const next = randomKey(); localStorage.setItem('brandbase:reviewer-edit-key', next); return next; });
   useEffect(() => { const listener = () => setCurrentRoute(route()); addEventListener('popstate', listener); return () => removeEventListener('popstate', listener); }, []);
   useEffect(() => { const listener = (event) => { if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); searchRef.current?.focus(); } }; addEventListener('keydown', listener); return () => removeEventListener('keydown', listener); }, []);
   useEffect(() => { json('kb/manifest.json').then(setSite).catch((reason) => setError(`无法加载索引：${reason.message}`)); }, []);
-  useEffect(() => { if (currentRoute.manage) return; const selected = site?.brands.find((item) => item.slug === (currentRoute.brandSlug || site.defaultBrand)); if (!selected) return; json(selected.manifestUrl).then((data) => { setBrand(data); setDrafts(JSON.parse(localStorage.getItem(keyFor(data.slug)) || '{}')); if (!currentRoute.brandSlug) navigate({ brandSlug: data.slug, docId: data.defaultDocId, edit: false }, true); }).catch((reason) => setError(`无法加载知识库：${reason.message}`)); }, [site, currentRoute.brandSlug, currentRoute.manage]);
+  useEffect(() => { if (currentRoute.manage || currentRoute.comments) return; const selected = site?.brands.find((item) => item.slug === (currentRoute.brandSlug || site.defaultBrand)); if (!selected) return; json(selected.manifestUrl).then((data) => { setBrand(data); setDrafts(JSON.parse(localStorage.getItem(keyFor(data.slug)) || '{}')); if (!currentRoute.brandSlug) navigate({ brandSlug: data.slug, docId: data.defaultDocId, edit: false }, true); }).catch((reason) => setError(`无法加载知识库：${reason.message}`)); }, [site, currentRoute.brandSlug, currentRoute.manage, currentRoute.comments]);
   const activeDoc = brand?.docs.find((item) => item.id === currentRoute.docId) || brand?.docs.find((item) => item.id === brand?.defaultDocId);
   useEffect(() => {
     if (!brand?.tree || !activeDoc?.id) return;
@@ -188,16 +289,54 @@ export default function App() {
   const markdown = drafts[activeDoc?.id] ?? docData?.markdown ?? ''; const rendered = useMemo(() => markdownHtml(markdown), [markdown]);
   const toc = useMemo(() => [...rendered.matchAll(/<h([23]) id="([^"]+)">([^<]+)<\/h\1>/g)].map((match) => ({ depth: Number(match[1]), id: match[2], text: match[3] })), [rendered]);
   const docIndex = brand?.docs.findIndex((item) => item.id === activeDoc?.id) ?? -1; const previous = docIndex > 0 ? brand.docs[docIndex - 1] : null; const next = docIndex >= 0 && docIndex < (brand?.docs.length ?? 0) - 1 ? brand.docs[docIndex + 1] : null;
-  function select(docId) { navigate({ brandSlug: brand.slug, docId, edit: currentRoute.edit }); }
+  function select(docId) { setCommentOpen(false); setCommentTarget(null); setCommentButton(null); navigate({ brandSlug: brand.slug, docId, edit: currentRoute.edit }); }
   function saveDraft(nextMarkdown) { const nextDrafts = { ...drafts, [activeDoc.id]: nextMarkdown }; setDrafts(nextDrafts); localStorage.setItem(keyFor(brand.slug), JSON.stringify(nextDrafts)); }
   function discardDraft() { const nextDrafts = { ...drafts }; delete nextDrafts[activeDoc.id]; setDrafts(nextDrafts); localStorage.setItem(keyFor(brand.slug), JSON.stringify(nextDrafts)); }
-  async function exportAll() { const zip = new JSZip(); const contents = await Promise.all(brand.docs.map(async (doc) => ({ doc, data: await json(doc.contentUrl) }))); for (const { doc, data } of contents) zip.file(doc.relativePath, drafts[doc.id] ?? data.markdown); const blob = await zip.generateAsync({ type: 'blob' }); const link = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: `brandbase-${brand.slug}-kb.zip` }); link.click(); URL.revokeObjectURL(link.href); }
-  function showComment(event) { if (HOSTED_PREVIEW) return; const selection = window.getSelection()?.toString().trim(); const block = event.target.closest('h1,h2,h3,h4,p,li,blockquote,table,pre'); if (!block || !articleRef.current?.contains(block)) return; const rect = block.getBoundingClientRect(); const text = selection || block.textContent?.trim() || activeDoc.title; setCommentTarget({ text: text.slice(0, 1200), heading: activeDoc.title, anchorId: `${activeDoc.id}:block` }); setCommentButton({ x: Math.min(window.innerWidth - 110, rect.right + 10), y: Math.max(60, rect.top) }); }
+  async function exportAll() {
+    if (!brand || exporting) return;
+    setExporting(true); setActionMessage('');
+    try {
+      const exported = brand.exportUrl ? await json(brand.exportUrl) : null;
+      const contents = exported?.docs ?? await Promise.all(brand.docs.map(async (doc) => ({ id: doc.id, relativePath: doc.relativePath, markdown: (await json(doc.contentUrl)).markdown })));
+      const zip = new JSZip();
+      for (const doc of contents) zip.file(doc.relativePath, drafts[doc.id] ?? doc.markdown);
+      const blob = await zip.generateAsync({ type: 'blob' });
+      const objectUrl = URL.createObjectURL(blob);
+      const date = displayDate(new Date());
+      const safeName = String(brand.shortName || brand.displayName || brand.slug).replace(/[\\/:*?"<>|]/g, '-');
+      const link = Object.assign(document.createElement('a'), { href: objectUrl, download: `${safeName}-Markdown-${date}.zip` });
+      document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+      setActionMessage(`已导出 ${contents.length} 个 Markdown 文件`);
+    } catch (reason) {
+      setActionMessage(`导出失败：${reason.message}`);
+    } finally {
+      setExporting(false);
+    }
+  }
+  function showComment(event) {
+    const article = articleRef.current;
+    const selector = 'tbody tr,h1,h2,h3,h4,p,li,blockquote,pre';
+    const block = event.target.closest(selector);
+    if (!block || !article?.contains(block)) return;
+    const isRow = block.matches('tbody tr');
+    const selection = window.getSelection()?.toString().trim();
+    const rowText = isRow ? [...block.cells].map((cell) => cell.textContent?.trim()).filter(Boolean).join(' ｜ ') : '';
+    const text = selection || rowText || block.textContent?.trim() || activeDoc.title;
+    const blocks = [...article.querySelectorAll(selector)];
+    const blockIndex = blocks.indexOf(block);
+    const headings = [...article.querySelectorAll('h1,h2,h3,h4')];
+    const precedingHeading = headings.filter((heading) => heading === block || Boolean(heading.compareDocumentPosition(block) & Node.DOCUMENT_POSITION_FOLLOWING)).at(-1);
+    const kind = isRow ? 'row' : 'block';
+    const rect = block.getBoundingClientRect();
+    setCommentTarget({ kind, text: text.slice(0, 1200), heading: precedingHeading?.textContent?.trim() || activeDoc.title, anchorId: `${activeDoc.id}:${kind}:${blockIndex}` });
+    setCommentButton({ x: Math.min(window.innerWidth - (isRow ? 128 : 110), rect.right + 10), y: Math.max(60, rect.top) });
+  }
   if (currentRoute.manage) return <Manager />;
+  if (currentRoute.comments) return site ? <CommentManager apiBase={COMMENT_API_BASE} brandSlug={site.defaultBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: site.defaultBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || site.defaultBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
   if (error) return <main className="error">{error}</main>; if (!brand || !activeDoc) return <main className="loading">加载品牌知识库…</main>;
   return <div className="kb-shell">
     <div className="app"><aside className="sidebar"><div className="sidebar-header"><div className="logo-copy"><div className="sidebar-eyebrow">KUAILU KNOWLEDGE</div><div className="logo-text">快鹭品牌知识库</div><div className="logo-sub">{brand.knowledgePointCount} 个知识点</div></div></div><label className="search-box"><Search size={13} className="search-icon" /><input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索知识库内容…" /><span className="kbd">⌘K</span></label><div className="sidebar-section-label">内容目录</div>{query.trim() ? <div className="search-results"><div className="search-status">{searchEntries.length ? '全文索引已就绪' : '正在加载全文索引'}</div><div className="result-list">{results.map((result) => <button className="result-item" key={result.id} onClick={() => select(result.id)}><span className="result-title">{result.title}</span><span className="result-path">{result.breadcrumbs.join(' / ')}</span><span className="result-snippet">{result.text}</span></button>)}{!results.length && <div className="empty-search">没有找到「{query}」</div>}</div></div> : <nav className="tree"><Tree nodes={brand.tree} active={activeDoc.id} expanded={expanded} setExpanded={setExpanded} select={select} /></nav>}</aside>
-      <main className={`main${commentOpen ? ' comments-open' : ''}`}><div className="topbar"><div className="breadcrumbs">{activeDoc.breadcrumbs.map((crumb, index) => <span className="crumb-part" key={`${crumb}-${index}`}>{index > 0 && <span className="sep">/</span>}<span className={`crumb${index === activeDoc.breadcrumbs.length - 1 ? ' current' : ''}`}>{crumb}</span></span>)}</div></div><div className="content-wrap"><div className="content-card">{currentRoute.edit ? <VisualEditor initialHtml={rendered} resetKey={`${activeDoc.id}:${markdown.length}`} doc={activeDoc} onSave={saveDraft} onDiscard={discardDraft} onExport={exportAll} onExit={() => navigate({ brandSlug: brand.slug, docId: activeDoc.id, edit: false })} /> : <><div className="article-kicker"><span>KNOWLEDGE DOCUMENT</span><i>已收录</i></div><article ref={articleRef} className="article blog-html-content" dangerouslySetInnerHTML={{ __html: rendered }} onMouseMove={showComment} onMouseUp={showComment} /><div className="doc-meta-footer"><span>{activeDoc.relativePath}</span><span>更新时间：{displayDate(activeDoc.updatedAt)}</span></div><div className="doc-footer">{previous ? <button onClick={() => select(previous.id)}><span className="lbl">← 上一篇</span><span className="title">{previous.title}</span></button> : <span />}{next ? <button className="next" onClick={() => select(next.id)}><span className="lbl">下一篇 →</span><span className="title">{next.title}</span></button> : <span />}</div></>}</div></div>{!HOSTED_PREVIEW && !currentRoute.edit && commentButton && <button className="block-comment-button" style={{ left: commentButton.x, top: commentButton.y }} onClick={() => { setCommentOpen(true); setCommentButton(null); }}><MessageSquarePlus size={13} />批注</button>}{toc.length > 0 && !currentRoute.edit && <nav className="toc"><div className="toc-label">本页目录</div>{toc.map((item) => <button key={item.id} className={item.depth === 3 ? 'depth-3' : ''} onClick={() => document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{item.text}</button>)}</nav>}{!HOSTED_PREVIEW && <CommentPanel open={commentOpen} onClose={() => setCommentOpen(false)} brand={brand} doc={activeDoc} editKey={editKey} target={commentTarget} />}</main>
+      <main className={`main${commentOpen ? ' comments-open' : ''}`}><div className="topbar"><div className="breadcrumbs">{activeDoc.breadcrumbs.map((crumb, index) => <span className="crumb-part" key={`${crumb}-${index}`}>{index > 0 && <span className="sep">/</span>}<span className={`crumb${index === activeDoc.breadcrumbs.length - 1 ? ' current' : ''}`}>{crumb}</span></span>)}</div><div className="topbar-actions">{actionMessage && <span className="topbar-status" role="status" title={actionMessage}>{actionMessage}</span>}{IS_LOCAL_HOST && !currentRoute.edit && <button type="button" className="topbar-action" onClick={navigateComments}>批注管理</button>}{!currentRoute.edit && <button type="button" className="topbar-action" onClick={() => { setCommentTarget({ kind: 'document', text: '', heading: activeDoc.title, anchorId: `${activeDoc.id}:document` }); setCommentButton(null); setCommentOpen(true); }}>批注</button>}<button type="button" className="topbar-action topbar-action--primary" title="导出 Markdown 知识库" onClick={exportAll} disabled={exporting}>{exporting ? '导出中…' : '导出'}</button></div></div><div className="content-wrap"><div className="content-card">{currentRoute.edit ? <VisualEditor initialHtml={rendered} resetKey={`${activeDoc.id}:${markdown.length}`} doc={activeDoc} onSave={saveDraft} onDiscard={discardDraft} onExport={exportAll} onExit={() => navigate({ brandSlug: brand.slug, docId: activeDoc.id, edit: false })} /> : <><div className="article-kicker"><span>KNOWLEDGE DOCUMENT</span><i>已收录</i></div><article ref={articleRef} className="article blog-html-content" dangerouslySetInnerHTML={{ __html: rendered }} onMouseOver={showComment} onMouseUp={showComment} /><div className="doc-meta-footer"><span>{activeDoc.relativePath}</span><span>更新时间：{displayDate(activeDoc.updatedAt)}</span></div><div className="doc-footer">{previous ? <button onClick={() => select(previous.id)}><span className="lbl">← 上一篇</span><span className="title">{previous.title}</span></button> : <span />}{next ? <button className="next" onClick={() => select(next.id)}><span className="lbl">下一篇 →</span><span className="title">{next.title}</span></button> : <span />}</div></>}</div></div>{!currentRoute.edit && commentButton && <button className="block-comment-button" style={{ left: commentButton.x, top: commentButton.y }} onClick={() => { setCommentOpen(true); setCommentButton(null); }}><MessageSquarePlus size={13} />批注</button>}{toc.length > 0 && !currentRoute.edit && <nav className="toc"><div className="toc-label">本页目录</div>{toc.map((item) => <button key={item.id} className={item.depth === 3 ? 'depth-3' : ''} onClick={() => document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{item.text}</button>)}</nav>}<CommentPanel open={commentOpen} onClose={() => setCommentOpen(false)} brand={brand} doc={activeDoc} editKey={editKey} target={commentTarget} useCommentApi={USE_COMMENT_API} /></main>
     </div>
   </div>;
 }
