@@ -1,0 +1,17 @@
+{
+  "id": "ab5a95245d76b04d",
+  "title": "Convert scene",
+  "label": "12-Conversion Scenarios",
+  "relativePath": "01-Brand Information/05-Audience Profiles/12-Conversion Scenarios.md",
+  "breadcrumbs": [
+    "Brand Information",
+    "Audience Profiles",
+    "Convert scene"
+  ],
+  "category": "Brand Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-08-28T09:01:16.664Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/ab5a95245d76b04d.json",
+  "markdown": "# Convert scene\n\n## Customer decision-making travel\n\n### Travel Chart\n\n| Phase | Client issues | Key players | Common verification | Common observation indicators |\n|---|---|---|---|---|\n| 1. Problem awakening | Why is it inefficient and not always right? | Boss, head of business. | Diagnosis table, industry benchmark, ROI self-measured | Effective diagnostic completion rate |\n| 2. Programme exploration | Buy single-point tools, change ERPs, or integrate them? | Operations + IT | Structure comparison, status system inventory, scene sorting | Proportion of programme participants |\n| 3. Brand comparison | Why the current scheme? | Procurement, IT, responsible | Comparative matrix, industry case, integrated and safety materials | Rate of technical review pass |\n| 4. Demonstration and trial | Can I run through the real process? | First-line users, business owners | Scenario presentation using client sample data | Core mission completion rate |\n| 5. Business decision-making | Are total costs, risks and returns manageable? | Boss, finance, procurement | TCO/ROI, SLA, project plan, exit mechanism | Pilot contracting rate |\n| 6. Sector pilots | Do users really use it and do indicators improve? | Project leader, first line | 14-90 days of pilot, weekly board, training | Activity, time savings, error rate |\n| 7. Extending access | How to expand from one sector to the whole company? | IT, COO, departments | Main data governance, interface, authority and change management | Expansion of module rate, go-live cycle |\n| 8. Continuation costs and recommendations | Is the value continuous and the service reliable? | Boss, buyer, user. | Quarterly operational reviews, value reports, road map | Continuation rate, net income retention, recommended rate |\n\n### Critical experience nodes\n\n| Matters | Information |\n| --- | --- |\n| First scene presentation | Whether to use the client ' s own processes and fields rather than the generic template; |\n| First Data Import | Fast, accurate and roll-backable; |\n| First-line employee week. | Whether operations are really reduced; |\n| First time out. | Whether AI or process error can be explained, withdrawn and supported; |\n| First month to manage the flash drive | Quantifiable business improvements; |\n| First expansion module | Whether re-use of the platform would be easier than re-procurement of the new system. |\n"
+}

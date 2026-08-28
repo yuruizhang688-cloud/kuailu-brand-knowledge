@@ -18,10 +18,10 @@ const json = (url) => fetch(`${BASE_PATH}/${url.replace(/^\//, '')}`, { cache: '
   return response.json();
 });
 const words = (value) => value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
-const displayDate = (value) => {
+const displayDate = (value, locale = 'zh-CN') => {
   const date = value ? new Date(value) : null;
-  if (!date || Number.isNaN(date.getTime())) return '未知';
-  return new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' }).format(date).replaceAll('/', '-');
+  if (!date || Number.isNaN(date.getTime())) return locale.startsWith('en') ? 'Unknown' : '未知';
+  return new Intl.DateTimeFormat(locale, { year: 'numeric', month: '2-digit', day: '2-digit' }).format(date).replaceAll('/', '-');
 };
 const keyFor = (brand) => `brandbase:${brand}:drafts`;
 const commentsKeyFor = (brand) => `brandbase:${brand}:comments`;
@@ -88,7 +88,7 @@ function route() {
   const internalRoute = pieces[0] === 'manage' || pieces[0] === 'comments';
   const requestedBrandSlug = pieces[0] || '';
   const brandSlug = requestedBrandSlug === 'kuailu-v1' ? 'kuailu-v2' : requestedBrandSlug;
-  return { manage, comments, adminMode, brandSlug: internalRoute ? '' : brandSlug, docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
+  return { manage, comments, adminMode, commentBrand: query.get('brand') || '', brandSlug: internalRoute ? '' : brandSlug, docId: query.get('doc'), edit: !HOSTED_PREVIEW && query.get('edit') === '1' };
 }
 
 function navigate({ brandSlug, docId, edit, adminMode = route().adminMode }, replace = false) {
@@ -100,8 +100,9 @@ function navigate({ brandSlug, docId, edit, adminMode = route().adminMode }, rep
   dispatchEvent(new PopStateEvent('popstate'));
 }
 
-function navigateComments() {
-  history.pushState(null, '', `${BASE_PATH}/comments?mode=admin`);
+function navigateComments(brandSlug) {
+  const query = new URLSearchParams({ mode: 'admin', brand: brandSlug });
+  history.pushState(null, '', `${BASE_PATH}/comments?${query}`);
   dispatchEvent(new PopStateEvent('popstate'));
 }
 
@@ -167,7 +168,8 @@ function VisualEditor({ initialHtml, resetKey, doc, onSave, onDiscard, onExport,
   </section>;
 }
 
-function CommentPanel({ open, onClose, brand, doc, editKey, target, useCommentApi }) {
+function CommentPanel({ open, onClose, brand, doc, editKey, target, useCommentApi, locale = 'zh-CN' }) {
+  const english = locale.startsWith('en');
   const [comments, setComments] = useState([]); const [authorName, setAuthorName] = useState(() => localStorage.getItem('brandbase:reviewer-name') || '');
   const [body, setBody] = useState(''); const [message, setMessage] = useState(''); const [editing, setEditing] = useState(null); const [submitting, setSubmitting] = useState(false);
   async function load() {
@@ -258,9 +260,9 @@ function CommentPanel({ open, onClose, brand, doc, editKey, target, useCommentAp
     } catch (reason) { setMessage(reason.message || '删除失败'); }
   }
   if (!open) return null;
-  const targetLabel = target?.kind === 'row' ? '当前行' : target?.kind === 'block' ? '当前段落' : '当前知识点';
-  return <aside className="comment-panel"><header className="comment-panel__header"><div className="comment-panel__head-copy"><div className="comment-panel__title"><span>批注</span><span className="dot">·</span><span className="reviewer-name">{authorName ? `批注人：${authorName}` : '批注人'}</span></div><div className="comment-panel__subtitle">{comments.length ? `${comments.length} 条本知识点批注` : '本知识点暂无批注'}</div><div className="comment-panel__storage">{useCommentApi ? '团队在线同步' : '保存在当前浏览器'}</div></div><button className="icon-btn" onClick={onClose} aria-label="关闭批注"><X size={16} /></button></header>
-    <form className="comment-composer" onSubmit={submit}><label className="comment-field"><span>批注人</span><input value={authorName} maxLength="80" onChange={(event) => setAuthorName(event.target.value)} placeholder="请输入姓名" required /></label><div className="comment-composer__target"><span>{targetLabel}</span><blockquote>{target?.text || target?.heading || doc.title}</blockquote></div><label className="comment-field"><span>批注内容</span><textarea value={body} maxLength="3000" rows="5" onChange={(event) => setBody(event.target.value)} placeholder="请写下需要确认或纠正的问题，或直接写建议内容" required /></label>{message && <div className="comment-submit-message" role="status">{message}</div>}<div className="comment-composer__actions"><button type="button" onClick={() => { setBody(''); setEditing(null); setMessage(''); }}>取消</button><button type="submit" className="primary" disabled={submitting}>{submitting ? '正在保存…' : (editing ? '保存修改' : '确认')}</button></div></form>
+  const targetLabel = target?.kind === 'row' ? (english ? 'Selected row' : '当前行') : target?.kind === 'block' ? (english ? 'Selected section' : '当前段落') : (english ? 'Current knowledge point' : '当前知识点');
+  return <aside className="comment-panel"><header className="comment-panel__header"><div className="comment-panel__head-copy"><div className="comment-panel__title"><span>{english ? 'Comment' : '批注'}</span><span className="dot">·</span><span className="reviewer-name">{authorName ? `${english ? 'Reviewer' : '批注人'}: ${authorName}` : (english ? 'Reviewer' : '批注人')}</span></div><div className="comment-panel__subtitle">{comments.length ? (english ? `${comments.length} comment(s) on this knowledge point` : `${comments.length} 条本知识点批注`) : (english ? 'No comments on this knowledge point' : '本知识点暂无批注')}</div><div className="comment-panel__storage">{useCommentApi ? (english ? 'Synced with the team' : '团队在线同步') : (english ? 'Saved in this browser' : '保存在当前浏览器')}</div></div><button className="icon-btn" onClick={onClose} aria-label={english ? 'Close comments' : '关闭批注'}><X size={16} /></button></header>
+    <form className="comment-composer" onSubmit={submit}><label className="comment-field"><span>{english ? 'Reviewer' : '批注人'}</span><input value={authorName} maxLength="80" onChange={(event) => setAuthorName(event.target.value)} placeholder={english ? 'Enter your name' : '请输入姓名'} required /></label><div className="comment-composer__target"><span>{targetLabel}</span><blockquote>{target?.text || target?.heading || doc.title}</blockquote></div><label className="comment-field"><span>{english ? 'Comment' : '批注内容'}</span><textarea value={body} maxLength="3000" rows="5" onChange={(event) => setBody(event.target.value)} placeholder={english ? 'Describe the issue or enter your suggested wording' : '请写下需要确认或纠正的问题，或直接写建议内容'} required /></label>{message && <div className="comment-submit-message" role="status">{message}</div>}<div className="comment-composer__actions"><button type="button" onClick={() => { setBody(''); setEditing(null); setMessage(''); }}>{english ? 'Cancel' : '取消'}</button><button type="submit" className="primary" disabled={submitting}>{submitting ? (english ? 'Saving…' : '正在保存…') : (editing ? (english ? 'Save changes' : '保存修改') : (english ? 'Confirm' : '确认'))}</button></div></form>
     <div className="comment-list">{comments.length ? comments.map((comment) => <article className={`comment-item${comment.status === 'resolved' ? ' resolved' : ''}`} key={comment.id}><div className="comment-item__meta"><strong>{comment.authorName}</strong><span className={`comment-status${comment.status === 'resolved' ? ' resolved' : ''}`}>{comment.status === 'resolved' ? '已解决' : '待处理'}</span><span>{new Date(comment.createdAt).toLocaleString('zh-CN', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })}</span></div>{comment.selectedText ? <blockquote className="comment-item__quote">{comment.selectedText}</blockquote> : <div className="comment-item__scope">当前内容</div>}<p>{comment.comment}</p>{comment.canEdit && <div className="comment-item__actions"><button onClick={() => { setEditing(comment); setBody(comment.comment); setMessage(''); }}>修改</button><button className="danger" onClick={() => remove(comment)}>删除</button></div>}</article>) : <div className="comment-empty">暂无批注</div>}</div>
   </aside>;
 }
@@ -275,6 +277,12 @@ export default function App() {
   useEffect(() => { json('kb/manifest.json').then(setSite).catch((reason) => setError(`无法加载索引：${reason.message}`)); }, []);
   useEffect(() => { if (currentRoute.manage || currentRoute.comments) return; const selected = site?.brands.find((item) => item.slug === (currentRoute.brandSlug || site.defaultBrand)); if (!selected) return; json(selected.manifestUrl).then((data) => { setBrand(data); setDrafts(JSON.parse(localStorage.getItem(keyFor(data.slug)) || '{}')); if (!currentRoute.brandSlug) navigate({ brandSlug: data.slug, docId: data.defaultDocId, edit: false }, true); }).catch((reason) => setError(`无法加载知识库：${reason.message}`)); }, [site, currentRoute.brandSlug, currentRoute.manage, currentRoute.comments]);
   const activeDoc = brand?.docs.find((item) => item.id === currentRoute.docId) || brand?.docs.find((item) => item.id === brand?.defaultDocId);
+  const english = brand?.locale?.startsWith('en');
+  const copy = english ? {
+    points: 'knowledge points', search: 'Search the knowledge base…', contents: 'CONTENTS', ready: 'Full-text index ready', loadingIndex: 'Loading full-text index', noResults: 'No results for', commentManager: 'Comment Management', comment: 'Comment', export: 'Export', exporting: 'Exporting…', exportTitle: 'Export Markdown knowledge base', included: 'Included', updated: 'Updated', previous: 'Previous', next: 'Next', onThisPage: 'ON THIS PAGE'
+  } : {
+    points: '个知识点', search: '搜索知识库内容…', contents: '内容目录', ready: '全文索引已就绪', loadingIndex: '正在加载全文索引', noResults: '没有找到', commentManager: '批注管理', comment: '批注', export: '导出', exporting: '导出中…', exportTitle: '导出 Markdown 知识库', included: '已收录', updated: '更新时间', previous: '上一篇', next: '下一篇', onThisPage: '本页目录'
+  };
   useEffect(() => {
     if (!brand?.tree || !activeDoc?.id) return;
     const path = activeFolderPath(brand.tree, activeDoc.id) || [];
@@ -305,13 +313,13 @@ export default function App() {
       for (const doc of contents) zip.file(doc.relativePath, drafts[doc.id] ?? doc.markdown);
       const blob = await zip.generateAsync({ type: 'blob' });
       const objectUrl = URL.createObjectURL(blob);
-      const date = displayDate(new Date());
+      const date = displayDate(new Date(), brand.locale);
       const safeName = String(brand.shortName || brand.displayName || brand.slug).replace(/[\\/:*?"<>|]/g, '-');
       const link = Object.assign(document.createElement('a'), { href: objectUrl, download: `${safeName}-Markdown-${date}.zip` });
       document.body.appendChild(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
-      setActionMessage(`已导出 ${contents.length} 个 Markdown 文件`);
+      setActionMessage(english ? `Exported ${contents.length} Markdown files` : `已导出 ${contents.length} 个 Markdown 文件`);
     } catch (reason) {
-      setActionMessage(`导出失败：${reason.message}`);
+      setActionMessage(english ? `Export failed: ${reason.message}` : `导出失败：${reason.message}`);
     } finally {
       setExporting(false);
     }
@@ -335,11 +343,14 @@ export default function App() {
     setCommentButton({ x: Math.min(window.innerWidth - (isRow ? 128 : 110), rect.right + 10), y: Math.max(60, rect.top) });
   }
   if (currentRoute.manage) return <Manager />;
-  if (currentRoute.comments) return site ? <CommentManager apiBase={COMMENT_API_BASE} adminToken={COMMENT_ADMIN_TOKEN} requireAdminKey={IS_LOCAL_HOST} brandSlug={site.defaultBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: site.defaultBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || site.defaultBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
+  if (currentRoute.comments) {
+    const commentBrand = currentRoute.commentBrand || site?.defaultBrand;
+    return site ? <CommentManager apiBase={COMMENT_API_BASE} adminToken={COMMENT_ADMIN_TOKEN} requireAdminKey={IS_LOCAL_HOST} brandSlug={commentBrand} basePath={BASE_PATH} onBack={() => navigate({ brandSlug: commentBrand, docId: null, edit: false })} onOpenComment={(comment) => navigate({ brandSlug: comment.brandSlug || commentBrand, docId: comment.docId, edit: false })} /> : <main className="loading">加载批注管理…</main>;
+  }
   if (error) return <main className="error">{error}</main>; if (!brand || !activeDoc) return <main className="loading">加载品牌知识库…</main>;
   return <div className="kb-shell">
-    <div className="app"><aside className="sidebar"><div className="sidebar-header"><div className="logo-copy"><div className="sidebar-eyebrow">KUAILU KNOWLEDGE</div><div className="logo-text">快鹭品牌知识库</div><div className="logo-sub">{brand.knowledgePointCount} 个知识点</div></div></div><label className="search-box"><Search size={13} className="search-icon" /><input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索知识库内容…" /><span className="kbd">⌘K</span></label><div className="sidebar-section-label">内容目录</div>{query.trim() ? <div className="search-results"><div className="search-status">{searchEntries.length ? '全文索引已就绪' : '正在加载全文索引'}</div><div className="result-list">{results.map((result) => <button className="result-item" key={result.id} onClick={() => select(result.id)}><span className="result-title">{result.title}</span><span className="result-path">{result.breadcrumbs.join(' / ')}</span><span className="result-snippet">{result.text}</span></button>)}{!results.length && <div className="empty-search">没有找到「{query}」</div>}</div></div> : <nav className="tree"><Tree nodes={brand.tree} active={activeDoc.id} expanded={expanded} setExpanded={setExpanded} select={select} /></nav>}</aside>
-      <main className={`main${commentOpen ? ' comments-open' : ''}`}><div className="topbar"><div className="breadcrumbs">{activeDoc.breadcrumbs.map((crumb, index) => <span className="crumb-part" key={`${crumb}-${index}`}>{index > 0 && <span className="sep">/</span>}<span className={`crumb${index === activeDoc.breadcrumbs.length - 1 ? ' current' : ''}`}>{crumb}</span></span>)}</div><div className="topbar-actions">{actionMessage && <span className="topbar-status" role="status" title={actionMessage}>{actionMessage}</span>}{currentRoute.adminMode && !currentRoute.edit && <button type="button" className="topbar-action" onClick={navigateComments}>批注管理</button>}{!currentRoute.edit && <button type="button" className="topbar-action" onClick={() => { setCommentTarget({ kind: 'document', text: '', heading: activeDoc.title, anchorId: `${activeDoc.id}:document` }); setCommentButton(null); setCommentOpen(true); }}>批注</button>}<button type="button" className="topbar-action topbar-action--primary" title="导出 Markdown 知识库" onClick={exportAll} disabled={exporting}>{exporting ? '导出中…' : '导出'}</button></div></div><div className="content-wrap"><div className="content-card">{currentRoute.edit ? <VisualEditor initialHtml={rendered} resetKey={`${activeDoc.id}:${markdown.length}`} doc={activeDoc} onSave={saveDraft} onDiscard={discardDraft} onExport={exportAll} onExit={() => navigate({ brandSlug: brand.slug, docId: activeDoc.id, edit: false })} /> : <><div className="article-kicker"><span>KNOWLEDGE DOCUMENT</span><i>已收录</i></div><article ref={articleRef} className="article blog-html-content" dangerouslySetInnerHTML={{ __html: rendered }} onMouseOver={showComment} onMouseUp={showComment} /><div className="doc-meta-footer"><span>{activeDoc.relativePath}</span><span>更新时间：{displayDate(activeDoc.updatedAt)}</span></div><div className="doc-footer">{previous ? <button onClick={() => select(previous.id)}><span className="lbl">← 上一篇</span><span className="title">{previous.title}</span></button> : <span />}{next ? <button className="next" onClick={() => select(next.id)}><span className="lbl">下一篇 →</span><span className="title">{next.title}</span></button> : <span />}</div></>}</div></div>{!currentRoute.edit && commentButton && <button className="block-comment-button" style={{ left: commentButton.x, top: commentButton.y }} onClick={() => { setCommentOpen(true); setCommentButton(null); }}><MessageSquarePlus size={13} />批注</button>}{toc.length > 0 && !currentRoute.edit && <nav className="toc"><div className="toc-label">本页目录</div>{toc.map((item) => <button key={item.id} className={item.depth === 3 ? 'depth-3' : ''} onClick={() => document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{item.text}</button>)}</nav>}<CommentPanel open={commentOpen} onClose={() => setCommentOpen(false)} brand={brand} doc={activeDoc} editKey={editKey} target={commentTarget} useCommentApi={USE_COMMENT_API} /></main>
+    <div className="app"><aside className="sidebar"><div className="sidebar-header"><div className="logo-copy"><div className="sidebar-eyebrow">KUAILU KNOWLEDGE</div><div className="logo-text">{brand.displayName}</div><div className="logo-sub">{brand.knowledgePointCount} {copy.points}</div></div></div><label className="search-box"><Search size={13} className="search-icon" /><input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={copy.search} /><span className="kbd">⌘K</span></label><div className="sidebar-section-label">{copy.contents}</div>{query.trim() ? <div className="search-results"><div className="search-status">{searchEntries.length ? copy.ready : copy.loadingIndex}</div><div className="result-list">{results.map((result) => <button className="result-item" key={result.id} onClick={() => select(result.id)}><span className="result-title">{result.title}</span><span className="result-path">{result.breadcrumbs.join(' / ')}</span><span className="result-snippet">{result.text}</span></button>)}{!results.length && <div className="empty-search">{copy.noResults} “{query}”</div>}</div></div> : <nav className="tree"><Tree nodes={brand.tree} active={activeDoc.id} expanded={expanded} setExpanded={setExpanded} select={select} /></nav>}</aside>
+      <main className={`main${commentOpen ? ' comments-open' : ''}`}><div className="topbar"><div className="breadcrumbs">{activeDoc.breadcrumbs.map((crumb, index) => <span className="crumb-part" key={`${crumb}-${index}`}>{index > 0 && <span className="sep">/</span>}<span className={`crumb${index === activeDoc.breadcrumbs.length - 1 ? ' current' : ''}`}>{crumb}</span></span>)}</div><div className="topbar-actions">{actionMessage && <span className="topbar-status" role="status" title={actionMessage}>{actionMessage}</span>}{currentRoute.adminMode && !currentRoute.edit && <button type="button" className="topbar-action" onClick={() => navigateComments(brand.slug)}>{copy.commentManager}</button>}{!currentRoute.edit && <button type="button" className="topbar-action" onClick={() => { setCommentTarget({ kind: 'document', text: '', heading: activeDoc.title, anchorId: `${activeDoc.id}:document` }); setCommentButton(null); setCommentOpen(true); }}>{copy.comment}</button>}<button type="button" className="topbar-action topbar-action--primary" title={copy.exportTitle} onClick={exportAll} disabled={exporting}>{exporting ? copy.exporting : copy.export}</button></div></div><div className="content-wrap"><div className="content-card">{currentRoute.edit ? <VisualEditor initialHtml={rendered} resetKey={`${activeDoc.id}:${markdown.length}`} doc={activeDoc} onSave={saveDraft} onDiscard={discardDraft} onExport={exportAll} onExit={() => navigate({ brandSlug: brand.slug, docId: activeDoc.id, edit: false })} /> : <><div className="article-kicker"><span>KNOWLEDGE DOCUMENT</span><i>{copy.included}</i></div><article ref={articleRef} className="article blog-html-content" dangerouslySetInnerHTML={{ __html: rendered }} onMouseOver={showComment} onMouseUp={showComment} /><div className="doc-meta-footer"><span>{activeDoc.relativePath}</span><span>{copy.updated}: {displayDate(activeDoc.updatedAt, brand.locale)}</span></div><div className="doc-footer">{previous ? <button onClick={() => select(previous.id)}><span className="lbl">← {copy.previous}</span><span className="title">{previous.title}</span></button> : <span />}{next ? <button className="next" onClick={() => select(next.id)}><span className="lbl">{copy.next} →</span><span className="title">{next.title}</span></button> : <span />}</div></>}</div></div>{!currentRoute.edit && commentButton && <button className="block-comment-button" style={{ left: commentButton.x, top: commentButton.y }} onClick={() => { setCommentOpen(true); setCommentButton(null); }}><MessageSquarePlus size={13} />{copy.comment}</button>}{toc.length > 0 && !currentRoute.edit && <nav className="toc"><div className="toc-label">{copy.onThisPage}</div>{toc.map((item) => <button key={item.id} className={item.depth === 3 ? 'depth-3' : ''} onClick={() => document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })}>{item.text}</button>)}</nav>}<CommentPanel open={commentOpen} onClose={() => setCommentOpen(false)} brand={brand} doc={activeDoc} editKey={editKey} target={commentTarget} useCommentApi={USE_COMMENT_API} locale={brand.locale} /></main>
     </div>
   </div>;
 }

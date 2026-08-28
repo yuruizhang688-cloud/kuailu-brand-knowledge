@@ -1,12 +1,23 @@
 {
-  "generatedAt": "2026-08-26T13:39:43.262Z",
+  "generatedAt": "2026-08-28T09:01:38.049Z",
   "defaultBrand": "kuailu-v2",
   "brands": [
+    {
+      "slug": "kuailu-global-v1",
+      "displayName": "Kuailu Global Brand Knowledge Base",
+      "shortName": "Kuailu Global Knowledge Base",
+      "initials": "KUAILU",
+      "locale": "en-US",
+      "docCount": 94,
+      "knowledgePointCount": 94,
+      "manifestUrl": "kb/kuailu-global-v1/manifest.json"
+    },
     {
       "slug": "kuailu-v2",
       "displayName": "快鹭品牌知识库",
       "shortName": "快鹭知识库",
       "initials": "KUAILU",
+      "locale": "zh-CN",
       "docCount": 768,
       "knowledgePointCount": 768,
       "manifestUrl": "kb/kuailu-v2/manifest.json"

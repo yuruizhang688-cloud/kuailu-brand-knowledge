@@ -1,0 +1,2391 @@
+{
+  "slug": "kuailu-global-v1",
+  "displayName": "Kuailu Global Brand Knowledge Base",
+  "shortName": "Kuailu Global Knowledge Base",
+  "initials": "KUAILU",
+  "locale": "en-US",
+  "showSources": false,
+  "docCount": 94,
+  "knowledgePointCount": 94,
+  "defaultDocId": "bbec1c9410ec357d",
+  "exportUrl": "kb/kuailu-global-v1/export.json",
+  "generatedAt": "2026-08-28T09:01:37.738Z",
+  "docs": [
+    {
+      "id": "bbec1c9410ec357d",
+      "title": "Brand Introduction",
+      "label": "01-Brand Introduction",
+      "relativePath": "01-Brand Information/01-Brand Overview/01-Brand Introduction.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Brand Introduction"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/bbec1c9410ec357d.json"
+    },
+    {
+      "id": "10b541bb775189c1",
+      "title": "Brand Positioning",
+      "label": "02-Brand Positioning",
+      "relativePath": "01-Brand Information/01-Brand Overview/02-Brand Positioning.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Brand Positioning"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/10b541bb775189c1.json"
+    },
+    {
+      "id": "2dfb67b0a451df6b",
+      "title": "Brand Vision",
+      "label": "03-Brand Vision",
+      "relativePath": "01-Brand Information/01-Brand Overview/03-Brand Vision.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Brand Vision"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/2dfb67b0a451df6b.json"
+    },
+    {
+      "id": "46ac431bd7e4c9d9",
+      "title": "Brand Values",
+      "label": "04-Brand Values",
+      "relativePath": "01-Brand Information/01-Brand Overview/04-Brand Values.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Brand Values"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/46ac431bd7e4c9d9.json"
+    },
+    {
+      "id": "150cc033e9f2b45e",
+      "title": "Legal Entity Information",
+      "label": "05-Legal Entity Information",
+      "relativePath": "01-Brand Information/01-Brand Overview/05-Legal Entity Information.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Legal Entity Information"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/150cc033e9f2b45e.json"
+    },
+    {
+      "id": "49dfc399665f477c",
+      "title": "Contact Information",
+      "label": "06-Contact Information",
+      "relativePath": "01-Brand Information/01-Brand Overview/06-Contact Information.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Contact Information"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/49dfc399665f477c.json"
+    },
+    {
+      "id": "766da58eccbb4db3",
+      "title": "Standard Names & Abbreviations",
+      "label": "07-Standard Names & Abbreviations",
+      "relativePath": "01-Brand Information/01-Brand Overview/07-Standard Names & Abbreviations.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Overview",
+        "Standard Names & Abbreviations"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.644Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/766da58eccbb4db3.json"
+    },
+    {
+      "id": "cb0728657c06047d",
+      "title": "Development History",
+      "label": "01-Development History",
+      "relativePath": "01-Brand Information/02-Development History/01-Development History.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Development History",
+        "Development History"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.644Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/cb0728657c06047d.json"
+    },
+    {
+      "id": "17941e5ab085c3d0",
+      "title": "Overview of core business",
+      "label": "01-Core Business Overview",
+      "relativePath": "01-Brand Information/03-Core Business/01-Core Business Overview.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Overview of core business"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.646Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/17941e5ab085c3d0.json"
+    },
+    {
+      "id": "91aa004304731429",
+      "title": "Smart office operations",
+      "label": "02-Intelligent Office Business",
+      "relativePath": "01-Brand Information/03-Core Business/02-Intelligent Office Business.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Smart office operations"
+      ],
+      "category": "Brand Information",
+      "readTime": 9,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.646Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/91aa004304731429.json"
+    },
+    {
+      "id": "7350e4505a520916",
+      "title": "AI CRRM operations",
+      "label": "03-AI CRM Business",
+      "relativePath": "01-Brand Information/03-Core Business/03-AI CRM Business.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "AI CRRM operations"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:26.938Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/7350e4505a520916.json"
+    },
+    {
+      "id": "31a34ca8a7a8bd56",
+      "title": "Videoconferencing operations",
+      "label": "04-Video Conferencing Business",
+      "relativePath": "01-Brand Information/03-Core Business/04-Video Conferencing Business.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Videoconferencing operations"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:26.938Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/31a34ca8a7a8bd56.json"
+    },
+    {
+      "id": "8fd70d8e0c18f198",
+      "title": "Corporate teamwork",
+      "label": "05-Enterprise Collaboration Business",
+      "relativePath": "01-Brand Information/03-Core Business/05-Enterprise Collaboration Business.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Corporate teamwork"
+      ],
+      "category": "Brand Information",
+      "readTime": 20,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.648Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8fd70d8e0c18f198.json"
+    },
+    {
+      "id": "d8e912dbcc1693d0",
+      "title": "AI Intelligence and Application Capability",
+      "label": "06-AI Agents & Application Capabilities",
+      "relativePath": "01-Brand Information/03-Core Business/06-AI Agents & Application Capabilities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "AI Intelligence and Application Capability"
+      ],
+      "category": "Brand Information",
+      "readTime": 14,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.648Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/d8e912dbcc1693d0.json"
+    },
+    {
+      "id": "b53bcde15bc18bf4",
+      "title": "Industry solutions",
+      "label": "07-Industry Solutions",
+      "relativePath": "01-Brand Information/03-Core Business/07-Industry Solutions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Industry solutions"
+      ],
+      "category": "Brand Information",
+      "readTime": 20,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.649Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/b53bcde15bc18bf4.json"
+    },
+    {
+      "id": "eac88332d625c73f",
+      "title": "Product-service relationship",
+      "label": "08-Product & Service Relationships",
+      "relativePath": "01-Brand Information/03-Core Business/08-Product & Service Relationships.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Business",
+        "Product-service relationship"
+      ],
+      "category": "Brand Information",
+      "readTime": 11,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.650Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/eac88332d625c73f.json"
+    },
+    {
+      "id": "62076b6710e73a31",
+      "title": "Technical capacity",
+      "label": "01-Technical Capabilities",
+      "relativePath": "01-Brand Information/04-Core Competencies/01-Technical Capabilities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Technical capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 14,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/62076b6710e73a31.json"
+    },
+    {
+      "id": "56f0768d48428554",
+      "title": "AI original capacity",
+      "label": "02-AI-Native Capabilities",
+      "relativePath": "01-Brand Information/04-Core Competencies/02-AI-Native Capabilities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "AI original capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/56f0768d48428554.json"
+    },
+    {
+      "id": "b8c060efdb6a3d2b",
+      "title": "Integrated product capacity",
+      "label": "03-Integrated Product Capabilities",
+      "relativePath": "01-Brand Information/04-Core Competencies/03-Integrated Product Capabilities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Integrated product capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/b8c060efdb6a3d2b.json"
+    },
+    {
+      "id": "d21a1ddd507909ae",
+      "title": "Data and system integration capacity",
+      "label": "04-Data & System Integration",
+      "relativePath": "01-Brand Information/04-Core Competencies/04-Data & System Integration.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Data and system integration capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.652Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/d21a1ddd507909ae.json"
+    },
+    {
+      "id": "612952e681cc3f45",
+      "title": "Globalization and multilingualism",
+      "label": "05-Global & Multilingual Capabilities",
+      "relativePath": "01-Brand Information/04-Core Competencies/05-Global & Multilingual Capabilities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Globalization and multilingualism"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/612952e681cc3f45.json"
+    },
+    {
+      "id": "dc162d6103fccbb5",
+      "title": "Privatization deployment capacity",
+      "label": "06-Private Deployment",
+      "relativePath": "01-Brand Information/04-Core Competencies/06-Private Deployment.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Privatization deployment capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/dc162d6103fccbb5.json"
+    },
+    {
+      "id": "d5eb60c5184538cf",
+      "title": "Security and compliance capacity",
+      "label": "07-Security & Compliance",
+      "relativePath": "01-Brand Information/04-Core Competencies/07-Security & Compliance.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Security and compliance capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/d5eb60c5184538cf.json"
+    },
+    {
+      "id": "161a3148568c0dc2",
+      "title": "Industry adaptability",
+      "label": "08-Industry Adaptability",
+      "relativePath": "01-Brand Information/04-Core Competencies/08-Industry Adaptability.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Industry adaptability"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.656Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/161a3148568c0dc2.json"
+    },
+    {
+      "id": "9b22c93c192b5abe",
+      "title": "Service and delivery capacity",
+      "label": "09-Service & Delivery",
+      "relativePath": "01-Brand Information/04-Core Competencies/09-Service & Delivery.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Service and delivery capacity"
+      ],
+      "category": "Brand Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.657Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/9b22c93c192b5abe.json"
+    },
+    {
+      "id": "ea4f879eaaa7ea3a",
+      "title": "Capacity boundaries and items to be upgraded",
+      "label": "10-Capability Boundaries",
+      "relativePath": "01-Brand Information/04-Core Competencies/10-Capability Boundaries.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Core Competencies",
+        "Capacity boundaries and items to be upgraded"
+      ],
+      "category": "Brand Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.657Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/ea4f879eaaa7ea3a.json"
+    },
+    {
+      "id": "d35616946a9cb7e2",
+      "title": "Business portrait",
+      "label": "01-Company Profiles",
+      "relativePath": "01-Brand Information/05-Audience Profiles/01-Company Profiles.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Business portrait"
+      ],
+      "category": "Brand Information",
+      "readTime": 10,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/d35616946a9cb7e2.json"
+    },
+    {
+      "id": "082943b44c609dca",
+      "title": "Industry portraits",
+      "label": "02-Industry Profiles",
+      "relativePath": "01-Brand Information/05-Audience Profiles/02-Industry Profiles.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Industry portraits"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/082943b44c609dca.json"
+    },
+    {
+      "id": "16b039efe97b26bb",
+      "title": "Enterprise size",
+      "label": "03-Company Size",
+      "relativePath": "01-Brand Information/05-Audience Profiles/03-Company Size.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Enterprise size"
+      ],
+      "category": "Brand Information",
+      "readTime": 5,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/16b039efe97b26bb.json"
+    },
+    {
+      "id": "fb11128f1199aa10",
+      "title": "Decision-making roles",
+      "label": "04-Decision Makers",
+      "relativePath": "01-Brand Information/05-Audience Profiles/04-Decision Makers.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Decision-making roles"
+      ],
+      "category": "Brand Information",
+      "readTime": 15,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.659Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/fb11128f1199aa10.json"
+    },
+    {
+      "id": "0a6405f6451529fe",
+      "title": "Procurement role",
+      "label": "05-Buying Roles",
+      "relativePath": "01-Brand Information/05-Audience Profiles/05-Buying Roles.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Procurement role"
+      ],
+      "category": "Brand Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.660Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/0a6405f6451529fe.json"
+    },
+    {
+      "id": "bb07a96fd196913c",
+      "title": "Use Role",
+      "label": "06-User Roles",
+      "relativePath": "01-Brand Information/05-Audience Profiles/06-User Roles.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Use Role"
+      ],
+      "category": "Brand Information",
+      "readTime": 6,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.660Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/bb07a96fd196913c.json"
+    },
+    {
+      "id": "8a9937038c820e86",
+      "title": "Core pain.",
+      "label": "07-Core Pain Points",
+      "relativePath": "01-Brand Information/05-Audience Profiles/07-Core Pain Points.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Core pain."
+      ],
+      "category": "Brand Information",
+      "readTime": 5,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.661Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8a9937038c820e86.json"
+    },
+    {
+      "id": "9b120b627a6d87d2",
+      "title": "Reasons for purchase",
+      "label": "08-Buying Motivations",
+      "relativePath": "01-Brand Information/05-Audience Profiles/08-Buying Motivations.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Reasons for purchase"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.662Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/9b120b627a6d87d2.json"
+    },
+    {
+      "id": "8a4b2839cf4fc788",
+      "title": "Decision resistance",
+      "label": "09-Purchase Barriers",
+      "relativePath": "01-Brand Information/05-Audience Profiles/09-Purchase Barriers.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Decision resistance"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.662Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8a4b2839cf4fc788.json"
+    },
+    {
+      "id": "63a39e671b4f9000",
+      "title": "Content Focus",
+      "label": "10-Content Priorities",
+      "relativePath": "01-Brand Information/05-Audience Profiles/10-Content Priorities.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Content Focus"
+      ],
+      "category": "Brand Information",
+      "readTime": 16,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.663Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/63a39e671b4f9000.json"
+    },
+    {
+      "id": "6f2cc046beb10a1d",
+      "title": "Product Matching Relationship",
+      "label": "11-Product Fit",
+      "relativePath": "01-Brand Information/05-Audience Profiles/11-Product Fit.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Product Matching Relationship"
+      ],
+      "category": "Brand Information",
+      "readTime": 10,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.663Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6f2cc046beb10a1d.json"
+    },
+    {
+      "id": "ab5a95245d76b04d",
+      "title": "Convert scene",
+      "label": "12-Conversion Scenarios",
+      "relativePath": "01-Brand Information/05-Audience Profiles/12-Conversion Scenarios.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Audience Profiles",
+        "Convert scene"
+      ],
+      "category": "Brand Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.664Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/ab5a95245d76b04d.json"
+    },
+    {
+      "id": "e28c8185d18dc20c",
+      "title": "Voice recognition text correction invention patent",
+      "label": "01-Speech Recognition Text-Correction Patent",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/01-Patents/01-Speech Recognition Text-Correction Patent.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Patents",
+        "Voice recognition text correction invention patent"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.664Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/e28c8185d18dc20c.json"
+    },
+    {
+      "id": "af59be9b9224a1b0",
+      "title": "Patent for the appearance of the videoconference smart hosting interface",
+      "label": "02-Video Meeting Hosting Interface Design Patent",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/01-Patents/02-Video Meeting Hosting Interface Design Patent.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Patents",
+        "Patent for the appearance of the videoconference smart hosting interface"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/af59be9b9224a1b0.json"
+    },
+    {
+      "id": "1a15ff6b10daea8a",
+      "title": "Soprano registration patent",
+      "label": "03-Voiceprint Registration Method Patent",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/01-Patents/03-Voiceprint Registration Method Patent.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Patents",
+        "Soprano registration patent"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/1a15ff6b10daea8a.json"
+    },
+    {
+      "id": "4501f08b1005bec4",
+      "title": "Copyright V1.0 for Kuailu AI CRM management software",
+      "label": "01-Kuailu AI CRM V1.0 Software Copyright",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/02-Software Copyrights/01-Kuailu AI CRM V1.0 Software Copyright.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Software Copyrights",
+        "Copyright V1.0 for Kuailu AI CRM management software"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/4501f08b1005bec4.json"
+    },
+    {
+      "id": "78b77e886dccd14d",
+      "title": "Kuailu Cloud Smart Office System V3.0 Copyright",
+      "label": "02-Kuailu Cloud Intelligent Office V3.0 Software Copyright",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/02-Software Copyrights/02-Kuailu Cloud Intelligent Office V3.0 Software Copyright.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Software Copyrights",
+        "Kuailu Cloud Smart Office System V3.0 Copyright"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/78b77e886dccd14d.json"
+    },
+    {
+      "id": "14f8ef3e8fd42715",
+      "title": "Copyright V1.0 from Kuailu MeetingPC",
+      "label": "03-Kuailu Meeting PC V1.0 Software Copyright",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/02-Software Copyrights/03-Kuailu Meeting PC V1.0 Software Copyright.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Software Copyrights",
+        "Copyright V1.0 from Kuailu MeetingPC"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/14f8ef3e8fd42715.json"
+    },
+    {
+      "id": "b581787a90d2057f",
+      "title": "Copyright Kuailu MeetingV 3.0",
+      "label": "04-Kuailu Meeting V3.0 Software Copyright",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/02-Software Copyrights/04-Kuailu Meeting V3.0 Software Copyright.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Software Copyrights",
+        "Copyright Kuailu MeetingV 3.0"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/b581787a90d2057f.json"
+    },
+    {
+      "id": "6de516abfcf7f859",
+      "title": "Licensing of domestic multi-party communications services",
+      "label": "01-Domestic Multi-Party Communications Service Licence",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/03-Telecom & Operating Licences/01-Domestic Multi-Party Communications Service Licence.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Telecom & Operating Licences",
+        "Licensing of domestic multi-party communications services"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6de516abfcf7f859.json"
+    },
+    {
+      "id": "4b841c38b5f30c0c",
+      "title": "Licensing of value-added telecommunications operations",
+      "label": "02-Value-Added Telecom Business Licence",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/03-Telecom & Operating Licences/02-Value-Added Telecom Business Licence.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Telecom & Operating Licences",
+        "Licensing of value-added telecommunications operations"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/4b841c38b5f30c0c.json"
+    },
+    {
+      "id": "03c79703e5573820",
+      "title": "ISO 9001 Quality Management System Certification",
+      "label": "01-ISO 9001 Quality Management Certification",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/01-ISO 9001 Quality Management Certification.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "ISO 9001 Quality Management System Certification"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/03c79703e5573820.json"
+    },
+    {
+      "id": "eb9f479c17e84c42",
+      "title": "CMMI R & D capacity assessment at three levels",
+      "label": "02-CMMI Level 3 Appraisal",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/02-CMMI Level 3 Appraisal.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "CMMI R & D capacity assessment at three levels"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/eb9f479c17e84c42.json"
+    },
+    {
+      "id": "c79b877f5995dc27",
+      "title": "ISO 27017 cloud service information security authentication",
+      "label": "03-ISO 27017 Cloud Security Certification",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/03-ISO 27017 Cloud Security Certification.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "ISO 27017 cloud service information security authentication"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/c79b877f5995dc27.json"
+    },
+    {
+      "id": "673331dce838f0be",
+      "title": "ISO 27001 Information Security Management Certification",
+      "label": "04-ISO 27001 Information Security Certification",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/04-ISO 27001 Information Security Certification.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "ISO 27001 Information Security Management Certification"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/673331dce838f0be.json"
+    },
+    {
+      "id": "b6cd1027c5be18bd",
+      "title": "Certification of environmental, occupational health safety and quality management system",
+      "label": "05-Environmental, Occupational Health & Quality Certifications",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/05-Environmental, Occupational Health & Quality Certifications.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "Certification of environmental, occupational health safety and quality management system"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/b6cd1027c5be18bd.json"
+    },
+    {
+      "id": "bb3b5a5a07147068",
+      "title": "ISO 27001 Information Security Management Certification",
+      "label": "06-ISO 27001 Information Security Certification",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems/06-ISO 27001 Information Security Certification.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Management, Security & R&D Systems",
+        "ISO 27001 Information Security Management Certification"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/bb3b5a5a07147068.json"
+    },
+    {
+      "id": "b91a8d15ab773ccd",
+      "title": "Kuailu Meeting letter creation assessment",
+      "label": "01-Kuailu Meeting Xinchuang Product Assessment",
+      "relativePath": "01-Brand Information/06-Legal & Qualifications/05-Xinchuang Certification/01-Kuailu Meeting Xinchuang Product Assessment.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Legal & Qualifications",
+        "Xinchuang Certification",
+        "Kuailu Meeting letter creation assessment"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/b91a8d15ab773ccd.json"
+    },
+    {
+      "id": "67f662ce173d403c",
+      "title": "Kuailu Cloud AI has a bright look in Shenzhen! A new \"AI Office Mode\" is the hotshot!",
+      "label": "09-Kuailu Cloud AI Agent Debuts in Shenzhen",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/01-Brand News & Events/09-Kuailu Cloud AI Agent Debuts in Shenzhen.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Brand News & Events",
+        "Kuailu Cloud AI has a bright look in Shenzhen! A new \"AI Office Mode\" is the hotshot!"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.671Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/67f662ce173d403c.json"
+    },
+    {
+      "id": "063f04e16642ddf9",
+      "title": "AI Agent Scale Down! Kuailu Technology was invited to the Fukuda “Link” Sharon Round Table Discussion",
+      "label": "15-Kuailu Discusses Scaling AI Agents at Futian LINK Salon",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/01-Brand News & Events/15-Kuailu Discusses Scaling AI Agents at Futian LINK Salon.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Brand News & Events",
+        "AI Agent Scale Down! Kuailu Technology was invited to the Fukuda “Link” Sharon Round Table Discussion"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.671Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/063f04e16642ddf9.json"
+    },
+    {
+      "id": "4b821f8b07f3dd43",
+      "title": "Kuailu Technology Visible AI+ Power 2026, One-stop AI Smart Office Enabling Global Enterprise Digitalization",
+      "label": "30-Kuailu Technology at AI+ Power 2026",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/01-Brand News & Events/30-Kuailu Technology at AI+ Power 2026.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Brand News & Events",
+        "Kuailu Technology Visible AI+ Power 2026, One-stop AI Smart Office Enabling Global Enterprise Digitalization"
+      ],
+      "category": "Brand Information",
+      "readTime": 12,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.672Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/4b821f8b07f3dd43.json"
+    },
+    {
+      "id": "8cbf651e9421721c",
+      "title": "Good-bye meeting. Kuailu Meeting allows for better cross-border collaboration and better communication across borders.",
+      "label": "11-Kuailu Meeting Improves Cross-Border Collaboration",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/02-Product Releases & Capability Insights/11-Kuailu Meeting Improves Cross-Border Collaboration.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Product Releases & Capability Insights",
+        "Good-bye meeting. Kuailu Meeting allows for better cross-border collaboration and better communication across borders."
+      ],
+      "category": "Brand Information",
+      "readTime": 14,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.672Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8cbf651e9421721c.json"
+    },
+    {
+      "id": "43c1400f776fc1c9",
+      "title": "Smart + Office Area Overrides! Kuailu Smart Office Runs A New Age",
+      "label": "21-AI Agents Across Intelligent Office Scenarios",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/02-Product Releases & Capability Insights/21-AI Agents Across Intelligent Office Scenarios.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Product Releases & Capability Insights",
+        "Smart + Office Area Overrides! Kuailu Smart Office Runs A New Age"
+      ],
+      "category": "Brand Information",
+      "readTime": 10,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.673Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/43c1400f776fc1c9.json"
+    },
+    {
+      "id": "0503d57f3436aff9",
+      "title": "New upgrade. Kuailu Smart Office AI CRM leads the sales management 2.0 era!",
+      "label": "27-Kuailu AI CRM Advances Sales Management",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/02-Product Releases & Capability Insights/27-Kuailu AI CRM Advances Sales Management.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Product Releases & Capability Insights",
+        "New upgrade. Kuailu Smart Office AI CRM leads the sales management 2.0 era!"
+      ],
+      "category": "Brand Information",
+      "readTime": 10,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.674Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/0503d57f3436aff9.json"
+    },
+    {
+      "id": "32f5765ab3395e8b",
+      "title": "Kuailu Smart Office is accredited with a letter-based conversion of the AI Smart Body Empowerment Enterprise!",
+      "label": "20-Kuailu Intelligent Office Receives Xinchuang Certification",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/03-Awards & Certifications/20-Kuailu Intelligent Office Receives Xinchuang Certification.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Awards & Certifications",
+        "Kuailu Smart Office is accredited with a letter-based conversion of the AI Smart Body Empowerment Enterprise!"
+      ],
+      "category": "Brand Information",
+      "readTime": 9,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.674Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/32f5765ab3395e8b.json"
+    },
+    {
+      "id": "c4dcd098de9fcc98",
+      "title": "Kuailu was awarded the \"AI Innovation Applications Award\" for the 6th International Science Founding Festival, and its capacity was re-recognized!",
+      "label": "26-Kuailu Wins AI Innovation Application Award",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/03-Awards & Certifications/26-Kuailu Wins AI Innovation Application Award.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Awards & Certifications",
+        "Kuailu was awarded the \"AI Innovation Applications Award\" for the 6th International Science Founding Festival, and its capacity was re-recognized!"
+      ],
+      "category": "Brand Information",
+      "readTime": 11,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.675Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/c4dcd098de9fcc98.json"
+    },
+    {
+      "id": "ab2f195fe146f72c",
+      "title": "Kuailu Technology received the Global Best-Ai Industry Application Pioneer Award from GAIE 2026, the first full view of the AI-based smart office system",
+      "label": "28-Kuailu Wins Global AI Industry Application Pioneer Award",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/03-Awards & Certifications/28-Kuailu Wins Global AI Industry Application Pioneer Award.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Awards & Certifications",
+        "Kuailu Technology received the Global Best-Ai Industry Application Pioneer Award from GAIE 2026, the first full view of the AI-based smart office system"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.675Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/ab2f195fe146f72c.json"
+    },
+    {
+      "id": "685133b199f41731",
+      "title": "The Kuailu Smart Office launched the Regenerative Resources Industry AI+ Digital Transformation Program to use data base and AI smart body decomposition of industrial pain points",
+      "label": "22-AI Transformation Solution for the Recycling Industry",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/04-Cases, Solutions & Industry Insights/22-AI Transformation Solution for the Recycling Industry.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Cases, Solutions & Industry Insights",
+        "The Kuailu Smart Office launched the Regenerative Resources Industry AI+ Digital Transformation Program to use data base and AI smart body decomposition of industrial pain points"
+      ],
+      "category": "Brand Information",
+      "readTime": 11,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.676Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/685133b199f41731.json"
+    },
+    {
+      "id": "ea404f2332c438b3",
+      "title": "ProAvanti x Kuailu Smart Office: AI+ Digital Upgrade controls transnational business!",
+      "label": "23-ProAvanti and Kuailu Intelligent Office Case",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/04-Cases, Solutions & Industry Insights/23-ProAvanti and Kuailu Intelligent Office Case.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Cases, Solutions & Industry Insights",
+        "ProAvanti x Kuailu Smart Office: AI+ Digital Upgrade controls transnational business!"
+      ],
+      "category": "Brand Information",
+      "readTime": 16,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.677Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/ea404f2332c438b3.json"
+    },
+    {
+      "id": "36b95b8479b960f1",
+      "title": "Kuailu explains: \"Lithium on the head, steel recycling facility, race to digitize the layout?\"",
+      "label": "31-Digital Transformation in Battery and Steel Recycling",
+      "relativePath": "01-Brand Information/07-Brand Content Assets/04-Cases, Solutions & Industry Insights/31-Digital Transformation in Battery and Steel Recycling.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Content Assets",
+        "Cases, Solutions & Industry Insights",
+        "Kuailu explains: \"Lithium on the head, steel recycling facility, race to digitize the layout?\""
+      ],
+      "category": "Brand Information",
+      "readTime": 17,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.678Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/36b95b8479b960f1.json"
+    },
+    {
+      "id": "24c5343a9676f453",
+      "title": "Branding and corporate issues",
+      "label": "01-Brand & Company Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/01-Brand & Company Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Branding and corporate issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 6,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.678Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/24c5343a9676f453.json"
+    },
+    {
+      "id": "a384f8402f9acc8d",
+      "title": "Overall product issues",
+      "label": "02-General Product Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/02-General Product Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Overall product issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 13,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.679Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/a384f8402f9acc8d.json"
+    },
+    {
+      "id": "a45aff451e138d3a",
+      "title": "Product function issues",
+      "label": "03-Product Feature Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/03-Product Feature Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Product function issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 20,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.680Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/a45aff451e138d3a.json"
+    },
+    {
+      "id": "320402a5fc5a145a",
+      "title": "Price and trial issues",
+      "label": "04-Pricing & Trial Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/04-Pricing & Trial Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Price and trial issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.680Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/320402a5fc5a145a.json"
+    },
+    {
+      "id": "cbf46fdcca98d96a",
+      "title": "Deployment and integration issues",
+      "label": "05-Deployment & Integration Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/05-Deployment & Integration Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Deployment and integration issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 8,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/cbf46fdcca98d96a.json"
+    },
+    {
+      "id": "4ffbb9f6791776ed",
+      "title": "Data and security issues",
+      "label": "06-Data & Security Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/06-Data & Security Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Data and security issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/4ffbb9f6791776ed.json"
+    },
+    {
+      "id": "f313d0696a1377c4",
+      "title": "Implementation and service issues",
+      "label": "07-Implementation & Service Questions",
+      "relativePath": "01-Brand Information/08-Brand FAQ/07-Implementation & Service Questions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Implementation and service issues"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/f313d0696a1377c4.json"
+    },
+    {
+      "id": "7197aa25ae3aff6b",
+      "title": "Objections to sales",
+      "label": "08-Sales Objections",
+      "relativePath": "01-Brand Information/08-Brand FAQ/08-Sales Objections.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand FAQ",
+        "Objections to sales"
+      ],
+      "category": "Brand Information",
+      "readTime": 6,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.682Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/7197aa25ae3aff6b.json"
+    },
+    {
+      "id": "c2d3afe8bc54dcdd",
+      "title": "Use rules",
+      "label": "01-Usage Rules",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/01-Usage Rules.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Use rules"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.683Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/c2d3afe8bc54dcdd.json"
+    },
+    {
+      "id": "3bfb9ea6898a1840",
+      "title": "Foreign terminology not used in branding",
+      "label": "02-Unapproved External Brand Language",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/02-Unapproved External Brand Language.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Foreign terminology not used in branding"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.683Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/3bfb9ea6898a1840.json"
+    },
+    {
+      "id": "1ee06c974aae7331",
+      "title": "Disable expression by law and public content",
+      "label": "03-Prohibited Legal & Public Claims",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/03-Prohibited Legal & Public Claims.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Disable expression by law and public content"
+      ],
+      "category": "Brand Information",
+      "readTime": 9,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/1ee06c974aae7331.json"
+    },
+    {
+      "id": "8b04e567f1bc6bb3",
+      "title": "Justification required",
+      "label": "04-Claims Requiring Evidence",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/04-Claims Requiring Evidence.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Justification required"
+      ],
+      "category": "Brand Information",
+      "readTime": 7,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8b04e567f1bc6bb3.json"
+    },
+    {
+      "id": "6f09b637b8662e5d",
+      "title": "Industry Additional Restrictions",
+      "label": "05-Industry-Specific Restrictions",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/05-Industry-Specific Restrictions.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Industry Additional Restrictions"
+      ],
+      "category": "Brand Information",
+      "readTime": 5,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6f09b637b8662e5d.json"
+    },
+    {
+      "id": "5d0546e24256723a",
+      "title": "Internet publishing alerts",
+      "label": "06-Online Publishing Requirements",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/06-Online Publishing Requirements.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Internet publishing alerts"
+      ],
+      "category": "Brand Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.686Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/5d0546e24256723a.json"
+    },
+    {
+      "id": "cd91d2fe902d7053",
+      "title": "Overmarketing Word Optimization",
+      "label": "07-Overstatement Replacements",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/07-Overstatement Replacements.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Overmarketing Word Optimization"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.686Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/cd91d2fe902d7053.json"
+    },
+    {
+      "id": "6c145f722a62c21c",
+      "title": "Self-check list before release",
+      "label": "08-Pre-Publication Checklist",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/08-Pre-Publication Checklist.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Self-check list before release"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.687Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6c145f722a62c21c.json"
+    },
+    {
+      "id": "d1ea4da70bce08c6",
+      "title": "Basis of the rules",
+      "label": "09-Rule Basis",
+      "relativePath": "01-Brand Information/09-Brand Compliance Guidelines/09-Rule Basis.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Brand Compliance Guidelines",
+        "Basis of the rules"
+      ],
+      "category": "Brand Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/d1ea4da70bce08c6.json"
+    },
+    {
+      "id": "17b24fb4db316266",
+      "title": "Official Brand Accounts",
+      "label": "01-Official Brand Accounts",
+      "relativePath": "01-Brand Information/10-Official Brand Accounts/01-Official Brand Accounts.md",
+      "breadcrumbs": [
+        "Brand Information",
+        "Official Brand Accounts",
+        "Official Brand Accounts"
+      ],
+      "category": "Brand Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/17b24fb4db316266.json"
+    },
+    {
+      "id": "3a8f91c65c71cb6f",
+      "title": "Kuailu AI CRM | Product Overview",
+      "label": "01-Product Overview",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/01-Product Overview.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Product Overview"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/3a8f91c65c71cb6f.json"
+    },
+    {
+      "id": "dc32cc196c00b758",
+      "title": "Kuailu AI CRM | Product Positioning",
+      "label": "02-Product Positioning",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/02-Product Positioning.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Product Positioning"
+      ],
+      "category": "Product Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/dc32cc196c00b758.json"
+    },
+    {
+      "id": "00a3e5f26b18ed98",
+      "title": "Kuailu AI CRM | Target Customers",
+      "label": "03-Target Customers",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/03-Target Customers.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Target Customers"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.690Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/00a3e5f26b18ed98.json"
+    },
+    {
+      "id": "8442a3500e082879",
+      "title": "Kuailu AI CRM | Features & Modules",
+      "label": "04-Features & Modules",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/04-Features & Modules.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Features & Modules"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.690Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/8442a3500e082879.json"
+    },
+    {
+      "id": "26983a662bd55f9d",
+      "title": "Kuailu AI CRM | Pricing",
+      "label": "05-Pricing",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/05-Pricing.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Pricing"
+      ],
+      "category": "Product Information",
+      "readTime": 1,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/26983a662bd55f9d.json"
+    },
+    {
+      "id": "a691f7aaf6ea865c",
+      "title": "Kuailu AI CRM | Core Advantages",
+      "label": "06-Core Advantages",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/06-Core Advantages.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Core Advantages"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/a691f7aaf6ea865c.json"
+    },
+    {
+      "id": "573c37870e8b8cdb",
+      "title": "Kuailu AI CRM | Core Use Cases",
+      "label": "07-Core Use Cases",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/07-Core Use Cases.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Core Use Cases"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/573c37870e8b8cdb.json"
+    },
+    {
+      "id": "335b65a413f6b56a",
+      "title": "Kuailu AI CRM | FAQ & User Guide",
+      "label": "08-FAQ & User Guide",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/08-FAQ & User Guide.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | FAQ & User Guide"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/335b65a413f6b56a.json"
+    },
+    {
+      "id": "2b211f3c41fa5351",
+      "title": "Kuailu AI CRM | Industry Solutions",
+      "label": "09-Industry Solutions",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/09-Industry Solutions.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Industry Solutions"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/2b211f3c41fa5351.json"
+    },
+    {
+      "id": "cea1c7f71bb135c9",
+      "title": "Kuailu AI CRM | Customer Cases",
+      "label": "10-Customer Cases",
+      "relativePath": "02-Product Information/01-Kuailu AI CRM/10-Customer Cases.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu AI CRM",
+        "Kuailu AI CRM | Customer Cases"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-08-28T09:01:16.693Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/cea1c7f71bb135c9.json"
+    }
+  ],
+  "tree": [
+    {
+      "id": "folder:01-Brand Information",
+      "type": "folder",
+      "label": "01-Brand Information",
+      "count": 84,
+      "children": [
+        {
+          "id": "folder:01-Brand Information/01-Brand Overview",
+          "type": "folder",
+          "label": "01-Brand Overview",
+          "count": 7,
+          "children": [
+            {
+              "id": "bbec1c9410ec357d",
+              "type": "file",
+              "label": "01-Brand Introduction",
+              "title": "Brand Introduction",
+              "unitCount": 1
+            },
+            {
+              "id": "10b541bb775189c1",
+              "type": "file",
+              "label": "02-Brand Positioning",
+              "title": "Brand Positioning",
+              "unitCount": 1
+            },
+            {
+              "id": "2dfb67b0a451df6b",
+              "type": "file",
+              "label": "03-Brand Vision",
+              "title": "Brand Vision",
+              "unitCount": 1
+            },
+            {
+              "id": "46ac431bd7e4c9d9",
+              "type": "file",
+              "label": "04-Brand Values",
+              "title": "Brand Values",
+              "unitCount": 1
+            },
+            {
+              "id": "150cc033e9f2b45e",
+              "type": "file",
+              "label": "05-Legal Entity Information",
+              "title": "Legal Entity Information",
+              "unitCount": 1
+            },
+            {
+              "id": "49dfc399665f477c",
+              "type": "file",
+              "label": "06-Contact Information",
+              "title": "Contact Information",
+              "unitCount": 1
+            },
+            {
+              "id": "766da58eccbb4db3",
+              "type": "file",
+              "label": "07-Standard Names & Abbreviations",
+              "title": "Standard Names & Abbreviations",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/02-Development History",
+          "type": "folder",
+          "label": "02-Development History",
+          "count": 1,
+          "children": [
+            {
+              "id": "cb0728657c06047d",
+              "type": "file",
+              "label": "01-Development History",
+              "title": "Development History",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/03-Core Business",
+          "type": "folder",
+          "label": "03-Core Business",
+          "count": 8,
+          "children": [
+            {
+              "id": "17941e5ab085c3d0",
+              "type": "file",
+              "label": "01-Core Business Overview",
+              "title": "Overview of core business",
+              "unitCount": 1
+            },
+            {
+              "id": "91aa004304731429",
+              "type": "file",
+              "label": "02-Intelligent Office Business",
+              "title": "Smart office operations",
+              "unitCount": 1
+            },
+            {
+              "id": "7350e4505a520916",
+              "type": "file",
+              "label": "03-AI CRM Business",
+              "title": "AI CRRM operations",
+              "unitCount": 1
+            },
+            {
+              "id": "31a34ca8a7a8bd56",
+              "type": "file",
+              "label": "04-Video Conferencing Business",
+              "title": "Videoconferencing operations",
+              "unitCount": 1
+            },
+            {
+              "id": "8fd70d8e0c18f198",
+              "type": "file",
+              "label": "05-Enterprise Collaboration Business",
+              "title": "Corporate teamwork",
+              "unitCount": 1
+            },
+            {
+              "id": "d8e912dbcc1693d0",
+              "type": "file",
+              "label": "06-AI Agents & Application Capabilities",
+              "title": "AI Intelligence and Application Capability",
+              "unitCount": 1
+            },
+            {
+              "id": "b53bcde15bc18bf4",
+              "type": "file",
+              "label": "07-Industry Solutions",
+              "title": "Industry solutions",
+              "unitCount": 1
+            },
+            {
+              "id": "eac88332d625c73f",
+              "type": "file",
+              "label": "08-Product & Service Relationships",
+              "title": "Product-service relationship",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/04-Core Competencies",
+          "type": "folder",
+          "label": "04-Core Competencies",
+          "count": 10,
+          "children": [
+            {
+              "id": "62076b6710e73a31",
+              "type": "file",
+              "label": "01-Technical Capabilities",
+              "title": "Technical capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "56f0768d48428554",
+              "type": "file",
+              "label": "02-AI-Native Capabilities",
+              "title": "AI original capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "b8c060efdb6a3d2b",
+              "type": "file",
+              "label": "03-Integrated Product Capabilities",
+              "title": "Integrated product capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "d21a1ddd507909ae",
+              "type": "file",
+              "label": "04-Data & System Integration",
+              "title": "Data and system integration capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "612952e681cc3f45",
+              "type": "file",
+              "label": "05-Global & Multilingual Capabilities",
+              "title": "Globalization and multilingualism",
+              "unitCount": 1
+            },
+            {
+              "id": "dc162d6103fccbb5",
+              "type": "file",
+              "label": "06-Private Deployment",
+              "title": "Privatization deployment capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "d5eb60c5184538cf",
+              "type": "file",
+              "label": "07-Security & Compliance",
+              "title": "Security and compliance capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "161a3148568c0dc2",
+              "type": "file",
+              "label": "08-Industry Adaptability",
+              "title": "Industry adaptability",
+              "unitCount": 1
+            },
+            {
+              "id": "9b22c93c192b5abe",
+              "type": "file",
+              "label": "09-Service & Delivery",
+              "title": "Service and delivery capacity",
+              "unitCount": 1
+            },
+            {
+              "id": "ea4f879eaaa7ea3a",
+              "type": "file",
+              "label": "10-Capability Boundaries",
+              "title": "Capacity boundaries and items to be upgraded",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/05-Audience Profiles",
+          "type": "folder",
+          "label": "05-Audience Profiles",
+          "count": 12,
+          "children": [
+            {
+              "id": "d35616946a9cb7e2",
+              "type": "file",
+              "label": "01-Company Profiles",
+              "title": "Business portrait",
+              "unitCount": 1
+            },
+            {
+              "id": "082943b44c609dca",
+              "type": "file",
+              "label": "02-Industry Profiles",
+              "title": "Industry portraits",
+              "unitCount": 1
+            },
+            {
+              "id": "16b039efe97b26bb",
+              "type": "file",
+              "label": "03-Company Size",
+              "title": "Enterprise size",
+              "unitCount": 1
+            },
+            {
+              "id": "fb11128f1199aa10",
+              "type": "file",
+              "label": "04-Decision Makers",
+              "title": "Decision-making roles",
+              "unitCount": 1
+            },
+            {
+              "id": "0a6405f6451529fe",
+              "type": "file",
+              "label": "05-Buying Roles",
+              "title": "Procurement role",
+              "unitCount": 1
+            },
+            {
+              "id": "bb07a96fd196913c",
+              "type": "file",
+              "label": "06-User Roles",
+              "title": "Use Role",
+              "unitCount": 1
+            },
+            {
+              "id": "8a9937038c820e86",
+              "type": "file",
+              "label": "07-Core Pain Points",
+              "title": "Core pain.",
+              "unitCount": 1
+            },
+            {
+              "id": "9b120b627a6d87d2",
+              "type": "file",
+              "label": "08-Buying Motivations",
+              "title": "Reasons for purchase",
+              "unitCount": 1
+            },
+            {
+              "id": "8a4b2839cf4fc788",
+              "type": "file",
+              "label": "09-Purchase Barriers",
+              "title": "Decision resistance",
+              "unitCount": 1
+            },
+            {
+              "id": "63a39e671b4f9000",
+              "type": "file",
+              "label": "10-Content Priorities",
+              "title": "Content Focus",
+              "unitCount": 1
+            },
+            {
+              "id": "6f2cc046beb10a1d",
+              "type": "file",
+              "label": "11-Product Fit",
+              "title": "Product Matching Relationship",
+              "unitCount": 1
+            },
+            {
+              "id": "ab5a95245d76b04d",
+              "type": "file",
+              "label": "12-Conversion Scenarios",
+              "title": "Convert scene",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/06-Legal & Qualifications",
+          "type": "folder",
+          "label": "06-Legal & Qualifications",
+          "count": 16,
+          "children": [
+            {
+              "id": "folder:01-Brand Information/06-Legal & Qualifications/01-Patents",
+              "type": "folder",
+              "label": "01-Patents",
+              "count": 3,
+              "children": [
+                {
+                  "id": "e28c8185d18dc20c",
+                  "type": "file",
+                  "label": "01-Speech Recognition Text-Correction Patent",
+                  "title": "Voice recognition text correction invention patent",
+                  "unitCount": 1
+                },
+                {
+                  "id": "af59be9b9224a1b0",
+                  "type": "file",
+                  "label": "02-Video Meeting Hosting Interface Design Patent",
+                  "title": "Patent for the appearance of the videoconference smart hosting interface",
+                  "unitCount": 1
+                },
+                {
+                  "id": "1a15ff6b10daea8a",
+                  "type": "file",
+                  "label": "03-Voiceprint Registration Method Patent",
+                  "title": "Soprano registration patent",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/06-Legal & Qualifications/02-Software Copyrights",
+              "type": "folder",
+              "label": "02-Software Copyrights",
+              "count": 4,
+              "children": [
+                {
+                  "id": "4501f08b1005bec4",
+                  "type": "file",
+                  "label": "01-Kuailu AI CRM V1.0 Software Copyright",
+                  "title": "Copyright V1.0 for Kuailu AI CRM management software",
+                  "unitCount": 1
+                },
+                {
+                  "id": "78b77e886dccd14d",
+                  "type": "file",
+                  "label": "02-Kuailu Cloud Intelligent Office V3.0 Software Copyright",
+                  "title": "Kuailu Cloud Smart Office System V3.0 Copyright",
+                  "unitCount": 1
+                },
+                {
+                  "id": "14f8ef3e8fd42715",
+                  "type": "file",
+                  "label": "03-Kuailu Meeting PC V1.0 Software Copyright",
+                  "title": "Copyright V1.0 from Kuailu MeetingPC",
+                  "unitCount": 1
+                },
+                {
+                  "id": "b581787a90d2057f",
+                  "type": "file",
+                  "label": "04-Kuailu Meeting V3.0 Software Copyright",
+                  "title": "Copyright Kuailu MeetingV 3.0",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/06-Legal & Qualifications/03-Telecom & Operating Licences",
+              "type": "folder",
+              "label": "03-Telecom & Operating Licences",
+              "count": 2,
+              "children": [
+                {
+                  "id": "6de516abfcf7f859",
+                  "type": "file",
+                  "label": "01-Domestic Multi-Party Communications Service Licence",
+                  "title": "Licensing of domestic multi-party communications services",
+                  "unitCount": 1
+                },
+                {
+                  "id": "4b841c38b5f30c0c",
+                  "type": "file",
+                  "label": "02-Value-Added Telecom Business Licence",
+                  "title": "Licensing of value-added telecommunications operations",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/06-Legal & Qualifications/04-Management, Security & R&D Systems",
+              "type": "folder",
+              "label": "04-Management, Security & R&D Systems",
+              "count": 6,
+              "children": [
+                {
+                  "id": "03c79703e5573820",
+                  "type": "file",
+                  "label": "01-ISO 9001 Quality Management Certification",
+                  "title": "ISO 9001 Quality Management System Certification",
+                  "unitCount": 1
+                },
+                {
+                  "id": "eb9f479c17e84c42",
+                  "type": "file",
+                  "label": "02-CMMI Level 3 Appraisal",
+                  "title": "CMMI R & D capacity assessment at three levels",
+                  "unitCount": 1
+                },
+                {
+                  "id": "c79b877f5995dc27",
+                  "type": "file",
+                  "label": "03-ISO 27017 Cloud Security Certification",
+                  "title": "ISO 27017 cloud service information security authentication",
+                  "unitCount": 1
+                },
+                {
+                  "id": "673331dce838f0be",
+                  "type": "file",
+                  "label": "04-ISO 27001 Information Security Certification",
+                  "title": "ISO 27001 Information Security Management Certification",
+                  "unitCount": 1
+                },
+                {
+                  "id": "b6cd1027c5be18bd",
+                  "type": "file",
+                  "label": "05-Environmental, Occupational Health & Quality Certifications",
+                  "title": "Certification of environmental, occupational health safety and quality management system",
+                  "unitCount": 1
+                },
+                {
+                  "id": "bb3b5a5a07147068",
+                  "type": "file",
+                  "label": "06-ISO 27001 Information Security Certification",
+                  "title": "ISO 27001 Information Security Management Certification",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/06-Legal & Qualifications/05-Xinchuang Certification",
+              "type": "folder",
+              "label": "05-Xinchuang Certification",
+              "count": 1,
+              "children": [
+                {
+                  "id": "b91a8d15ab773ccd",
+                  "type": "file",
+                  "label": "01-Kuailu Meeting Xinchuang Product Assessment",
+                  "title": "Kuailu Meeting letter creation assessment",
+                  "unitCount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/07-Brand Content Assets",
+          "type": "folder",
+          "label": "07-Brand Content Assets",
+          "count": 12,
+          "children": [
+            {
+              "id": "folder:01-Brand Information/07-Brand Content Assets/01-Brand News & Events",
+              "type": "folder",
+              "label": "01-Brand News & Events",
+              "count": 3,
+              "children": [
+                {
+                  "id": "67f662ce173d403c",
+                  "type": "file",
+                  "label": "09-Kuailu Cloud AI Agent Debuts in Shenzhen",
+                  "title": "Kuailu Cloud AI has a bright look in Shenzhen! A new \"AI Office Mode\" is the hotshot!",
+                  "unitCount": 1
+                },
+                {
+                  "id": "063f04e16642ddf9",
+                  "type": "file",
+                  "label": "15-Kuailu Discusses Scaling AI Agents at Futian LINK Salon",
+                  "title": "AI Agent Scale Down! Kuailu Technology was invited to the Fukuda “Link” Sharon Round Table Discussion",
+                  "unitCount": 1
+                },
+                {
+                  "id": "4b821f8b07f3dd43",
+                  "type": "file",
+                  "label": "30-Kuailu Technology at AI+ Power 2026",
+                  "title": "Kuailu Technology Visible AI+ Power 2026, One-stop AI Smart Office Enabling Global Enterprise Digitalization",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/07-Brand Content Assets/02-Product Releases & Capability Insights",
+              "type": "folder",
+              "label": "02-Product Releases & Capability Insights",
+              "count": 3,
+              "children": [
+                {
+                  "id": "8cbf651e9421721c",
+                  "type": "file",
+                  "label": "11-Kuailu Meeting Improves Cross-Border Collaboration",
+                  "title": "Good-bye meeting. Kuailu Meeting allows for better cross-border collaboration and better communication across borders.",
+                  "unitCount": 1
+                },
+                {
+                  "id": "43c1400f776fc1c9",
+                  "type": "file",
+                  "label": "21-AI Agents Across Intelligent Office Scenarios",
+                  "title": "Smart + Office Area Overrides! Kuailu Smart Office Runs A New Age",
+                  "unitCount": 1
+                },
+                {
+                  "id": "0503d57f3436aff9",
+                  "type": "file",
+                  "label": "27-Kuailu AI CRM Advances Sales Management",
+                  "title": "New upgrade. Kuailu Smart Office AI CRM leads the sales management 2.0 era!",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/07-Brand Content Assets/03-Awards & Certifications",
+              "type": "folder",
+              "label": "03-Awards & Certifications",
+              "count": 3,
+              "children": [
+                {
+                  "id": "32f5765ab3395e8b",
+                  "type": "file",
+                  "label": "20-Kuailu Intelligent Office Receives Xinchuang Certification",
+                  "title": "Kuailu Smart Office is accredited with a letter-based conversion of the AI Smart Body Empowerment Enterprise!",
+                  "unitCount": 1
+                },
+                {
+                  "id": "c4dcd098de9fcc98",
+                  "type": "file",
+                  "label": "26-Kuailu Wins AI Innovation Application Award",
+                  "title": "Kuailu was awarded the \"AI Innovation Applications Award\" for the 6th International Science Founding Festival, and its capacity was re-recognized!",
+                  "unitCount": 1
+                },
+                {
+                  "id": "ab2f195fe146f72c",
+                  "type": "file",
+                  "label": "28-Kuailu Wins Global AI Industry Application Pioneer Award",
+                  "title": "Kuailu Technology received the Global Best-Ai Industry Application Pioneer Award from GAIE 2026, the first full view of the AI-based smart office system",
+                  "unitCount": 1
+                }
+              ]
+            },
+            {
+              "id": "folder:01-Brand Information/07-Brand Content Assets/04-Cases, Solutions & Industry Insights",
+              "type": "folder",
+              "label": "04-Cases, Solutions & Industry Insights",
+              "count": 3,
+              "children": [
+                {
+                  "id": "685133b199f41731",
+                  "type": "file",
+                  "label": "22-AI Transformation Solution for the Recycling Industry",
+                  "title": "The Kuailu Smart Office launched the Regenerative Resources Industry AI+ Digital Transformation Program to use data base and AI smart body decomposition of industrial pain points",
+                  "unitCount": 1
+                },
+                {
+                  "id": "ea404f2332c438b3",
+                  "type": "file",
+                  "label": "23-ProAvanti and Kuailu Intelligent Office Case",
+                  "title": "ProAvanti x Kuailu Smart Office: AI+ Digital Upgrade controls transnational business!",
+                  "unitCount": 1
+                },
+                {
+                  "id": "36b95b8479b960f1",
+                  "type": "file",
+                  "label": "31-Digital Transformation in Battery and Steel Recycling",
+                  "title": "Kuailu explains: \"Lithium on the head, steel recycling facility, race to digitize the layout?\"",
+                  "unitCount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/08-Brand FAQ",
+          "type": "folder",
+          "label": "08-Brand FAQ",
+          "count": 8,
+          "children": [
+            {
+              "id": "24c5343a9676f453",
+              "type": "file",
+              "label": "01-Brand & Company Questions",
+              "title": "Branding and corporate issues",
+              "unitCount": 1
+            },
+            {
+              "id": "a384f8402f9acc8d",
+              "type": "file",
+              "label": "02-General Product Questions",
+              "title": "Overall product issues",
+              "unitCount": 1
+            },
+            {
+              "id": "a45aff451e138d3a",
+              "type": "file",
+              "label": "03-Product Feature Questions",
+              "title": "Product function issues",
+              "unitCount": 1
+            },
+            {
+              "id": "320402a5fc5a145a",
+              "type": "file",
+              "label": "04-Pricing & Trial Questions",
+              "title": "Price and trial issues",
+              "unitCount": 1
+            },
+            {
+              "id": "cbf46fdcca98d96a",
+              "type": "file",
+              "label": "05-Deployment & Integration Questions",
+              "title": "Deployment and integration issues",
+              "unitCount": 1
+            },
+            {
+              "id": "4ffbb9f6791776ed",
+              "type": "file",
+              "label": "06-Data & Security Questions",
+              "title": "Data and security issues",
+              "unitCount": 1
+            },
+            {
+              "id": "f313d0696a1377c4",
+              "type": "file",
+              "label": "07-Implementation & Service Questions",
+              "title": "Implementation and service issues",
+              "unitCount": 1
+            },
+            {
+              "id": "7197aa25ae3aff6b",
+              "type": "file",
+              "label": "08-Sales Objections",
+              "title": "Objections to sales",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/09-Brand Compliance Guidelines",
+          "type": "folder",
+          "label": "09-Brand Compliance Guidelines",
+          "count": 9,
+          "children": [
+            {
+              "id": "c2d3afe8bc54dcdd",
+              "type": "file",
+              "label": "01-Usage Rules",
+              "title": "Use rules",
+              "unitCount": 1
+            },
+            {
+              "id": "3bfb9ea6898a1840",
+              "type": "file",
+              "label": "02-Unapproved External Brand Language",
+              "title": "Foreign terminology not used in branding",
+              "unitCount": 1
+            },
+            {
+              "id": "1ee06c974aae7331",
+              "type": "file",
+              "label": "03-Prohibited Legal & Public Claims",
+              "title": "Disable expression by law and public content",
+              "unitCount": 1
+            },
+            {
+              "id": "8b04e567f1bc6bb3",
+              "type": "file",
+              "label": "04-Claims Requiring Evidence",
+              "title": "Justification required",
+              "unitCount": 1
+            },
+            {
+              "id": "6f09b637b8662e5d",
+              "type": "file",
+              "label": "05-Industry-Specific Restrictions",
+              "title": "Industry Additional Restrictions",
+              "unitCount": 1
+            },
+            {
+              "id": "5d0546e24256723a",
+              "type": "file",
+              "label": "06-Online Publishing Requirements",
+              "title": "Internet publishing alerts",
+              "unitCount": 1
+            },
+            {
+              "id": "cd91d2fe902d7053",
+              "type": "file",
+              "label": "07-Overstatement Replacements",
+              "title": "Overmarketing Word Optimization",
+              "unitCount": 1
+            },
+            {
+              "id": "6c145f722a62c21c",
+              "type": "file",
+              "label": "08-Pre-Publication Checklist",
+              "title": "Self-check list before release",
+              "unitCount": 1
+            },
+            {
+              "id": "d1ea4da70bce08c6",
+              "type": "file",
+              "label": "09-Rule Basis",
+              "title": "Basis of the rules",
+              "unitCount": 1
+            }
+          ]
+        },
+        {
+          "id": "folder:01-Brand Information/10-Official Brand Accounts",
+          "type": "folder",
+          "label": "10-Official Brand Accounts",
+          "count": 1,
+          "children": [
+            {
+              "id": "17b24fb4db316266",
+              "type": "file",
+              "label": "01-Official Brand Accounts",
+              "title": "Official Brand Accounts",
+              "unitCount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folder:02-Product Information",
+      "type": "folder",
+      "label": "02-Product Information",
+      "count": 10,
+      "children": [
+        {
+          "id": "folder:02-Product Information/01-Kuailu AI CRM",
+          "type": "folder",
+          "label": "01-Kuailu AI CRM",
+          "count": 10,
+          "children": [
+            {
+              "id": "3a8f91c65c71cb6f",
+              "type": "file",
+              "label": "01-Product Overview",
+              "title": "Kuailu AI CRM | Product Overview",
+              "unitCount": 1
+            },
+            {
+              "id": "dc32cc196c00b758",
+              "type": "file",
+              "label": "02-Product Positioning",
+              "title": "Kuailu AI CRM | Product Positioning",
+              "unitCount": 1
+            },
+            {
+              "id": "00a3e5f26b18ed98",
+              "type": "file",
+              "label": "03-Target Customers",
+              "title": "Kuailu AI CRM | Target Customers",
+              "unitCount": 1
+            },
+            {
+              "id": "8442a3500e082879",
+              "type": "file",
+              "label": "04-Features & Modules",
+              "title": "Kuailu AI CRM | Features & Modules",
+              "unitCount": 1
+            },
+            {
+              "id": "26983a662bd55f9d",
+              "type": "file",
+              "label": "05-Pricing",
+              "title": "Kuailu AI CRM | Pricing",
+              "unitCount": 1
+            },
+            {
+              "id": "a691f7aaf6ea865c",
+              "type": "file",
+              "label": "06-Core Advantages",
+              "title": "Kuailu AI CRM | Core Advantages",
+              "unitCount": 1
+            },
+            {
+              "id": "573c37870e8b8cdb",
+              "type": "file",
+              "label": "07-Core Use Cases",
+              "title": "Kuailu AI CRM | Core Use Cases",
+              "unitCount": 1
+            },
+            {
+              "id": "335b65a413f6b56a",
+              "type": "file",
+              "label": "08-FAQ & User Guide",
+              "title": "Kuailu AI CRM | FAQ & User Guide",
+              "unitCount": 1
+            },
+            {
+              "id": "2b211f3c41fa5351",
+              "type": "file",
+              "label": "09-Industry Solutions",
+              "title": "Kuailu AI CRM | Industry Solutions",
+              "unitCount": 1
+            },
+            {
+              "id": "cea1c7f71bb135c9",
+              "type": "file",
+              "label": "10-Customer Cases",
+              "title": "Kuailu AI CRM | Customer Cases",
+              "unitCount": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "searchChunks": [
+    {
+      "id": "all",
+      "label": "All Content",
+      "url": "kb/kuailu-global-v1/search/all.json",
+      "count": 94
+    }
+  ]
+}

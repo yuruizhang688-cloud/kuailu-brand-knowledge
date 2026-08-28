@@ -1,0 +1,17 @@
+{
+  "id": "8442a3500e082879",
+  "title": "Kuailu AI CRM | Features & Modules",
+  "label": "04-Features & Modules",
+  "relativePath": "02-Product Information/01-Kuailu AI CRM/04-Features & Modules.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu AI CRM",
+    "Kuailu AI CRM | Features & Modules"
+  ],
+  "category": "Product Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-08-28T09:01:16.690Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/8442a3500e082879.json",
+  "markdown": "# Kuailu AI CRM | Features & Modules\n\n## AI-Powered Lead Generation\n\n| Feature | Description |\n| --- | --- |\n| Smart prospect discovery | Identify potential prospects and organize them for follow-up. |\n| Personalized email campaigns | Use AI assistance to prepare more relevant outreach. |\n| Lead synchronization | Bring supported lead sources into a unified CRM workflow. |\n\n## AI-Assisted Customer Engagement\n\n| Feature | Description |\n| --- | --- |\n| Customer insights | Summarize relevant customer and interaction information. |\n| Sales guidance | Provide contextual scripts and next-step suggestions. |\n| Risk alerts | Surface follow-up and opportunity risks for attention. |\n\n## Smart Data Capture\n\n| Feature | Description |\n| --- | --- |\n| Automatic extraction | Extract structured information from supported customer interactions and records. |\n| Follow-up logging | Reduce manual entry by recording supported sales activities. |\n| Opportunity updates | Update supported opportunity fields and stages through configured workflows. |\n\n## Sales Management & Analytics\n\n| Module | Coverage |\n| --- | --- |\n| Leads | Intake, assignment, deduplication, public pools and follow-up. |\n| Customers | Accounts, contacts, ownership, collaboration and customer history. |\n| Opportunities | Stages, pipeline, forecasts, products and win/loss management. |\n| Orders | Contracts, orders, collections and invoicing coordination. |\n| Analytics | Dashboards, reports, targets and sales-performance insights. |\n| Configuration | Forms, rules, labels, permissions, filters and product data. |\n"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "2b211f3c41fa5351",
+  "title": "Kuailu AI CRM | Industry Solutions",
+  "label": "09-Industry Solutions",
+  "relativePath": "02-Product Information/01-Kuailu AI CRM/09-Industry Solutions.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu AI CRM",
+    "Kuailu AI CRM | Industry Solutions"
+  ],
+  "category": "Product Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-08-28T09:01:16.692Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/2b211f3c41fa5351.json",
+  "markdown": "# Kuailu AI CRM | Industry Solutions\n\n| Industry | Typical CRM Scenario | Delivery Boundary |\n| --- | --- | --- |\n| Manufacturing | Leads, accounts, opportunities, quotations, orders and collections | Product and ERP integration scope must be confirmed for each project. |\n| Energy and renewable resources | Account development, quotation, order, contract and collection tracking | Industry data models and workflows are configured to the agreed scope. |\n| Cross-border trade | International leads, regional ownership, customer follow-up and order coordination | Data location, cross-border transfers and local compliance require project review. |\n| Retail and distribution | Customer operations, sales opportunities and order analysis | Channel, membership and transaction integrations depend on available interfaces. |\n| Medical equipment | Accounts, opportunities, contracts, orders and collections | Regulatory requirements and delivery scope must be validated for the target market. |\n| Finance and professional services | Relationship management, opportunity governance and activity records | Access controls, audit requirements and applicable regulations require confirmation. |\n"
+}

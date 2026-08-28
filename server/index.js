@@ -128,13 +128,15 @@ async function buildKnowledgeBase() {
     const entries = docs.map((doc) => ({ ...doc, text: '' }));
     for (const entry of entries) entry.text = JSON.parse(await readFile(path.join(outputRoot, 'docs', `${entry.id}.json`), 'utf8')).markdown.replace(/^#+\s+/gm, '').replace(/[`*_>|]/g, ' ').replace(/\s+/g, ' ').trim();
     await mkdir(path.join(outputRoot, 'search'), { recursive: true });
-    await writeFile(path.join(outputRoot, 'search', 'all.json'), JSON.stringify({ id: 'all', label: '全部内容', entries }, null, 2));
-    const manifest = { slug, displayName: config.displayName ?? stripOrder(slug), shortName: config.shortName ?? config.displayName ?? stripOrder(slug), initials: config.initials ?? 'KB', docCount: docs.length, knowledgePointCount: docs.reduce((sum, doc) => sum + doc.unitCount, 0), defaultDocId: docs[0]?.id ?? null, exportUrl: `kb/${slug}/export.json`, generatedAt: new Date().toISOString(), docs, tree, searchChunks: [{ id: 'all', label: '全部内容', url: `kb/${slug}/search/all.json`, count: docs.length }] };
+    const locale = config.locale ?? 'zh-CN';
+    const allContentLabel = locale.startsWith('en') ? 'All Content' : '全部内容';
+    await writeFile(path.join(outputRoot, 'search', 'all.json'), JSON.stringify({ id: 'all', label: allContentLabel, entries }, null, 2));
+    const manifest = { slug, displayName: config.displayName ?? stripOrder(slug), shortName: config.shortName ?? config.displayName ?? stripOrder(slug), initials: config.initials ?? 'KB', locale, showSources: config.showSources !== false, docCount: docs.length, knowledgePointCount: docs.reduce((sum, doc) => sum + doc.unitCount, 0), defaultDocId: docs[0]?.id ?? null, exportUrl: `kb/${slug}/export.json`, generatedAt: new Date().toISOString(), docs, tree, searchChunks: [{ id: 'all', label: allContentLabel, url: `kb/${slug}/search/all.json`, count: docs.length }] };
     await writeFile(path.join(outputRoot, 'manifest.json'), JSON.stringify(manifest, null, 2));
     await writeFile(path.join(outputRoot, 'export.json'), JSON.stringify({ slug, generatedAt: manifest.generatedAt, docs: await Promise.all(docs.map(async (doc) => ({ id: doc.id, relativePath: doc.relativePath, markdown: JSON.parse(await readFile(path.join(outputRoot, 'docs', `${doc.id}.json`), 'utf8')).markdown }))) }, null, 2));
-    brands.push({ slug, displayName: manifest.displayName, shortName: manifest.shortName, initials: manifest.initials, docCount: manifest.docCount, knowledgePointCount: manifest.knowledgePointCount, manifestUrl: `kb/${slug}/manifest.json` });
+    brands.push({ slug, displayName: manifest.displayName, shortName: manifest.shortName, initials: manifest.initials, locale: manifest.locale, docCount: manifest.docCount, knowledgePointCount: manifest.knowledgePointCount, manifestUrl: `kb/${slug}/manifest.json` });
   }
-  const site = { generatedAt: new Date().toISOString(), defaultBrand: brands[0]?.slug ?? null, brands };
+  const site = { generatedAt: new Date().toISOString(), defaultBrand: brands.find((brand) => brand.slug === 'kuailu-v2')?.slug ?? brands[0]?.slug ?? null, brands };
   await writeFile(path.join(kbRoot, 'manifest.json'), JSON.stringify(site, null, 2));
   return { brands: brands.length, docs: brands.reduce((sum, brand) => sum + brand.docCount, 0), site };
 }

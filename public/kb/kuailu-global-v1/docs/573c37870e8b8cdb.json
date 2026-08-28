@@ -1,0 +1,17 @@
+{
+  "id": "573c37870e8b8cdb",
+  "title": "Kuailu AI CRM | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "02-Product Information/01-Kuailu AI CRM/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu AI CRM",
+    "Kuailu AI CRM | Core Use Cases"
+  ],
+  "category": "Product Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-08-28T09:01:16.692Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/573c37870e8b8cdb.json",
+  "markdown": "# Kuailu AI CRM | Core Use Cases\n\n| Use Case | Need | How Kuailu AI CRM Supports It |\n| --- | --- | --- |\n| Lead intake and assignment | Leads arrive from multiple sources and require prompt ownership. | Centralize supported lead sources, deduplicate records and assign follow-up responsibility. |\n| Customer follow-up | Sales teams need consistent interaction records and next actions. | Capture activities, maintain account history and provide contextual AI assistance. |\n| Pipeline management | Managers need visibility into opportunity stages, value and risks. | Use opportunity workflows, dashboards and reports to monitor the pipeline. |\n| Sales planning | Representatives need to prioritize daily work. | Use customer and opportunity data to support task prioritization and next-step planning. |\n| Order and collection coordination | Sales and finance teams need connected contract, order and payment information. | Link supported orders, collections and invoicing workflows. |\n| Management analysis | Leaders need a consolidated view of sales execution. | Review dashboards, targets, performance indicators and drill-down reports. |\n"
+}
