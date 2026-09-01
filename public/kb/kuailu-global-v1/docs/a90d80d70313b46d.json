@@ -1,0 +1,17 @@
+{
+  "id": "a90d80d70313b46d",
+  "title": "Kuailu HR | Customer Cases",
+  "label": "10-Customer Cases",
+  "relativePath": "02-Product Information/02-Kuailu HR/10-Customer Cases.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu HR",
+    "Kuailu HR | Customer Cases"
+  ],
+  "category": "Product Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-01T07:13:27.151Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/a90d80d70313b46d.json",
+  "markdown": "# Kuailu HR | Customer Cases\n\n| Case status | Evidence boundary |\n| --- | --- |\n| Public Kuailu HR cases | No complete, named Kuailu HR customer case with implementation scope and verifiable outcomes is included in the supplied materials. |\n| Sales-training examples | The sales-training deck presents product capabilities and pre-sales workflows, not named customer outcomes. |\n| Reuse rule | Do not convert the PMF market hypothesis, product screenshots or sales collateral into customer success claims. Add a case only after customer authorization, scope, period, measurement method and results are approved. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/03-HR-System-Operations-Manual-V1.0_en.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n- `01-source-files/kuailu-global-v1/hr-materials/02-PMF_Product-Market-Fit_分析报告.md`\n"
+}

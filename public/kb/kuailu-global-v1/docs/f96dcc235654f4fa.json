@@ -1,0 +1,17 @@
+{
+  "id": "f96dcc235654f4fa",
+  "title": "Kuailu HR | Industry Solutions",
+  "label": "09-Industry Solutions",
+  "relativePath": "02-Product Information/02-Kuailu HR/09-Industry Solutions.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu HR",
+    "Kuailu HR | Industry Solutions"
+  ],
+  "category": "Product Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-01T07:13:27.151Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/f96dcc235654f4fa.json",
+  "markdown": "# Kuailu HR | Industry Solutions\n\nThe PMF report identifies industries with fragmented shifts, mixed pay types and multi-site operations as the strongest planning fit. The following is a source-backed hypothesis, not a statement that every industry package is already delivered.\n\n| Industry | Typical need | Relevant Kuailu HR capability |\n| --- | --- | --- |\n| Chain retail | Part-time shifts, multiple branches, variable staffing and mixed hourly / monthly pay | Multi-site attendance groups, scheduling, rolling-hours tracking and payroll linkage |\n| Catering and food service | Split shifts, casual workers, high turnover and frequent payroll cycles | Shift scheduling, attendance rules, dynamic payroll and statutory calculation support |\n| Hong Kong NGO / social services | Part-time or sessional workers, grant-funded cost centers and audit traceability | Employee lifecycle records, attendance evidence, payroll data and audit-oriented reports |\n| Cleaning, property management and logistics | Multiple sites, frequent roster changes and 24-hour shifts | Site-based scheduling, cross-site allocation, attendance evidence and payroll integration |\n| Mainland China HR operations | Employee, attendance and compensation management under the supplied V1.0 manual scope | Employee roster, attendance and compensation modules with configurable rules |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/02-PMF_Product-Market-Fit_分析报告.md`\n- `01-source-files/kuailu-global-v1/hr-materials/03-HR-System-Operations-Manual-V1.0_en.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n"
+}

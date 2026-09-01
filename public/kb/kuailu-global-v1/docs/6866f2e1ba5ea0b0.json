@@ -1,0 +1,17 @@
+{
+  "id": "6866f2e1ba5ea0b0",
+  "title": "Kuailu HR | FAQ & User Guide",
+  "label": "08-FAQ & User Guide",
+  "relativePath": "02-Product Information/02-Kuailu HR/08-FAQ & User Guide.md",
+  "breadcrumbs": [
+    "Product Information",
+    "Kuailu HR",
+    "Kuailu HR | FAQ & User Guide"
+  ],
+  "category": "Product Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-01T07:13:27.150Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/6866f2e1ba5ea0b0.json",
+  "markdown": "# Kuailu HR | FAQ & User Guide\n\n| Question | Answer |\n| --- | --- |\n| Which modules are included? | Employee, Time & Attendance, and Compensation modules are covered in the supplied V1.0 operating manual. |\n| Who can operate the system? | HR Specialists and Administrators maintain core data and rules; Department Managers participate in approvals; Employees use self-service workflows. |\n| How are employee records created? | Employee master records are primarily generated after pending-onboarding confirmation; HR should not manually create them through the standard Add button. |\n| Can shifts be scheduled automatically? | Fixed, Flexible and Free Shift groups can use system scheduling; Scheduled Shift groups require manual scheduling. |\n| What happens when a rule or form is approved? | The system writes approved results back to related employee, attendance or compensation records. |\n| Are regional rules universal? | No. The supplied manual and sales materials cover different regional contexts. Confirm country rules, statutory calculations and hardware / connectivity constraints for the deployment. |\n\n### Operating sequence\n\n1. Configure organization master data, permissions and workflow automation.\n2. Maintain employee records and confirm onboarding workflows.\n3. Configure attendance groups, shifts, calendars, rules and leave entitlements.\n4. Review attendance forms and reports, then configure compensation rules and payroll periods.\n5. Calculate payroll, approve results and distribute payslips according to the configured process.\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/03-HR-System-Operations-Manual-V1.0_en.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n"
+}

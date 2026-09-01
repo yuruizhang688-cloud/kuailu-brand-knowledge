@@ -4,12 +4,12 @@
   "shortName": "Kuailu Global Knowledge Base",
   "initials": "KUAILU",
   "locale": "en-US",
-  "showSources": false,
-  "docCount": 94,
-  "knowledgePointCount": 94,
+  "showSources": true,
+  "docCount": 104,
+  "knowledgePointCount": 104,
   "defaultDocId": "bbec1c9410ec357d",
   "exportUrl": "kb/kuailu-global-v1/export.json",
-  "generatedAt": "2026-08-28T09:01:37.738Z",
+  "generatedAt": "2026-09-01T07:13:27.520Z",
   "docs": [
     {
       "id": "bbec1c9410ec357d",
@@ -24,7 +24,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "updatedAt": "2026-09-01T07:13:27.156Z",
       "contentUrl": "kb/kuailu-global-v1/docs/bbec1c9410ec357d.json"
     },
     {
@@ -40,7 +40,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "updatedAt": "2026-09-01T07:13:27.157Z",
       "contentUrl": "kb/kuailu-global-v1/docs/10b541bb775189c1.json"
     },
     {
@@ -56,7 +56,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.641Z",
+      "updatedAt": "2026-09-01T07:13:27.158Z",
       "contentUrl": "kb/kuailu-global-v1/docs/2dfb67b0a451df6b.json"
     },
     {
@@ -72,7 +72,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "updatedAt": "2026-09-01T07:13:27.158Z",
       "contentUrl": "kb/kuailu-global-v1/docs/46ac431bd7e4c9d9.json"
     },
     {
@@ -86,9 +86,9 @@
         "Legal Entity Information"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "updatedAt": "2026-09-01T07:13:27.158Z",
       "contentUrl": "kb/kuailu-global-v1/docs/150cc033e9f2b45e.json"
     },
     {
@@ -102,9 +102,9 @@
         "Contact Information"
       ],
       "category": "Brand Information",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.643Z",
+      "updatedAt": "2026-09-01T07:13:27.160Z",
       "contentUrl": "kb/kuailu-global-v1/docs/49dfc399665f477c.json"
     },
     {
@@ -120,7 +120,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.644Z",
+      "updatedAt": "2026-09-01T07:13:27.160Z",
       "contentUrl": "kb/kuailu-global-v1/docs/766da58eccbb4db3.json"
     },
     {
@@ -136,7 +136,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.644Z",
+      "updatedAt": "2026-09-01T07:13:27.160Z",
       "contentUrl": "kb/kuailu-global-v1/docs/cb0728657c06047d.json"
     },
     {
@@ -150,9 +150,9 @@
         "Overview of core business"
       ],
       "category": "Brand Information",
-      "readTime": 8,
+      "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.646Z",
+      "updatedAt": "2026-09-01T07:13:27.162Z",
       "contentUrl": "kb/kuailu-global-v1/docs/17941e5ab085c3d0.json"
     },
     {
@@ -166,9 +166,9 @@
         "Smart office operations"
       ],
       "category": "Brand Information",
-      "readTime": 9,
+      "readTime": 10,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.646Z",
+      "updatedAt": "2026-09-01T07:13:27.163Z",
       "contentUrl": "kb/kuailu-global-v1/docs/91aa004304731429.json"
     },
     {
@@ -184,7 +184,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:26.938Z",
+      "updatedAt": "2026-09-01T07:13:27.163Z",
       "contentUrl": "kb/kuailu-global-v1/docs/7350e4505a520916.json"
     },
     {
@@ -200,7 +200,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:26.938Z",
+      "updatedAt": "2026-09-01T07:13:27.163Z",
       "contentUrl": "kb/kuailu-global-v1/docs/31a34ca8a7a8bd56.json"
     },
     {
@@ -216,7 +216,7 @@
       "category": "Brand Information",
       "readTime": 20,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.648Z",
+      "updatedAt": "2026-09-01T07:13:27.164Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8fd70d8e0c18f198.json"
     },
     {
@@ -232,7 +232,7 @@
       "category": "Brand Information",
       "readTime": 14,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.648Z",
+      "updatedAt": "2026-09-01T07:13:27.165Z",
       "contentUrl": "kb/kuailu-global-v1/docs/d8e912dbcc1693d0.json"
     },
     {
@@ -248,7 +248,7 @@
       "category": "Brand Information",
       "readTime": 20,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.649Z",
+      "updatedAt": "2026-09-01T07:13:27.165Z",
       "contentUrl": "kb/kuailu-global-v1/docs/b53bcde15bc18bf4.json"
     },
     {
@@ -264,7 +264,7 @@
       "category": "Brand Information",
       "readTime": 11,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.650Z",
+      "updatedAt": "2026-09-01T07:13:27.166Z",
       "contentUrl": "kb/kuailu-global-v1/docs/eac88332d625c73f.json"
     },
     {
@@ -280,7 +280,7 @@
       "category": "Brand Information",
       "readTime": 14,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "updatedAt": "2026-09-01T07:13:27.167Z",
       "contentUrl": "kb/kuailu-global-v1/docs/62076b6710e73a31.json"
     },
     {
@@ -296,7 +296,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "updatedAt": "2026-09-01T07:13:27.168Z",
       "contentUrl": "kb/kuailu-global-v1/docs/56f0768d48428554.json"
     },
     {
@@ -310,9 +310,9 @@
         "Integrated product capacity"
       ],
       "category": "Brand Information",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.651Z",
+      "updatedAt": "2026-09-01T07:13:27.170Z",
       "contentUrl": "kb/kuailu-global-v1/docs/b8c060efdb6a3d2b.json"
     },
     {
@@ -326,9 +326,9 @@
         "Data and system integration capacity"
       ],
       "category": "Brand Information",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.652Z",
+      "updatedAt": "2026-09-01T07:13:27.171Z",
       "contentUrl": "kb/kuailu-global-v1/docs/d21a1ddd507909ae.json"
     },
     {
@@ -344,7 +344,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "updatedAt": "2026-09-01T07:13:27.171Z",
       "contentUrl": "kb/kuailu-global-v1/docs/612952e681cc3f45.json"
     },
     {
@@ -360,7 +360,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "updatedAt": "2026-09-01T07:13:27.172Z",
       "contentUrl": "kb/kuailu-global-v1/docs/dc162d6103fccbb5.json"
     },
     {
@@ -376,7 +376,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.654Z",
+      "updatedAt": "2026-09-01T07:13:27.173Z",
       "contentUrl": "kb/kuailu-global-v1/docs/d5eb60c5184538cf.json"
     },
     {
@@ -392,7 +392,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.656Z",
+      "updatedAt": "2026-09-01T07:13:27.174Z",
       "contentUrl": "kb/kuailu-global-v1/docs/161a3148568c0dc2.json"
     },
     {
@@ -408,7 +408,7 @@
       "category": "Brand Information",
       "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.657Z",
+      "updatedAt": "2026-09-01T07:13:27.174Z",
       "contentUrl": "kb/kuailu-global-v1/docs/9b22c93c192b5abe.json"
     },
     {
@@ -424,7 +424,7 @@
       "category": "Brand Information",
       "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.657Z",
+      "updatedAt": "2026-09-01T07:13:27.174Z",
       "contentUrl": "kb/kuailu-global-v1/docs/ea4f879eaaa7ea3a.json"
     },
     {
@@ -440,7 +440,7 @@
       "category": "Brand Information",
       "readTime": 10,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "updatedAt": "2026-09-01T07:13:27.175Z",
       "contentUrl": "kb/kuailu-global-v1/docs/d35616946a9cb7e2.json"
     },
     {
@@ -456,7 +456,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "updatedAt": "2026-09-01T07:13:27.175Z",
       "contentUrl": "kb/kuailu-global-v1/docs/082943b44c609dca.json"
     },
     {
@@ -472,7 +472,7 @@
       "category": "Brand Information",
       "readTime": 5,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.658Z",
+      "updatedAt": "2026-09-01T07:13:27.175Z",
       "contentUrl": "kb/kuailu-global-v1/docs/16b039efe97b26bb.json"
     },
     {
@@ -488,7 +488,7 @@
       "category": "Brand Information",
       "readTime": 15,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.659Z",
+      "updatedAt": "2026-09-01T07:13:27.176Z",
       "contentUrl": "kb/kuailu-global-v1/docs/fb11128f1199aa10.json"
     },
     {
@@ -504,7 +504,7 @@
       "category": "Brand Information",
       "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.660Z",
+      "updatedAt": "2026-09-01T07:13:27.176Z",
       "contentUrl": "kb/kuailu-global-v1/docs/0a6405f6451529fe.json"
     },
     {
@@ -518,9 +518,9 @@
         "Use Role"
       ],
       "category": "Brand Information",
-      "readTime": 6,
+      "readTime": 7,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.660Z",
+      "updatedAt": "2026-09-01T07:13:27.177Z",
       "contentUrl": "kb/kuailu-global-v1/docs/bb07a96fd196913c.json"
     },
     {
@@ -536,7 +536,7 @@
       "category": "Brand Information",
       "readTime": 5,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.661Z",
+      "updatedAt": "2026-09-01T07:13:27.178Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8a9937038c820e86.json"
     },
     {
@@ -552,7 +552,7 @@
       "category": "Brand Information",
       "readTime": 8,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.662Z",
+      "updatedAt": "2026-09-01T07:13:27.179Z",
       "contentUrl": "kb/kuailu-global-v1/docs/9b120b627a6d87d2.json"
     },
     {
@@ -568,7 +568,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.662Z",
+      "updatedAt": "2026-09-01T07:13:27.179Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8a4b2839cf4fc788.json"
     },
     {
@@ -584,7 +584,7 @@
       "category": "Brand Information",
       "readTime": 16,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.663Z",
+      "updatedAt": "2026-09-01T07:13:27.180Z",
       "contentUrl": "kb/kuailu-global-v1/docs/63a39e671b4f9000.json"
     },
     {
@@ -600,7 +600,7 @@
       "category": "Brand Information",
       "readTime": 10,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.663Z",
+      "updatedAt": "2026-09-01T07:13:27.180Z",
       "contentUrl": "kb/kuailu-global-v1/docs/6f2cc046beb10a1d.json"
     },
     {
@@ -614,9 +614,9 @@
         "Convert scene"
       ],
       "category": "Brand Information",
-      "readTime": 4,
+      "readTime": 5,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.664Z",
+      "updatedAt": "2026-09-01T07:13:27.180Z",
       "contentUrl": "kb/kuailu-global-v1/docs/ab5a95245d76b04d.json"
     },
     {
@@ -633,7 +633,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.664Z",
+      "updatedAt": "2026-09-01T07:13:27.181Z",
       "contentUrl": "kb/kuailu-global-v1/docs/e28c8185d18dc20c.json"
     },
     {
@@ -650,7 +650,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "updatedAt": "2026-09-01T07:13:27.181Z",
       "contentUrl": "kb/kuailu-global-v1/docs/af59be9b9224a1b0.json"
     },
     {
@@ -667,7 +667,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "updatedAt": "2026-09-01T07:13:27.181Z",
       "contentUrl": "kb/kuailu-global-v1/docs/1a15ff6b10daea8a.json"
     },
     {
@@ -684,7 +684,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "updatedAt": "2026-09-01T07:13:27.182Z",
       "contentUrl": "kb/kuailu-global-v1/docs/4501f08b1005bec4.json"
     },
     {
@@ -701,7 +701,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.666Z",
+      "updatedAt": "2026-09-01T07:13:27.182Z",
       "contentUrl": "kb/kuailu-global-v1/docs/78b77e886dccd14d.json"
     },
     {
@@ -718,7 +718,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "updatedAt": "2026-09-01T07:13:27.183Z",
       "contentUrl": "kb/kuailu-global-v1/docs/14f8ef3e8fd42715.json"
     },
     {
@@ -735,7 +735,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "updatedAt": "2026-09-01T07:13:27.183Z",
       "contentUrl": "kb/kuailu-global-v1/docs/b581787a90d2057f.json"
     },
     {
@@ -752,7 +752,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "updatedAt": "2026-09-01T07:13:27.184Z",
       "contentUrl": "kb/kuailu-global-v1/docs/6de516abfcf7f859.json"
     },
     {
@@ -769,7 +769,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.667Z",
+      "updatedAt": "2026-09-01T07:13:27.184Z",
       "contentUrl": "kb/kuailu-global-v1/docs/4b841c38b5f30c0c.json"
     },
     {
@@ -786,7 +786,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "updatedAt": "2026-09-01T07:13:27.185Z",
       "contentUrl": "kb/kuailu-global-v1/docs/03c79703e5573820.json"
     },
     {
@@ -803,7 +803,7 @@
       "category": "Brand Information",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "updatedAt": "2026-09-01T07:13:27.185Z",
       "contentUrl": "kb/kuailu-global-v1/docs/eb9f479c17e84c42.json"
     },
     {
@@ -818,9 +818,9 @@
         "ISO 27017 cloud service information security authentication"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "updatedAt": "2026-09-01T07:13:27.185Z",
       "contentUrl": "kb/kuailu-global-v1/docs/c79b877f5995dc27.json"
     },
     {
@@ -835,9 +835,9 @@
         "ISO 27001 Information Security Management Certification"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.669Z",
+      "updatedAt": "2026-09-01T07:13:27.186Z",
       "contentUrl": "kb/kuailu-global-v1/docs/673331dce838f0be.json"
     },
     {
@@ -854,7 +854,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "updatedAt": "2026-09-01T07:13:27.186Z",
       "contentUrl": "kb/kuailu-global-v1/docs/b6cd1027c5be18bd.json"
     },
     {
@@ -869,9 +869,9 @@
         "ISO 27001 Information Security Management Certification"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "updatedAt": "2026-09-01T07:13:27.187Z",
       "contentUrl": "kb/kuailu-global-v1/docs/bb3b5a5a07147068.json"
     },
     {
@@ -886,9 +886,9 @@
         "Kuailu Meeting letter creation assessment"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.670Z",
+      "updatedAt": "2026-09-01T07:13:27.187Z",
       "contentUrl": "kb/kuailu-global-v1/docs/b91a8d15ab773ccd.json"
     },
     {
@@ -903,9 +903,9 @@
         "Kuailu Cloud AI has a bright look in Shenzhen! A new \"AI Office Mode\" is the hotshot!"
       ],
       "category": "Brand Information",
-      "readTime": 8,
+      "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.671Z",
+      "updatedAt": "2026-09-01T07:13:27.187Z",
       "contentUrl": "kb/kuailu-global-v1/docs/67f662ce173d403c.json"
     },
     {
@@ -922,7 +922,7 @@
       "category": "Brand Information",
       "readTime": 8,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.671Z",
+      "updatedAt": "2026-09-01T07:13:27.188Z",
       "contentUrl": "kb/kuailu-global-v1/docs/063f04e16642ddf9.json"
     },
     {
@@ -937,9 +937,9 @@
         "Kuailu Technology Visible AI+ Power 2026, One-stop AI Smart Office Enabling Global Enterprise Digitalization"
       ],
       "category": "Brand Information",
-      "readTime": 12,
+      "readTime": 13,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.672Z",
+      "updatedAt": "2026-09-01T07:13:27.188Z",
       "contentUrl": "kb/kuailu-global-v1/docs/4b821f8b07f3dd43.json"
     },
     {
@@ -956,7 +956,7 @@
       "category": "Brand Information",
       "readTime": 14,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.672Z",
+      "updatedAt": "2026-09-01T07:13:27.189Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8cbf651e9421721c.json"
     },
     {
@@ -973,7 +973,7 @@
       "category": "Brand Information",
       "readTime": 10,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.673Z",
+      "updatedAt": "2026-09-01T07:13:27.190Z",
       "contentUrl": "kb/kuailu-global-v1/docs/43c1400f776fc1c9.json"
     },
     {
@@ -988,9 +988,9 @@
         "New upgrade. Kuailu Smart Office AI CRM leads the sales management 2.0 era!"
       ],
       "category": "Brand Information",
-      "readTime": 10,
+      "readTime": 11,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.674Z",
+      "updatedAt": "2026-09-01T07:13:27.190Z",
       "contentUrl": "kb/kuailu-global-v1/docs/0503d57f3436aff9.json"
     },
     {
@@ -1007,7 +1007,7 @@
       "category": "Brand Information",
       "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.674Z",
+      "updatedAt": "2026-09-01T07:13:27.190Z",
       "contentUrl": "kb/kuailu-global-v1/docs/32f5765ab3395e8b.json"
     },
     {
@@ -1024,7 +1024,7 @@
       "category": "Brand Information",
       "readTime": 11,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.675Z",
+      "updatedAt": "2026-09-01T07:13:27.191Z",
       "contentUrl": "kb/kuailu-global-v1/docs/c4dcd098de9fcc98.json"
     },
     {
@@ -1041,7 +1041,7 @@
       "category": "Brand Information",
       "readTime": 8,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.675Z",
+      "updatedAt": "2026-09-01T07:13:27.191Z",
       "contentUrl": "kb/kuailu-global-v1/docs/ab2f195fe146f72c.json"
     },
     {
@@ -1058,7 +1058,7 @@
       "category": "Brand Information",
       "readTime": 11,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.676Z",
+      "updatedAt": "2026-09-01T07:13:27.192Z",
       "contentUrl": "kb/kuailu-global-v1/docs/685133b199f41731.json"
     },
     {
@@ -1075,7 +1075,7 @@
       "category": "Brand Information",
       "readTime": 16,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.677Z",
+      "updatedAt": "2026-09-01T07:13:27.193Z",
       "contentUrl": "kb/kuailu-global-v1/docs/ea404f2332c438b3.json"
     },
     {
@@ -1092,7 +1092,7 @@
       "category": "Brand Information",
       "readTime": 17,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.678Z",
+      "updatedAt": "2026-09-01T07:13:27.194Z",
       "contentUrl": "kb/kuailu-global-v1/docs/36b95b8479b960f1.json"
     },
     {
@@ -1108,7 +1108,7 @@
       "category": "Brand Information",
       "readTime": 6,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.678Z",
+      "updatedAt": "2026-09-01T07:13:27.195Z",
       "contentUrl": "kb/kuailu-global-v1/docs/24c5343a9676f453.json"
     },
     {
@@ -1124,7 +1124,7 @@
       "category": "Brand Information",
       "readTime": 13,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.679Z",
+      "updatedAt": "2026-09-01T07:13:27.196Z",
       "contentUrl": "kb/kuailu-global-v1/docs/a384f8402f9acc8d.json"
     },
     {
@@ -1140,7 +1140,7 @@
       "category": "Brand Information",
       "readTime": 20,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.680Z",
+      "updatedAt": "2026-09-01T07:13:27.196Z",
       "contentUrl": "kb/kuailu-global-v1/docs/a45aff451e138d3a.json"
     },
     {
@@ -1156,7 +1156,7 @@
       "category": "Brand Information",
       "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.680Z",
+      "updatedAt": "2026-09-01T07:13:27.197Z",
       "contentUrl": "kb/kuailu-global-v1/docs/320402a5fc5a145a.json"
     },
     {
@@ -1170,9 +1170,9 @@
         "Deployment and integration issues"
       ],
       "category": "Brand Information",
-      "readTime": 8,
+      "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "updatedAt": "2026-09-01T07:13:27.197Z",
       "contentUrl": "kb/kuailu-global-v1/docs/cbf46fdcca98d96a.json"
     },
     {
@@ -1188,7 +1188,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "updatedAt": "2026-09-01T07:13:27.197Z",
       "contentUrl": "kb/kuailu-global-v1/docs/4ffbb9f6791776ed.json"
     },
     {
@@ -1202,9 +1202,9 @@
         "Implementation and service issues"
       ],
       "category": "Brand Information",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.681Z",
+      "updatedAt": "2026-09-01T07:13:27.197Z",
       "contentUrl": "kb/kuailu-global-v1/docs/f313d0696a1377c4.json"
     },
     {
@@ -1220,7 +1220,7 @@
       "category": "Brand Information",
       "readTime": 6,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.682Z",
+      "updatedAt": "2026-09-01T07:13:27.198Z",
       "contentUrl": "kb/kuailu-global-v1/docs/7197aa25ae3aff6b.json"
     },
     {
@@ -1236,7 +1236,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.683Z",
+      "updatedAt": "2026-09-01T07:13:27.198Z",
       "contentUrl": "kb/kuailu-global-v1/docs/c2d3afe8bc54dcdd.json"
     },
     {
@@ -1252,7 +1252,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.683Z",
+      "updatedAt": "2026-09-01T07:13:27.198Z",
       "contentUrl": "kb/kuailu-global-v1/docs/3bfb9ea6898a1840.json"
     },
     {
@@ -1268,7 +1268,7 @@
       "category": "Brand Information",
       "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "updatedAt": "2026-09-01T07:13:27.199Z",
       "contentUrl": "kb/kuailu-global-v1/docs/1ee06c974aae7331.json"
     },
     {
@@ -1284,7 +1284,7 @@
       "category": "Brand Information",
       "readTime": 7,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "updatedAt": "2026-09-01T07:13:27.199Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8b04e567f1bc6bb3.json"
     },
     {
@@ -1300,7 +1300,7 @@
       "category": "Brand Information",
       "readTime": 5,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.685Z",
+      "updatedAt": "2026-09-01T07:13:27.199Z",
       "contentUrl": "kb/kuailu-global-v1/docs/6f09b637b8662e5d.json"
     },
     {
@@ -1316,7 +1316,7 @@
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.686Z",
+      "updatedAt": "2026-09-01T07:13:27.200Z",
       "contentUrl": "kb/kuailu-global-v1/docs/5d0546e24256723a.json"
     },
     {
@@ -1330,9 +1330,9 @@
         "Overmarketing Word Optimization"
       ],
       "category": "Brand Information",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.686Z",
+      "updatedAt": "2026-09-01T07:13:27.200Z",
       "contentUrl": "kb/kuailu-global-v1/docs/cd91d2fe902d7053.json"
     },
     {
@@ -1348,7 +1348,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.687Z",
+      "updatedAt": "2026-09-01T07:13:27.201Z",
       "contentUrl": "kb/kuailu-global-v1/docs/6c145f722a62c21c.json"
     },
     {
@@ -1364,7 +1364,7 @@
       "category": "Brand Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "updatedAt": "2026-09-01T07:13:27.202Z",
       "contentUrl": "kb/kuailu-global-v1/docs/d1ea4da70bce08c6.json"
     },
     {
@@ -1378,9 +1378,9 @@
         "Official Brand Accounts"
       ],
       "category": "Brand Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "updatedAt": "2026-09-01T07:13:27.202Z",
       "contentUrl": "kb/kuailu-global-v1/docs/17b24fb4db316266.json"
     },
     {
@@ -1396,7 +1396,7 @@
       "category": "Product Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "updatedAt": "2026-09-01T07:13:27.203Z",
       "contentUrl": "kb/kuailu-global-v1/docs/3a8f91c65c71cb6f.json"
     },
     {
@@ -1410,9 +1410,9 @@
         "Kuailu AI CRM | Product Positioning"
       ],
       "category": "Product Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.689Z",
+      "updatedAt": "2026-09-01T07:13:27.203Z",
       "contentUrl": "kb/kuailu-global-v1/docs/dc32cc196c00b758.json"
     },
     {
@@ -1428,7 +1428,7 @@
       "category": "Product Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.690Z",
+      "updatedAt": "2026-09-01T07:13:27.204Z",
       "contentUrl": "kb/kuailu-global-v1/docs/00a3e5f26b18ed98.json"
     },
     {
@@ -1444,7 +1444,7 @@
       "category": "Product Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.690Z",
+      "updatedAt": "2026-09-01T07:13:27.204Z",
       "contentUrl": "kb/kuailu-global-v1/docs/8442a3500e082879.json"
     },
     {
@@ -1458,9 +1458,9 @@
         "Kuailu AI CRM | Pricing"
       ],
       "category": "Product Information",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "updatedAt": "2026-09-01T07:13:27.204Z",
       "contentUrl": "kb/kuailu-global-v1/docs/26983a662bd55f9d.json"
     },
     {
@@ -1476,7 +1476,7 @@
       "category": "Product Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "updatedAt": "2026-09-01T07:13:27.204Z",
       "contentUrl": "kb/kuailu-global-v1/docs/a691f7aaf6ea865c.json"
     },
     {
@@ -1490,9 +1490,9 @@
         "Kuailu AI CRM | Core Use Cases"
       ],
       "category": "Product Information",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "updatedAt": "2026-09-01T07:13:27.205Z",
       "contentUrl": "kb/kuailu-global-v1/docs/573c37870e8b8cdb.json"
     },
     {
@@ -1506,9 +1506,9 @@
         "Kuailu AI CRM | FAQ & User Guide"
       ],
       "category": "Product Information",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "updatedAt": "2026-09-01T07:13:27.205Z",
       "contentUrl": "kb/kuailu-global-v1/docs/335b65a413f6b56a.json"
     },
     {
@@ -1524,7 +1524,7 @@
       "category": "Product Information",
       "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.692Z",
+      "updatedAt": "2026-09-01T07:13:27.206Z",
       "contentUrl": "kb/kuailu-global-v1/docs/2b211f3c41fa5351.json"
     },
     {
@@ -1540,8 +1540,168 @@
       "category": "Product Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-08-28T09:01:16.693Z",
+      "updatedAt": "2026-09-01T07:13:27.206Z",
       "contentUrl": "kb/kuailu-global-v1/docs/cea1c7f71bb135c9.json"
+    },
+    {
+      "id": "78209b173e6932a2",
+      "title": "Kuailu HR | Product Overview",
+      "label": "01-Product Overview",
+      "relativePath": "02-Product Information/02-Kuailu HR/01-Product Overview.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Product Overview"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.149Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/78209b173e6932a2.json"
+    },
+    {
+      "id": "ebae1ee5feec3663",
+      "title": "Kuailu HR | Product Positioning",
+      "label": "02-Product Positioning",
+      "relativePath": "02-Product Information/02-Kuailu HR/02-Product Positioning.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Product Positioning"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.149Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/ebae1ee5feec3663.json"
+    },
+    {
+      "id": "320190d266670a7b",
+      "title": "Kuailu HR | Target Customers",
+      "label": "03-Target Customers",
+      "relativePath": "02-Product Information/02-Kuailu HR/03-Target Customers.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Target Customers"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.149Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/320190d266670a7b.json"
+    },
+    {
+      "id": "f709516f68d8527e",
+      "title": "Kuailu HR | Features & Modules",
+      "label": "04-Features & Modules",
+      "relativePath": "02-Product Information/02-Kuailu HR/04-Features & Modules.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Features & Modules"
+      ],
+      "category": "Product Information",
+      "readTime": 42,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.149Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/f709516f68d8527e.json"
+    },
+    {
+      "id": "6c3a7bc293b53153",
+      "title": "Kuailu HR | Pricing",
+      "label": "05-Pricing",
+      "relativePath": "02-Product Information/02-Kuailu HR/05-Pricing.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Pricing"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.149Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6c3a7bc293b53153.json"
+    },
+    {
+      "id": "7e23e95e5c6b1964",
+      "title": "Kuailu HR | Core Advantages",
+      "label": "06-Core Advantages",
+      "relativePath": "02-Product Information/02-Kuailu HR/06-Core Advantages.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Core Advantages"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.150Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/7e23e95e5c6b1964.json"
+    },
+    {
+      "id": "e961697c06f10c66",
+      "title": "Kuailu HR | Core Use Cases",
+      "label": "07-Core Use Cases",
+      "relativePath": "02-Product Information/02-Kuailu HR/07-Core Use Cases.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Core Use Cases"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.150Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/e961697c06f10c66.json"
+    },
+    {
+      "id": "6866f2e1ba5ea0b0",
+      "title": "Kuailu HR | FAQ & User Guide",
+      "label": "08-FAQ & User Guide",
+      "relativePath": "02-Product Information/02-Kuailu HR/08-FAQ & User Guide.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | FAQ & User Guide"
+      ],
+      "category": "Product Information",
+      "readTime": 4,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.150Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/6866f2e1ba5ea0b0.json"
+    },
+    {
+      "id": "f96dcc235654f4fa",
+      "title": "Kuailu HR | Industry Solutions",
+      "label": "09-Industry Solutions",
+      "relativePath": "02-Product Information/02-Kuailu HR/09-Industry Solutions.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Industry Solutions"
+      ],
+      "category": "Product Information",
+      "readTime": 3,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.151Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/f96dcc235654f4fa.json"
+    },
+    {
+      "id": "a90d80d70313b46d",
+      "title": "Kuailu HR | Customer Cases",
+      "label": "10-Customer Cases",
+      "relativePath": "02-Product Information/02-Kuailu HR/10-Customer Cases.md",
+      "breadcrumbs": [
+        "Product Information",
+        "Kuailu HR",
+        "Kuailu HR | Customer Cases"
+      ],
+      "category": "Product Information",
+      "readTime": 2,
+      "unitCount": 1,
+      "updatedAt": "2026-09-01T07:13:27.151Z",
+      "contentUrl": "kb/kuailu-global-v1/docs/a90d80d70313b46d.json"
     }
   ],
   "tree": [
@@ -2297,7 +2457,7 @@
       "id": "folder:02-Product Information",
       "type": "folder",
       "label": "02-Product Information",
-      "count": 10,
+      "count": 20,
       "children": [
         {
           "id": "folder:02-Product Information/01-Kuailu AI CRM",
@@ -2376,6 +2536,84 @@
               "unitCount": 1
             }
           ]
+        },
+        {
+          "id": "folder:02-Product Information/02-Kuailu HR",
+          "type": "folder",
+          "label": "02-Kuailu HR",
+          "count": 10,
+          "children": [
+            {
+              "id": "78209b173e6932a2",
+              "type": "file",
+              "label": "01-Product Overview",
+              "title": "Kuailu HR | Product Overview",
+              "unitCount": 1
+            },
+            {
+              "id": "ebae1ee5feec3663",
+              "type": "file",
+              "label": "02-Product Positioning",
+              "title": "Kuailu HR | Product Positioning",
+              "unitCount": 1
+            },
+            {
+              "id": "320190d266670a7b",
+              "type": "file",
+              "label": "03-Target Customers",
+              "title": "Kuailu HR | Target Customers",
+              "unitCount": 1
+            },
+            {
+              "id": "f709516f68d8527e",
+              "type": "file",
+              "label": "04-Features & Modules",
+              "title": "Kuailu HR | Features & Modules",
+              "unitCount": 1
+            },
+            {
+              "id": "6c3a7bc293b53153",
+              "type": "file",
+              "label": "05-Pricing",
+              "title": "Kuailu HR | Pricing",
+              "unitCount": 1
+            },
+            {
+              "id": "7e23e95e5c6b1964",
+              "type": "file",
+              "label": "06-Core Advantages",
+              "title": "Kuailu HR | Core Advantages",
+              "unitCount": 1
+            },
+            {
+              "id": "e961697c06f10c66",
+              "type": "file",
+              "label": "07-Core Use Cases",
+              "title": "Kuailu HR | Core Use Cases",
+              "unitCount": 1
+            },
+            {
+              "id": "6866f2e1ba5ea0b0",
+              "type": "file",
+              "label": "08-FAQ & User Guide",
+              "title": "Kuailu HR | FAQ & User Guide",
+              "unitCount": 1
+            },
+            {
+              "id": "f96dcc235654f4fa",
+              "type": "file",
+              "label": "09-Industry Solutions",
+              "title": "Kuailu HR | Industry Solutions",
+              "unitCount": 1
+            },
+            {
+              "id": "a90d80d70313b46d",
+              "type": "file",
+              "label": "10-Customer Cases",
+              "title": "Kuailu HR | Customer Cases",
+              "unitCount": 1
+            }
+          ]
         }
       ]
     }
@@ -2385,7 +2623,7 @@
       "id": "all",
       "label": "All Content",
       "url": "kb/kuailu-global-v1/search/all.json",
-      "count": 94
+      "count": 104
     }
   ]
 }
