@@ -1,0 +1,18 @@
+{
+  "id": "ac1e051aba9fc28e",
+  "title": "BridgeBuilder HRMS | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/05-BridgeBuilder HRMS/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "BridgeBuilder HRMS",
+    "BridgeBuilder HRMS | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.144Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/ac1e051aba9fc28e.json",
+  "markdown": "# BridgeBuilder HRMS | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| 713 Average Wage and 418/468 Rule | The 713 average salary and the 418/468 rule are used as the main link to verify the entry of personnel or candidate data - rules or approval processing - self-help of staff managers - results into the report or downstream system. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Retail multi-store scheduling | The main link to validate retail multi-storey scheduling is “entry of personnel or candidate data - rules or approval processing - self-help of staff managers - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Cross-regional pay harmonization | Cross-regional harmonization of remuneration is verified using the main link “People or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| HR linked to appointment/finance system | The main link between HR and the appointment/financial system is used as “person or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/05_BridgeBuilder_HRMS_产品资料_对外加深版.md`\n- `https://www.bridgebuilderhrms.com/`\n- `https://www.bridgebuilderhrms.com/?lightbox=dataItem-kbvwwitv`\n- `https://www.bridgebuilderhrms.com/enquiry-bbhrms`\n"
+}

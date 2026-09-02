@@ -2,7 +2,7 @@
   "id": "c8eb4b9c83878062",
   "title": "HR Industry Segments & Business Models",
   "label": "03-Industry Segments & Business Models",
-  "relativePath": "03-Industry Information/02-HR System Industry/03-Industry Segments & Business Models.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/03-Industry Segments & Business Models.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.195Z",
   "contentUrl": "kb/kuailu-global-v1/docs/c8eb4b9c83878062.json",
   "markdown": "# HR Industry Segments & Business Models\n\n| Segment | Workforce pattern | HR operating emphasis |\n| --- | --- | --- |\n| Advanced manufacturing | Factories or parks, multiple sites, blue-collar and technical roles, shifts and overtime | Bulk recruitment, onboarding, shift attendance, overtime, plant transfer and rule-based payroll |\n| Chain retail and catering | Distributed stores, direct/franchise mix, part-time staff and high turnover | Mobile attendance, scheduling, rapid join/leave processing and headquarters aggregation |\n| Logistics, warehousing and express | Networks, warehouses, routes, field work and seasonal peaks | Site/field attendance, flexible staffing, multi-location employee records and payroll closure |\n| Hotels and tourism | 24/7 service, seasonal demand and multiple properties | Recruitment, scheduling, attendance, overtime and cross-property transfers |\n| Software, IT and professional services | Knowledge workers, project or hybrid work and talent competition | AI-assisted recruitment, OKR/KPI, remote work and performance data integration |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T01:37:46.116Z",
+  "generatedAt": "2026-09-02T10:31:17.284Z",
   "defaultBrand": "kuailu-v2",
   "brands": [
     {
@@ -8,8 +8,8 @@
       "shortName": "Kuailu Global Knowledge Base",
       "initials": "KUAILU",
       "locale": "en-US",
-      "docCount": 132,
-      "knowledgePointCount": 132,
+      "docCount": 534,
+      "knowledgePointCount": 534,
       "manifestUrl": "kb/kuailu-global-v1/manifest.json"
     },
     {

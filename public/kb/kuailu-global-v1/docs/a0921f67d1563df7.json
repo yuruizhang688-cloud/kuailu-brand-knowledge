@@ -1,0 +1,18 @@
+{
+  "id": "a0921f67d1563df7",
+  "title": "HRPro | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/06-HRPro/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "HRPro",
+    "HRPro | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.147Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/a0921f67d1563df7.json",
+  "markdown": "# HRPro | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| Monthly salary and MPF/tax scale for Hong Kong | The Hong Kong monthly salary and MPF/tax scale is validated on the main link, “People's or candidate data entry - rules or approval processing - Staff Manager's Self Help - Results into the Report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Digitalization of HR by SMEs | The digitization of HR for SMEs is confirmed on the main link “People or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Fake pay-as-you-go | The main link to verify the pay-for-work relationship is “person or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Staff self-help | The main link to verify the employee's self-help is “the entry of person or candidate data - the rules or approval process - the self-help of the staff manager - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/06_HRPro_产品资料_对外加深版.md`\n- `https://www.hrpro.hk/`\n- `https://www.hrpro.hk/home/hrpro-license-options`\n- `https://user.hrpro.hk/about-hrpro`\n"
+}

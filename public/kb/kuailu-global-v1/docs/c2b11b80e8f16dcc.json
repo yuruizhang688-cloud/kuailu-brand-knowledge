@@ -2,7 +2,7 @@
   "id": "c2b11b80e8f16dcc",
   "title": "CRM Industry Adoption & Implementation Considerations",
   "label": "14-Commercialisation & GTM",
-  "relativePath": "03-Industry Information/01-CRM System Industry/14-Commercialisation & GTM.md",
+  "relativePath": "04-Industry Information/01-CRM System Industry/14-Commercialisation & GTM.md",
   "breadcrumbs": [
     "Industry Information",
     "CRM System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.194Z",
   "contentUrl": "kb/kuailu-global-v1/docs/c2b11b80e8f16dcc.json",
   "markdown": "# CRM Industry Adoption & Implementation Considerations\n\n| Consideration | Industry-level guidance |\n| --- | --- |\n| Workflow priority | Export manufacturing, industrial distribution and cross-border B2B commonly share lead, RFQ, quotation, order and collection dependencies. |\n| Evaluation metrics | Compare manual-entry time, follow-up coverage, first-quote time, quotation error rate and forecast preparation time against a defined baseline. |\n| Data readiness | Reconcile account, contact, product, price, opportunity, order and collection masters before automation. |\n| Integration model | Use staged connector rollout, field mapping, reconciliation and clear ownership between sales, finance and operations. |\n| Regional operation | Apply country-specific privacy, marketing, language, time-zone, currency and data-residency rules rather than one universal policy. |\n| Evidence quality | Separate audited outcomes, research estimates, supplier claims and internal measurements; do not generalise one customer result. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

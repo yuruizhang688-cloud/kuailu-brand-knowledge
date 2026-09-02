@@ -11,7 +11,7 @@
   "category": "Product Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-01T07:13:27.149Z",
+  "updatedAt": "2026-09-02T10:31:16.059Z",
   "contentUrl": "kb/kuailu-global-v1/docs/78209b173e6932a2.json",
   "markdown": "# Kuailu HR | Product Overview\n\nKuailu HR is an HR management system for employee master data, time and attendance, and compensation operations. The supplied operating manual describes the Employee, Time & Attendance, and Compensation modules as an integrated workflow.\n\n| Product scope | Included capability |\n| --- | --- |\n| Employee management | Employee roster, pending onboarding, contracts, HR transaction documents and foundational settings |\n| Time & Attendance | Attendance profiles and groups, shifts, scheduling, rules, leave & attendance forms, and reports |\n| Compensation | Compensation profiles, social insurance and housing fund, individual income tax, payroll rules, payroll calculation, reports and payslips |\n| Data relationship | Employee master data is the source for attendance and compensation records; completed workflows write results back to related records |\n| Source scope | The supplied manual is labelled Mainland China; the sales-training deck also describes Hong Kong-oriented 468 / ADW / MPF capabilities. Regional availability must be confirmed for each deployment. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/03-HR-System-Operations-Manual-V1.0_en.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n"
 }

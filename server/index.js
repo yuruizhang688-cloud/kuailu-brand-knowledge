@@ -87,7 +87,15 @@ async function loadPreviousDocIds(entries) {
   for (const entry of entries.filter((item) => item.isDirectory())) {
     try {
       const manifest = JSON.parse(await readFile(path.join(kbRoot, entry.name, 'manifest.json'), 'utf8'));
-      for (const doc of manifest.docs ?? []) ids.set(`${manifest.displayName}\0${doc.relativePath}`, doc.id);
+      for (const doc of manifest.docs ?? []) {
+        ids.set(`${manifest.displayName}\0${doc.relativePath}`, doc.id);
+        // The global edition inserted the competitor module and moved industry
+        // paths from 03 to 04. Reuse the previous IDs so existing shared links
+        // and comment anchors remain valid after the structural renumbering.
+        if (doc.relativePath.startsWith('03-Industry Information/')) {
+          ids.set(`${manifest.displayName}\u000004-Industry Information/${doc.relativePath.slice('03-Industry Information/'.length)}`, doc.id);
+        }
+      }
     } catch {
       // A missing or incomplete previous build should not block regeneration.
     }

@@ -2,7 +2,7 @@
   "id": "1cce1eabffed6cd6",
   "title": "HR Industry Core Conclusions",
   "label": "01-Industry Core Conclusions",
-  "relativePath": "03-Industry Information/02-HR System Industry/01-Industry Core Conclusions.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/01-Industry Core Conclusions.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.194Z",
   "contentUrl": "kb/kuailu-global-v1/docs/1cce1eabffed6cd6.json",
-  "markdown": "# HR Industry Core Conclusions\n\n| Dimension | Current knowledge |\n| --- | --- |\n| Industry role | HCM/HRMS manages the employee lifecycle from recruitment and onboarding through attendance, performance and payroll. |\n| Best-fit demand | Organisations with high turnover, multiple sites, shift or field work and payroll rules that depend on attendance data. |\n| Priority segments | Advanced manufacturing, chain retail/catering and logistics/warehousing are the first priority segments; hotels/tourism and IT/professional services are secondary. |\n| Market stage | HCM is moving from cloud adoption toward AI-assisted workflows, suite integration, local payroll rules and auditable automation. |\n| Data boundary | Industry value-added and employment indicators are customer-pool proxies, not HCM SaaS TAM. IDC and Gartner market estimates use separate scopes. |\n| Compliance baseline | HR systems handle identity, salary, attendance, performance and potentially biometric data; purpose limitation, access control, retention and human review are essential. |\n| Durable opportunity | Industry templates, attendance-to-payroll closure, local rule engines, implementation speed and cross-border compliance are more durable than AI features alone. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html\n"
+  "markdown": "# HR Industry Core Conclusions\n\n| Dimension | Current knowledge |\n| --- | --- |\n| Industry role | HCM/HRMS manages the employee lifecycle from recruitment and onboarding through attendance, performance and payroll. |\n| Best-fit demand | Organisations with high turnover, multiple sites, shift or field work and payroll rules that depend on attendance data. |\n| Priority segments | Advanced manufacturing, chain retail/catering and logistics/warehousing are the first priority segments; hotels/tourism and IT/professional services are secondary. |\n| Market stage | HCM is moving from cloud adoption toward AI-assisted workflows, suite integration, local payroll rules and auditable automation. |\n| Data boundary | Industry value-added and employment indicators are customer-pool proxies, not HCM SaaS TAM. IDC and Gartner market estimates use separate scopes. |\n| Compliance baseline | HR systems handle identity, salary, attendance, performance and potentially biometric data; purpose limitation, access control, retention and human review are essential. |\n| Durable opportunity | Industry templates, attendance-to-payroll closure, local rule engines, implementation speed and cross-border compliance are more durable than AI features alone. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- `https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html`\n"
 }

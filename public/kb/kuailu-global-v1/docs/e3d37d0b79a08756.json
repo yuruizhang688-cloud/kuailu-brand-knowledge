@@ -1,0 +1,18 @@
+{
+  "id": "e3d37d0b79a08756",
+  "title": "PI HCM | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/01-PI HCM/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "PI HCM",
+    "PI HCM | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.131Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/e3d37d0b79a08756.json",
+  "markdown": "# PI HCM | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| China and China are paid. | The main link is used as “the entry of personnel or candidate data - rules or approval processing - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Complex leave and average wage | • Validation of complex absences and average wages using the main link as “entry of personnel or candidate data - rules or approval processing - self-help of staff managers - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Group HR Master Data | The main link to validate the HR group master data is “People or candidate data entry - rules or approval processing - self-help by the staff manager - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Upgrade from the old IPL HRMS | Upgrade from the old IPL HRMS using “People or candidate data entry - rules or approval processing - Self-help for staff managers - results into reports or downstream systems”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/01_PI_HCM_产品资料_对外加深版.md`\n- `https://www.pi-hcm.com/tc/product-tc/`\n- `https://www.pi-hcm.com/uniqueness/`\n- `https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0320/2026032001426.pdf`\n"
+}

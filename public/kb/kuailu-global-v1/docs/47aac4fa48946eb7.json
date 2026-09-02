@@ -1,0 +1,18 @@
+{
+  "id": "47aac4fa48946eb7",
+  "title": "BrioHR | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/11-BrioHR/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "BrioHR",
+    "BrioHR | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.161Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/47aac4fa48946eb7.json",
+  "markdown": "# BrioHR | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| Singapore/Malaysia remuneration | Singapore/Malaysia remuneration is validated on the main link, “People or candidate data entry - rules or approval processing - staff manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| SME HR integration | The main link to validate SME HR integration is “People or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Recruitment | The entry on the main link is certified as “the entry of personnel or candidate data - the rules or approval process - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| scheduled attendance and performance | The main link to validate attendance and performance is “the entry of personnel or candidate data - the rules or approval process - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/11_BrioHR_产品资料_对外加深版.md`\n- `https://briohr.com/pricing-plans-sg/`\n- `https://briohr.com/`\n- `https://briohr.com/customers/`\n"
+}

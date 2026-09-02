@@ -2,7 +2,7 @@
   "id": "fff300b743ffefc0",
   "title": "HR Core Workflows & Use Cases",
   "label": "04-Core Workflows & Use Cases",
-  "relativePath": "03-Industry Information/02-HR System Industry/04-Core Workflows & Use Cases.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/04-Core Workflows & Use Cases.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.195Z",
   "contentUrl": "kb/kuailu-global-v1/docs/fff300b743ffefc0.json",
   "markdown": "# HR Core Workflows & Use Cases\n\n| Workflow | Operational requirement | Relevant capability pattern |\n| --- | --- | --- |\n| Recruitment | Convert job requirements and unstructured resumes into consistent screening inputs | AI-assisted job descriptions, resume extraction, screening and candidate profiles |\n| Onboarding | Enter employee data once and trigger downstream configuration | Automated onboarding, attendance, payroll and social-insurance setup |\n| Attendance and scheduling | Capture mobile, site, shift, overtime and exception data | Multi-scenario attendance, scheduling, approvals and location-aware controls |\n| Performance | Align goals, execution and review across roles | OKR/KPI configuration, review records and manager visibility |\n| Payroll | Apply multi-region and multi-role rules with fewer manual transfers | Attendance-to-payroll linkage, rule engine, tax/social-insurance fields and audit trail |\n| HR analysis | Aggregate workforce data for operations and planning | Dashboards, reports, exceptions and controlled exports |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

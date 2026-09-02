@@ -2,7 +2,7 @@
   "id": "15512e0c659c92a4",
   "title": "CRM Industry Opportunities",
   "label": "11-Industry Opportunities",
-  "relativePath": "03-Industry Information/01-CRM System Industry/11-Industry Opportunities.md",
+  "relativePath": "04-Industry Information/01-CRM System Industry/11-Industry Opportunities.md",
   "breadcrumbs": [
     "Industry Information",
     "CRM System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.515Z",
+  "updatedAt": "2026-09-02T10:31:16.193Z",
   "contentUrl": "kb/kuailu-global-v1/docs/15512e0c659c92a4.json",
   "markdown": "# CRM Industry Opportunities\n\n| Opportunity | Why it is attractive | Industry capability requirement |\n| --- | --- | --- |\n| Export manufacturing revenue operations | High account value, overseas prospecting, RFQs, complex quotes and ERP/finance dependencies reinforce one workflow. | Connect prospecting, quotation, order, shipment and collection data with regional controls. |\n| Industrial distribution | Regional, channel and volume pricing create repeatable quotation work and approval needs. | Support account hierarchies, price lists, discount approval and quotation versioning. |\n| Cross-border B2B | Teams need multilingual research, outreach, time-zone scheduling and compliant activity capture. | Preserve lead source, lawful basis, language, time zone, activity and handoff context. |\n| Mid-sized growth companies | Spreadsheet, messaging and ERP fragmentation creates measurable process gaps. | Prioritise measurable cycle time, follow-up coverage, data completeness and forecast quality. |\n| Ecosystem collaboration | ERP integrators, trade-service firms, logistics and industrial associations already reach the customer pool. | Provide interoperable data models, APIs and implementation standards. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

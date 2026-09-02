@@ -1,0 +1,18 @@
+{
+  "id": "4dffd2708674dc6b",
+  "title": "Roubler | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/03-Roubler/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "Roubler",
+    "Roubler | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.138Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/4dffd2708674dc6b.json",
+  "markdown": "# Roubler | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| A catering hotel schedule | The main link is used as “the entry of personnel or candidate data - the rules or approval process - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| seasonal work | `People or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system' is used as the main link to validate seasonal workers. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. ### Scene 3: More time. The main link to verify multi-site attendance is “the entry of personnel or candidate data - rules or approval processing - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Outsourcing and compliance | The main link to validate pay outsourcing and compliance is the “entry of personnel or candidate data - rules or approval processing - self-help of staff managers - results into reports or downstream systems”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/03_Roubler_产品资料_对外加深版.md`\n- `https://roubler.com/pricing/`\n- `https://roubler.com/sg/pricing/`\n- `https://roubler.com/`\n"
+}

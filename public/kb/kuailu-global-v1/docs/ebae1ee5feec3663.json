@@ -11,7 +11,7 @@
   "category": "Product Information",
   "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-01T07:13:27.149Z",
+  "updatedAt": "2026-09-02T10:31:16.059Z",
   "contentUrl": "kb/kuailu-global-v1/docs/ebae1ee5feec3663.json",
   "markdown": "# Kuailu HR | Product Positioning\n\nKuailu HR is positioned as a compliance-oriented HRMS that connects employee records, attendance data and dynamic payroll workflows.\n\n| Positioning dimension | Supported statement |\n| --- | --- |\n| Core role | Maintain the employee master record and connect it to attendance and compensation processing |\n| Compliance orientation | Support statutory calculation scenarios, including the 468-hours rule and ADW / MPF calculations described in the sales-training material |\n| Operational value | Replace fragmented spreadsheets and manual hand-offs with configurable records, rules, approvals and write-back |\n| Delivery principle | Confirm the applicable country, legal rules, hardware, connectivity, permissions and implementation scope before committing to a configuration |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/03-HR-System-Operations-Manual-V1.0_en.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n- `01-source-files/kuailu-global-v1/hr-materials/02-PMF_Product-Market-Fit_分析报告.md`\n"
 }

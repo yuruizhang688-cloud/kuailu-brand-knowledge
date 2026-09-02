@@ -2,7 +2,7 @@
   "id": "1195a7816182ea73",
   "title": "HR Industry Opportunities",
   "label": "11-Industry Opportunities",
-  "relativePath": "03-Industry Information/02-HR System Industry/11-Industry Opportunities.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/11-Industry Opportunities.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.517Z",
+  "updatedAt": "2026-09-02T10:31:16.196Z",
   "contentUrl": "kb/kuailu-global-v1/docs/1195a7816182ea73.json",
   "markdown": "# HR Industry Opportunities\n\n| Opportunity | Why it is attractive | Industry capability requirement |\n| --- | --- | --- |\n| Advanced manufacturing | Large workforces, sites, shifts and payroll-linked attendance produce measurable operational pain. | Support site structures, bulk onboarding, shift rules, overtime and payroll reconciliation. |\n| Chain retail and catering | Store dispersion, part-time staff and high turnover make mobile, repeatable HR operations valuable. | Support store templates, mobile attendance, rapid join/leave and headquarters reporting. |\n| Logistics and warehousing | Branches, field work and seasonal peaks require flexible attendance and employee operations. | Support network/site models, field attendance, exception workflows and payroll closure. |\n| Hotel and tourism groups | 24/7 operations and seasonal demand create scheduling and staffing volatility. | Support property templates, scheduling, onboarding and cross-property transfers. |\n| Asia-Pacific growth companies | Regional employers need local rules, language, currency and data controls without a single-country assumption. | Support country configuration, regional data governance and staged implementation. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

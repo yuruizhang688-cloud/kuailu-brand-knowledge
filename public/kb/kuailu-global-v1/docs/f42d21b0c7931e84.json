@@ -2,7 +2,7 @@
   "id": "f42d21b0c7931e84",
   "title": "HR Industry Risks",
   "label": "12-Industry Risks",
-  "relativePath": "03-Industry Information/02-HR System Industry/12-Industry Risks.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/12-Industry Risks.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.517Z",
+  "updatedAt": "2026-09-02T10:31:16.196Z",
   "contentUrl": "kb/kuailu-global-v1/docs/f42d21b0c7931e84.json",
-  "markdown": "# HR Industry Risks\n\n| Risk | Business impact | Control direction |\n| --- | --- | --- |\n| AI hiring bias or opaque scoring | Unfair exclusion, disputes and regulatory exposure. | Human review, explainable factors, bias testing, appeal records and conservative automation. |\n| Sensitive-data leakage | Identity, salary, bank, performance or biometric exposure can cause serious harm. | Least privilege, encryption, tenant isolation, export control, retention and audit logs. |\n| Over-monitoring | Excessive face or location collection may violate necessity and employee trust. | Purpose limitation, minimisation, alternative attendance methods and clear notices. |\n| Payroll-rule error | Incorrect wages, tax or social-insurance treatment creates financial and labour disputes. | Region/effective-date rule versioning, reconciliation and approval before payroll closing. |\n| Mature HCM competition | AI features are copied by global and regional suites. | Defend with industry templates, attendance-payroll closure, local rules and implementation speed. |\n| Overseas localisation gaps | A China-centric workflow may fail on privacy, payroll, language or employment rules abroad. | Country configuration, regional partners, data residency and local legal review. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm\n- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai\n"
+  "markdown": "# HR Industry Risks\n\n| Risk | Business impact | Control direction |\n| --- | --- | --- |\n| AI hiring bias or opaque scoring | Unfair exclusion, disputes and regulatory exposure. | Human review, explainable factors, bias testing, appeal records and conservative automation. |\n| Sensitive-data leakage | Identity, salary, bank, performance or biometric exposure can cause serious harm. | Least privilege, encryption, tenant isolation, export control, retention and audit logs. |\n| Over-monitoring | Excessive face or location collection may violate necessity and employee trust. | Purpose limitation, minimisation, alternative attendance methods and clear notices. |\n| Payroll-rule error | Incorrect wages, tax or social-insurance treatment creates financial and labour disputes. | Region/effective-date rule versioning, reconciliation and approval before payroll closing. |\n| Mature HCM competition | AI features are copied by global and regional suites. | Defend with industry templates, attendance-payroll closure, local rules and implementation speed. |\n| Overseas localisation gaps | A China-centric workflow may fail on privacy, payroll, language or employment rules abroad. | Country configuration, regional partners, data residency and local legal review. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- `https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm`\n- `https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai`\n"
 }

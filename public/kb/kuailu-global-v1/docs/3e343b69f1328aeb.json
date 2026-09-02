@@ -1,0 +1,18 @@
+{
+  "id": "3e343b69f1328aeb",
+  "title": "Close CRM | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/02-AI CRM Competitors/08-Close CRM/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "AI CRM Competitors",
+    "Close CRM",
+    "Close CRM | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.089Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/3e343b69f1328aeb.json",
+  "markdown": "# Close CRM | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| SDR Outbound and Qualification Judgment | Verify that the SDR outbound call and qualification judgment really reduces manual maintenance by using the \"List or Interactive Entry — Forming Customers and Business Opportunities - Advancement Phase - Triggering the Next Step — Managing Review\" as the main link. It is recommended to record the data completion rate, first response time, overdue follow-up, phase stay, AI recommendation adoption rate, and cost per active user. |\n| Founder Sales | Use “List or Interactive Entry — Forming Customers and Opportunities — Advancing Phase — Triggering Next Step — Managing Reviews” as the main link to verify if the founder sales are really reducing manual maintenance. It is recommended to record the data completion rate, first response time, overdue follow-up, phase stay, AI recommendation adoption rate, and cost per active user. |\n| Insurance and financial leads follow up | Verify that insurance and financial lead follow-up really reduces manual maintenance with “List or Interactive Entry — Forming Customers and Opportunities - Advancing Phase - Triggering Next Step — Managing Reviews” as the main link. It is recommended to record the data completion rate, first response time, overdue follow-up, phase stay, AI recommendation adoption rate, and cost per active user. |\n| Integrated execution of calls, texts, and emails | “List or interactive entry - formation of a customer and business - push phase - triggers the next step - manage the double drive” as the main link to verify whether the integrated implementation of telephone, text message and mail actually reduces manual maintenance. It is recommended that data integrity rates, first response times, late follow-up, stopovers, AI recommendation acceptance rates and cost per active user be recorded. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/01_AI_CRM/08_Close_CRM_产品资料_对外加深版.md`\n- `https://close.com/pricing`\n- `https://close.com/communication`\n- `https://close.com/customers`\n"
+}

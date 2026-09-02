@@ -2,7 +2,7 @@
   "id": "4966f7fcdc7d9ae2",
   "title": "HR Deployment & Integration",
   "label": "06-Deployment & Integration",
-  "relativePath": "03-Industry Information/02-HR System Industry/06-Deployment & Integration.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/06-Deployment & Integration.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.195Z",
   "contentUrl": "kb/kuailu-global-v1/docs/4966f7fcdc7d9ae2.json",
   "markdown": "# HR Deployment & Integration\n\n| Deployment concern | Practical requirement |\n| --- | --- |\n| Organisation model | Support multiple companies, sites, departments, roles, shifts and effective-date changes without flattening the hierarchy. |\n| Payroll rules | Configure region, role, allowance, overtime, tax and social-insurance rules with version history; do not hard-code one national template. |\n| Device and attendance | Confirm mobile, biometric, card, location and alternative verification methods; use the least intrusive method that meets the business purpose. |\n| System connections | Confirm finance, ERP, identity, attendance-device, tax and social-insurance interfaces; capability names do not guarantee a connector. |\n| Data governance | Restrict salary, identity, performance and biometric fields by role, retain administrator logs and remove access promptly after departure. |\n| Rollout method | Start with one site or business unit, reconcile employee and payroll masters, then expand to additional sites and countries. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

@@ -1,0 +1,18 @@
+{
+  "id": "06a222bd80b49fbd",
+  "title": "Clockgogo | Core Use Cases",
+  "label": "07-Core Use Cases",
+  "relativePath": "03-Competitor Information/03-HR Competitors/08-Clockgogo/07-Core Use Cases.md",
+  "breadcrumbs": [
+    "Competitor Information",
+    "HR Competitors",
+    "Clockgogo",
+    "Clockgogo | Core Use Cases"
+  ],
+  "category": "Competitor Information",
+  "readTime": 4,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T10:31:16.153Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/06a222bd80b49fbd.json",
+  "markdown": "# Clockgogo | Core Use Cases\n\n| Use case | Description |\n| --- | --- |\n| Retail shop attendance | The main link to verify the attendance of retail outlets is “the entry of personnel or candidate data - rules or approval processing - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Construction sites | The main link to validate the construction site is “the entry of personnel or candidate data - the rules or approval process - the self-help of staff managers - the entry of results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Field services | Field services are validated on the main link with “People or candidate data entry - rules or approval processing - staff manager self-help - results into reports or downstream systems”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n| Microenterprise mobile cards | The main link is used as the “person or candidate data entry - rules or approval processing - employee manager self-help - results into the report or downstream system”. It is recommended to record the length of processing, the anomaly rate, the number of manual corrections, the mobile end completion rate, statutory or institutional differences and the cost per employee. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/competitor-materials/20260902/02_HR/08_Clockgogo_产品资料_对外加深版.md`\n- `https://www.clockgogo.com/zh/pricing/`\n- `https://clockgogo.com/product`\n- `https://www.clockgogo.com/`\n"
+}

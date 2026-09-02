@@ -2,7 +2,7 @@
   "id": "3e8abfd322b29e84",
   "title": "CRM Competition & Differentiation",
   "label": "13-Competition & Differentiation",
-  "relativePath": "03-Industry Information/01-CRM System Industry/13-Competition & Differentiation.md",
+  "relativePath": "04-Industry Information/01-CRM System Industry/13-Competition & Differentiation.md",
   "breadcrumbs": [
     "Industry Information",
     "CRM System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.515Z",
+  "updatedAt": "2026-09-02T10:31:16.194Z",
   "contentUrl": "kb/kuailu-global-v1/docs/3e8abfd322b29e84.json",
-  "markdown": "# CRM Competition & Differentiation\n\n| Competitive layer | Representative direction | Industry implication |\n| --- | --- | --- |\n| Global enterprise suites | Microsoft Dynamics 365 Sales, SAP Sales Cloud and Salesforce are embedding agents in CRM workflows. | Do not compete on a generic AI assistant; focus on a clearly bounded operating workflow. |\n| China CRM platforms | Chinese vendors increasingly combine lead, opportunity, CPQ and sales-agent capabilities. | Local process fit, delivery speed and integration evidence are required. |\n| Specialist tools | Email automation, prospecting, CPQ, ERP and finance tools solve individual steps. | An integrated data chain can reduce tool fragmentation when the scope is controlled. |\n| Industry capability | Industry process understanding + AI execution + quote/order/collection loop + cross-border controls. | Workflow depth, auditability, reusable templates and ecosystem integration are increasingly important. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://www.gartner.com/en/documents/7029598\n"
+  "markdown": "# CRM Competition & Differentiation\n\n| Competitive layer | Representative direction | Industry implication |\n| --- | --- | --- |\n| Global enterprise suites | Microsoft Dynamics 365 Sales, SAP Sales Cloud and Salesforce are embedding agents in CRM workflows. | Do not compete on a generic AI assistant; focus on a clearly bounded operating workflow. |\n| China CRM platforms | Chinese vendors increasingly combine lead, opportunity, CPQ and sales-agent capabilities. | Local process fit, delivery speed and integration evidence are required. |\n| Specialist tools | Email automation, prospecting, CPQ, ERP and finance tools solve individual steps. | An integrated data chain can reduce tool fragmentation when the scope is controlled. |\n| Industry capability | Industry process understanding + AI execution + quote/order/collection loop + cross-border controls. | Workflow depth, auditability, reusable templates and ecosystem integration are increasingly important. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- `https://www.gartner.com/en/documents/7029598`\n"
 }

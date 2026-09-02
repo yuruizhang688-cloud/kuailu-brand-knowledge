@@ -11,7 +11,7 @@
   "category": "Product Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-01T07:13:27.149Z",
+  "updatedAt": "2026-09-02T10:31:16.060Z",
   "contentUrl": "kb/kuailu-global-v1/docs/6c3a7bc293b53153.json",
   "markdown": "# Kuailu HR | Pricing\n\n| Pricing item | Current evidence in supplied materials |\n| --- | --- |\n| Official product price | No official Kuailu HR price list is included in the supplied English operations manual, feature list or sales-training deck. |\n| Planning assumption | The PMF report proposes Core and country / industry plug-in prices as a v1 commercial hypothesis; these values are not presented as an official price. |\n| Commercial confirmation | Confirm edition, employee scope, implementation, integrations, deployment and applicable regional rules in the current quotation or contract. |\n\n### Planning assumptions retained for reference\n\n| Package | PMF v1 assumption | Status |\n| --- | --- | --- |\n| Core | HK$25 per employee per month, five-employee minimum; SGD$5 per employee per month, five-employee minimum | Internal planning assumption in source report |\n| Hong Kong country plug-in | +HK$20 per employee per month | Internal planning assumption in source report |\n| Retail or Catering industry plug-in | +HK$15 per employee per month | Internal planning assumption in source report |\n| Singapore country plug-in | +SGD$4 per employee per month | Internal planning assumption in source report |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/hr-materials/02-PMF_Product-Market-Fit_分析报告.md`\n- `01-source-files/kuailu-global-v1/hr-materials/04-KuailuTech-Sales-Training.md`\n"
 }

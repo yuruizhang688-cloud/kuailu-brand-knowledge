@@ -2,7 +2,7 @@
   "id": "92aa82fa1be5b694",
   "title": "HR Customer Profiles & Buying Logic",
   "label": "08-Customer Profiles & Buying Logic",
-  "relativePath": "03-Industry Information/02-HR System Industry/08-Customer Profiles & Buying Logic.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/08-Customer Profiles & Buying Logic.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.196Z",
   "contentUrl": "kb/kuailu-global-v1/docs/92aa82fa1be5b694.json",
   "markdown": "# HR Customer Profiles & Buying Logic\n\n| Customer profile | Buying trigger | Evaluation evidence |\n| --- | --- | --- |\n| Multi-site manufacturer | Bulk hiring, shifts, overtime, transfers and payroll complexity | Onboarding time, attendance exceptions, payroll reconciliation and cross-site reporting |\n| Chain retailer or restaurant | Store dispersion, part-time workforce and frequent join/leave events | Mobile attendance, rapid onboarding, store-level accuracy and headquarters aggregation |\n| Logistics or warehousing network | Field staff, branches, seasonal peaks and varied pay rules | Site coverage, exception handling, payroll closure and employee self-service |\n| Hotel group | 24/7 operations, seasonal staffing and multiple properties | Scheduling, overtime, transfer and payroll processing time |\n| IT or professional-services firm | Skilled hiring, hybrid work, goals and talent competition | Recruitment processing, OKR/KPI adoption, employee data quality and analytics |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }

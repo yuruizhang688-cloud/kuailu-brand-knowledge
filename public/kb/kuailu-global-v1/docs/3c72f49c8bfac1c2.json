@@ -2,7 +2,7 @@
   "id": "3c72f49c8bfac1c2",
   "title": "HR Technology Architecture & Data Flow",
   "label": "05-Technology Architecture & Data Flow",
-  "relativePath": "03-Industry Information/02-HR System Industry/05-Technology Architecture & Data Flow.md",
+  "relativePath": "04-Industry Information/02-HR System Industry/05-Technology Architecture & Data Flow.md",
   "breadcrumbs": [
     "Industry Information",
     "HR System Industry",
@@ -11,7 +11,7 @@
   "category": "Industry Information",
   "readTime": 3,
   "unitCount": 1,
-  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "updatedAt": "2026-09-02T10:31:16.195Z",
   "contentUrl": "kb/kuailu-global-v1/docs/3c72f49c8bfac1c2.json",
   "markdown": "# HR Technology Architecture & Data Flow\n\n| Layer | Required capability | Control point |\n| --- | --- | --- |\n| Workforce master | Employee, position, organisation, site, contract and payroll-rule data | Unique identity, effective dates, transfer history and tenant isolation |\n| AI layer | Job-description drafting, resume extraction, screening assistance and HR summaries | Bias testing, explainability, confidence thresholds and human review |\n| Workflow layer | Recruitment, onboarding, attendance exceptions, approvals and payroll closing | Role permissions, separation of duties and versioned rules |\n| Attendance layer | Mobile, site, shift, overtime, leave and exception capture | Necessity, minimisation, alternative verification and device controls |\n| Payroll layer | Salary components, tax, social insurance and regional rules | Effective-date versioning, reconciliation and payslip auditability |\n| Integration layer | Finance, ERP, identity, devices and local statutory systems | API authentication, field mapping, retry and reconciliation |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
 }
