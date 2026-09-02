@@ -1,0 +1,17 @@
+{
+  "id": "2fc54d413b46879b",
+  "title": "CRM Deployment & Integration",
+  "label": "06-Deployment & Integration",
+  "relativePath": "03-Industry Information/01-CRM System Industry/06-Deployment & Integration.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Deployment & Integration"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/2fc54d413b46879b.json",
+  "markdown": "# CRM Deployment & Integration\n\n| Deployment concern | Practical requirement |\n| --- | --- |\n| Tenant and identity | Separate customer tenants, define role-based access and reclaim ownership when a salesperson leaves. |\n| Master data | Establish canonical identifiers for accounts, contacts, products, price lists, orders and payments before synchronisation. |\n| Connector scope | Confirm target ERP, finance, marketing, email, messaging and order interfaces; do not infer integration from a product label alone. |\n| Regional operation | Support time zones, languages, currencies, data residency and country-specific outreach controls where required. |\n| Change management | Start with one sales workflow and measurable POC outcomes, then expand connectors and automation after reconciliation is stable. |\n| Audit and recovery | Keep operation logs, approval history, data-export records and a rollback path for high-risk AI writes. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

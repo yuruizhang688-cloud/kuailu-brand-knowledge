@@ -1,0 +1,17 @@
+{
+  "id": "d8ffe2ee673b7e41",
+  "title": "CRM Customer Profiles & Buying Logic",
+  "label": "08-Customer Profiles & Buying Logic",
+  "relativePath": "03-Industry Information/01-CRM System Industry/08-Customer Profiles & Buying Logic.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Customer Profiles & Buying Logic"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/d8ffe2ee673b7e41.json",
+  "markdown": "# CRM Customer Profiles & Buying Logic\n\n| Customer profile | Buying trigger | Evaluation evidence |\n| --- | --- | --- |\n| Export manufacturer | Large overseas account pool, RFQ volume, long sales cycles and fragmented ERP/CRM data | Time to first response, quotation time, follow-up coverage, quote accuracy and forecast variance |\n| Industrial distributor | Complex price rules, channel ownership and repeat quotation work | Price-version control, approval time, order linkage and receivables visibility |\n| Cross-border B2B team | Multiple regions, languages, time zones and outreach channels | Source traceability, consent controls, multilingual workflow and activity completeness |\n| B2B software or services firm | Pipeline visibility, stakeholder coordination and renewal forecasting | CRM adoption, forecast quality, proposal cycle and renewal handoff |\n| International logistics provider | Lane-based quotations, service handoffs and contract follow-up | Quote turnaround, opportunity ageing, lane/rate integration and collection status |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

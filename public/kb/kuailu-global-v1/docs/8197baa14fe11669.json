@@ -1,0 +1,17 @@
+{
+  "id": "8197baa14fe11669",
+  "title": "CRM Market Size & Data Standards",
+  "label": "07-Market Size & Data Standards",
+  "relativePath": "03-Industry Information/01-CRM System Industry/07-Market Size & Data Standards.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Market Size & Data Standards"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/8197baa14fe11669.json",
+  "markdown": "# CRM Market Size & Data Standards\n\n| Indicator | Value and scope | Interpretation |\n| --- | --- | --- |\n| China software industry | 2025 software business revenue was approximately RMB 15.4831 trillion, up 13.2%; information-technology service revenue grew 14.7%. | Indicates the digital customer pool and IT spending base, not CRM SaaS TAM. |\n| Global CX and relationship software | Gartner estimated approximately USD 128 billion in 2024, up 13.4%. | Broad category; it includes more than sales CRM. |\n| CRM sales software | Gartner estimated approximately USD 28.7 billion in 2025 and about 12.8% CAGR through 2029. | A sales-CRM category estimate; retain its global scope and methodology. |\n| China cross-border e-commerce | 2025 cross-border e-commerce import/export was reported at approximately RMB 2.84 trillion. | Proxy for cross-border B2B/B2C activity; it is not a B2B CRM market size. |\n| Data handling rule | Do not combine annual, half-year, regional, category or vendor figures as if they were one series. | Every figure must retain year, geography, publisher, methodology and category scope. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html\n- https://www.gartner.com/en/documents/6582102\n- https://www.gartner.com/en/documents/7029598\n"
+}

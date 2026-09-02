@@ -1,0 +1,17 @@
+{
+  "id": "2536f7f3eb415eb5",
+  "title": "HR Market Size & Data Standards",
+  "label": "07-Market Size & Data Standards",
+  "relativePath": "03-Industry Information/02-HR System Industry/07-Market Size & Data Standards.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "HR System Industry",
+    "HR Market Size & Data Standards"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.516Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/2536f7f3eb415eb5.json",
+  "markdown": "# HR Market Size & Data Standards\n\n| Indicator | Value and scope | Interpretation |\n| --- | --- | --- |\n| China HCM SaaS | IDC estimated approximately USD 720 million in 2024, up 12.4%, and forecast more than USD 1.55 billion by 2029 with CAGR above 16.4%. | Research estimate for HCM SaaS; retain publisher, date and methodology. |\n| Global HCM software | Gartner estimated approximately USD 36.3 billion in 2024, up about 13%, and expected more than USD 51 billion by 2028. | Global HCM software scope; not directly comparable with China SaaS figures. |\n| Manufacturing | 2025 China industrial value added was approximately RMB 41.68 trillion; manufacturing value added grew 6.4%. | Economic-scale proxy for the customer pool. |\n| Retail and catering | 2025 retail sales were approximately RMB 50.12 trillion and catering revenue RMB 5.80 trillion. | Proxy for distributed-workforce demand, not HR software TAM. |\n| Logistics and services | 2025 transport/storage/post value added was about RMB 6.21 trillion; software revenue was about RMB 15.48 trillion. | Keep each indicator’s industry and statistical scope separate. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53550625\n- https://www.stats.gov.cn/english/PressRelease/202602/t20260228_1962661.html\n"
+}

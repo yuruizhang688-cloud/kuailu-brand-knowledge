@@ -1,0 +1,17 @@
+{
+  "id": "b9027c678f11b23e",
+  "title": "HR Competition & Differentiation",
+  "label": "13-Competition & Differentiation",
+  "relativePath": "03-Industry Information/02-HR System Industry/13-Competition & Differentiation.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "HR System Industry",
+    "HR Competition & Differentiation"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.517Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/b9027c678f11b23e.json",
+  "markdown": "# HR Competition & Differentiation\n\n| Competitive layer | Representative direction | Industry implication |\n| --- | --- | --- |\n| Global HCM suites | Workday and SAP SuccessFactors combine broad HR coverage with embedded AI. | Avoid a full-suite feature-count contest; lead with selected operating workflows. |\n| Regional HCM platforms | Local vendors compete on payroll, labour rules and domestic delivery. | Country rules, implementation proof and integration quality matter. |\n| Point solutions | Recruitment, attendance, payroll and scheduling tools solve individual steps. | An employee-master and attendance-to-payroll chain can reduce duplicate entry. |\n| Industry capability | Industry templates + local rule engine + auditable AI + cross-border deployment. | Governance, operational closure and implementation evidence increasingly shape selection. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

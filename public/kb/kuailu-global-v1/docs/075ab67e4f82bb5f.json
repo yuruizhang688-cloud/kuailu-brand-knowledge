@@ -1,0 +1,17 @@
+{
+  "id": "075ab67e4f82bb5f",
+  "title": "CRM Industry Definition & Boundary",
+  "label": "02-Industry Definition & Boundary",
+  "relativePath": "03-Industry Information/01-CRM System Industry/02-Industry Definition & Boundary.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Industry Definition & Boundary"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/075ab67e4f82bb5f.json",
+  "markdown": "# CRM Industry Definition & Boundary\n\n| Topic | Definition |\n| --- | --- |\n| Included | Software and services that manage accounts, contacts, leads, opportunities, activities, quotations, orders, collections, service interactions and revenue analytics across the customer lifecycle. |\n| Adjacent systems | Marketing automation, CPQ, ERP, finance, customer service, communication and collaboration tools may connect to CRM but are not automatically part of the CRM market. |\n| Excluded from market comparison | A contact list, single-channel advertising tool, standalone email client or an internal spreadsheet is not a complete CRM system. |\n| System boundary | Actual integrations, fields, permissions, deployment and local compliance depend on the organisation, jurisdiction and selected system scope. |\n| Geography | The supplied evidence covers Mainland China, ASEAN/Singapore, the United States and the European Union. Each jurisdiction retains its own marketing and data rules. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

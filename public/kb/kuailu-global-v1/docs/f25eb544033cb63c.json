@@ -1,0 +1,17 @@
+{
+  "id": "f25eb544033cb63c",
+  "title": "CRM Industry Segments & Business Models",
+  "label": "03-Industry Segments & Business Models",
+  "relativePath": "03-Industry Information/01-CRM System Industry/03-Industry Segments & Business Models.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Industry Segments & Business Models"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/f25eb544033cb63c.json",
+  "markdown": "# CRM Industry Segments & Business Models\n\n| Segment | Typical commercial model | CRM objects and process emphasis |\n| --- | --- | --- |\n| Export manufacturing | OEM/ODM/OBM, project or order-based production | Account, contact, RFQ, product/BOM, quotation, sample, opportunity, order, shipment and collection |\n| Industrial distribution | Manufacturer-to-distributor or channel sales, regional pricing and repeat orders | Account hierarchy, channel partner, price list, quotation version, approval, order and receivables |\n| Cross-border B2B | International prospecting, email outreach, meetings and multi-region account management | Lead source, consent, time zone, multilingual activity, opportunity, quotation and customer handoff |\n| B2B software and services | Subscription, project, managed service or consulting revenue | Account, stakeholder, opportunity, proposal, renewal, forecast and delivery handoff |\n| International logistics | Freight, warehousing, forwarding or supply-chain service contracts | Lane, rate, quote, contract, shipment opportunity, service issue and collection |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

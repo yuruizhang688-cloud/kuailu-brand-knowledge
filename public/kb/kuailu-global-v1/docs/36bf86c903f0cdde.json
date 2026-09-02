@@ -1,0 +1,17 @@
+{
+  "id": "36bf86c903f0cdde",
+  "title": "HR Technology & Product Trends",
+  "label": "10-Technology & Product Trends",
+  "relativePath": "03-Industry Information/02-HR System Industry/10-Technology & Product Trends.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "HR System Industry",
+    "HR Technology & Product Trends"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.517Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/36bf86c903f0cdde.json",
+  "markdown": "# HR Technology & Product Trends\n\n| Trend | Industry direction |\n| --- | --- |\n| Workflow-native AI | AI is moving from job-description drafting and summaries into recruitment, onboarding, attendance and payroll workflows. |\n| Attendance-to-payroll closure | The strongest operational value comes from linking attendance, exceptions, overtime, payroll, tax and social-insurance data. |\n| Industry templates | Manufacturing, retail, logistics and hospitality need reusable rules for shifts, locations, staffing peaks and wage components. |\n| Trust and governance | Bias testing, human review, explanation, access control and audit trails increasingly shape procurement. |\n| Cross-border HCM | Regional payroll rules, data residency, language, currency and time-zone support are becoming differentiators. |\n| Competitive implication | Workday, SAP SuccessFactors and regional HCM vendors are adding AI; a durable position requires workflow depth, local rules, integration and delivery evidence. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://mfe-prod.idc.com/getdoc.jsp?containerId=prCHC53550625\n"
+}

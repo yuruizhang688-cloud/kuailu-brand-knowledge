@@ -1,0 +1,17 @@
+{
+  "id": "9e2e28bcb69be5b8",
+  "title": "CRM Industry Risks",
+  "label": "12-Industry Risks",
+  "relativePath": "03-Industry Information/01-CRM System Industry/12-Industry Risks.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Industry Risks"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.515Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/9e2e28bcb69be5b8.json",
+  "markdown": "# CRM Industry Risks\n\n| Risk | Business impact | Control direction |\n| --- | --- | --- |\n| AI-generated outreach or claims are inaccurate | Damages trust and may create legal or commercial exposure. | Retrieval-grounded drafts, approval thresholds, source display and human review. |\n| Automated outreach violates local rules | Spam complaints, domain damage, fines or loss of sending privileges. | Consent/lawful-basis records, unsubscribe, suppression lists, country policies and frequency controls. |\n| Cross-border data is misclassified | Personal or sensitive data may be transferred without a valid mechanism. | Separate enterprise and contact data, apply residency and transfer controls, and retain export evidence. |\n| AI writes incorrect CRM fields | Pollutes pipeline, ownership or forecast data. | Confidence thresholds, suggested-not-automatic mode, audit history and rollback. |\n| ERP and finance integration is underestimated | Delivery delays and low trust in revenue data. | Canonical data model, connector testing, reconciliation and staged rollout. |\n| Mature vendors commoditise AI features | Generic AI positioning is quickly copied. | Defend with industry workflows, CPQ, order/collection linkage, data governance and ecosystem fit. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n- https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm\n- https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business\n"
+}

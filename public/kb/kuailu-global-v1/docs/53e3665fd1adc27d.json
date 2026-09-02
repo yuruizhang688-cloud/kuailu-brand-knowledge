@@ -1,0 +1,17 @@
+{
+  "id": "53e3665fd1adc27d",
+  "title": "CRM Core Workflows & Use Cases",
+  "label": "04-Core Workflows & Use Cases",
+  "relativePath": "03-Industry Information/01-CRM System Industry/04-Core Workflows & Use Cases.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Core Workflows & Use Cases"
+  ],
+  "category": "Industry Information",
+  "readTime": 3,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/53e3665fd1adc27d.json",
+  "markdown": "# CRM Core Workflows & Use Cases\n\n| Workflow | Operational requirement | Relevant capability pattern |\n| --- | --- | --- |\n| Prospect discovery | Build a qualified account pool without losing source context | AI-assisted prospect discovery, source recording and lead synchronisation |\n| Outreach and engagement | Personalise communication while respecting regional marketing rules | AI-assisted email preparation, consent/lawful-basis fields, frequency controls and unsubscribe handling |\n| Follow-up capture | Reduce the gap between real sales activity and CRM records | Interaction extraction, automatic activity logging and next-action suggestions |\n| Opportunity governance | Track stage, value, risk and ownership consistently | Configurable stages, alerts, collaboration, forecast and audit history |\n| Quotation and order | Preserve price versions and connect sales commitments to fulfilment | Template quotation, approval rules, product data, order and collection linkage |\n| Revenue analysis | Provide management with a reliable operating view | Dashboards, reports, targets, pipeline analysis and forecast review |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

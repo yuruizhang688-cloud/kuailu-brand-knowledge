@@ -1,0 +1,17 @@
+{
+  "id": "ff7d989c7d1cbd34",
+  "title": "CRM Technology Architecture & Data Flow",
+  "label": "05-Technology Architecture & Data Flow",
+  "relativePath": "03-Industry Information/01-CRM System Industry/05-Technology Architecture & Data Flow.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "CRM System Industry",
+    "CRM Technology Architecture & Data Flow"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.514Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/ff7d989c7d1cbd34.json",
+  "markdown": "# CRM Technology Architecture & Data Flow\n\n| Layer | Required capability | Control point |\n| --- | --- | --- |\n| Data foundation | Account, contact, product, price, opportunity, order and collection master data | Deduplication, ownership, field standards and change history |\n| Experience layer | Web, mobile, email, meeting and supported communication entry points | Identity, consent and channel authorisation |\n| AI layer | Retrieval, summarisation, recommendation, extraction and task execution | Model scope, confidence thresholds, prompt-injection protection and human approval |\n| Workflow layer | Lead assignment, follow-up, stage movement, quotation and approval | Role permissions, segregation of duties and rollback |\n| Integration layer | ERP, finance, marketing, messaging and order systems | API authentication, mapping, retry, reconciliation and rate limits |\n| Evidence layer | Activity, decision, export and integration logs | Retention, audit search and incident review |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}

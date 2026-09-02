@@ -1,0 +1,17 @@
+{
+  "id": "8c0ac0b8267b2627",
+  "title": "HR Industry Adoption & Implementation Considerations",
+  "label": "14-Commercialisation & GTM",
+  "relativePath": "03-Industry Information/02-HR System Industry/14-Commercialisation & GTM.md",
+  "breadcrumbs": [
+    "Industry Information",
+    "HR System Industry",
+    "HR Industry Adoption & Implementation Considerations"
+  ],
+  "category": "Industry Information",
+  "readTime": 2,
+  "unitCount": 1,
+  "updatedAt": "2026-09-02T01:37:45.517Z",
+  "contentUrl": "kb/kuailu-global-v1/docs/8c0ac0b8267b2627.json",
+  "markdown": "# HR Industry Adoption & Implementation Considerations\n\n| Consideration | Industry-level guidance |\n| --- | --- |\n| Workforce pattern | Multi-site, high-turnover, non-standard-hour and attendance-driven payroll operations usually have the strongest automation need. |\n| Evaluation metrics | Compare HR processing hours, payroll error rate, onboarding time, attendance exceptions and reconciliation effort against a defined baseline. |\n| Rule governance | Version regional wage, overtime, tax and social-insurance rules by effective date; record approvals before payroll closing. |\n| Data readiness | Reconcile employee, organisation, position, site, contract and payroll masters before automation. |\n| Rollout model | Start with one site or business unit, validate attendance and payroll reconciliation, then extend to more sites and countries. |\n| Evidence quality | Separate audited outcomes, research estimates, supplier claims and internal measurements; do not generalise one customer result. |\n\n---\n\n**Source**\n- `01-source-files/kuailu-global-v1/industry-materials/Industry Research Report - CRM and HR.md`\n"
+}
