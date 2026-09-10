@@ -9,7 +9,7 @@
   "knowledgePointCount": 534,
   "defaultDocId": "bbec1c9410ec357d",
   "exportUrl": "kb/kuailu-global-v1/export.json",
-  "generatedAt": "2026-09-02T10:31:16.920Z",
+  "generatedAt": "2026-09-10T09:47:31.180Z",
   "docs": [
     {
       "id": "bbec1c9410ec357d",
@@ -125,18 +125,18 @@
     },
     {
       "id": "cb0728657c06047d",
-      "title": "Development History",
+      "title": "Development Milestones",
       "label": "01-Development History",
       "relativePath": "01-Brand Information/02-Development History/01-Development History.md",
       "breadcrumbs": [
         "Brand Information",
         "Development History",
-        "Development History"
+        "Development Milestones"
       ],
       "category": "Brand Information",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-02T10:31:16.043Z",
+      "updatedAt": "2026-09-10T09:46:57.650Z",
       "contentUrl": "kb/kuailu-global-v1/docs/cb0728657c06047d.json"
     },
     {
@@ -152,7 +152,7 @@
       "category": "Brand Information",
       "readTime": 9,
       "unitCount": 1,
-      "updatedAt": "2026-09-02T10:31:16.043Z",
+      "updatedAt": "2026-09-10T09:46:57.650Z",
       "contentUrl": "kb/kuailu-global-v1/docs/17941e5ab085c3d0.json"
     },
     {
@@ -9058,7 +9058,7 @@
               "id": "cb0728657c06047d",
               "type": "file",
               "label": "01-Development History",
-              "title": "Development History",
+              "title": "Development Milestones",
               "unitCount": 1
             }
           ]
