@@ -9,7 +9,7 @@
   "knowledgePointCount": 778,
   "defaultDocId": "4d752ef4826730db",
   "exportUrl": "kb/kuailu-v2/export.json",
-  "generatedAt": "2026-09-29T05:50:39.348Z",
+  "generatedAt": "2026-09-29T07:23:23.697Z",
   "docs": [
     {
       "id": "4d752ef4826730db",
@@ -1512,10 +1512,10 @@
       "contentUrl": "kb/kuailu-v2/docs/083a5f6a1df1d860.json"
     },
     {
-      "id": "c2bc29fae9304e71",
+      "id": "8c3307820def94a3",
       "title": "快鹭KuWork",
-      "label": "09-KuWork",
-      "relativePath": "02-产品信息/01-全线产品/09-KuWork.md",
+      "label": "09-快鹭KuWork",
+      "relativePath": "02-产品信息/01-全线产品/09-快鹭KuWork.md",
       "breadcrumbs": [
         "产品信息",
         "全线产品",
@@ -1524,8 +1524,8 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.785Z",
-      "contentUrl": "kb/kuailu-v2/docs/c2bc29fae9304e71.json"
+      "updatedAt": "2026-09-29T07:22:55.608Z",
+      "contentUrl": "kb/kuailu-v2/docs/8c3307820def94a3.json"
     },
     {
       "id": "e0104ebb5754b4be",
@@ -1848,164 +1848,164 @@
       "contentUrl": "kb/kuailu-v2/docs/4b5c9132e4247693.json"
     },
     {
-      "id": "2a8ec6728e212e81",
+      "id": "a6f2cd1d6355ed64",
       "title": "快鹭KuWork｜产品简介",
       "label": "01-产品简介",
-      "relativePath": "02-产品信息/04-KuWork/01-产品简介.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/01-产品简介.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜产品简介"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.786Z",
-      "contentUrl": "kb/kuailu-v2/docs/2a8ec6728e212e81.json"
+      "updatedAt": "2026-09-29T07:22:55.609Z",
+      "contentUrl": "kb/kuailu-v2/docs/a6f2cd1d6355ed64.json"
     },
     {
-      "id": "0c1b84dadf5b31a7",
+      "id": "63a906a42df9024a",
       "title": "快鹭KuWork｜产品定位",
       "label": "02-产品定位",
-      "relativePath": "02-产品信息/04-KuWork/02-产品定位.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/02-产品定位.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜产品定位"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.787Z",
-      "contentUrl": "kb/kuailu-v2/docs/0c1b84dadf5b31a7.json"
+      "updatedAt": "2026-09-29T07:22:55.610Z",
+      "contentUrl": "kb/kuailu-v2/docs/63a906a42df9024a.json"
     },
     {
-      "id": "d3cdc88cdfcc338a",
+      "id": "80fcfc78873c60f9",
       "title": "快鹭KuWork｜目标客户",
       "label": "03-目标客户",
-      "relativePath": "02-产品信息/04-KuWork/03-目标客户.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/03-目标客户.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜目标客户"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.788Z",
-      "contentUrl": "kb/kuailu-v2/docs/d3cdc88cdfcc338a.json"
+      "updatedAt": "2026-09-29T07:22:55.611Z",
+      "contentUrl": "kb/kuailu-v2/docs/80fcfc78873c60f9.json"
     },
     {
-      "id": "ab4dd098d830ca08",
+      "id": "667ed563900d4a06",
       "title": "快鹭KuWork｜功能模块",
       "label": "04-功能模块",
-      "relativePath": "02-产品信息/04-KuWork/04-功能模块.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/04-功能模块.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜功能模块"
       ],
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.789Z",
-      "contentUrl": "kb/kuailu-v2/docs/ab4dd098d830ca08.json"
+      "updatedAt": "2026-09-29T07:22:55.613Z",
+      "contentUrl": "kb/kuailu-v2/docs/667ed563900d4a06.json"
     },
     {
-      "id": "029f525786c2129d",
+      "id": "2b33fc1a966842ad",
       "title": "快鹭KuWork｜产品定价",
       "label": "05-产品定价",
-      "relativePath": "02-产品信息/04-KuWork/05-产品定价.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/05-产品定价.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜产品定价"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.790Z",
-      "contentUrl": "kb/kuailu-v2/docs/029f525786c2129d.json"
+      "updatedAt": "2026-09-29T07:22:55.614Z",
+      "contentUrl": "kb/kuailu-v2/docs/2b33fc1a966842ad.json"
     },
     {
-      "id": "6b277cc2f77683c2",
+      "id": "ef137f3eaa7e8f55",
       "title": "快鹭KuWork｜核心优势",
       "label": "06-核心优势",
-      "relativePath": "02-产品信息/04-KuWork/06-核心优势.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/06-核心优势.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜核心优势"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.790Z",
-      "contentUrl": "kb/kuailu-v2/docs/6b277cc2f77683c2.json"
+      "updatedAt": "2026-09-29T07:22:55.615Z",
+      "contentUrl": "kb/kuailu-v2/docs/ef137f3eaa7e8f55.json"
     },
     {
-      "id": "497345f8b5db87a3",
+      "id": "59d6d52ea0d7f436",
       "title": "快鹭KuWork｜核心使用场景",
       "label": "07-核心使用场景",
-      "relativePath": "02-产品信息/04-KuWork/07-核心使用场景.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/07-核心使用场景.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜核心使用场景"
       ],
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.792Z",
-      "contentUrl": "kb/kuailu-v2/docs/497345f8b5db87a3.json"
+      "updatedAt": "2026-09-29T07:22:55.616Z",
+      "contentUrl": "kb/kuailu-v2/docs/59d6d52ea0d7f436.json"
     },
     {
-      "id": "417047d1cca9045a",
+      "id": "888763640e15ff8a",
       "title": "快鹭KuWork｜核心QA用户册",
       "label": "08-核心QA用户册",
-      "relativePath": "02-产品信息/04-KuWork/08-核心QA用户册.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/08-核心QA用户册.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜核心QA用户册"
       ],
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.793Z",
-      "contentUrl": "kb/kuailu-v2/docs/417047d1cca9045a.json"
+      "updatedAt": "2026-09-29T07:22:55.617Z",
+      "contentUrl": "kb/kuailu-v2/docs/888763640e15ff8a.json"
     },
     {
-      "id": "b1ce00e1c94e38b2",
+      "id": "39f818df453712c5",
       "title": "快鹭KuWork｜行业解决方案",
       "label": "09-行业解决方案",
-      "relativePath": "02-产品信息/04-KuWork/09-行业解决方案.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/09-行业解决方案.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜行业解决方案"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.793Z",
-      "contentUrl": "kb/kuailu-v2/docs/b1ce00e1c94e38b2.json"
+      "updatedAt": "2026-09-29T07:22:55.618Z",
+      "contentUrl": "kb/kuailu-v2/docs/39f818df453712c5.json"
     },
     {
-      "id": "cfbb884ab37bbb98",
+      "id": "2ba60474e8f69ad6",
       "title": "快鹭KuWork｜客户案例",
       "label": "10-客户案例",
-      "relativePath": "02-产品信息/04-KuWork/10-客户案例.md",
+      "relativePath": "02-产品信息/04-快鹭KuWork/10-客户案例.md",
       "breadcrumbs": [
         "产品信息",
-        "KuWork",
+        "快鹭KuWork",
         "快鹭KuWork｜客户案例"
       ],
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-29T05:46:17.794Z",
-      "contentUrl": "kb/kuailu-v2/docs/cfbb884ab37bbb98.json"
+      "updatedAt": "2026-09-29T07:22:55.618Z",
+      "contentUrl": "kb/kuailu-v2/docs/2ba60474e8f69ad6.json"
     },
     {
       "id": "2f0bdbcc7db2cb87",
@@ -13906,9 +13906,9 @@
               "unitCount": 1
             },
             {
-              "id": "c2bc29fae9304e71",
+              "id": "8c3307820def94a3",
               "type": "file",
-              "label": "09-KuWork",
+              "label": "09-快鹭KuWork",
               "title": "快鹭KuWork",
               "unitCount": 1
             }
@@ -14071,76 +14071,76 @@
           ]
         },
         {
-          "id": "folder:02-产品信息/04-KuWork",
+          "id": "folder:02-产品信息/04-快鹭KuWork",
           "type": "folder",
-          "label": "04-KuWork",
+          "label": "04-快鹭KuWork",
           "count": 10,
           "children": [
             {
-              "id": "2a8ec6728e212e81",
+              "id": "a6f2cd1d6355ed64",
               "type": "file",
               "label": "01-产品简介",
               "title": "快鹭KuWork｜产品简介",
               "unitCount": 1
             },
             {
-              "id": "0c1b84dadf5b31a7",
+              "id": "63a906a42df9024a",
               "type": "file",
               "label": "02-产品定位",
               "title": "快鹭KuWork｜产品定位",
               "unitCount": 1
             },
             {
-              "id": "d3cdc88cdfcc338a",
+              "id": "80fcfc78873c60f9",
               "type": "file",
               "label": "03-目标客户",
               "title": "快鹭KuWork｜目标客户",
               "unitCount": 1
             },
             {
-              "id": "ab4dd098d830ca08",
+              "id": "667ed563900d4a06",
               "type": "file",
               "label": "04-功能模块",
               "title": "快鹭KuWork｜功能模块",
               "unitCount": 1
             },
             {
-              "id": "029f525786c2129d",
+              "id": "2b33fc1a966842ad",
               "type": "file",
               "label": "05-产品定价",
               "title": "快鹭KuWork｜产品定价",
               "unitCount": 1
             },
             {
-              "id": "6b277cc2f77683c2",
+              "id": "ef137f3eaa7e8f55",
               "type": "file",
               "label": "06-核心优势",
               "title": "快鹭KuWork｜核心优势",
               "unitCount": 1
             },
             {
-              "id": "497345f8b5db87a3",
+              "id": "59d6d52ea0d7f436",
               "type": "file",
               "label": "07-核心使用场景",
               "title": "快鹭KuWork｜核心使用场景",
               "unitCount": 1
             },
             {
-              "id": "417047d1cca9045a",
+              "id": "888763640e15ff8a",
               "type": "file",
               "label": "08-核心QA用户册",
               "title": "快鹭KuWork｜核心QA用户册",
               "unitCount": 1
             },
             {
-              "id": "b1ce00e1c94e38b2",
+              "id": "39f818df453712c5",
               "type": "file",
               "label": "09-行业解决方案",
               "title": "快鹭KuWork｜行业解决方案",
               "unitCount": 1
             },
             {
-              "id": "cfbb884ab37bbb98",
+              "id": "2ba60474e8f69ad6",
               "type": "file",
               "label": "10-客户案例",
               "title": "快鹭KuWork｜客户案例",
