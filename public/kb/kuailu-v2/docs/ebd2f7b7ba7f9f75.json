@@ -1,0 +1,18 @@
+{
+  "id": "ebd2f7b7ba7f9f75",
+  "title": "Dify｜产品简介",
+  "label": "01-产品简介",
+  "relativePath": "03-竞品信息/05-AI智能办公平台竞品/17-Dify/01-产品简介.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能办公平台竞品",
+    "Dify",
+    "Dify｜产品简介"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-09-30T06:48:07.601Z",
+  "contentUrl": "kb/kuailu-v2/docs/ebd2f7b7ba7f9f75.json",
+  "markdown": "# Dify｜产品简介\n\n|  |\n| --- |\n| Dify 是开源的大模型应用开发平台，支持可视化编排 Agent、工作流与 RAG 应用。 |\n| 内置模型接入、提示词编排、知识库/RAG、Agent 节点与可观测能力，开发者可快速搭建面向业务的 AI 应用。 |\n| 开源社区版 + 云服务，社区生态与插件市场丰富，可私有化部署。 |\n| 与 KuWork 的重叠点是AI 智能体/工作流搭建与知识库问答； |\n| 差异在于Dify更聚焦面向开发者的大模型应用工程化平台，而 KuWork 的比较基准还包括原生 CRM、IM、HR、行政、采购、财务与会议协同等一站式办公模块。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/横向对比品牌/17_Dify｜竞品信息.md`\n- [Dify官方网站（官网核验：2026-09-30；可访问（HTTP 200/302））](https://dify.ai)（来源核验：2026-09-30）\n"
+}

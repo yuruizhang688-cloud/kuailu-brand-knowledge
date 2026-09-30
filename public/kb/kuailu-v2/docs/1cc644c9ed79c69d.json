@@ -1,0 +1,18 @@
+{
+  "id": "1cc644c9ed79c69d",
+  "title": "Authing｜核心QA用户册",
+  "label": "08-核心QA用户册",
+  "relativePath": "03-竞品信息/05-AI智能办公平台竞品/20-Authing/08-核心QA用户册.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "AI智能办公平台竞品",
+    "Authing",
+    "Authing｜核心QA用户册"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-09-30T06:48:07.611Z",
+  "contentUrl": "kb/kuailu-v2/docs/1cc644c9ed79c69d.json",
+  "markdown": "# Authing｜核心QA用户册\n\n| 问题 | 回答 |\n| --- | --- |\n| **Q1：Authing 是什么？** | 云原生身份云（IDaaS）平台。 |\n| **Q2：适合谁？** | 需要快速接入用户认证的开发者与企业。 |\n| **Q3：与 KuWork 有什么区别？** | Authing 是身份基础设施，KuWork 提供 AI 办公与一站式协同、业务闭环。 |\n| **Q4：能私有化吗？** | 支持私有化与开源版。 |\n| **Q5：业务人员能直接用吗？** | 需要开发集成，面向开发者。 |\n\n## 结论与信息边界\n\n|  |\n| --- |\n| Authing 适合以用户认证与身份管理为核心的技术团队；与 KuWork 对比应重点衡量办公协同、业务模块与组织级 AI 能力的差异。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/横向对比品牌/20_Authing｜竞品信息.md`\n- [Authing官方网站（官网核验：2026-09-30；可访问（HTTP 200/302））](https://www.authing.cn)（来源核验：2026-09-30）\n"
+}

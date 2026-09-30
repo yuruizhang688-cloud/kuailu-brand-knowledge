@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T07:23:23.725Z",
+  "generatedAt": "2026-09-30T06:48:27.232Z",
   "defaultBrand": "kuailu-v2",
   "brands": [
     {
@@ -18,8 +18,8 @@
       "shortName": "快鹭知识库",
       "initials": "KUAILU",
       "locale": "zh-CN",
-      "docCount": 778,
-      "knowledgePointCount": 778,
+      "docCount": 994,
+      "knowledgePointCount": 994,
       "manifestUrl": "kb/kuailu-v2/manifest.json"
     }
   ]
