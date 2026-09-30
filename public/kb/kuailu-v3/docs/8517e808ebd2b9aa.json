@@ -1,0 +1,18 @@
+{
+  "id": "8517e808ebd2b9aa",
+  "title": "Authing｜产品简介",
+  "label": "01-产品简介",
+  "relativePath": "03-竞品信息/03-企业AI智能办公平台竞品/20-Authing/01-产品简介.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "企业AI智能办公平台竞品",
+    "Authing",
+    "Authing｜产品简介"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-09-30T08:10:09.271Z",
+  "contentUrl": "kb/kuailu-v3/docs/8517e808ebd2b9aa.json",
+  "markdown": "# Authing｜产品简介\n\n|  |\n| --- |\n| Authing 是蒸汽记忆推出的身份云（IDaaS）平台，为企业和开发者提供统一身份认证服务。 |\n| 提供单点登录、多因素认证、用户目录、权限管理与社交登录等能力，支持开发者 API 集成与多租户。 |\n| 以云服务为主，提供开源版与私有化部署，开发者生态活跃。 |\n| 与 KuWork 的重叠点是统一认证、组织与成员管理； |\n| 差异在于Authing更聚焦开发者友好的云原生身份认证，而 KuWork 的比较基准还包括原生 CRM、IM、HR、行政、采购、财务与会议协同等一站式办公模块。 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/横向对比品牌/20_Authing｜竞品信息.md`\n- [Authing官方网站（官网核验：2026-09-30；可访问（HTTP 200/302））](https://www.authing.cn)（来源核验：2026-09-30）\n"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T06:48:27.232Z",
+  "generatedAt": "2026-09-30T08:42:39.652Z",
   "defaultBrand": "kuailu-v2",
   "brands": [
     {
@@ -18,9 +18,19 @@
       "shortName": "快鹭知识库",
       "initials": "KUAILU",
       "locale": "zh-CN",
-      "docCount": 994,
-      "knowledgePointCount": 994,
+      "docCount": 543,
+      "knowledgePointCount": 543,
       "manifestUrl": "kb/kuailu-v2/manifest.json"
+    },
+    {
+      "slug": "kuailu-v3",
+      "displayName": "快鹭品牌知识库 V3",
+      "shortName": "快鹭知识库 V3",
+      "initials": "KUAILU",
+      "locale": "zh-CN",
+      "docCount": 543,
+      "knowledgePointCount": 543,
+      "manifestUrl": "kb/kuailu-v3/manifest.json"
     }
   ]
 }

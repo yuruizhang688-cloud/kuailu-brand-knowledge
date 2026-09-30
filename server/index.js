@@ -105,13 +105,20 @@ async function loadPreviousDocIds(entries) {
 
 async function buildKnowledgeBase() {
   await ensureWorkspace();
-  const brandDirs = (await readdir(layerRoots.content, { withFileTypes: true })).filter((entry) => entry.isDirectory()).map((entry) => entry.name);
+  const sourceSlugs = (await readdir(layerRoots.content, { withFileTypes: true }))
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name);
+  const brandEntries = sourceSlugs.map((slug) => ({ slug, sourceSlug: slug }));
+  if (sourceSlugs.includes('kuailu-v2') && !sourceSlugs.includes('kuailu-v3')) {
+    brandEntries.push({ slug: 'kuailu-v3', sourceSlug: 'kuailu-v2', versionLabel: ' V3' });
+  }
   const previousOutputs = await readdir(kbRoot, { withFileTypes: true });
   const previousDocIds = await loadPreviousDocIds(previousOutputs);
   await Promise.all(previousOutputs.filter((entry) => entry.isDirectory()).map((entry) => rm(path.join(kbRoot, entry.name), { recursive: true, force: true })));
   const brands = [];
-  for (const slug of brandDirs) {
-    const sourceRoot = path.join(layerRoots.content, slug);
+  for (const brandEntry of brandEntries) {
+    const { slug, sourceSlug, versionLabel = '' } = brandEntry;
+    const sourceRoot = path.join(layerRoots.content, sourceSlug);
     const configPath = path.join(sourceRoot, 'brand.json');
     let config = {};
     try { config = JSON.parse(await readFile(configPath, 'utf8')); } catch { config = {}; }
@@ -120,7 +127,7 @@ async function buildKnowledgeBase() {
     const docs = [];
     const tree = [];
     const outputRoot = path.join(kbRoot, slug);
-    const brandIdentity = config.displayName ?? stripOrder(slug);
+    const brandIdentity = `${config.displayName ?? stripOrder(sourceSlug)}${versionLabel}`;
     await mkdir(path.join(outputRoot, 'docs'), { recursive: true });
     for (const file of markdownFiles) {
       const markdown = await readFile(path.join(sourceRoot, file.path), 'utf8');
@@ -139,7 +146,9 @@ async function buildKnowledgeBase() {
     const locale = config.locale ?? 'zh-CN';
     const allContentLabel = locale.startsWith('en') ? 'All Content' : '全部内容';
     await writeFile(path.join(outputRoot, 'search', 'all.json'), JSON.stringify({ id: 'all', label: allContentLabel, entries }, null, 2));
-    const manifest = { slug, displayName: config.displayName ?? stripOrder(slug), shortName: config.shortName ?? config.displayName ?? stripOrder(slug), initials: config.initials ?? 'KB', locale, showSources: config.showSources !== false, docCount: docs.length, knowledgePointCount: docs.reduce((sum, doc) => sum + doc.unitCount, 0), defaultDocId: docs[0]?.id ?? null, exportUrl: `kb/${slug}/export.json`, generatedAt: new Date().toISOString(), docs, tree, searchChunks: [{ id: 'all', label: allContentLabel, url: `kb/${slug}/search/all.json`, count: docs.length }] };
+    const displayName = `${config.displayName ?? stripOrder(sourceSlug)}${versionLabel}`;
+    const shortName = `${config.shortName ?? config.displayName ?? stripOrder(sourceSlug)}${versionLabel}`;
+    const manifest = { slug, displayName, shortName, initials: config.initials ?? 'KB', locale, showSources: config.showSources !== false, docCount: docs.length, knowledgePointCount: docs.reduce((sum, doc) => sum + doc.unitCount, 0), defaultDocId: docs[0]?.id ?? null, exportUrl: `kb/${slug}/export.json`, generatedAt: new Date().toISOString(), docs, tree, searchChunks: [{ id: 'all', label: allContentLabel, url: `kb/${slug}/search/all.json`, count: docs.length }] };
     await writeFile(path.join(outputRoot, 'manifest.json'), JSON.stringify(manifest, null, 2));
     await writeFile(path.join(outputRoot, 'export.json'), JSON.stringify({ slug, generatedAt: manifest.generatedAt, docs: await Promise.all(docs.map(async (doc) => ({ id: doc.id, relativePath: doc.relativePath, markdown: JSON.parse(await readFile(path.join(outputRoot, 'docs', `${doc.id}.json`), 'utf8')).markdown }))) }, null, 2));
     brands.push({ slug, displayName: manifest.displayName, shortName: manifest.shortName, initials: manifest.initials, locale: manifest.locale, docCount: manifest.docCount, knowledgePointCount: manifest.knowledgePointCount, manifestUrl: `kb/${slug}/manifest.json` });

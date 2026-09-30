@@ -1,0 +1,18 @@
+{
+  "id": "2493bf769e9e3ceb",
+  "title": "Authing｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/03-企业AI智能办公平台竞品/20-Authing/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "企业AI智能办公平台竞品",
+    "Authing",
+    "Authing｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-09-30T08:10:09.271Z",
+  "contentUrl": "kb/kuailu-v3/docs/2493bf769e9e3ceb.json",
+  "markdown": "# Authing｜功能模块\n\n| 模块 | 核心能力 | 业务价值 |\n|---|---|---|\n| 统一认证 | 多种登录方式与 SSO | 提升登录转化 |\n| 用户目录 | 用户档案与组织管理 | 统一用户数据 |\n| 权限管理 | RBAC 与 ABAC | 精细化授权 |\n| 多因素认证 | MFA 防护 | 账号安全 |\n| 开发者 API | SDK 与开放接口 | 快速集成 |\n| 交付形态 | 云、开源与私有化 | 灵活可控 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/横向对比品牌/20_Authing｜竞品信息.md`\n- [Authing官方网站（官网核验：2026-09-30；可访问（HTTP 200/302））](https://www.authing.cn)（来源核验：2026-09-30）\n"
+}

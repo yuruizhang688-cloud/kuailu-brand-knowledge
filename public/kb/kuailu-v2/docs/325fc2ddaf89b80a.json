@@ -1,0 +1,18 @@
+{
+  "id": "325fc2ddaf89b80a",
+  "title": "JNPF｜功能模块",
+  "label": "04-功能模块",
+  "relativePath": "03-竞品信息/03-企业AI智能办公平台竞品/15-JNPF/04-功能模块.md",
+  "breadcrumbs": [
+    "竞品信息",
+    "企业AI智能办公平台竞品",
+    "JNPF",
+    "JNPF｜功能模块"
+  ],
+  "category": "竞品信息",
+  "readTime": 1,
+  "unitCount": 1,
+  "updatedAt": "2026-09-30T08:10:09.251Z",
+  "contentUrl": "kb/kuailu-v2/docs/325fc2ddaf89b80a.json",
+  "markdown": "# JNPF｜功能模块\n\n| 模块 | 核心能力 | 业务价值 |\n|---|---|---|\n| 可视化表单 | 表单生成器 | 快速采集业务数据 |\n| 流程设计 | 流程引擎与审批配置 | 流程快速落地 |\n| 代码生成 | 前后端代码生成 | 加速开发交付 |\n| 权限组织 | RBAC 权限体系 | 安全管理 |\n| 集成开放 | REST API 与外部系统 | 系统联通 |\n| 报表引擎 | 报表与图表 | 数据分析 |\n\n---\n\n**引用来源**\n\n- `03竞品信息/横向对比品牌/15_JNPF｜竞品信息.md`\n- [JNPF官方网站（官网核验：2026-09-30；可访问（HTTP 200/302））](https://www.jnpfsoft.com)（来源核验：2026-09-30）\n"
+}
