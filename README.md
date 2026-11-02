@@ -73,3 +73,17 @@ Pages 工作流会把它作为 `VITE_COMMENTS_API_URL` 注入构建。公开批�
 ## 数据格式
 
 `public/kb/manifest.json` 列出品牌；每个品牌 `manifest.json` 中包含 `docs`、`tree`、`searchChunks` 和 `exportUrl`。单篇文档是 `{ id, markdown, ...metadata }`。这与公开页面可观察到的静态内容加载方式保持兼容，但这里仅附带 demo 数据。
+
+<!-- repository-maintenance:begin -->
+## 维护与发布
+
+public/kb/ 包含多个知识库版本。Pages 提供静态阅读，server/ 提供本地工作台，comments-worker/ 提供独立部署的 Worker/D1 批注后端。网站发布不会自动备份批注数据库。
+
+公开入口：https://yuruizhang688-cloud.github.io/kuailu-brand-knowledge/ 。Pages 源目录为 `main/`。
+
+日常变更先在分支提交，通过本仓验证后使用 Pull Request 合入 main。仓库保护以 GitHub 实际设置为准；个人私有仓的保护规则可能受套餐限制。Issue 用于记录缺陷与待办，缺少 Issue 不代表没有工作。
+
+维护快照使用 `maintenance-YYYYMMDD.N` 标签与 GitHub Release 记录源码版本；它不自动代表生产部署、真实平台验收或桌面安装包发布。Tag 发布后保持不可变，修正使用新版本。
+
+许可范围见根目录 LICENSE；第三方代码、字体和素材保留各自许可证。不要提交 .env、Cookie、访问令牌、浏览器资料或运行数据库。
+<!-- repository-maintenance:end -->
