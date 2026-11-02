@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "6.0.3",
-    "vite": "8.1.4"
+    "vite": "8.3.5"
   },
   "optionalDependencies": {
     "@rolldown/binding-darwin-arm64": "1.1.5"
