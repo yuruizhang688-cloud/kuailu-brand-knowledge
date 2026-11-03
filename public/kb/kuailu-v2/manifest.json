@@ -9,7 +9,7 @@
   "knowledgePointCount": 543,
   "defaultDocId": "4d752ef4826730db",
   "exportUrl": "kb/kuailu-v2/export.json",
-  "generatedAt": "2026-09-30T09:30:28.667Z",
+  "generatedAt": "2026-11-03T06:20:37.540Z",
   "docs": [
     {
       "id": "4d752ef4826730db",
@@ -1394,9 +1394,9 @@
         "全线产品总览"
       ],
       "category": "产品信息",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.850Z",
+      "updatedAt": "2026-11-03T06:20:00.524Z",
       "contentUrl": "kb/kuailu-v2/docs/5deea41c8ddec2aa.json"
     },
     {
@@ -1492,7 +1492,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.859Z",
+      "updatedAt": "2026-11-03T06:20:00.534Z",
       "contentUrl": "kb/kuailu-v2/docs/8c3307820def94a3.json"
     },
     {
@@ -1506,9 +1506,9 @@
         "快鹭KuWork｜产品简介"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.860Z",
+      "updatedAt": "2026-11-03T06:20:00.506Z",
       "contentUrl": "kb/kuailu-v2/docs/8a25d20debc8734f.json"
     },
     {
@@ -1522,9 +1522,9 @@
         "快鹭KuWork｜产品定位"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.861Z",
+      "updatedAt": "2026-11-03T06:20:00.507Z",
       "contentUrl": "kb/kuailu-v2/docs/c17b9461d74661f6.json"
     },
     {
@@ -1538,9 +1538,9 @@
         "快鹭KuWork｜目标客户"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.862Z",
+      "updatedAt": "2026-11-03T06:20:00.509Z",
       "contentUrl": "kb/kuailu-v2/docs/d637aee0b25813d3.json"
     },
     {
@@ -1554,9 +1554,9 @@
         "快鹭KuWork｜功能模块"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.863Z",
+      "updatedAt": "2026-11-03T06:20:00.511Z",
       "contentUrl": "kb/kuailu-v2/docs/7444668bc222c39a.json"
     },
     {
@@ -1570,9 +1570,9 @@
         "快鹭KuWork｜产品定价"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.864Z",
+      "updatedAt": "2026-11-03T06:20:00.513Z",
       "contentUrl": "kb/kuailu-v2/docs/2fa0775e806ba9c4.json"
     },
     {
@@ -1586,9 +1586,9 @@
         "快鹭KuWork｜核心优势"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.865Z",
+      "updatedAt": "2026-11-03T06:20:00.514Z",
       "contentUrl": "kb/kuailu-v2/docs/11ee41473c887cc9.json"
     },
     {
@@ -1604,7 +1604,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.866Z",
+      "updatedAt": "2026-11-03T06:20:00.516Z",
       "contentUrl": "kb/kuailu-v2/docs/3bf573a2a8e0013f.json"
     },
     {
@@ -1618,9 +1618,9 @@
         "快鹭KuWork｜核心QA用户册"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.867Z",
+      "updatedAt": "2026-11-03T06:20:00.518Z",
       "contentUrl": "kb/kuailu-v2/docs/869f0a19bb7a6f8d.json"
     },
     {
@@ -1634,9 +1634,9 @@
         "快鹭KuWork｜行业解决方案"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.868Z",
+      "updatedAt": "2026-11-03T06:20:00.519Z",
       "contentUrl": "kb/kuailu-v2/docs/a071d959ee8d8a9d.json"
     },
     {
@@ -1652,7 +1652,7 @@
       "category": "产品信息",
       "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.868Z",
+      "updatedAt": "2026-11-03T06:20:00.520Z",
       "contentUrl": "kb/kuailu-v2/docs/ffb0a8dbb6c70d22.json"
     },
     {
@@ -1666,9 +1666,9 @@
         "快鹭办公｜产品简介"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.869Z",
+      "updatedAt": "2026-11-03T06:01:04.202Z",
       "contentUrl": "kb/kuailu-v2/docs/70b0a8435cde9fce.json"
     },
     {
@@ -1682,9 +1682,9 @@
         "快鹭办公｜产品定位"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 1,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.870Z",
+      "updatedAt": "2026-11-03T06:01:04.203Z",
       "contentUrl": "kb/kuailu-v2/docs/440330cecc93fd3c.json"
     },
     {
@@ -1700,7 +1700,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.871Z",
+      "updatedAt": "2026-11-03T06:01:04.206Z",
       "contentUrl": "kb/kuailu-v2/docs/9d6ae3f2b093882e.json"
     },
     {
@@ -1714,9 +1714,9 @@
         "快鹭办公｜功能模块"
       ],
       "category": "产品信息",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.872Z",
+      "updatedAt": "2026-11-03T06:01:04.211Z",
       "contentUrl": "kb/kuailu-v2/docs/1867557381bc550c.json"
     },
     {
@@ -1732,7 +1732,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.873Z",
+      "updatedAt": "2026-11-03T06:01:04.212Z",
       "contentUrl": "kb/kuailu-v2/docs/615dd693cab64486.json"
     },
     {
@@ -1748,7 +1748,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.874Z",
+      "updatedAt": "2026-11-03T06:01:04.215Z",
       "contentUrl": "kb/kuailu-v2/docs/ab4b222eeafbc805.json"
     },
     {
@@ -1764,7 +1764,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.875Z",
+      "updatedAt": "2026-11-03T06:01:04.216Z",
       "contentUrl": "kb/kuailu-v2/docs/d3ca269daf559ad4.json"
     },
     {
@@ -1778,9 +1778,9 @@
         "快鹭办公｜核心QA用户册"
       ],
       "category": "产品信息",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.877Z",
+      "updatedAt": "2026-11-03T06:01:04.218Z",
       "contentUrl": "kb/kuailu-v2/docs/812e12c8bd35cc42.json"
     },
     {
@@ -1796,7 +1796,7 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.879Z",
+      "updatedAt": "2026-11-03T06:01:04.219Z",
       "contentUrl": "kb/kuailu-v2/docs/ed273c33f37c5547.json"
     },
     {
@@ -1810,9 +1810,9 @@
         "快鹭办公｜客户案例"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.880Z",
+      "updatedAt": "2026-11-03T06:01:04.221Z",
       "contentUrl": "kb/kuailu-v2/docs/219e0c1b89873501.json"
     },
     {
