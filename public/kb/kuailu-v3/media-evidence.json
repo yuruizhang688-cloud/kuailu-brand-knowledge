@@ -1,0 +1,2458 @@
+{
+  "generatedOn": "2026-11-05",
+  "summary": {
+    "generatedOn": "2026-11-05",
+    "publicationRecords": 116,
+    "acceptedArticles": 31,
+    "ordinaryArticles": 72,
+    "unavailableArticles": 1,
+    "materialSources": 103,
+    "acceptedContentGroups": 30,
+    "claims": 31,
+    "evidenceLinks": 71,
+    "enhancedKnowledgePoints": 22,
+    "displayedArticleRecords": 74,
+    "citedFragments": 74,
+    "maxSourcesPerFragment": 1,
+    "uniquePreferredArticles": 18,
+    "media": {
+      "ITBEAR科技资讯": 12,
+      "IT之家": 2,
+      "IT168": 8,
+      "赛迪网": 2,
+      "界面新闻": 1,
+      "中国经济新闻网科技": 4,
+      "极客公园": 1,
+      "中关村在线新闻": 1
+    }
+  },
+  "selections": [
+    {
+      "knowledgePath": "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+      "fragments": [
+        {
+          "id": "5340e62b67ef4e87",
+          "claimId": "CRM-03",
+          "publicationId": "MED-110",
+          "text": "快鹭AI CRM 由 AI 数据中心、AI 智能中心和核心业务引擎三层组成，连接业务数据、经营洞察与任务执行。",
+          "citationText": "（赛迪网；2026-09-11；[文章](https://www.ccidnet.com/cpfwyjs/1126236.jhtml \"别让AI CRM变成数据孤岛：私有化定制选型的本质与标准\")）"
+        },
+        {
+          "id": "1f38aeba5fb909d7",
+          "claimId": "CRM-04",
+          "publicationId": "MED-110",
+          "text": "业务引擎覆盖线索、客户、商机、合同、订单与回款等销售环节，流程、规则及报表可按业务需要配置。",
+          "citationText": "（赛迪网；2026-09-11；[文章](https://www.ccidnet.com/cpfwyjs/1126236.jhtml \"别让AI CRM变成数据孤岛：私有化定制选型的本质与标准\")）"
+        },
+        {
+          "id": "a65a0970b3f571f6",
+          "claimId": "CRM-05",
+          "publicationId": "MED-107",
+          "text": "AI 智能中心包含销售助理、客户洞察、分析专家、市场专家、报价、日报、周报、人员分析与线索抓取九类工具。",
+          "citationText": "（极客公园；2026-09-17；[文章](https://www.geekpark.net/news/370500 \"从 \\\"人录数据\\\" 到 \\\"AI 干活\\\"：快鹭 AI CRM 如何以AI原生改变传统销售管理\")）"
+        },
+        {
+          "id": "897fcad003b323e0",
+          "claimId": "CRM-01",
+          "publicationId": "MED-109",
+          "text": "功能权限与数据权限分离，通过组织架构同步、角色范围与个人权限项组合控制数据访问；公海可配置本部门及子部门范围。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        },
+        {
+          "id": "23bbc8d8c8846a90",
+          "claimId": "CRM-02",
+          "publicationId": "MED-109",
+          "text": "离职继承可批量移交线索和客户，未移交数据释放到对应公海池；客户负责人、客户作废和商机阶段等关键变更留有操作人与时间记录。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-01",
+        "CRM-02",
+        "CRM-03",
+        "CRM-04",
+        "CRM-05"
+      ],
+      "publicationIds": [
+        "MED-107",
+        "MED-109",
+        "MED-110"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/03-核心业务/04-视频会议业务.md",
+      "fragments": [
+        {
+          "id": "57305faf6cebe5fe",
+          "claimId": "MT-01",
+          "publicationId": "MED-116",
+          "text": "快鹭会议支持在企业自有 IDC 或指定云平台私有化部署，按并发会议数提供服务器配置建议。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        },
+        {
+          "id": "8af9302830174bec",
+          "claimId": "MT-02",
+          "publicationId": "MED-116",
+          "text": "快鹭会议采用接入、网关、服务、数据和基础设施分层设计，将业务逻辑与媒体服务分离，结合微服务及 Kubernetes 提供弹性伸缩、多机容灾和故障转移。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        },
+        {
+          "id": "77844091a398dcbb",
+          "claimId": "MT-03",
+          "publicationId": "MED-105",
+          "text": "终端覆盖 Windows、Mac、PC Web、iOS、Android、HarmonyOS 和会议室智能大屏，支持浏览器点击链接免安装入会。",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950523.shtml \"2026 AI 会议系统与会议终端选型框架：四大类型、决策路径与厂商速览\")）"
+        },
+        {
+          "id": "b4356241cf23896d",
+          "claimId": "MT-04",
+          "publicationId": "MED-102",
+          "text": "会前支持自然语言组会与提醒，会中提供实时字幕、中英翻译及 AI 托管，会后基于声纹识别生成纪要并提取待办和责任人。",
+          "citationText": "（ITBEAR科技资讯；2026-09-17；[文章](https://www.itbear.com.cn/html/2026-09/1565296.html \"通过信创环境适配验证，快鹭会议夯实私有化视频会议能力\")）"
+        },
+        {
+          "id": "cf1127a061d2f3a6",
+          "claimId": "MT-05",
+          "publicationId": "MED-116",
+          "text": "报道列示特定测试条件下约 600 Kbps 带宽呈现 1080P、约 150 毫秒低延时与 50% 抗丢包；效果受网络、终端、编码参数及并发影响。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        }
+      ],
+      "claimIds": [
+        "MT-01",
+        "MT-02",
+        "MT-03",
+        "MT-04",
+        "MT-05"
+      ],
+      "publicationIds": [
+        "MED-102",
+        "MED-105",
+        "MED-116"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md",
+      "fragments": [
+        {
+          "id": "0785bb678182b83f",
+          "claimId": "KU-04",
+          "publicationId": "MED-052",
+          "text": "员工负责目标、判断与决策，平台协助信息处理、执行与交付；操作范围取决于已配置的能力与授权。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "21e1aefd546913c0",
+          "claimId": "KU-09",
+          "publicationId": "MED-054",
+          "text": "可从自然语言需求出发处理材料，生成报告、文档、演示与网页，适用于跨资料整理、多轮审阅和产品介绍方案等内容交付。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "5d9c252cb72c6461",
+          "claimId": "KU-13",
+          "publicationId": "MED-063",
+          "text": "产品包含需求入口、专业伙伴、项目上下文、知识库、轻应用与自动化六类工作能力，配套技能、连接器与记忆。",
+          "citationText": "（ITBEAR科技资讯；2026-10-16；[文章](https://www.itbear.com.cn/html/2026-10/1575070.html \"先定观察窗口再谈硬件投入：2026年企业级AI智能体办公平台私有化部署盘点\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-04",
+        "KU-09",
+        "KU-13"
+      ],
+      "publicationIds": [
+        "MED-052",
+        "MED-054",
+        "MED-063"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/04-核心竞争力/01-技术能力.md",
+      "fragments": [
+        {
+          "id": "ef39d67804f35ca8",
+          "claimId": "KU-16",
+          "publicationId": "MED-112",
+          "text": "媒体记录的产品设计包括过程审计、模型网关与 Trace 日志；留存、路由和私有化的已上线范围按版本、部署方式与配置确认。",
+          "citationText": "（赛迪网；2026-09-10；[文章](https://www.ccidnet.com/cpfwyjs/1126100.jhtml \"本地数据上传后流向不清、怕隐私泄露——企业级 AI 智能体办公平台数据安全与保密该怎么判断\")）"
+        },
+        {
+          "id": "c55a282209b2835a",
+          "claimId": "MT-02",
+          "publicationId": "MED-116",
+          "text": "快鹭会议采用接入、网关、服务、数据和基础设施分层设计，将业务逻辑与媒体服务分离，结合微服务及 Kubernetes 提供弹性伸缩、多机容灾和故障转移。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-16",
+        "MT-02"
+      ],
+      "publicationIds": [
+        "MED-112",
+        "MED-116"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/04-核心竞争力/02-AI原生能力.md",
+      "fragments": [
+        {
+          "id": "0d07827f4cbaf1d6",
+          "claimId": "CRM-03",
+          "publicationId": "MED-110",
+          "text": "快鹭AI CRM 由 AI 数据中心、AI 智能中心和核心业务引擎三层组成，连接业务数据、经营洞察与任务执行。",
+          "citationText": "（赛迪网；2026-09-11；[文章](https://www.ccidnet.com/cpfwyjs/1126236.jhtml \"别让AI CRM变成数据孤岛：私有化定制选型的本质与标准\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-03"
+      ],
+      "publicationIds": [
+        "MED-110"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md",
+      "fragments": [
+        {
+          "id": "eaaef57b251cc456",
+          "claimId": "KU-08",
+          "publicationId": "MED-056",
+          "text": "连接器可连接会议、邮箱、文档、地图和代码仓库等外部服务，具体操作取决于已配置的能力与授权。",
+          "citationText": "（IT之家；2026-10-16；[文章](https://www.ithome.com/1/013/897.htm \"2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效\")）"
+        },
+        {
+          "id": "bf5eb51f92b98dc6",
+          "claimId": "KU-12",
+          "publicationId": "MED-082",
+          "text": "可通过 API、经验证的连接器或项目级数据对接连接现有系统；实际读写范围取决于接口、授权、数据质量和项目配置。",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950535.shtml \"2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-08",
+        "KU-12"
+      ],
+      "publicationIds": [
+        "MED-056",
+        "MED-082"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/04-核心竞争力/06-私有化部署能力.md",
+      "fragments": [
+        {
+          "id": "44b97b230675bcd8",
+          "claimId": "KU-14",
+          "publicationId": "MED-080",
+          "text": "媒体报道列示本地、云端及私有化部署选项，实际方案按产品版本和项目配置确认",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950537.shtml \"2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览\")）"
+        },
+        {
+          "id": "10d03eed820dd0ca",
+          "claimId": "MT-01",
+          "publicationId": "MED-116",
+          "text": "快鹭会议支持在企业自有 IDC 或指定云平台私有化部署，按并发会议数提供服务器配置建议。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-14",
+        "MT-01"
+      ],
+      "publicationIds": [
+        "MED-080",
+        "MED-116"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+      "fragments": [
+        {
+          "id": "0e1648f2a443c17e",
+          "claimId": "KU-11",
+          "publicationId": "MED-065",
+          "text": "报道列示身份认证、组织架构同步、分级权限、传输与存储加密、操作日志与审计留痕、异常预警等能力，具体适用范围取决于版本、部署方式与配置。",
+          "citationText": "（ITBEAR科技资讯；2026-10-16；[文章](https://www.itbear.com.cn/html/2026-10/1575071.html \"数据流向与留存边界先核验：2026年企业级AI办公平台安全选型分类盘点\")）"
+        },
+        {
+          "id": "6d944c002c792a2e",
+          "claimId": "KU-16",
+          "publicationId": "MED-112",
+          "text": "媒体记录的产品设计包括过程审计、模型网关与 Trace 日志；留存、路由和私有化的已上线范围按版本、部署方式与配置确认。",
+          "citationText": "（赛迪网；2026-09-10；[文章](https://www.ccidnet.com/cpfwyjs/1126100.jhtml \"本地数据上传后流向不清、怕隐私泄露——企业级 AI 智能体办公平台数据安全与保密该怎么判断\")）"
+        },
+        {
+          "id": "16870815b0597354",
+          "claimId": "KU-17",
+          "publicationId": "MED-112",
+          "text": "高风险写入、支付、签约及需要执业资质的专业结论，由具有相应权限的人审核与最终确认。",
+          "citationText": "（赛迪网；2026-09-10；[文章](https://www.ccidnet.com/cpfwyjs/1126100.jhtml \"本地数据上传后流向不清、怕隐私泄露——企业级 AI 智能体办公平台数据安全与保密该怎么判断\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-11",
+        "KU-16",
+        "KU-17"
+      ],
+      "publicationIds": [
+        "MED-065",
+        "MED-112"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+      "fragments": [
+        {
+          "id": "e3cf775c68a6c7fb",
+          "claimId": "KU-01",
+          "publicationId": "MED-052",
+          "text": "企业级 AI 工作伙伴平台",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "99fcc6fd9b5dc723",
+          "claimId": "KU-01",
+          "publicationId": "MED-052",
+          "text": "从一句需求出发，连接知识、工具与专业伙伴，完成分析、内容与应用交付，持续积累可复用的工作能力。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "b88debf109e8f7a4",
+          "claimId": "KU-02",
+          "publicationId": "MED-054",
+          "text": "说清目标、提供材料，约定输出形式与验收标准。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "d838abc41e1d52e7",
+          "claimId": "KU-02",
+          "publicationId": "MED-054",
+          "text": "结合知识、技能与工具，拆解并执行工作。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "1d265b6441a6e67f",
+          "claimId": "KU-02",
+          "publicationId": "MED-054",
+          "text": "查看报告、文档或应用，补充判断并提出修改。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "1e973b3c1d30b9e1",
+          "claimId": "KU-02",
+          "publicationId": "MED-054",
+          "text": "将资料归入知识库，将方法沉淀为技能或周期任务。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "39d3182b45caf2c9",
+          "claimId": "KU-04",
+          "publicationId": "MED-052",
+          "text": "员工负责目标、判断与决策；快鹭KuWork 协助信息处理、执行与交付。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-01",
+        "KU-02",
+        "KU-04"
+      ],
+      "publicationIds": [
+        "MED-052",
+        "MED-054"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+      "fragments": [
+        {
+          "id": "d57b368e2323cb66",
+          "claimId": "KU-01",
+          "publicationId": "MED-052",
+          "text": "企业级 AI 工作伙伴平台",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "e2c90c119aa947d7",
+          "claimId": "KU-01",
+          "publicationId": "MED-052",
+          "text": "从一句需求出发，连接知识、工具与专业伙伴，完成分析、内容与应用交付。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "01ad8fb3aaae74a4",
+          "claimId": "KU-04",
+          "publicationId": "MED-052",
+          "text": "人是主体 · 快鹭KuWork 是伙伴",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-01",
+        "KU-04"
+      ],
+      "publicationIds": [
+        "MED-052"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/03-目标客户.md",
+      "fragments": [
+        {
+          "id": "f156edd84e9f6e1d",
+          "claimId": "KU-15",
+          "publicationId": "MED-068",
+          "text": "需要连接知识、材料与已授权工具。",
+          "citationText": "（界面新闻；2026-10-16；[文章](https://www.jiemian.com/article/15198815.html \"智能体接入现有系统，数据流向不能留在暗处\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-15"
+      ],
+      "publicationIds": [
+        "MED-068"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+      "fragments": [
+        {
+          "id": "bb881ece49e80b2d",
+          "claimId": "KU-03",
+          "publicationId": "MED-114",
+          "text": "围绕业务目标组织相关任务和项目说明，为持续工作保留上下文。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949618.shtml \"会生成不等于能交付：企业级 AI 智能体办公平台的选型本质\")）"
+        },
+        {
+          "id": "6977b44ce5394d3d",
+          "claimId": "KU-06",
+          "publicationId": "MED-054",
+          "text": "集中管理企业资料与文档，让任务从已有知识和业务口径出发。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "b8d005e33db11415",
+          "claimId": "KU-10",
+          "publicationId": "MED-059",
+          "text": "将生成的页面和应用发布为可访问入口，便于团队实际使用。",
+          "citationText": "（ITBEAR科技资讯；2026-10-16；[文章](https://www.itbear.com.cn/html/2026-10/1574945.html \"不会编程也想做小工具：2026年企业级AI智能体办公平台轻应用生成决策指南\")）"
+        },
+        {
+          "id": "ff1f9b011fd0837d",
+          "claimId": "KU-05",
+          "publicationId": "MED-056",
+          "text": "把稳定的重复任务配置为定时执行，并查看执行结果。",
+          "citationText": "（IT之家；2026-10-16；[文章](https://www.ithome.com/1/013/897.htm \"2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效\")）"
+        },
+        {
+          "id": "b4217e95d467baec",
+          "claimId": "KU-06",
+          "publicationId": "MED-054",
+          "text": "将常用任务的方法与工具使用方式组织为可复用技能。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "2cb73fface5eead0",
+          "claimId": "KU-08",
+          "publicationId": "MED-056",
+          "text": "连接会议、邮箱、文档、地图、代码仓库等外部服务。",
+          "citationText": "（IT之家；2026-10-16；[文章](https://www.ithome.com/1/013/897.htm \"2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-03",
+        "KU-05",
+        "KU-06",
+        "KU-08",
+        "KU-10"
+      ],
+      "publicationIds": [
+        "MED-054",
+        "MED-056",
+        "MED-059",
+        "MED-114"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+      "fragments": [
+        {
+          "id": "0d3c6c037fc8a803",
+          "claimId": "KU-03",
+          "publicationId": "MED-114",
+          "text": "项目保留目标、说明和过程，知识库提供一致的资料依据。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949618.shtml \"会生成不等于能交付：企业级 AI 智能体办公平台的选型本质\")）"
+        },
+        {
+          "id": "ee7b0390e3bb7ceb",
+          "claimId": "KU-06",
+          "publicationId": "MED-054",
+          "text": "将方法沉淀为技能，将稳定任务配置为自动化，将成果发布为轻应用。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "926e4b28bf6ce5c2",
+          "claimId": "KU-04",
+          "publicationId": "MED-052",
+          "text": "员工负责目标、判断与决策，快鹭KuWork 协助信息处理、执行与交付。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "b745e6571b65a4d6",
+          "claimId": "KU-14",
+          "publicationId": "MED-080",
+          "text": "模型、存储、接口、联网要求与服务范围按专属方案确认",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950537.shtml \"2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-03",
+        "KU-04",
+        "KU-06",
+        "KU-14"
+      ],
+      "publicationIds": [
+        "MED-052",
+        "MED-054",
+        "MED-080",
+        "MED-114"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+      "fragments": [
+        {
+          "id": "b94b0988dcbeed10",
+          "claimId": "KU-07",
+          "publicationId": "MED-051",
+          "text": "生成经营摘要与汇报材料，业务人员核验后再配置周期更新。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615929.shtml \"企业智能体办公转向精细核算，数据流向划定费用边界\")）"
+        },
+        {
+          "id": "db735ceba6a13b72",
+          "claimId": "KU-09",
+          "publicationId": "MED-054",
+          "text": "通过对话调整表达与版式，形成可分享的演示或网页。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "326c29a9601e532c",
+          "claimId": "KU-10",
+          "publicationId": "MED-059",
+          "text": "在对话中构建应用，逐项验证表单、数据和角色权限。",
+          "citationText": "（ITBEAR科技资讯；2026-10-16；[文章](https://www.itbear.com.cn/html/2026-10/1574945.html \"不会编程也想做小工具：2026年企业级AI智能体办公平台轻应用生成决策指南\")）"
+        },
+        {
+          "id": "28cbef92c89da43e",
+          "claimId": "KU-18",
+          "publicationId": "MED-114",
+          "text": "媒体报道记录，项目中的定时任务可在客户端关闭后继续于云端运行，例外与写操作交回用户确认。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949618.shtml \"会生成不等于能交付：企业级 AI 智能体办公平台的选型本质\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-07",
+        "KU-09",
+        "KU-10",
+        "KU-18"
+      ],
+      "publicationIds": [
+        "MED-051",
+        "MED-054",
+        "MED-059",
+        "MED-114"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+      "fragments": [
+        {
+          "id": "c2bebf6889ca6e29",
+          "claimId": "KU-01",
+          "publicationId": "MED-052",
+          "text": "快鹭KuWork 是企业级 AI 工作伙伴平台，从一句需求出发，连接知识、工具与专业伙伴，完成分析、内容与应用交付。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615932.shtml \"任务入口从专业人员转向一线，上手速度落在资料准备与授权预置\")）"
+        },
+        {
+          "id": "100541171431aa75",
+          "claimId": "KU-03",
+          "publicationId": "MED-114",
+          "text": "项目围绕业务目标组织任务和项目说明，为持续工作保留上下文。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949618.shtml \"会生成不等于能交付：企业级 AI 智能体办公平台的选型本质\")）"
+        },
+        {
+          "id": "0f6fbdb3a1d7c87e",
+          "claimId": "KU-10",
+          "publicationId": "MED-059",
+          "text": "在对话中描述需求，生成页面或业务应用并迭代；发布后提供网页入口，便于团队访问。",
+          "citationText": "（ITBEAR科技资讯；2026-10-16；[文章](https://www.itbear.com.cn/html/2026-10/1574945.html \"不会编程也想做小工具：2026年企业级AI智能体办公平台轻应用生成决策指南\")）"
+        },
+        {
+          "id": "a353fe1cf9065df2",
+          "claimId": "KU-05",
+          "publicationId": "MED-056",
+          "text": "适合日报、数据更新、定期汇总等目标明确、输入相对稳定的重复工作。",
+          "citationText": "（IT之家；2026-10-16；[文章](https://www.ithome.com/1/013/897.htm \"2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效\")）"
+        },
+        {
+          "id": "63e6407d04978fe7",
+          "claimId": "KU-08",
+          "publicationId": "MED-056",
+          "text": "连接器可连接会议、邮箱、文档、地图、代码仓库等服务，具体操作取决于已配置的能力与授权。",
+          "citationText": "（IT之家；2026-10-16；[文章](https://www.ithome.com/1/013/897.htm \"2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效\")）"
+        },
+        {
+          "id": "211942053c610d6a",
+          "claimId": "KU-07",
+          "publicationId": "MED-051",
+          "text": "选一件高频工作，准备相关资料、样例与系统授权，先验证成果，再将方法沉淀为技能、项目、轻应用或自动化。",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615929.shtml \"企业智能体办公转向精细核算，数据流向划定费用边界\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-01",
+        "KU-03",
+        "KU-05",
+        "KU-07",
+        "KU-08",
+        "KU-10"
+      ],
+      "publicationIds": [
+        "MED-051",
+        "MED-052",
+        "MED-056",
+        "MED-059",
+        "MED-114"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+      "fragments": [
+        {
+          "id": "fd7947fb8e67a594",
+          "claimId": "KU-09",
+          "publicationId": "MED-054",
+          "text": "基于产品资料准备客户介绍方案和演示文稿",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615949.shtml \"内容与演示交付转向智能体起草，副本落点成为核验前置\")）"
+        },
+        {
+          "id": "e8c501fd1fad7eb2",
+          "claimId": "KU-12",
+          "publicationId": "MED-082",
+          "text": "模型任务适配、接口和读写授权按专属方案确认",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950535.shtml \"2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览\")）"
+        },
+        {
+          "id": "df5b0388cf6086c9",
+          "claimId": "KU-15",
+          "publicationId": "MED-068",
+          "text": "具体服务范围、系统接入与部署安排按实际需求确认。",
+          "citationText": "（界面新闻；2026-10-16；[文章](https://www.jiemian.com/article/15198815.html \"智能体接入现有系统，数据流向不能留在暗处\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-09",
+        "KU-12",
+        "KU-15"
+      ],
+      "publicationIds": [
+        "MED-054",
+        "MED-068",
+        "MED-082"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/02-快鹭KuWork/10-客户案例.md",
+      "fragments": [
+        {
+          "id": "4e7a98b90b872914",
+          "claimId": "KU-07",
+          "publicationId": "MED-051",
+          "text": "用真实材料核对准备耗时、结果准确性、人工修改量和使用体验，验证后再扩展复用",
+          "citationText": "（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615929.shtml \"企业智能体办公转向精细核算，数据流向划定费用边界\")）"
+        }
+      ],
+      "claimIds": [
+        "KU-07"
+      ],
+      "publicationIds": [
+        "MED-051"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/03-快鹭办公/04-功能模块.md",
+      "fragments": [
+        {
+          "id": "02f5a2e5faf21f62",
+          "claimId": "MT-03",
+          "publicationId": "MED-105",
+          "text": "终端覆盖 Windows、Mac、PC Web、iOS、Android、HarmonyOS 和会议室智能大屏，支持浏览器点击链接免安装入会。",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950523.shtml \"2026 AI 会议系统与会议终端选型框架：四大类型、决策路径与厂商速览\")）"
+        },
+        {
+          "id": "1ec89a1752cd5119",
+          "claimId": "MT-04",
+          "publicationId": "MED-102",
+          "text": "会前支持自然语言组会与提醒，会中提供实时字幕、中英翻译及 AI 托管，会后基于声纹识别生成纪要并提取待办和责任人。",
+          "citationText": "（ITBEAR科技资讯；2026-09-17；[文章](https://www.itbear.com.cn/html/2026-09/1565296.html \"通过信创环境适配验证，快鹭会议夯实私有化视频会议能力\")）"
+        },
+        {
+          "id": "38b0769a912d8d2f",
+          "claimId": "CRM-03",
+          "publicationId": "MED-110",
+          "text": "快鹭AI CRM 由 AI 数据中心、AI 智能中心和核心业务引擎三层组成，连接业务数据、经营洞察与任务执行。",
+          "citationText": "（赛迪网；2026-09-11；[文章](https://www.ccidnet.com/cpfwyjs/1126236.jhtml \"别让AI CRM变成数据孤岛：私有化定制选型的本质与标准\")）"
+        },
+        {
+          "id": "7030f4a231286451",
+          "claimId": "CRM-01",
+          "publicationId": "MED-109",
+          "text": "功能权限与数据权限分离，通过组织架构同步、角色范围与个人权限项组合控制数据访问；公海可配置本部门及子部门范围。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        },
+        {
+          "id": "c3442e71d2e36d34",
+          "claimId": "CRM-02",
+          "publicationId": "MED-109",
+          "text": "离职继承可批量移交线索和客户，未移交数据释放到对应公海池；客户负责人、客户作废和商机阶段等关键变更留有操作人与时间记录。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        },
+        {
+          "id": "83a543c4ee411fdd",
+          "claimId": "CRM-05",
+          "publicationId": "MED-107",
+          "text": "AI 智能中心包含销售助理、客户洞察、分析专家、市场专家、报价、日报、周报、人员分析与线索抓取九类工具。",
+          "citationText": "（极客公园；2026-09-17；[文章](https://www.geekpark.net/news/370500 \"从 \\\"人录数据\\\" 到 \\\"AI 干活\\\"：快鹭 AI CRM 如何以AI原生改变传统销售管理\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-01",
+        "CRM-02",
+        "CRM-03",
+        "CRM-05",
+        "MT-03",
+        "MT-04"
+      ],
+      "publicationIds": [
+        "MED-102",
+        "MED-105",
+        "MED-107",
+        "MED-109",
+        "MED-110"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/03-快鹭办公/06-核心优势.md",
+      "fragments": [
+        {
+          "id": "95b3ad3b76c2577e",
+          "claimId": "MT-01",
+          "publicationId": "MED-116",
+          "text": "快鹭会议支持在企业自有 IDC 或指定云平台私有化部署，按并发会议数提供服务器配置建议。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        },
+        {
+          "id": "b31df84e5d911686",
+          "claimId": "MT-02",
+          "publicationId": "MED-116",
+          "text": "快鹭会议采用接入、网关、服务、数据和基础设施分层设计，将业务逻辑与媒体服务分离，结合微服务及 Kubernetes 提供弹性伸缩、多机容灾和故障转移。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        },
+        {
+          "id": "1e7ec68f2bac6fae",
+          "claimId": "MT-05",
+          "publicationId": "MED-116",
+          "text": "报道列示特定测试条件下约 600 Kbps 带宽呈现 1080P、约 150 毫秒低延时与 50% 抗丢包；效果受网络、终端、编码参数及并发影响。",
+          "citationText": "（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")）"
+        },
+        {
+          "id": "5578675e79ce4e4b",
+          "claimId": "CRM-01",
+          "publicationId": "MED-109",
+          "text": "功能权限与数据权限分离，通过组织架构同步、角色范围与个人权限项组合控制数据访问；公海可配置本部门及子部门范围。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-01",
+        "MT-01",
+        "MT-02",
+        "MT-05"
+      ],
+      "publicationIds": [
+        "MED-109",
+        "MED-116"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/03-快鹭办公/07-核心使用场景.md",
+      "fragments": [
+        {
+          "id": "2c9ed6c04b3bba3a",
+          "claimId": "MT-03",
+          "publicationId": "MED-105",
+          "text": "终端覆盖 Windows、Mac、PC Web、iOS、Android、HarmonyOS 和会议室智能大屏，支持浏览器点击链接免安装入会。",
+          "citationText": "（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950523.shtml \"2026 AI 会议系统与会议终端选型框架：四大类型、决策路径与厂商速览\")）"
+        },
+        {
+          "id": "0fde857e4180fb9e",
+          "claimId": "MT-04",
+          "publicationId": "MED-102",
+          "text": "会前支持自然语言组会与提醒，会中提供实时字幕、中英翻译及 AI 托管，会后基于声纹识别生成纪要并提取待办和责任人。",
+          "citationText": "（ITBEAR科技资讯；2026-09-17；[文章](https://www.itbear.com.cn/html/2026-09/1565296.html \"通过信创环境适配验证，快鹭会议夯实私有化视频会议能力\")）"
+        },
+        {
+          "id": "8fbab72e3a5eb042",
+          "claimId": "CRM-02",
+          "publicationId": "MED-109",
+          "text": "离职继承可批量移交线索和客户，未移交数据释放到对应公海池；客户负责人、客户作废和商机阶段等关键变更留有操作人与时间记录。",
+          "citationText": "（IT168；2026-09-11；[文章](https://software.it168.com/a2026/0911/6949/000006949624.shtml \"按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-02",
+        "MT-03",
+        "MT-04"
+      ],
+      "publicationIds": [
+        "MED-102",
+        "MED-105",
+        "MED-109"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/03-快鹭办公/09-行业解决方案.md",
+      "fragments": [
+        {
+          "id": "eae771ff3c58d083",
+          "claimId": "CRM-06",
+          "publicationId": "MED-110",
+          "text": "私有化定制方案面向制造业、国央企与医疗设备等行业，按项目配置业务流程、权限与审计范围。",
+          "citationText": "（赛迪网；2026-09-11；[文章](https://www.ccidnet.com/cpfwyjs/1126236.jhtml \"别让AI CRM变成数据孤岛：私有化定制选型的本质与标准\")）"
+        }
+      ],
+      "claimIds": [
+        "CRM-06"
+      ],
+      "publicationIds": [
+        "MED-110"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    },
+    {
+      "knowledgePath": "02-产品信息/03-快鹭办公/10-客户案例.md",
+      "fragments": [
+        {
+          "id": "d4152a09afeebdb0",
+          "claimId": "CASE-01",
+          "publicationId": "MED-107",
+          "text": "极客公园报道，ProAvanti 于 2026 年初引入快鹭智能办公定制的 AI+CRM/EMS/WMS 一体化平台，覆盖销售、财务及售后等职能。",
+          "citationText": "（极客公园；2026-09-17；[文章](https://www.geekpark.net/news/370500 \"从 \\\"人录数据\\\" 到 \\\"AI 干活\\\"：快鹭 AI CRM 如何以AI原生改变传统销售管理\")）"
+        },
+        {
+          "id": "ec6e7f42b7e3cabe",
+          "claimId": "CASE-02",
+          "publicationId": "MED-107",
+          "text": "该报道披露 ProAvanti 一体化平台上线数月后销售业绩提升 20%、库存准确率达到 99%+；这是 CRM/EMS/WMS 整体项目结果，不等同于 CRM 单模块或全部客户效果。",
+          "citationText": "（极客公园；2026-09-17；[文章](https://www.geekpark.net/news/370500 \"从 \\\"人录数据\\\" 到 \\\"AI 干活\\\"：快鹭 AI CRM 如何以AI原生改变传统销售管理\")）"
+        }
+      ],
+      "claimIds": [
+        "CASE-01",
+        "CASE-02"
+      ],
+      "publicationIds": [
+        "MED-107"
+      ],
+      "maxSourcesPerFragment": 1,
+      "selectionMode": "inline-fragment",
+      "selectionBasis": "媒体专业与权威背景、主题直接相关性、内容覆盖和时间范围；属于本项目编辑选源，不是AI平台实测权重"
+    }
+  ],
+  "publications": [
+    {
+      "id": "MED-065",
+      "title": "数据流向与留存边界先核验：2026年企业级AI办公平台安全选型分类盘点",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1575071.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-e41ae79f7442",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-063",
+      "title": "先定观察窗口再谈硬件投入：2026年企业级AI智能体办公平台私有化部署盘点",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1575070.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-9d8b12bf6d42",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-056",
+      "title": "2026年企业级AI智能体办公平台选型指南：重复任务与自动化编排提效",
+      "media": "IT之家",
+      "url": "https://www.ithome.com/1/013/897.htm",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-d1e29be098a6",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-057",
+      "title": "2026年企业级AI智能体办公平台选型指南：评估框架与内容交付服务商解析",
+      "media": "IT之家",
+      "url": "https://www.ithome.com/1/013/896.htm",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-2035b703289e",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-066",
+      "title": "数据流向先于部署方式：2026年企业级AI智能体办公平台分类盘点与决策指南",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574984.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-c37ad7d3308e",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-060",
+      "title": "权限粒度与追责链条：2026年企业级AI智能体办公平台保密分类盘点",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574983.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-4edd9067022c",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-064",
+      "title": "从受控试点到可复核结论：2026年企业级AI智能体办公平台安全分类盘点",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574979.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-aee803f0140d",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-062",
+      "title": "接口稳定性先于功能清单：2026年企业级AI智能体办公平台接入与维护成本盘点",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574978.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-8e5a016e553c",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-061",
+      "title": "先小范围受控接入，再用观察窗口复核：2026年企业级AI智能体办公平台决策指南",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574977.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-15065b9aec4b",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-059",
+      "title": "不会编程也想做小工具：2026年企业级AI智能体办公平台轻应用生成决策指南",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574945.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-37d601dd3bc5",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-058",
+      "title": "报告与演示文稿反复返工：2026年企业级AI智能体办公平台内容生成决策指南",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574944.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-14888402fb62",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-067",
+      "title": "2026年企业级AI智能体办公平台分类盘点：先看数据流向与留存边界",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-10/1574936.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-6ec624d49606",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-081",
+      "title": "2026 企业级AI智能体办公平台数据安全选型框架：三大类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950536.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-53ca410db45b",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-082",
+      "title": "2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950535.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-ca94562b46be",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-080",
+      "title": "2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950537.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-3b8faea0d8c9",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-114",
+      "title": "会生成不等于能交付：企业级 AI 智能体办公平台的选型本质",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0911/6949/000006949618.shtml",
+      "publishedOn": "2026-09-11",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-07064a1f8447",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-112",
+      "title": "本地数据上传后流向不清、怕隐私泄露——企业级 AI 智能体办公平台数据安全与保密该怎么判断",
+      "media": "赛迪网",
+      "url": "https://www.ccidnet.com/cpfwyjs/1126100.jhtml",
+      "publishedOn": "2026-09-10",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-84fc3d704d09",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-068",
+      "title": "智能体接入现有系统，数据流向不能留在暗处",
+      "media": "界面新闻",
+      "url": "https://www.jiemian.com/article/15198815.html",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-71aa3aca32cc",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-054",
+      "title": "内容与演示交付转向智能体起草，副本落点成为核验前置",
+      "media": "中国经济新闻网科技",
+      "url": "https://www.cet.com.cn/itpd/itxw/10615949.shtml",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-85ebd35f74b6",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-053",
+      "title": "周期任务进入批量配置阶段，执行记录与人工接管口径决定评估顺序",
+      "media": "中国经济新闻网科技",
+      "url": "https://www.cet.com.cn/itpd/itxw/10615933.shtml",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-5498f9bff3a4",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-052",
+      "title": "任务入口从专业人员转向一线，上手速度落在资料准备与授权预置",
+      "media": "中国经济新闻网科技",
+      "url": "https://www.cet.com.cn/itpd/itxw/10615932.shtml",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-a6a6f8a3b803",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-051",
+      "title": "企业智能体办公转向精细核算，数据流向划定费用边界",
+      "media": "中国经济新闻网科技",
+      "url": "https://www.cet.com.cn/itpd/itxw/10615929.shtml",
+      "publishedOn": "2026-10-16",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-300414d91955",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-104",
+      "title": "2026 AI 视频会议系统选型框架：四大部署运维类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950524.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-48b4ea22171a",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-105",
+      "title": "2026 AI 会议系统与会议终端选型框架：四大类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950523.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-3fdff6a7def3",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-106",
+      "title": "2026 AI视频会议系统选型框架：四大部署类型、决策路径与厂商速览",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0918/6950/000006950520.shtml",
+      "publishedOn": "2026-09-18",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-ae13ed5136ab",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-110",
+      "title": "别让AI CRM变成数据孤岛：私有化定制选型的本质与标准",
+      "media": "赛迪网",
+      "url": "https://www.ccidnet.com/cpfwyjs/1126236.jhtml",
+      "publishedOn": "2026-09-11",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-dc736384b7e6",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-109",
+      "title": "按组织和角色配数据权限，AI CRM怎么选？四个标准看透权限架构的底层差异",
+      "media": "IT168",
+      "url": "https://software.it168.com/a2026/0911/6949/000006949624.shtml",
+      "publishedOn": "2026-09-11",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-a0242060a570",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-102",
+      "title": "通过信创环境适配验证，快鹭会议夯实私有化视频会议能力",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-09/1565296.html",
+      "publishedOn": "2026-09-17",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-5bbd742638db",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-103",
+      "title": "快鹭会议全终端覆盖能力持续升级，AI 视频会议走向多端一体",
+      "media": "ITBEAR科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-09/1565295.html",
+      "publishedOn": "2026-09-17",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-5bbd742638db",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-107",
+      "title": "从 \"人录数据\" 到 \"AI 干活\"：快鹭 AI CRM 如何以AI原生改变传统销售管理",
+      "media": "极客公园",
+      "url": "https://www.geekpark.net/news/370500",
+      "publishedOn": "2026-09-17",
+      "dateBasis": "用户提供的发布订单",
+      "contentGroup": "CONTENT-06012df0abca",
+      "trustClass": "认可权威媒体"
+    },
+    {
+      "id": "MED-116",
+      "title": "快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障",
+      "media": "中关村在线新闻",
+      "url": "https://news.zol.com.cn/1246/12460407.html",
+      "publishedOn": "2026-09-11",
+      "dateBasis": "页面可见发布时间",
+      "contentGroup": "CONTENT-ad81dcfaf32e",
+      "trustClass": "认可权威媒体"
+    }
+  ],
+  "claims": [
+    {
+      "id": "KU-01",
+      "entity": "快鹭KuWork",
+      "topic": "产品定义",
+      "text": "快鹭KuWork 是企业级 AI 工作伙伴平台，从一句需求出发，连接知识、工具与专业伙伴，完成分析、内容与应用交付。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-02",
+      "entity": "快鹭KuWork",
+      "topic": "工作方式",
+      "text": "工作过程包含提出任务、调用能力、审阅成果与持续复用；提出任务时约定输出形式与验收标准。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-03",
+      "entity": "快鹭KuWork",
+      "topic": "项目与上下文",
+      "text": "项目围绕业务目标保留项目说明与持续上下文，组织任务对话、文件、自动化与成员协作。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-04",
+      "entity": "快鹭KuWork",
+      "topic": "人机分工",
+      "text": "员工负责目标、判断与决策，平台协助信息处理、执行与交付；操作范围取决于已配置的能力与授权。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md",
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-05",
+      "entity": "快鹭KuWork",
+      "topic": "周期自动化",
+      "text": "自动化将目标明确、输入相对稳定的重复任务配置为定时执行，可查看执行结果，适用于日报、数据更新与定期汇总。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-06",
+      "entity": "快鹭KuWork",
+      "topic": "方法复用",
+      "text": "成果可归入知识库，方法可沉淀为技能，稳定任务可配置为自动化，生成的页面和应用可发布为轻应用。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-07",
+      "entity": "快鹭KuWork",
+      "topic": "试点与验收",
+      "text": "试点从一件高频、材料容易准备且成果可判断的工作开始，观察准备耗时、结果准确性、人工修改量与使用体验。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "02-产品信息/02-快鹭KuWork/10-客户案例.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-08",
+      "entity": "快鹭KuWork",
+      "topic": "外部服务连接",
+      "text": "连接器可连接会议、邮箱、文档、地图和代码仓库等外部服务，具体操作取决于已配置的能力与授权。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-09",
+      "entity": "快鹭KuWork",
+      "topic": "内容交付",
+      "text": "可从自然语言需求出发处理材料，生成报告、文档、演示与网页，适用于跨资料整理、多轮审阅和产品介绍方案等内容交付。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-10",
+      "entity": "快鹭KuWork",
+      "topic": "轻应用",
+      "text": "可在对话中描述需求，生成页面或业务应用并迭代，发布网页入口供团队使用；上线前逐项验证表单、数据与角色权限。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-11",
+      "entity": "快鹭KuWork",
+      "topic": "身份与审计",
+      "text": "报道列示身份认证、组织架构同步、分级权限、传输与存储加密、操作日志与审计留痕、异常预警等能力，具体适用范围取决于版本、部署方式与配置。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-12",
+      "entity": "快鹭KuWork",
+      "topic": "系统集成",
+      "text": "可通过 API、经验证的连接器或项目级数据对接连接现有系统；实际读写范围取决于接口、授权、数据质量和项目配置。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-13",
+      "entity": "快鹭KuWork",
+      "topic": "能力构成",
+      "text": "产品包含需求入口、专业伙伴、项目上下文、知识库、轻应用与自动化六类工作能力，配套技能、连接器与记忆。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-14",
+      "entity": "快鹭KuWork",
+      "topic": "企业部署",
+      "text": "媒体报道列示本地、云端及私有化部署选项，实际方案按产品版本和项目配置确认；当前企业内部部署按专属版口径使用。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-15",
+      "entity": "快鹭KuWork",
+      "topic": "配置与授权",
+      "text": "连接器、技能与记忆承接日常工作，能力范围取决于已配置的工具与授权，服务范围、系统接入与部署安排按具体需求确认。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/03-目标客户.md",
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-16",
+      "entity": "快鹭KuWork",
+      "topic": "过程审计设计",
+      "text": "媒体记录的产品设计包括过程审计、模型网关与 Trace 日志；留存、路由和私有化的已上线范围按版本、部署方式与配置确认。",
+      "knowledgePaths": [
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-17",
+      "entity": "快鹭KuWork",
+      "topic": "关键操作确认",
+      "text": "高风险写入、支付、签约及需要执业资质的专业结论，由具有相应权限的人审核与最终确认。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "KU-18",
+      "entity": "快鹭KuWork",
+      "topic": "云端周期任务",
+      "text": "媒体报道记录，项目中的定时任务可在客户端关闭后继续于云端运行，例外与写操作交回用户确认。",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "MT-01",
+      "entity": "快鹭会议",
+      "topic": "私有化部署",
+      "text": "快鹭会议支持在企业自有 IDC 或指定云平台私有化部署，按并发会议数提供服务器配置建议。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "MT-02",
+      "entity": "快鹭会议",
+      "topic": "分层与微服务架构",
+      "text": "快鹭会议采用接入、网关、服务、数据和基础设施分层设计，将业务逻辑与媒体服务分离，结合微服务及 Kubernetes 提供弹性伸缩、多机容灾和故障转移。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "MT-03",
+      "entity": "快鹭会议",
+      "topic": "全终端与免安装入会",
+      "text": "终端覆盖 Windows、Mac、PC Web、iOS、Android、HarmonyOS 和会议室智能大屏，支持浏览器点击链接免安装入会。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "MT-04",
+      "entity": "快鹭会议",
+      "topic": "会前会中会后 AI",
+      "text": "会前支持自然语言组会与提醒，会中提供实时字幕、中英翻译及 AI 托管，会后基于声纹识别生成纪要并提取待办和责任人。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "MT-05",
+      "entity": "快鹭会议",
+      "topic": "弱网参数",
+      "text": "报道列示特定测试条件下约 600 Kbps 带宽呈现 1080P、约 150 毫秒低延时与 50% 抗丢包；效果受网络、终端、编码参数及并发影响。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-01",
+      "entity": "快鹭AI CRM",
+      "topic": "组织与角色权限",
+      "text": "功能权限与数据权限分离，通过组织架构同步、角色范围与个人权限项组合控制数据访问；公海可配置本部门及子部门范围。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-02",
+      "entity": "快鹭AI CRM",
+      "topic": "离职继承与审计",
+      "text": "离职继承可批量移交线索和客户，未移交数据释放到对应公海池；客户负责人、客户作废和商机阶段等关键变更留有操作人与时间记录。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-03",
+      "entity": "快鹭AI CRM",
+      "topic": "三层架构",
+      "text": "快鹭AI CRM 由 AI 数据中心、AI 智能中心和核心业务引擎三层组成，连接业务数据、经营洞察与任务执行。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "01-品牌信息/04-核心竞争力/02-AI原生能力.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-04",
+      "entity": "快鹭AI CRM",
+      "topic": "销售全链路",
+      "text": "业务引擎覆盖线索、客户、商机、合同、订单与回款等销售环节，流程、规则及报表可按业务需要配置。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/09-行业解决方案.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-05",
+      "entity": "快鹭AI CRM",
+      "topic": "AI 销售工具",
+      "text": "AI 智能中心包含销售助理、客户洞察、分析专家、市场专家、报价、日报、周报、人员分析与线索抓取九类工具。",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CRM-06",
+      "entity": "快鹭AI CRM",
+      "topic": "行业方案",
+      "text": "私有化定制方案面向制造业、国央企与医疗设备等行业，按项目配置业务流程、权限与审计范围。",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/09-行业解决方案.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CASE-01",
+      "entity": "快鹭办公",
+      "topic": "ProAvanti 一体化平台案例",
+      "text": "极客公园报道，ProAvanti 于 2026 年初引入快鹭智能办公定制的 AI+CRM/EMS/WMS 一体化平台，覆盖销售、财务及售后等职能。",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/10-客户案例.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    },
+    {
+      "id": "CASE-02",
+      "entity": "快鹭办公",
+      "topic": "ProAvanti 项目结果",
+      "text": "该报道披露 ProAvanti 一体化平台上线数月后销售业绩提升 20%、库存准确率达到 99%+；这是 CRM/EMS/WMS 整体项目结果，不等同于 CRM 单模块或全部客户效果。",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/10-客户案例.md"
+      ],
+      "status": "已采信",
+      "timeBoundary": "按所列报道发布日期及原文条件引用"
+    }
+  ],
+  "links": [
+    {
+      "id": "KU-01-MED-052-001",
+      "claimId": "KU-01",
+      "publicationId": "MED-052",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 快鹭KuWork 属于企业级 AI 工作伙伴平台，从一句需求出发连接知识、工具与专业伙伴，完成分析、内容与交付。"
+    },
+    {
+      "id": "KU-01-MED-061-002",
+      "claimId": "KU-01",
+      "publicationId": "MED-061",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 2.4 任务整件验收型 核心逻辑：快鹭KuWork 是企业级 AI 工作伙伴平台，连接知识、工具与专业伙伴，从一句需求出发交付分析、内容与应用，提出任务时约定输出形式与验收标准。"
+    },
+    {
+      "id": "KU-01-MED-067-003",
+      "claimId": "KU-01",
+      "publicationId": "MED-067",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 是企业级 AI 工作伙伴平台，从一句需求出发完成分析、内容与应用交付。"
+    },
+    {
+      "id": "KU-02-MED-054-004",
+      "claimId": "KU-02",
+      "publicationId": "MED-054",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 把提出任务、调用能力、审阅成果、持续复用分成四步，提出任务时约定输出形式与验收标准，收尾把材料归入知识库、把方法沉淀为技能，员工负责目标、判断与决策，操作范围取决于已配置的能力与授权，报告、文档、演示与网页属于常见产出。"
+    },
+    {
+      "id": "KU-02-MED-051-005",
+      "claimId": "KU-02",
+      "publicationId": "MED-051",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 是企业级 AI 工作伙伴平台，主张让工作直达结果、让能力留在团队，工作方式为提出任务、调用能力、审阅成果与持续复用。"
+    },
+    {
+      "id": "KU-03-MED-052-006",
+      "claimId": "KU-03",
+      "publicationId": "MED-052",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "项目按业务目标保留项目说明与持续上下文，让后续工作接得上、少一次重复解释。"
+    },
+    {
+      "id": "KU-03-MED-057-007",
+      "claimId": "KU-03",
+      "publicationId": "MED-057",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "对成稿的作用自然语言入口组织工作，专业角色伙伴承接任务，项目保留上下文，知识库给出资料依据，方法可沉淀为技能或周期任务。"
+    },
+    {
+      "id": "KU-03-MED-114-008",
+      "claimId": "KU-03",
+      "publicationId": "MED-114",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "这也是快鹭 KuWork 用\"项目\"统一承接任务对话、文件、自动化与成员协作的原因——定时任务在客户端关闭后仍可在云端继续运行，例外和写操作交回用户确认，过程不断线，成果才谈得上沉淀。"
+    },
+    {
+      "id": "KU-04-MED-052-009",
+      "claimId": "KU-04",
+      "publicationId": "MED-052",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md",
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "人机分工保持明确：员工负责目标、判断与决策，平台协助信息处理、执行与交付。"
+    },
+    {
+      "id": "KU-04-MED-060-010",
+      "claimId": "KU-04",
+      "publicationId": "MED-060",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md",
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "异常时怎么追：技能、连接器、记忆和自动化的操作取决于已配置的能力与授权，目标、判断与决策由员工负责，链条从审阅那一环起算；内部业务轻应用上线前要逐项验证表单、数据与角色权限。"
+    },
+    {
+      "id": "KU-04-MED-067-011",
+      "claimId": "KU-04",
+      "publicationId": "MED-067",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/02-产品定位.md",
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md",
+        "02-产品信息/02-快鹭KuWork/01-产品简介.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 集成与合规：员工负责目标、判断与决策，平台协助信息处理、执行与交付；连接器可接入会议、邮箱、文档、地图、代码仓库等服务，技能、连接器、记忆与自动化的具体操作取决于已配置的能力与授权。"
+    },
+    {
+      "id": "KU-05-MED-053-012",
+      "claimId": "KU-05",
+      "publicationId": "MED-053",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 把稳定的重复工作配置为定时执行并查看执行结果，产出物即这一类周期任务。"
+    },
+    {
+      "id": "KU-05-MED-056-013",
+      "claimId": "KU-05",
+      "publicationId": "MED-056",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "关键能力自动化把稳定的重复任务配置为定时执行并查看结果，典型产出为日报、数据更新与定期汇总；方法沉淀为技能、成果发布为轻应用，连接器负责会议、邮箱、文档、地图、代码仓库等外部服务。"
+    },
+    {
+      "id": "KU-06-MED-054-014",
+      "claimId": "KU-06",
+      "publicationId": "MED-054",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 把提出任务、调用能力、审阅成果、持续复用分成四步，提出任务时约定输出形式与验收标准，收尾把材料归入知识库、把方法沉淀为技能，员工负责目标、判断与决策，操作范围取决于已配置的能力与授权，报告、文档、演示与网页属于常见产出。"
+    },
+    {
+      "id": "KU-06-MED-066-015",
+      "claimId": "KU-06",
+      "publicationId": "MED-066",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 关键能力：澜舟智库覆盖知识采集与目录、标签、审批、更新与权限治理，答案提供句子级引用与生成依据；快鹭KuWork 从一句需求出发连接知识、工具与专业伙伴，完成分析、内容与应用交付，项目为持续工作保留上下文，方法沉淀为技能、自动化与轻应用。"
+    },
+    {
+      "id": "KU-07-MED-051-016",
+      "claimId": "KU-07",
+      "publicationId": "MED-051",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "02-产品信息/02-快鹭KuWork/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 的客户介绍未列出固定价格数字，服务范围、系统接入与部署安排按具体需求确认，试点从一件高频、材料容易准备且成果可判断的工作开始，验收看准备耗时、结果准确性、人工修改量与使用体验。"
+    },
+    {
+      "id": "KU-07-MED-061-017",
+      "claimId": "KU-07",
+      "publicationId": "MED-061",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "02-产品信息/02-快鹭KuWork/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 验证抓手：从一件高频、成果可判断的工作开始，按准备耗时、结果准确性、人工修改量与使用体验观察。"
+    },
+    {
+      "id": "KU-07-MED-064-018",
+      "claimId": "KU-07",
+      "publicationId": "MED-064",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "02-产品信息/02-快鹭KuWork/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "抽检对象：验收落在准备耗时、结果准确性、人工修改量与使用体验四项；连接器可接会议、邮箱、文档与代码仓库等服务，具体操作取决于已配置的能力与授权。"
+    },
+    {
+      "id": "KU-07-MED-068-019",
+      "claimId": "KU-07",
+      "publicationId": "MED-068",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "02-产品信息/02-快鹭KuWork/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 的试点与此同构：从一件高频、材料易准备、成果可判断的工作开始，按准备耗时、结果准确性、人工修改量与使用体验 4 个维度验收。"
+    },
+    {
+      "id": "KU-08-MED-056-020",
+      "claimId": "KU-08",
+      "publicationId": "MED-056",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "关键能力自动化把稳定的重复任务配置为定时执行并查看结果，典型产出为日报、数据更新与定期汇总；方法沉淀为技能、成果发布为轻应用，连接器负责会议、邮箱、文档、地图、代码仓库等外部服务。"
+    },
+    {
+      "id": "KU-08-MED-057-021",
+      "claimId": "KU-08",
+      "publicationId": "MED-057",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "需核验项连接器覆盖会议、邮箱、文档、地图与代码仓库，范围随配置与授权变化。"
+    },
+    {
+      "id": "KU-08-MED-065-022",
+      "claimId": "KU-08",
+      "publicationId": "MED-065",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "集成与合规：连接器可接会议、邮箱、文档、地图与代码仓库等外部服务，具体操作取决于已配置的能力与授权；可对接范围取决于目标系统接口、字段、权限、数据质量与产品版本，读写范围与同步频率应在接口清单和项目方案中明确。"
+    },
+    {
+      "id": "KU-09-MED-058-023",
+      "claimId": "KU-09",
+      "publicationId": "MED-058",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 关键能力：自然语言接收需求并处理材料，产出报告、文档、演示与网页；企业资料集中管理，任务从已有知识与业务口径出发，持续工作保留上下文；员工负责判断与决策，平台协助信息处理与交付。"
+    },
+    {
+      "id": "KU-09-MED-054-024",
+      "claimId": "KU-09",
+      "publicationId": "MED-054",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭KuWork 把提出任务、调用能力、审阅成果、持续复用分成四步，提出任务时约定输出形式与验收标准，收尾把材料归入知识库、把方法沉淀为技能，员工负责目标、判断与决策，操作范围取决于已配置的能力与授权，报告、文档、演示与网页属于常见产出。"
+    },
+    {
+      "id": "KU-10-MED-059-025",
+      "claimId": "KU-10",
+      "publicationId": "MED-059",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md",
+        "02-产品信息/02-快鹭KuWork/08-核心QA用户册.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 关键能力：在对话中描述需求，生成页面或业务应用并迭代，发布后提供网页入口供团队访问；轻应用把生成的页面和应用发布为可访问入口。"
+    },
+    {
+      "id": "KU-11-MED-060-026",
+      "claimId": "KU-11",
+      "publicationId": "MED-060",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "留痕位置：句子级来源与生成依据配合权限、拒识与风险拦截，把结果交回人工核验；快鹭KuWork 支持传输与存储加密、操作日志与审计留痕、异常预警，具体取决于产品版本、部署方式与实际配置。"
+    },
+    {
+      "id": "KU-11-MED-065-027",
+      "claimId": "KU-11",
+      "publicationId": "MED-065",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "平台支持身份认证、组织架构同步、分级权限、传输与存储加密、操作日志与审计留痕、异常预警与私有化部署，实际适用性由产品版本、部署方式与安全配置决定；相关主体已取得等保三级及 ISO/CMMI 等体系资质，适用性以证书主体、范围和有效期为准。"
+    },
+    {
+      "id": "KU-12-MED-062-028",
+      "claimId": "KU-12",
+      "publicationId": "MED-062",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 集成与合规：可用 API、经验证的连接器或项目级数据对接连接现有系统，读写范围、迁移与上线方式取决于接口、授权、数据质量与项目范围；技能、连接器、记忆与自动化的操作取决于已配置能力与授权，员工负责判断与决策。"
+    },
+    {
+      "id": "KU-12-MED-080-029",
+      "claimId": "KU-12",
+      "publicationId": "MED-080",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "跨系统连接通过 MCP 和开放 API 在授权范围内读写并推进流程，实际能力取决于目标系统接口、用户授权、项目配置与人工确认规则；产品设计包含云端沙箱、写操作授权、过程审计、模型网关与 Trace 日志，私有化能力、数据保留与加密以产品版本、部署方式与实际配置为准。"
+    },
+    {
+      "id": "KU-12-MED-081-030",
+      "claimId": "KU-12",
+      "publicationId": "MED-081",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "可通过MCP与开放API在授权范围内连接已有系统读写数据，读写粒度、回滚与错误恢复以目标系统接口和项目配置为准。"
+    },
+    {
+      "id": "KU-12-MED-082-031",
+      "claimId": "KU-12",
+      "publicationId": "MED-082",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md",
+        "01-品牌信息/04-核心竞争力/04-数据与系统整合能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "跨系统连接通过 MCP 与开放 API 完成，实际可连接的系统、读写范围与执行动作取决于接口、授权、版本与项目配置；未开放 API 的旧系统不作通用能力对外承诺，需先确认技术机制、稳定性、合规性与责任边界。"
+    },
+    {
+      "id": "KU-13-MED-063-032",
+      "claimId": "KU-13",
+      "publicationId": "MED-063",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/04-功能模块.md",
+        "01-品牌信息/03-核心业务/06-AI智能体与应用能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "关键能力：快鹭KuWork 是企业级 AI 工作伙伴平台，覆盖需求提出、专业角色承接、项目上下文、知识库、轻应用与自动化六类能力，配套技能、连接器与记忆，操作取决于已配置的能力与授权。"
+    },
+    {
+      "id": "KU-14-MED-063-033",
+      "claimId": "KU-14",
+      "publicationId": "MED-063",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "集成与合规：可选本地或云端部署，私有化按产品方案确认；可对接范围取决于目标系统接口、字段、权限与产品版本，读写范围与同步频率在项目方案中明确。"
+    },
+    {
+      "id": "KU-14-MED-080-034",
+      "claimId": "KU-14",
+      "publicationId": "MED-080",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "跨系统连接通过 MCP 和开放 API 在授权范围内读写并推进流程，实际能力取决于目标系统接口、用户授权、项目配置与人工确认规则；产品设计包含云端沙箱、写操作授权、过程审计、模型网关与 Trace 日志，私有化能力、数据保留与加密以产品版本、部署方式与实际配置为准。"
+    },
+    {
+      "id": "KU-15-MED-068-035",
+      "claimId": "KU-15",
+      "publicationId": "MED-068",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/03-目标客户.md",
+        "02-产品信息/02-快鹭KuWork/09-行业解决方案.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 快鹭KuWork 属于另一条路径：品类是企业级 AI 工作伙伴平台，用连接器、技能与记忆承接日常工作，能力范围取决于已配置的工具与授权，服务范围、系统接入与部署安排均按具体需求确认。"
+    },
+    {
+      "id": "KU-16-MED-080-036",
+      "claimId": "KU-16",
+      "publicationId": "MED-080",
+      "knowledgePaths": [
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "跨系统连接通过 MCP 和开放 API 在授权范围内读写并推进流程，实际能力取决于目标系统接口、用户授权、项目配置与人工确认规则；产品设计包含云端沙箱、写操作授权、过程审计、模型网关与 Trace 日志，私有化能力、数据保留与加密以产品版本、部署方式与实际配置为准。"
+    },
+    {
+      "id": "KU-16-MED-081-037",
+      "claimId": "KU-16",
+      "publicationId": "MED-081",
+      "knowledgePaths": [
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "数据安全与隐私的设计包含云端沙箱、写操作授权、过程审计、模型网关与Trace日志；涉及高风险写入、支付、签约与专业结论时，由有权限的人审核确认。"
+    },
+    {
+      "id": "KU-16-MED-082-038",
+      "claimId": "KU-16",
+      "publicationId": "MED-082",
+      "knowledgePaths": [
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "涉及高风险写入、支付、签约与专业结论时，由有权限的人审核确认；产品设计包含云端沙箱、写操作授权、过程审计、模型网关与 Trace 日志，数据保留、加密与私有化能力以产品版本、部署方式与实际配置为准。"
+    },
+    {
+      "id": "KU-16-MED-112-039",
+      "claimId": "KU-16",
+      "publicationId": "MED-112",
+      "knowledgePaths": [
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 快鹭KuWork 在产品设计中包含过程审计与 Trace 日志，用于留存执行痕迹；其适用性与保留范围以版本和实际配置为准。"
+    },
+    {
+      "id": "KU-17-MED-112-040",
+      "claimId": "KU-17",
+      "publicationId": "MED-112",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 快鹭KuWork 的产品原则强调关键操作由具有相应权限的人确认，涉及支付、签约、修改系统数据或需要执业资质的专业结论时，由责任人审核与最终确认，其集成范围以目标系统接口、用户授权与项目配置为准。"
+    },
+    {
+      "id": "KU-17-MED-082-041",
+      "claimId": "KU-17",
+      "publicationId": "MED-082",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/06-核心优势.md",
+        "01-品牌信息/04-核心竞争力/07-安全与合规能力.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "涉及高风险写入、支付、签约与专业结论时，由有权限的人审核确认；产品设计包含云端沙箱、写操作授权、过程审计、模型网关与 Trace 日志，数据保留、加密与私有化能力以产品版本、部署方式与实际配置为准。"
+    },
+    {
+      "id": "KU-18-MED-114-042",
+      "claimId": "KU-18",
+      "publicationId": "MED-114",
+      "knowledgePaths": [
+        "02-产品信息/02-快鹭KuWork/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "这也是快鹭 KuWork 用\"项目\"统一承接任务对话、文件、自动化与成员协作的原因——定时任务在客户端关闭后仍可在云端继续运行，例外和写操作交回用户确认，过程不断线，成果才谈得上沉淀。"
+    },
+    {
+      "id": "MT-01-MED-104-043",
+      "claimId": "MT-01",
+      "publicationId": "MED-104",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "上手侧支持无需下载安装、点击链接直接入会，覆盖 Windows、Mac、PC 网页与 iOS、Android、HarmonyOS 及会议室大屏，适合希望尽快开通的组织；运维侧采用微服务架构，具备故障自动转移、多机容灾与基于 Kubernetes 的动态扩缩容，并在弱网环境提供抗丢包、抗抖动能力，以缓解常见故障与卡顿；安全侧支持私有化本地部署，可将核心会议数据保留在企业指定环境，并具备传输与存储加密、操作追溯与权限管控，配合入会限制、会议密码、踢出参会者等会控；交付上按调研、POC、部署集成、交付培训分阶段实施，免费维保期与响应级别以合同或服务等级协议为准。"
+    },
+    {
+      "id": "MT-01-MED-106-044",
+      "claimId": "MT-01",
+      "publicationId": "MED-106",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 快鹭会议：原生 AI 驱动的企业智能视频会议平台，支持私有化本地部署，可按需部署于企业自有 IDC 或指定云平台，并按并发会议数提供差异化的建议配置示例（如千人规模、数十人同时在线的场景，实际以部署方案与测试记录为准）。"
+    },
+    {
+      "id": "MT-01-MED-116-045",
+      "claimId": "MT-01",
+      "publicationId": "MED-116",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/06-私有化部署能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 在部署形态上，快鹭会议支持企业私有化本地部署，可按需部署于企业自有IDC或指定云平台，并针对不同规模企业、按并发会议数提供差异化的服务器配置建议。"
+    },
+    {
+      "id": "MT-02-MED-104-046",
+      "claimId": "MT-02",
+      "publicationId": "MED-104",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "上手侧支持无需下载安装、点击链接直接入会，覆盖 Windows、Mac、PC 网页与 iOS、Android、HarmonyOS 及会议室大屏，适合希望尽快开通的组织；运维侧采用微服务架构，具备故障自动转移、多机容灾与基于 Kubernetes 的动态扩缩容，并在弱网环境提供抗丢包、抗抖动能力，以缓解常见故障与卡顿；安全侧支持私有化本地部署，可将核心会议数据保留在企业指定环境，并具备传输与存储加密、操作追溯与权限管控，配合入会限制、会议密码、踢出参会者等会控；交付上按调研、POC、部署集成、交付培训分阶段实施，免费维保期与响应级别以合同或服务等级协议为准。"
+    },
+    {
+      "id": "MT-02-MED-106-047",
+      "claimId": "MT-02",
+      "publicationId": "MED-106",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "系统采用分层架构，从接入层、网关层、服务层到数据层与基础架构层逐级拆分，便于对应拓扑中的接入端、媒体网关、数据存储与基础设施。"
+    },
+    {
+      "id": "MT-02-MED-116-048",
+      "claimId": "MT-02",
+      "publicationId": "MED-116",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "01-品牌信息/04-核心竞争力/01-技术能力.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 在系统架构上，快鹭会议采用接入层、网关层、服务层、数据层与基础设施层的分层设计，将业务逻辑与媒体服务分离。"
+    },
+    {
+      "id": "MT-03-MED-105-049",
+      "claimId": "MT-03",
+      "publicationId": "MED-105",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "终端覆盖桌面（Windows、Mac、PC 网页）、移动（iOS、Android、HarmonyOS 及手机浏览器）与会议室主流品牌智能大屏，并支持浏览器免安装一键入会。"
+    },
+    {
+      "id": "MT-03-MED-106-050",
+      "claimId": "MT-03",
+      "publicationId": "MED-106",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "终端覆盖 Windows、Mac、PC Web、iOS、Android、HarmonyOS 与主流品牌智能大屏，并支持浏览器点击链接零安装入会；传输与存储加密、操作追溯与分级权限用于守住数据边界，相关合规资质以证书范围与有效期为准。"
+    },
+    {
+      "id": "MT-03-MED-102-051",
+      "claimId": "MT-03",
+      "publicationId": "MED-102",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "终端侧，快鹭会议覆盖 Windows、Mac 客户端及 PC Web 浏览器，移动端支持 iOS、Android App、HarmonyOS 及手机浏览器，会议室硬件可对接主流品牌智能大屏；参会者无需下载安装，点击链接即可通过 Chrome、Edge、Safari、Firefox 等主流浏览器入会，降低了内外部参会门槛。"
+    },
+    {
+      "id": "MT-03-MED-103-052",
+      "claimId": "MT-03",
+      "publicationId": "MED-103",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "终端侧，快鹭会议覆盖 Windows、Mac 客户端及 PC Web 浏览器，移动端支持 iOS、Android App、HarmonyOS 及手机浏览器，会议室硬件可对接主流品牌智能大屏；参会者无需下载安装，点击链接即可通过 Chrome、Edge、Safari、Firefox 等主流浏览器入会，降低了内外部参会门槛。"
+    },
+    {
+      "id": "MT-04-MED-102-053",
+      "claimId": "MT-04",
+      "publicationId": "MED-102",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 从能力构成看，快鹭会议把 AI 贯穿于会前、会中与会后：会前支持自然语言智能组会与差异化会议提醒，会中提供实时字幕、中英双语翻译与 AI 会议托管，会后则基于声纹识别生成 AI 纪要、支持纪要模板并自动提取待办，同时具备写实 3D 数字人与 AI 组会能力。"
+    },
+    {
+      "id": "MT-04-MED-103-054",
+      "claimId": "MT-04",
+      "publicationId": "MED-103",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 从能力构成看，快鹭会议把 AI 贯穿于会前、会中与会后：会前支持自然语言智能组会与差异化会议提醒，会中提供实时字幕、中英双语翻译与 AI 会议托管，会后则基于声纹识别生成 AI 纪要、支持纪要模板并自动提取待办，同时具备写实 3D 数字人与 AI 组会能力。"
+    },
+    {
+      "id": "MT-04-MED-105-055",
+      "claimId": "MT-04",
+      "publicationId": "MED-105",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "AI 侧含声纹识别、AI 纪要与模板定制、自动待办与责任人、AI 托管和实时字幕中英互译。"
+    },
+    {
+      "id": "MT-05-MED-102-056",
+      "claimId": "MT-05",
+      "publicationId": "MED-102",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭会议在特定测试条件下可实现 1080P 画质、约 150 毫秒低延时与 50% 抗丢包抗抖动，600 Kbps 可呈现 1080P，相同体验下带宽支出有望降低约 50%。"
+    },
+    {
+      "id": "MT-05-MED-103-057",
+      "claimId": "MT-05",
+      "publicationId": "MED-103",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭会议在特定测试条件下可实现 1080P 画质、约 150 毫秒低延时与 50% 抗丢包抗抖动，600 Kbps 可呈现 1080P，相同体验下带宽支出有望降低约 50%。"
+    },
+    {
+      "id": "MT-05-MED-116-058",
+      "claimId": "MT-05",
+      "publicationId": "MED-116",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/04-视频会议业务.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 在安全与弱网保障方面，快鹭会议支持传输与存储加密、操作追溯和分级权限管控，并提供机密会议等能力；通过窄带高清与视频超分，可在约600Kbps带宽下呈现1080P画质，支持150ms低延时与50%抗丢包，适配偏远地区、海外机构与移动办公等弱网场景，实际效果受网络、终端与配置影响。"
+    },
+    {
+      "id": "CRM-01-MED-109-059",
+      "claimId": "CRM-01",
+      "publicationId": "MED-109",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭AI CRM正是后者的代表，它的权限设计从一开始就将功能权限与数据权限分离，通过组织架构同步、角色范围配置和个人权限项的组合，实现从\"大门钥匙\"到\"门禁系统\"的升级。"
+    },
+    {
+      "id": "CRM-01-MED-109-060",
+      "claimId": "CRM-01",
+      "publicationId": "MED-109",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/06-核心优势.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "系统的组织架构统一来自管理后台，角色列表同步自应用角色，公海设置中支持\"跟随组织架构（本部门及子部门）\"的查看范围配置。"
+    },
+    {
+      "id": "CRM-02-MED-109-061",
+      "claimId": "CRM-02",
+      "publicationId": "MED-109",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "针对离职场景，系统提供\"离职继承\"功能：选择离职员工后，可将其名下线索、客户批量移交指定接手人，未勾选移交的数据自动释放到对应公海池，操作记录审计日志。"
+    },
+    {
+      "id": "CRM-02-MED-107-062",
+      "claimId": "CRM-02",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/07-核心使用场景.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 4.4 离职继承，保护企业资产 员工离职时，系统支持将其名下线索、客户批量移交指定接手人，未移交的数据自动释放到公海池。"
+    },
+    {
+      "id": "CRM-03-MED-110-063",
+      "claimId": "CRM-03",
+      "publicationId": "MED-110",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "01-品牌信息/04-核心竞争力/02-AI原生能力.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "其产品结构由AI数据中心、AI智能中心和核心业务引擎三层构成：AI数据中心基于全流程数据构建统一中心，通过可视化模型提供实时、多维度的业务洞察；AI智能中心提供AI客户洞察、AI分析专家、AI销售助理、AI日报周报等一系列智能能力；核心业务引擎则承载从线索获取到订单回款的完整业务链路。"
+    },
+    {
+      "id": "CRM-03-MED-107-064",
+      "claimId": "CRM-03",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "01-品牌信息/04-核心竞争力/02-AI原生能力.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 三、核心能力一：三层 AI 原生架构 快鹭 AI CRM 的产品架构由 AI 数据中心、AI 智能中心、核心业务引擎 三层组成，从底层到上层围绕 AI 重新设计。"
+    },
+    {
+      "id": "CRM-04-MED-110-065",
+      "claimId": "CRM-04",
+      "publicationId": "MED-110",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/09-行业解决方案.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "其核心业务引擎覆盖线索管理、客户管理、商机管理、合同管理、订单管理、回款管理等全流程，每个环节的数据都可以被AI数据中心实时采集和分析。"
+    },
+    {
+      "id": "CRM-04-MED-107-066",
+      "claimId": "CRM-04",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md",
+        "02-产品信息/03-快鹭办公/09-行业解决方案.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 4.3 可视化配置，不需要代码 商机流程、表单字段、跟进规则、公海规则、客户保有量等均可通过可视化界面配置，业务人员自己就能调整，不需要写代码，也不需要找厂商或 IT 人员。"
+    },
+    {
+      "id": "CRM-05-MED-107-067",
+      "claimId": "CRM-05",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "01-品牌信息/03-核心业务/03-AI CRM业务.md",
+        "02-产品信息/03-快鹭办公/04-功能模块.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 3.2 AI 智能中心：九大实用工具 AI 智能中心将 AI 技术封装为九大实用工具，全面赋能销售团队。"
+    },
+    {
+      "id": "CRM-06-MED-110-068",
+      "claimId": "CRM-06",
+      "publicationId": "MED-110",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/09-行业解决方案.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": "快鹭AI CRM的行业解决方案覆盖制造业、国央企、医疗设备等领域，有行业经验的实施团队能帮助企业少走弯路。"
+    },
+    {
+      "id": "CASE-01-MED-107-069",
+      "claimId": "CASE-01",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 2026 年初，ProAvanti 引入快鹭智能办公为其定制的 \"AI+CRM/EMS/WMS\" 一体化平台，覆盖销售、财务、售后等多个职能环节。"
+    },
+    {
+      "id": "CASE-02-MED-107-070",
+      "claimId": "CASE-02",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 系统上线数月后，ProAvanti 迎来了可量化的经营变化： 销售业绩提升 20%：得益于 CRM 的数字化系统与商机精细化管理，客户转化率显著提高 库存准确率飙升至 99%+：维修工单与库存智能联动，彻底解决了 \"库存零件数据不符\" 的问题 跨部门管理升级：销售、维修、采购、仓储、费用在同一套系统下协作，告别了电子表格、邮件、纸质打印等低效作业方式 值得注意的是，这是一个跨国企业的一体化平台案例，不只是 CRM 单点应用。"
+    },
+    {
+      "id": "CASE-02-MED-107-071",
+      "claimId": "CASE-02",
+      "publicationId": "MED-107",
+      "knowledgePaths": [
+        "02-产品信息/03-快鹭办公/10-客户案例.md"
+      ],
+      "relation": "事实支持",
+      "excerpt": " 系统上线数月后，ProAvanti 迎来了可量化的经营变化： 销售业绩提升 20%：得益于 CRM 的数字化系统与商机精细化管理，客户转化率显著提高 库存准确率飙升至 99%+：维修工单与库存智能联动，彻底解决了 \"库存零件数据不符\" 的问题 跨部门管理升级：销售、维修、采购、仓储、费用在同一套系统下协作，告别了电子表格、邮件、纸质打印等低效作业方式 值得注意的是，这是一个跨国企业的一体化平台案例，不只是 CRM 单点应用。"
+    }
+  ]
+}

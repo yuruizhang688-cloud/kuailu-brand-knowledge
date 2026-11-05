@@ -3,6 +3,7 @@ import MarkdownIt from 'markdown-it';
 import JSZip from 'jszip';
 import Manager from './Manager.jsx';
 import CommentManager from './CommentManager.jsx';
+import { rankKnowledgeResults } from './knowledge-search.js';
 import './styles.css';
 import './brand.css';
 
@@ -17,7 +18,6 @@ const json = (url) => fetch(`${BASE_PATH}/${url.replace(/^\//, '')}`, { cache: '
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
 });
-const words = (value) => value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
 const displayDate = (value, locale = 'zh-CN') => {
   const date = value ? new Date(value) : null;
   if (!date || Number.isNaN(date.getTime())) return locale.startsWith('en') ? 'Unknown' : '未知';
@@ -296,7 +296,7 @@ export default function App() {
   }, [brand?.slug, activeDoc?.id]);
   useEffect(() => { if (activeDoc) json(activeDoc.contentUrl).then(setDocData).catch((reason) => setError(`无法加载文档：${reason.message}`)); }, [activeDoc?.id]);
   useEffect(() => { if (!brand || !query.trim()) return setSearchEntries([]); Promise.all(brand.searchChunks.map((chunk) => json(chunk.url))).then((chunks) => setSearchEntries(chunks.flatMap((chunk) => chunk.entries))).catch(() => setSearchEntries([])); }, [brand?.slug, query]);
-  const results = useMemo(() => { const terms = words(query); if (!terms.length) return []; return searchEntries.filter((entry) => terms.every((term) => `${entry.title} ${entry.relativePath} ${entry.text}`.toLocaleLowerCase().includes(term))).slice(0, 60); }, [query, searchEntries]);
+  const results = useMemo(() => rankKnowledgeResults(searchEntries, query, ['kuailu-v2', 'kuailu-v3'].includes(brand?.slug)), [query, searchEntries, brand?.slug]);
   const markdown = drafts[activeDoc?.id] ?? docData?.markdown ?? ''; const rendered = useMemo(() => markdownHtml(markdown), [markdown]);
   const toc = useMemo(() => [...rendered.matchAll(/<h([23]) id="([^"]+)">([^<]+)<\/h\1>/g)].map((match) => ({ depth: Number(match[1]), id: match[2], text: match[3] })), [rendered]);
   const docIndex = brand?.docs.findIndex((item) => item.id === activeDoc?.id) ?? -1; const previous = docIndex > 0 ? brand.docs[docIndex - 1] : null; const next = docIndex >= 0 && docIndex < (brand?.docs.length ?? 0) - 1 ? brand.docs[docIndex + 1] : null;

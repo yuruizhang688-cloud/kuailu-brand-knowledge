@@ -112,11 +112,29 @@ async function buildKnowledgeBase() {
   if (sourceSlugs.includes('kuailu-v2') && !sourceSlugs.includes('kuailu-v3')) {
     brandEntries.push({ slug: 'kuailu-v3', sourceSlug: 'kuailu-v2', versionLabel: ' V3' });
   }
+  const buildSlug = process.env.KB_BUILD_SLUG;
+  const selectedBrands = buildSlug ? brandEntries.filter((entry) => entry.sourceSlug === buildSlug) : brandEntries;
+  if (buildSlug && !selectedBrands.length) throw new Error('未找到指定的知识库');
+  const selectedSlugs = new Set(selectedBrands.map((entry) => entry.slug));
+  let previousSite = { brands: [] };
+  try { previousSite = JSON.parse(await readFile(path.join(kbRoot, 'manifest.json'), 'utf8')); } catch { /* First build. */ }
+  let mediaIndex = null;
+  try { mediaIndex = JSON.parse(await readFile(path.join(layerRoots.register, 'media-evidence', 'public-index.json'), 'utf8')); } catch { /* Evidence is optional. */ }
+  const previousDocuments = new Map();
+  for (const { slug } of selectedBrands) {
+    try {
+      const previousManifest = JSON.parse(await readFile(path.join(kbRoot, slug, 'manifest.json'), 'utf8'));
+      for (const doc of previousManifest.docs) {
+        const stored = JSON.parse(await readFile(path.join(kbRoot, slug, 'docs', `${doc.id}.json`), 'utf8'));
+        previousDocuments.set(`${slug}\0${doc.relativePath}`, { ...stored, manifestUpdatedAt: doc.updatedAt });
+      }
+    } catch { /* No previous complete output on the first build. */ }
+  }
   const previousOutputs = await readdir(kbRoot, { withFileTypes: true });
   const previousDocIds = await loadPreviousDocIds(previousOutputs);
-  await Promise.all(previousOutputs.filter((entry) => entry.isDirectory()).map((entry) => rm(path.join(kbRoot, entry.name), { recursive: true, force: true })));
+  await Promise.all(previousOutputs.filter((entry) => entry.isDirectory() && (!buildSlug || selectedSlugs.has(entry.name))).map((entry) => rm(path.join(kbRoot, entry.name), { recursive: true, force: true })));
   const brands = [];
-  for (const brandEntry of brandEntries) {
+  for (const brandEntry of selectedBrands) {
     const { slug, sourceSlug, versionLabel = '' } = brandEntry;
     const sourceRoot = path.join(layerRoots.content, sourceSlug);
     const configPath = path.join(sourceRoot, 'brand.json');
@@ -136,9 +154,25 @@ async function buildKnowledgeBase() {
       const breadcrumbs = relativePath.split(path.sep).slice(0, -1).map(stripOrder).concat(title);
       const id = previousDocIds.get(`${brandIdentity}\0${relativePath}`) ?? stableId(`${slug}:${relativePath}`);
       const doc = { id, title, label: path.basename(relativePath, '.md'), relativePath, breadcrumbs, category: breadcrumbs[0] ?? '概览', readTime: Math.max(1, Math.ceil(markdown.replace(/\s/g, '').length / 500)), unitCount: 1, updatedAt: file.updatedAt, contentUrl: `kb/${slug}/docs/${id}.json` };
+      const previousDocument = previousDocuments.get(`${slug}\0${relativePath}`);
+      if (previousDocument?.markdown === markdown) doc.updatedAt = previousDocument.manifestUpdatedAt;
+      if (sourceSlug === 'kuailu-v2' && mediaIndex) {
+        const relatedClaims = mediaIndex.claims.filter((claim) => claim.knowledgePaths.includes(relativePath));
+        if (relatedClaims.length) {
+          const claimIds = new Set(relatedClaims.map((claim) => claim.id));
+          const publicationIds = [...new Set(mediaIndex.links.filter((link) => claimIds.has(link.claimId)).map((link) => link.publicationId))];
+          const preferred = mediaIndex.selections?.find((selection) => selection.knowledgePath === relativePath);
+          if (!preferred?.fragments?.length || preferred.fragments.some((fragment) => !publicationIds.includes(fragment.publicationId))) throw new Error(`缺少有效片段媒体：${relativePath}`);
+          doc.mediaEvidence = { recognized: true, sourceCount: preferred.publicationIds.length, claimCount: preferred.claimIds.length,
+            fragmentCount: preferred.fragments.length, maxSourcesPerFragment: 1, selectionMode: 'inline-fragment',
+            claimIds: preferred.claimIds, publicationIds: preferred.publicationIds,
+            candidateSourceCount: publicationIds.length, candidateClaimCount: claimIds.size };
+        }
+      }
       docs.push(doc);
       insertTree(tree, doc);
-      await writeFile(path.join(outputRoot, 'docs', `${id}.json`), JSON.stringify({ ...doc, markdown }, null, 2));
+      const storedUpdatedAt = previousDocument?.markdown === markdown ? previousDocument.updatedAt : doc.updatedAt;
+      await writeFile(path.join(outputRoot, 'docs', `${id}.json`), JSON.stringify({ ...doc, updatedAt: storedUpdatedAt, markdown }, null, 2));
     }
     const entries = docs.map((doc) => ({ ...doc, text: '' }));
     for (const entry of entries) entry.text = JSON.parse(await readFile(path.join(outputRoot, 'docs', `${entry.id}.json`), 'utf8')).markdown.replace(/^#+\s+/gm, '').replace(/[`*_>|]/g, ' ').replace(/\s+/g, ' ').trim();
@@ -150,10 +184,14 @@ async function buildKnowledgeBase() {
     const shortName = `${config.shortName ?? config.displayName ?? stripOrder(sourceSlug)}${versionLabel}`;
     const manifest = { slug, displayName, shortName, initials: config.initials ?? 'KB', locale, showSources: config.showSources !== false, docCount: docs.length, knowledgePointCount: docs.reduce((sum, doc) => sum + doc.unitCount, 0), defaultDocId: docs[0]?.id ?? null, exportUrl: `kb/${slug}/export.json`, generatedAt: new Date().toISOString(), docs, tree, searchChunks: [{ id: 'all', label: allContentLabel, url: `kb/${slug}/search/all.json`, count: docs.length }] };
     await writeFile(path.join(outputRoot, 'manifest.json'), JSON.stringify(manifest, null, 2));
-    await writeFile(path.join(outputRoot, 'export.json'), JSON.stringify({ slug, generatedAt: manifest.generatedAt, docs: await Promise.all(docs.map(async (doc) => ({ id: doc.id, relativePath: doc.relativePath, markdown: JSON.parse(await readFile(path.join(outputRoot, 'docs', `${doc.id}.json`), 'utf8')).markdown }))) }, null, 2));
+    if (sourceSlug === 'kuailu-v2' && mediaIndex) await writeFile(path.join(outputRoot, 'media-evidence.json'), JSON.stringify(mediaIndex, null, 2));
+    await writeFile(path.join(outputRoot, 'export.json'), JSON.stringify({ slug, generatedAt: manifest.generatedAt, ...(sourceSlug === 'kuailu-v2' && mediaIndex ? { mediaEvidenceUrl: `kb/${slug}/media-evidence.json` } : {}), docs: await Promise.all(docs.map(async (doc) => ({ id: doc.id, relativePath: doc.relativePath, ...(doc.mediaEvidence ? { mediaEvidence: doc.mediaEvidence } : {}), markdown: JSON.parse(await readFile(path.join(outputRoot, 'docs', `${doc.id}.json`), 'utf8')).markdown }))) }, null, 2));
     brands.push({ slug, displayName: manifest.displayName, shortName: manifest.shortName, initials: manifest.initials, locale: manifest.locale, docCount: manifest.docCount, knowledgePointCount: manifest.knowledgePointCount, manifestUrl: `kb/${slug}/manifest.json` });
   }
-  const site = { generatedAt: new Date().toISOString(), defaultBrand: brands.find((brand) => brand.slug === 'kuailu-v2')?.slug ?? brands[0]?.slug ?? null, brands };
+  const builtBySlug = new Map(brands.map((brand) => [brand.slug, brand]));
+  const previousSlugs = new Set(previousSite.brands.map((brand) => brand.slug));
+  const mergedBrands = buildSlug ? [...previousSite.brands.map((brand) => builtBySlug.get(brand.slug) ?? brand), ...brands.filter((brand) => !previousSlugs.has(brand.slug))] : brands;
+  const site = { generatedAt: new Date().toISOString(), defaultBrand: mergedBrands.find((brand) => brand.slug === 'kuailu-v2')?.slug ?? mergedBrands[0]?.slug ?? null, brands: mergedBrands };
   await writeFile(path.join(kbRoot, 'manifest.json'), JSON.stringify(site, null, 2));
   return { brands: brands.length, docs: brands.reduce((sum, brand) => sum + brand.docCount, 0), site };
 }

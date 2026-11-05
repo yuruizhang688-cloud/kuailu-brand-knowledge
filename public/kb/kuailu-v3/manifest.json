@@ -9,7 +9,7 @@
   "knowledgePointCount": 543,
   "defaultDocId": "5219de73053f83d3",
   "exportUrl": "kb/kuailu-v3/export.json",
-  "generatedAt": "2026-11-03T06:20:37.703Z",
+  "generatedAt": "2026-11-05T12:27:51.982Z",
   "docs": [
     {
       "id": "5219de73053f83d3",
@@ -182,10 +182,32 @@
         "AI CRM业务"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.706Z",
-      "contentUrl": "kb/kuailu-v3/docs/72d60cd05a62a76d.json"
+      "updatedAt": "2026-11-05T12:27:41.274Z",
+      "contentUrl": "kb/kuailu-v3/docs/72d60cd05a62a76d.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 3,
+        "claimCount": 5,
+        "fragmentCount": 5,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-01",
+          "CRM-02",
+          "CRM-03",
+          "CRM-04",
+          "CRM-05"
+        ],
+        "publicationIds": [
+          "MED-107",
+          "MED-109",
+          "MED-110"
+        ],
+        "candidateSourceCount": 3,
+        "candidateClaimCount": 5
+      }
     },
     {
       "id": "b1d0b624eb38edee",
@@ -198,10 +220,32 @@
         "视频会议业务"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.707Z",
-      "contentUrl": "kb/kuailu-v3/docs/b1d0b624eb38edee.json"
+      "updatedAt": "2026-11-05T12:27:41.274Z",
+      "contentUrl": "kb/kuailu-v3/docs/b1d0b624eb38edee.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 3,
+        "claimCount": 5,
+        "fragmentCount": 5,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "MT-01",
+          "MT-02",
+          "MT-03",
+          "MT-04",
+          "MT-05"
+        ],
+        "publicationIds": [
+          "MED-102",
+          "MED-105",
+          "MED-116"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 5
+      }
     },
     {
       "id": "9f690494f277e99f",
@@ -230,10 +274,30 @@
         "AI智能体与应用能力"
       ],
       "category": "品牌信息",
-      "readTime": 5,
+      "readTime": 7,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.717Z",
-      "contentUrl": "kb/kuailu-v3/docs/0ee5967b3c70d49d.json"
+      "updatedAt": "2026-11-05T12:27:41.275Z",
+      "contentUrl": "kb/kuailu-v3/docs/0ee5967b3c70d49d.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 3,
+        "claimCount": 3,
+        "fragmentCount": 3,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-04",
+          "KU-09",
+          "KU-13"
+        ],
+        "publicationIds": [
+          "MED-052",
+          "MED-054",
+          "MED-063"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 3
+      }
     },
     {
       "id": "a0de0a054f012f61",
@@ -278,10 +342,28 @@
         "技术能力"
       ],
       "category": "品牌信息",
-      "readTime": 5,
+      "readTime": 6,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.736Z",
-      "contentUrl": "kb/kuailu-v3/docs/9f7c74a3dcfb4ab4.json"
+      "updatedAt": "2026-11-05T12:27:41.275Z",
+      "contentUrl": "kb/kuailu-v3/docs/9f7c74a3dcfb4ab4.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 2,
+        "fragmentCount": 2,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-16",
+          "MT-02"
+        ],
+        "publicationIds": [
+          "MED-112",
+          "MED-116"
+        ],
+        "candidateSourceCount": 7,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "e8725f3200d712f8",
@@ -294,10 +376,26 @@
         "AI原生能力"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.737Z",
-      "contentUrl": "kb/kuailu-v3/docs/e8725f3200d712f8.json"
+      "updatedAt": "2026-11-05T12:27:41.275Z",
+      "contentUrl": "kb/kuailu-v3/docs/e8725f3200d712f8.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 1,
+        "fragmentCount": 1,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-03"
+        ],
+        "publicationIds": [
+          "MED-110"
+        ],
+        "candidateSourceCount": 2,
+        "candidateClaimCount": 1
+      }
     },
     {
       "id": "453f6c1974e8837f",
@@ -328,8 +426,26 @@
       "category": "品牌信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.740Z",
-      "contentUrl": "kb/kuailu-v3/docs/819d5bb482b3fe05.json"
+      "updatedAt": "2026-11-05T12:27:41.275Z",
+      "contentUrl": "kb/kuailu-v3/docs/819d5bb482b3fe05.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 2,
+        "fragmentCount": 2,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-08",
+          "KU-12"
+        ],
+        "publicationIds": [
+          "MED-056",
+          "MED-082"
+        ],
+        "candidateSourceCount": 7,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "961bf427c1f14783",
@@ -358,10 +474,28 @@
         "私有化部署能力"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.741Z",
-      "contentUrl": "kb/kuailu-v3/docs/94fc67f6b8ab9222.json"
+      "updatedAt": "2026-11-05T12:27:41.276Z",
+      "contentUrl": "kb/kuailu-v3/docs/94fc67f6b8ab9222.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 2,
+        "fragmentCount": 2,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-14",
+          "MT-01"
+        ],
+        "publicationIds": [
+          "MED-080",
+          "MED-116"
+        ],
+        "candidateSourceCount": 5,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "f7ecf94a82a6f0c5",
@@ -374,10 +508,29 @@
         "安全与合规能力"
       ],
       "category": "品牌信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-09-30T09:30:05.742Z",
-      "contentUrl": "kb/kuailu-v3/docs/f7ecf94a82a6f0c5.json"
+      "updatedAt": "2026-11-05T12:27:41.276Z",
+      "contentUrl": "kb/kuailu-v3/docs/f7ecf94a82a6f0c5.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 3,
+        "fragmentCount": 3,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-11",
+          "KU-16",
+          "KU-17"
+        ],
+        "publicationIds": [
+          "MED-065",
+          "MED-112"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 3
+      }
     },
     {
       "id": "084934af94d4a0ea",
@@ -1506,10 +1659,29 @@
         "快鹭KuWork｜产品简介"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.506Z",
-      "contentUrl": "kb/kuailu-v3/docs/8f412f60726dd43d.json"
+      "updatedAt": "2026-11-05T12:27:41.276Z",
+      "contentUrl": "kb/kuailu-v3/docs/8f412f60726dd43d.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 3,
+        "fragmentCount": 7,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-01",
+          "KU-02",
+          "KU-04"
+        ],
+        "publicationIds": [
+          "MED-052",
+          "MED-054"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 3
+      }
     },
     {
       "id": "4a115d0985652c7d",
@@ -1524,8 +1696,25 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.507Z",
-      "contentUrl": "kb/kuailu-v3/docs/4a115d0985652c7d.json"
+      "updatedAt": "2026-11-05T12:27:41.276Z",
+      "contentUrl": "kb/kuailu-v3/docs/4a115d0985652c7d.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 2,
+        "fragmentCount": 3,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-01",
+          "KU-04"
+        ],
+        "publicationIds": [
+          "MED-052"
+        ],
+        "candidateSourceCount": 4,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "0b7c66c2a1b4c70f",
@@ -1540,8 +1729,24 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.509Z",
-      "contentUrl": "kb/kuailu-v3/docs/0b7c66c2a1b4c70f.json"
+      "updatedAt": "2026-11-05T12:27:41.276Z",
+      "contentUrl": "kb/kuailu-v3/docs/0b7c66c2a1b4c70f.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 1,
+        "fragmentCount": 1,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-15"
+        ],
+        "publicationIds": [
+          "MED-068"
+        ],
+        "candidateSourceCount": 1,
+        "candidateClaimCount": 1
+      }
     },
     {
       "id": "c89b0e2b2cfb4f5a",
@@ -1554,10 +1759,33 @@
         "快鹭KuWork｜功能模块"
       ],
       "category": "产品信息",
-      "readTime": 3,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.511Z",
-      "contentUrl": "kb/kuailu-v3/docs/c89b0e2b2cfb4f5a.json"
+      "updatedAt": "2026-11-05T12:27:41.277Z",
+      "contentUrl": "kb/kuailu-v3/docs/c89b0e2b2cfb4f5a.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 4,
+        "claimCount": 5,
+        "fragmentCount": 6,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-03",
+          "KU-05",
+          "KU-06",
+          "KU-08",
+          "KU-10"
+        ],
+        "publicationIds": [
+          "MED-054",
+          "MED-056",
+          "MED-059",
+          "MED-114"
+        ],
+        "candidateSourceCount": 10,
+        "candidateClaimCount": 6
+      }
     },
     {
       "id": "32c5bff5bc81f7a6",
@@ -1586,10 +1814,32 @@
         "快鹭KuWork｜核心优势"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.514Z",
-      "contentUrl": "kb/kuailu-v3/docs/85c6449709e8c858.json"
+      "updatedAt": "2026-11-05T12:27:41.277Z",
+      "contentUrl": "kb/kuailu-v3/docs/85c6449709e8c858.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 4,
+        "claimCount": 4,
+        "fragmentCount": 4,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-03",
+          "KU-04",
+          "KU-06",
+          "KU-14"
+        ],
+        "publicationIds": [
+          "MED-052",
+          "MED-054",
+          "MED-080",
+          "MED-114"
+        ],
+        "candidateSourceCount": 12,
+        "candidateClaimCount": 6
+      }
     },
     {
       "id": "fcc0a6a5c9dd77c8",
@@ -1602,10 +1852,32 @@
         "快鹭KuWork｜核心使用场景"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.516Z",
-      "contentUrl": "kb/kuailu-v3/docs/fcc0a6a5c9dd77c8.json"
+      "updatedAt": "2026-11-05T12:27:41.277Z",
+      "contentUrl": "kb/kuailu-v3/docs/fcc0a6a5c9dd77c8.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 4,
+        "claimCount": 4,
+        "fragmentCount": 4,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-07",
+          "KU-09",
+          "KU-10",
+          "KU-18"
+        ],
+        "publicationIds": [
+          "MED-051",
+          "MED-054",
+          "MED-059",
+          "MED-114"
+        ],
+        "candidateSourceCount": 10,
+        "candidateClaimCount": 5
+      }
     },
     {
       "id": "feee8f7d16d69d92",
@@ -1618,10 +1890,35 @@
         "快鹭KuWork｜核心QA用户册"
       ],
       "category": "产品信息",
-      "readTime": 4,
+      "readTime": 5,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.518Z",
-      "contentUrl": "kb/kuailu-v3/docs/feee8f7d16d69d92.json"
+      "updatedAt": "2026-11-05T12:27:41.277Z",
+      "contentUrl": "kb/kuailu-v3/docs/feee8f7d16d69d92.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 5,
+        "claimCount": 6,
+        "fragmentCount": 6,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-01",
+          "KU-03",
+          "KU-05",
+          "KU-07",
+          "KU-08",
+          "KU-10"
+        ],
+        "publicationIds": [
+          "MED-051",
+          "MED-052",
+          "MED-056",
+          "MED-059",
+          "MED-114"
+        ],
+        "candidateSourceCount": 13,
+        "candidateClaimCount": 7
+      }
     },
     {
       "id": "6bd824c78c05394b",
@@ -1634,10 +1931,30 @@
         "快鹭KuWork｜行业解决方案"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.519Z",
-      "contentUrl": "kb/kuailu-v3/docs/6bd824c78c05394b.json"
+      "updatedAt": "2026-11-05T12:27:41.277Z",
+      "contentUrl": "kb/kuailu-v3/docs/6bd824c78c05394b.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 3,
+        "claimCount": 3,
+        "fragmentCount": 3,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-09",
+          "KU-12",
+          "KU-15"
+        ],
+        "publicationIds": [
+          "MED-054",
+          "MED-068",
+          "MED-082"
+        ],
+        "candidateSourceCount": 7,
+        "candidateClaimCount": 3
+      }
     },
     {
       "id": "41774d3bd7c3b161",
@@ -1650,10 +1967,26 @@
         "快鹭KuWork｜客户案例"
       ],
       "category": "产品信息",
-      "readTime": 1,
+      "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:20:00.520Z",
-      "contentUrl": "kb/kuailu-v3/docs/41774d3bd7c3b161.json"
+      "updatedAt": "2026-11-05T12:27:41.278Z",
+      "contentUrl": "kb/kuailu-v3/docs/41774d3bd7c3b161.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 1,
+        "fragmentCount": 1,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "KU-07"
+        ],
+        "publicationIds": [
+          "MED-051"
+        ],
+        "candidateSourceCount": 4,
+        "candidateClaimCount": 1
+      }
     },
     {
       "id": "c95e1fadd528e3c0",
@@ -1714,10 +2047,35 @@
         "快鹭办公｜功能模块"
       ],
       "category": "产品信息",
-      "readTime": 4,
+      "readTime": 6,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:01:04.211Z",
-      "contentUrl": "kb/kuailu-v3/docs/5064b48fc24bbddb.json"
+      "updatedAt": "2026-11-05T12:27:41.278Z",
+      "contentUrl": "kb/kuailu-v3/docs/5064b48fc24bbddb.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 5,
+        "claimCount": 6,
+        "fragmentCount": 6,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-01",
+          "CRM-02",
+          "CRM-03",
+          "CRM-05",
+          "MT-03",
+          "MT-04"
+        ],
+        "publicationIds": [
+          "MED-102",
+          "MED-105",
+          "MED-107",
+          "MED-109",
+          "MED-110"
+        ],
+        "candidateSourceCount": 7,
+        "candidateClaimCount": 7
+      }
     },
     {
       "id": "02daf6d97b0ebbe0",
@@ -1746,10 +2104,30 @@
         "快鹭办公｜核心优势"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 4,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:01:04.215Z",
-      "contentUrl": "kb/kuailu-v3/docs/84d8350ffb54ed2b.json"
+      "updatedAt": "2026-11-05T12:27:41.278Z",
+      "contentUrl": "kb/kuailu-v3/docs/84d8350ffb54ed2b.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 2,
+        "claimCount": 4,
+        "fragmentCount": 4,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-01",
+          "MT-01",
+          "MT-02",
+          "MT-05"
+        ],
+        "publicationIds": [
+          "MED-109",
+          "MED-116"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 4
+      }
     },
     {
       "id": "b92692f244eb22fa",
@@ -1762,10 +2140,30 @@
         "快鹭办公｜核心使用场景"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:01:04.216Z",
-      "contentUrl": "kb/kuailu-v3/docs/b92692f244eb22fa.json"
+      "updatedAt": "2026-11-05T12:27:41.278Z",
+      "contentUrl": "kb/kuailu-v3/docs/b92692f244eb22fa.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 3,
+        "claimCount": 3,
+        "fragmentCount": 3,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-02",
+          "MT-03",
+          "MT-04"
+        ],
+        "publicationIds": [
+          "MED-102",
+          "MED-105",
+          "MED-109"
+        ],
+        "candidateSourceCount": 6,
+        "candidateClaimCount": 3
+      }
     },
     {
       "id": "f71310041504ee2a",
@@ -1796,8 +2194,24 @@
       "category": "产品信息",
       "readTime": 2,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:01:04.219Z",
-      "contentUrl": "kb/kuailu-v3/docs/d2238acbc5a4c0f8.json"
+      "updatedAt": "2026-11-05T12:27:41.278Z",
+      "contentUrl": "kb/kuailu-v3/docs/d2238acbc5a4c0f8.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 1,
+        "fragmentCount": 1,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CRM-06"
+        ],
+        "publicationIds": [
+          "MED-110"
+        ],
+        "candidateSourceCount": 2,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "29f7639461d36e6e",
@@ -1810,10 +2224,27 @@
         "快鹭办公｜客户案例"
       ],
       "category": "产品信息",
-      "readTime": 2,
+      "readTime": 3,
       "unitCount": 1,
-      "updatedAt": "2026-11-03T06:01:04.221Z",
-      "contentUrl": "kb/kuailu-v3/docs/29f7639461d36e6e.json"
+      "updatedAt": "2026-11-05T12:27:41.279Z",
+      "contentUrl": "kb/kuailu-v3/docs/29f7639461d36e6e.json",
+      "mediaEvidence": {
+        "recognized": true,
+        "sourceCount": 1,
+        "claimCount": 2,
+        "fragmentCount": 2,
+        "maxSourcesPerFragment": 1,
+        "selectionMode": "inline-fragment",
+        "claimIds": [
+          "CASE-01",
+          "CASE-02"
+        ],
+        "publicationIds": [
+          "MED-107"
+        ],
+        "candidateSourceCount": 1,
+        "candidateClaimCount": 2
+      }
     },
     {
       "id": "f0d4ac68e34ffc04",

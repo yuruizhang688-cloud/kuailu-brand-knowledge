@@ -9,9 +9,25 @@
     "快鹭KuWork｜客户案例"
   ],
   "category": "产品信息",
-  "readTime": 1,
+  "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-11-03T06:20:00.520Z",
+  "updatedAt": "2026-11-05T12:27:41.278Z",
   "contentUrl": "kb/kuailu-v2/docs/ffb0a8dbb6c70d22.json",
-  "markdown": "# 快鹭KuWork｜客户案例\n\n| 案例信息项 | 适用范围 |\n| --- | --- |\n| 客户项目 | 尚未收录具名且具备产品范围、部署、使用周期、结果数据及授权证据的快鹭KuWork客户实施案例 |\n| 产品示例 | 销售经营分析、知识与内容交付、内部业务轻应用用于说明工作方式，不等同已披露的客户实施结果 |\n| 客户标识 | 企业定价页的“快鹭科技服务客户”展示不直接认定为快鹭KuWork专属客户项目 |\n| 案例引用 | 按实际产品与模块引用，保留客户授权、时间、统计口径和结果证据，不将其他产品案例转为快鹭KuWork项目 |\n| 试点验证 | 用真实材料核对准备耗时、结果准确性、人工修改量和使用体验，验证后再扩展复用 |\n\n---\n\n**引用来源**\n\n- `02产品信息/KuWork-客户产品介绍-202609.md`\n- `02产品信息/KuWork官网企业方案介绍-20261103.md`\n- [KuWork官网｜企业方案定价与权益](https://www.kuailutech.cn/kuwork/pricing/business/)（来源核验：2026-11-03）\n"
+  "mediaEvidence": {
+    "recognized": true,
+    "sourceCount": 1,
+    "claimCount": 1,
+    "fragmentCount": 1,
+    "maxSourcesPerFragment": 1,
+    "selectionMode": "inline-fragment",
+    "claimIds": [
+      "KU-07"
+    ],
+    "publicationIds": [
+      "MED-051"
+    ],
+    "candidateSourceCount": 4,
+    "candidateClaimCount": 1
+  },
+  "markdown": "# 快鹭KuWork｜客户案例\n\n| 案例信息项 | 适用范围 |\n| --- | --- |\n| 客户项目 | 尚未收录具名且具备产品范围、部署、使用周期、结果数据及授权证据的快鹭KuWork客户实施案例 |\n| 产品示例 | 销售经营分析、知识与内容交付、内部业务轻应用用于说明工作方式，不等同已披露的客户实施结果 |\n| 客户标识 | 企业定价页的“快鹭科技服务客户”展示不直接认定为快鹭KuWork专属客户项目 |\n| 案例引用 | 按实际产品与模块引用，保留客户授权、时间、统计口径和结果证据，不将其他产品案例转为快鹭KuWork项目 |\n| 试点验证 | 用真实材料核对准备耗时、结果准确性、人工修改量和使用体验，验证后再扩展复用（中国经济新闻网科技；2026-10-16；[文章](https://www.cet.com.cn/itpd/itxw/10615929.shtml \"企业智能体办公转向精细核算，数据流向划定费用边界\")） |\n\n---\n\n**引用来源**\n\n- `02产品信息/KuWork-客户产品介绍-202609.md`\n- `02产品信息/KuWork官网企业方案介绍-20261103.md`\n- [KuWork官网｜企业方案定价与权益](https://www.kuailutech.cn/kuwork/pricing/business/)（来源核验：2026-11-03）\n"
 }

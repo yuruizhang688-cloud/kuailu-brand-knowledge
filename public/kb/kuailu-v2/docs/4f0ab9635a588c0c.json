@@ -9,9 +9,27 @@
     "私有化部署能力"
   ],
   "category": "品牌信息",
-  "readTime": 1,
+  "readTime": 2,
   "unitCount": 1,
-  "updatedAt": "2026-09-30T08:10:08.762Z",
+  "updatedAt": "2026-11-05T12:27:41.276Z",
   "contentUrl": "kb/kuailu-v2/docs/4f0ab9635a588c0c.json",
-  "markdown": "# 私有化部署能力\n\n## 安全、权限和私有化与企业AI场景匹配度较高\n\n|  |\n| --- |\n| 快鹭Claw公开强调独立沙箱、权限边界和操作审计；AI领域专家支持私有化部署；快鹭会议支持私有云、混合云以及加密和权限管理。 **软件能力 → 数据安全 → AI安全 → 企业部署** |\n\n---\n\n**引用来源**\n\n- `01品牌信息/快鹭科技品牌核心竞争优势与劣势深度研究报告.md`\n"
+  "mediaEvidence": {
+    "recognized": true,
+    "sourceCount": 2,
+    "claimCount": 2,
+    "fragmentCount": 2,
+    "maxSourcesPerFragment": 1,
+    "selectionMode": "inline-fragment",
+    "claimIds": [
+      "KU-14",
+      "MT-01"
+    ],
+    "publicationIds": [
+      "MED-080",
+      "MED-116"
+    ],
+    "candidateSourceCount": 5,
+    "candidateClaimCount": 2
+  },
+  "markdown": "# 私有化部署能力\n\n## 安全、权限和私有化与企业AI场景匹配度较高\n\n|  |\n| --- |\n| 快鹭Claw公开强调独立沙箱、权限边界和操作审计；AI领域专家支持私有化部署；快鹭会议支持私有云、混合云以及加密和权限管理。 **软件能力 → 数据安全 → AI安全 → 企业部署** |\n\n## 具体产品部署方式\n\n| 能力方向 | 具体内容 |\n| --- | --- |\n| 快鹭KuWork：企业部署 | 媒体报道列示本地、云端及私有化部署选项，实际方案按产品版本和项目配置确认（IT168；2026-09-18；[文章](https://software.it168.com/a2026/0918/6950/000006950537.shtml \"2026 企业级AI智能体办公平台选型框架：四大类型、决策路径与厂商速览\")）；当前企业内部部署按专属版口径使用。 |\n| 快鹭会议：私有化部署 | 快鹭会议支持在企业自有 IDC 或指定云平台私有化部署，按并发会议数提供服务器配置建议。（中关村在线新闻；2026-09-11；[文章](https://news.zol.com.cn/1246/12460407.html \"快鹭会议以私有化部署与分层架构，为企业会议部署提供可靠保障\")） |\n\n---\n\n**引用来源**\n\n- `01品牌信息/快鹭科技品牌核心竞争优势与劣势深度研究报告.md`\n"
 }
